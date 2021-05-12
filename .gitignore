@@ -1,0 +1,4 @@
+*.zip
+*.pdf
+*.xlsx !1.xlsx
+.vscode/*
