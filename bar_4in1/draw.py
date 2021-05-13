@@ -28,7 +28,7 @@ subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-7
 figYLabel = {} # Y轴说明
 figXLabel = {} # X轴说明
 
-readbook = xlrd.open_workbook('1.xlsx')
+readbook = xlrd.open_workbook('template.xlsx')
 
 # 读取config簿
 configSheet = readbook.sheet_by_index(2)
