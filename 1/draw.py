@@ -1,3 +1,6 @@
+# 说明：
+# 2021年5月13日 加入每个图的X/Y轴文字功能；加入1.5倍y坐标缩放防止legend重叠
+
 import xlrd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -22,6 +25,8 @@ hatchDict = {}
 dataDict = {}
 
 subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-70/RAID-5']
+figYLabel = {} # Y轴说明
+figXLabel = {} # X轴说明
 
 readbook = xlrd.open_workbook('1.xlsx')
 
@@ -46,7 +51,12 @@ nrows = dataSheet_1.nrows
 i = 0
 while i < nrows:
     curRow = dataSheet_1.row_values(i)
+    # print(curRow)
     curTypeName = curRow[0]
+    curYName = curRow[1]
+    curXName = curRow[2]
+    figYLabel[curTypeName] = curYName
+    figXLabel[curTypeName] = curXName
     # print(i)
     # print(curTypeName)
 
@@ -94,6 +104,12 @@ i = 0
 while i < nrows:
     curRow = dataSheet_2.row_values(i)
     curTypeName = curRow[0]
+
+    # 名字这部分在30的部分就已经读过了，这里再弄反而混乱且没必要
+    # if len(curRow) > 1 and curRow[1] != '':
+    #     curYName = curRow[1]
+    #     figYLabel[curTypeName] = curMatrix
+
     # print(i)
     # print(curTypeName)
 
@@ -130,6 +146,8 @@ while i < nrows:
     i += 15
 
 # print(dataDict)
+# print(figYLabel)
+# print(figXLabel)
 
 width = 0.12
 gap = 0.1*width
@@ -149,6 +167,8 @@ for figType in dataDict.keys():
         legendNameArr = list(dataDict[figType][curSubFigK].keys())
 
         barCnt = 0
+        subFigMaxValue = 0
+
         for legendNameIdx in range(len(legendNameArr)):
             legendName = legendNameArr[legendNameIdx]
             if legendName == 'x-value':
@@ -159,11 +179,17 @@ for figType in dataDict.keys():
             curP = plt.bar(ind+offset, dataDict[figType][curSubFigK][legendName], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=lw, label=legendName)
             barCnt += 1
 
-        plt.xticks(ind, dataDict[figType][curSubFigK]['x-value'], fontsize=20)
+            # 求这幅图里的所有数据的最大值，用于控制y轴的缩放给legend留空间
+            curMaxValue = max(dataDict[figType][curSubFigK][legendName])
+            if curMaxValue > subFigMaxValue:
+                subFigMaxValue = curMaxValue
 
-        plt.ylabel('Y_label', fontsize=26) # y轴文字
+        plt.xticks(ind, dataDict[figType][curSubFigK]['x-value'], fontsize=20)
+        plt.xlabel(figXLabel[figType], fontsize=26) # x轴文字
+
+        plt.ylabel(figYLabel[figType], fontsize=26) # y轴文字
         plt.yticks(fontsize=20) # y轴标签字体
-        # plt.ylim(0, 1.25) # y轴上下界
+        plt.ylim(0, subFigMaxValue*1.5) # y轴上下界
 
         plt.subplots_adjust(left=0.105, right=0.99, top=0.95, bottom=0.13) # 图的上下左右边界
         plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
