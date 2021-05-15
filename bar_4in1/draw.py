@@ -29,6 +29,7 @@ subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-7
 figYLabel = {} # Y轴说明
 figXLabel = {} # X轴说明
 plotType = {} # 画图类型
+cntType = {} # 科学计数法 or 常规记法
 
 readbook = xlrd.open_workbook('2.xlsx')
 
@@ -43,6 +44,7 @@ for i in range(1, nrows):
     colorDict[curRow[0]] = curRow[1]
     hatchDict[curRow[0]] = curRow[2]
     markerDict[curRow[0]] = curRow[3]
+    
 
 # print(colorDict)
 
@@ -59,9 +61,11 @@ while i < nrows:
     curYName = curRow[1]
     curXName = curRow[2]
     curPlotType = curRow[3]
+    curCntType = curRow[4]
     figYLabel[curTypeName] = curYName
     figXLabel[curTypeName] = curXName
     plotType[curTypeName] = curPlotType
+    cntType[curTypeName] = curCntType
     # print(i)
     # print(curTypeName)
 
@@ -179,26 +183,51 @@ for figType in dataDict.keys():
             legendName = legendNameArr[legendNameIdx]
             if legendName == 'x-value':
                 continue
-            
-            offset = 0.0-width*3.0-gap*2.5+(barCnt+0.5)*width+barCnt*gap
-            # print(offset)
-            if plotType[figType] == 'bar':
-                curP = plt.bar(ind+offset, dataDict[figType][curSubFigK][legendName], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=bar_lw, label=legendName)
-                barCnt += 1
-            elif plotType[figType] == 'line':
-                plt.plot(ind, dataDict[figType][curSubFigK][legendName], label=legendName, linewidth=line_lw, marker=markerDict[legendName], color=colorDict[legendName], markevery=int(1), markersize=12)
 
             # 求这幅图里的所有数据的最大值，用于控制y轴的缩放给legend留空间
             curMaxValue = max(dataDict[figType][curSubFigK][legendName])
             if curMaxValue > subFigMaxValue:
                 subFigMaxValue = curMaxValue
 
+        for legendNameIdx in range(len(legendNameArr)):
+            legendName = legendNameArr[legendNameIdx]
+            if legendName == 'x-value':
+                continue
+
+            scalFactor = 1.0
+            scalNum = 0
+            if cntType[figType] == 'scientific':
+                tmpMax = curMaxValue
+                while tmpMax >= 10:
+                    scalFactor *= 10
+                    scalNum += 1
+                    tmpMax = int(tmpMax / 10)
+
+            
+            offset = 0.0-width*3.0-gap*2.5+(barCnt+0.5)*width+barCnt*gap
+            # print(offset)
+            if plotType[figType] == 'bar':
+                curP = plt.bar(ind+offset, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=bar_lw, label=legendName)
+                barCnt += 1
+            elif plotType[figType] == 'line':
+                plt.plot(ind, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], label=legendName, linewidth=line_lw, marker=markerDict[legendName], color=colorDict[legendName], markevery=int(1), markersize=12)
+
+        if cntType[figType] == 'scientific':
+            # 因为柱状图和折线图y轴的x坐标不同，需要分别调整
+            if plotType[figType] == 'line':
+                plt.text(-0.2, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
+            elif plotType[figType] == 'bar':
+                plt.text(-0.63, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
+
         plt.xticks(ind, dataDict[figType][curSubFigK]['x-value'], fontsize=20)
         plt.xlabel(figXLabel[figType], fontsize=26) # x轴文字
 
         plt.ylabel(figYLabel[figType], fontsize=26) # y轴文字
         plt.yticks(fontsize=20) # y轴标签字体
-        plt.ylim(0, subFigMaxValue*1.5) # y轴上下界
+        plt.ylim(0, subFigMaxValue*1.5/scalFactor) # y轴上下界
+
+        # if cntType[figType] == 'scientific':
+        #     print("%f, %f" % (subFigMaxValue*1.5, subFigMaxValue*1.5/scalFactor))
 
         plt.subplots_adjust(left=0.105, right=0.99, top=0.95, bottom=0.13) # 图的上下左右边界
         plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
