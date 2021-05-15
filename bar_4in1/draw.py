@@ -11,6 +11,7 @@ import numpy as np
 # }
 colorDict = {}
 hatchDict = {}
+markerDict = {}
 
 # {
 #     'Average response time':{
@@ -27,8 +28,9 @@ dataDict = {}
 subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-70/RAID-5']
 figYLabel = {} # Y轴说明
 figXLabel = {} # X轴说明
+plotType = {} # 画图类型
 
-readbook = xlrd.open_workbook('template.xlsx')
+readbook = xlrd.open_workbook('2.xlsx')
 
 # 读取config簿
 configSheet = readbook.sheet_by_index(2)
@@ -40,6 +42,7 @@ for i in range(1, nrows):
     curRow = configSheet.row_values(i)
     colorDict[curRow[0]] = curRow[1]
     hatchDict[curRow[0]] = curRow[2]
+    markerDict[curRow[0]] = curRow[3]
 
 # print(colorDict)
 
@@ -55,8 +58,10 @@ while i < nrows:
     curTypeName = curRow[0]
     curYName = curRow[1]
     curXName = curRow[2]
+    curPlotType = curRow[3]
     figYLabel[curTypeName] = curYName
     figXLabel[curTypeName] = curXName
+    plotType[curTypeName] = curPlotType
     # print(i)
     # print(curTypeName)
 
@@ -151,7 +156,8 @@ while i < nrows:
 
 width = 0.12
 gap = 0.1*width
-lw = 1
+bar_lw = 1
+line_lw = 2
 
 # print()
 
@@ -176,8 +182,11 @@ for figType in dataDict.keys():
             
             offset = 0.0-width*3.0-gap*2.5+(barCnt+0.5)*width+barCnt*gap
             # print(offset)
-            curP = plt.bar(ind+offset, dataDict[figType][curSubFigK][legendName], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=lw, label=legendName)
-            barCnt += 1
+            if plotType[figType] == 'bar':
+                curP = plt.bar(ind+offset, dataDict[figType][curSubFigK][legendName], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=bar_lw, label=legendName)
+                barCnt += 1
+            elif plotType[figType] == 'line':
+                plt.plot(ind, dataDict[figType][curSubFigK][legendName], label=legendName, linewidth=line_lw, marker=markerDict[legendName], color=colorDict[legendName], markevery=int(1), markersize=12)
 
             # 求这幅图里的所有数据的最大值，用于控制y轴的缩放给legend留空间
             curMaxValue = max(dataDict[figType][curSubFigK][legendName])
