@@ -1,5 +1,6 @@
 # 说明：
 # 2021年5月13日 加入每个图的X/Y轴文字功能；加入1.5倍y坐标缩放防止legend重叠
+# 2021年5月15日 加入折线图、科学计数法功能；4合1共用同一个图例
 
 import xlrd
 import matplotlib.pyplot as plt
@@ -31,7 +32,7 @@ figXLabel = {} # X轴说明
 plotType = {} # 画图类型
 cntType = {} # 科学计数法 or 常规记法
 
-readbook = xlrd.open_workbook('2.xlsx')
+readbook = xlrd.open_workbook('template.xlsx')
 
 # 读取config簿
 configSheet = readbook.sheet_by_index(2)
@@ -168,6 +169,9 @@ line_lw = 2
 for figType in dataDict.keys():
     subFigK = list(dataDict[figType].keys())
     plt.figure(figsize=(36,6))
+
+    legendArr = []
+    legendEntryArr = []
     for subFigIdx in range(len(subFigK)):
         plt.subplot(1, len(subFigK), subFigIdx+1)
         curSubFigK = subFigK[subFigIdx]
@@ -185,9 +189,13 @@ for figType in dataDict.keys():
                 continue
 
             # 求这幅图里的所有数据的最大值，用于控制y轴的缩放给legend留空间
+            # print(figType, curSubFigK, legendName)
+            # print(figType)
             curMaxValue = max(dataDict[figType][curSubFigK][legendName])
             if curMaxValue > subFigMaxValue:
                 subFigMaxValue = curMaxValue
+        
+        # print(subFigMaxValue)
 
         for legendNameIdx in range(len(legendNameArr)):
             legendName = legendNameArr[legendNameIdx]
@@ -197,11 +205,13 @@ for figType in dataDict.keys():
             scalFactor = 1.0
             scalNum = 0
             if cntType[figType] == 'scientific':
-                tmpMax = curMaxValue
+                tmpMax = subFigMaxValue
                 while tmpMax >= 10:
                     scalFactor *= 10
                     scalNum += 1
                     tmpMax = int(tmpMax / 10)
+                    # print(tmpMax)
+            
 
             
             offset = 0.0-width*3.0-gap*2.5+(barCnt+0.5)*width+barCnt*gap
@@ -210,30 +220,49 @@ for figType in dataDict.keys():
                 curP = plt.bar(ind+offset, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=bar_lw, label=legendName)
                 barCnt += 1
             elif plotType[figType] == 'line':
-                plt.plot(ind, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], label=legendName, linewidth=line_lw, marker=markerDict[legendName], color=colorDict[legendName], markevery=int(1), markersize=12)
+                # line的返回值比较特殊，是一个数组，见：https://matplotlib.org/2.0.2/users/legend_guide.html
+                curP, = plt.plot(ind, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], label=legendName, linewidth=line_lw, marker=markerDict[legendName], color=colorDict[legendName], markevery=int(1), markersize=12)
 
-        if cntType[figType] == 'scientific':
-            # 因为柱状图和折线图y轴的x坐标不同，需要分别调整
-            if plotType[figType] == 'line':
-                plt.text(-0.2, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
-            elif plotType[figType] == 'bar':
-                plt.text(-0.63, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
+            if legendName not in legendEntryArr:
+                legendArr.append(curP)
+                legendEntryArr.append(legendName)          
 
         plt.xticks(ind, dataDict[figType][curSubFigK]['x-value'], fontsize=20)
         plt.xlabel(figXLabel[figType], fontsize=26) # x轴文字
 
         plt.ylabel(figYLabel[figType], fontsize=26) # y轴文字
         plt.yticks(fontsize=20) # y轴标签字体
-        plt.ylim(0, subFigMaxValue*1.5/scalFactor) # y轴上下界
 
-        # if cntType[figType] == 'scientific':
-        #     print("%f, %f" % (subFigMaxValue*1.5, subFigMaxValue*1.5/scalFactor))
+        # 用统一的图例，所以上面不用留空了
+        # plt.ylim(0, subFigMaxValue*1.5/scalFactor) # y轴上下界
 
-        plt.subplots_adjust(left=0.105, right=0.99, top=0.95, bottom=0.13) # 图的上下左右边界
-        plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
+        xmin, xmax, ymin, ymax = plt.axis()
+
+        if cntType[figType] == 'scientific':
+            # 因为柱状图和折线图y轴的x坐标不同，需要分别调整
+            if plotType[figType] == 'line':
+                # 用统一的图例，所以上面不用留空了
+                # plt.text(-0.2, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
+                plt.text(xmin, ymax*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=20,ha='left')             
+            elif plotType[figType] == 'bar':
+                # 用统一的图例，所以上面不用留空了
+                # plt.text(-0.63, subFigMaxValue*1.5/scalFactor*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=22,ha='left')             
+                plt.text(xmin, ymax*1.005, r'$\times10^{%d}$'%(scalNum),fontsize=20,ha='left')    
+
+        # 用来设置纵坐标自动放缩，这里用不到
+        # plt.autoscale(enable=True, axis='y', tight=False)   
+
+        plt.subplots_adjust(left=0.105, right=0.99, top=0.85, bottom=0.13) # 图的上下左右边界
+
+        # 用统一的图例了，所以不单画
+        # plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
 
         plt.title(curSubFigK, fontsize=16)  # 图标题
 
+    # 统一的图例，参数见：https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figlegend.html#matplotlib.pyplot.figlegend
+    plt.figlegend(legendArr, legendEntryArr,ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3)
+
     fileName = '_'.join('_'.join(figType.split(' ')).split('/'))
+    # plt.show()
     print(fileName)
     plt.savefig("%s.pdf" % (fileName))
