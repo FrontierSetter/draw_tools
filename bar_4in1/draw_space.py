@@ -1,6 +1,8 @@
 # 说明：
 # 2021年5月13日 加入每个图的X/Y轴文字功能；加入1.5倍y坐标缩放防止legend重叠
 # 2021年5月15日 加入折线图、科学计数法功能；4合1共用同一个图例
+# 2021年5月22日 柱状图offset按照柱子数量自适应；按照sheet名称索引
+
 
 import xlrd
 import matplotlib.pyplot as plt
