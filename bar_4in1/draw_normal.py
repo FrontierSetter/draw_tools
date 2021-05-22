@@ -261,7 +261,7 @@ for figType in dataDict.keys():
         plt.title(curSubFigK, fontsize=16)  # 图标题
 
     # 统一的图例，参数见：https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figlegend.html#matplotlib.pyplot.figlegend
-    plt.figlegend(legendArr, legendEntryArr,ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3)
+    plt.figlegend(legendArr, legendEntryArr, ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3)
 
     fileName = '_'.join('_'.join(figType.split(' ')).split('/'))
     # plt.show()
