@@ -1,6 +1,8 @@
 # 说明：
 # 2021年5月13日 加入每个图的X/Y轴文字功能；加入1.5倍y坐标缩放防止legend重叠
 # 2021年5月15日 加入折线图、科学计数法功能；4合1共用同一个图例
+# 2021年5月22日 柱状图offset按照柱子数量自适应；按照sheet名称索引
+
 
 import xlrd
 import matplotlib.pyplot as plt
@@ -32,10 +34,10 @@ figXLabel = {} # X轴说明
 plotType = {} # 画图类型
 cntType = {} # 科学计数法 or 常规记法
 
-readbook = xlrd.open_workbook('template.xlsx')
+readbook = xlrd.open_workbook('5.xlsx')
 
 # 读取config簿
-configSheet = readbook.sheet_by_index(2)
+configSheet = readbook.sheet_by_name('draw_config')
 
 nrows = configSheet.nrows
 
@@ -50,7 +52,7 @@ for i in range(1, nrows):
 # print(colorDict)
 
 # 读取30的数据
-dataSheet_1 = readbook.sheet_by_index(0)
+dataSheet_1 = readbook.sheet_by_name('真机实验数据-30')
 
 nrows = dataSheet_1.nrows
 
@@ -106,7 +108,7 @@ while i < nrows:
 
 
 # 读取80的数据
-dataSheet_2 = readbook.sheet_by_index(1)
+dataSheet_2 = readbook.sheet_by_name('真机实验数据-70')
 
 nrows = dataSheet_2.nrows
 
@@ -214,7 +216,8 @@ for figType in dataDict.keys():
             
 
             
-            offset = 0.0-width*3.0-gap*2.5+(barCnt+0.5)*width+barCnt*gap
+            totalBarNum = len(legendNameArr)-1
+            offset = 0.0-width*(totalBarNum/2.0)-gap*((totalBarNum-1.0)/2)+(barCnt+0.5)*width+barCnt*gap
             # print(offset)
             if plotType[figType] == 'bar':
                 curP = plt.bar(ind+offset, [float(i)/scalFactor for i in dataDict[figType][curSubFigK][legendName]], width, edgecolor=colorDict[legendName], hatch=hatchDict[legendName], color='white', linewidth=bar_lw, label=legendName)
@@ -252,7 +255,7 @@ for figType in dataDict.keys():
         # 用来设置纵坐标自动放缩，这里用不到
         # plt.autoscale(enable=True, axis='y', tight=False)   
 
-        plt.subplots_adjust(left=0.105, right=0.99, top=0.85, bottom=0.13) # 图的上下左右边界
+        plt.subplots_adjust(left=0.03, right=0.99, top=0.85, bottom=0.13) # 图的上下左右边界
 
         # 用统一的图例了，所以不单画
         # plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
@@ -265,4 +268,5 @@ for figType in dataDict.keys():
     fileName = '_'.join('_'.join(figType.split(' ')).split('/'))
     # plt.show()
     print(fileName)
-    plt.savefig("%s.pdf" % (fileName))
+    # plt.show()
+    plt.savefig("real_%s.pdf" % (fileName))

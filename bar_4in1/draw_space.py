@@ -1,7 +1,6 @@
 # 说明：
 # 2021年5月13日 加入每个图的X/Y轴文字功能；加入1.5倍y坐标缩放防止legend重叠
 # 2021年5月15日 加入折线图、科学计数法功能；4合1共用同一个图例
-# 2021年5月22日 柱状图offset按照柱子数量自适应；按照sheet名称索引
 
 import xlrd
 import matplotlib.pyplot as plt
@@ -27,7 +26,7 @@ markerDict = {}
 # }
 dataDict = {}
 
-subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-70/RAID-5']
+subfigTitle = ['place_holder']
 figYLabel = {} # Y轴说明
 figXLabel = {} # X轴说明
 plotType = {} # 画图类型
@@ -51,7 +50,7 @@ for i in range(1, nrows):
 # print(colorDict)
 
 # 读取30的数据
-dataSheet_1 = readbook.sheet_by_name('Write-30')
+dataSheet_1 = readbook.sheet_by_name('algorithmic-space-overhead')
 
 nrows = dataSheet_1.nrows
 
@@ -73,92 +72,25 @@ while i < nrows:
 
     dataDict[curTypeName] = {
         subfigTitle[0]:{},
-        subfigTitle[1]:{},
-        subfigTitle[2]:{},
-        subfigTitle[3]:{},
     }
 
-    temRow = dataSheet_1.row_values(i+1)[1:]
+    temRow = dataSheet_1.row_values(i+3)[1:]
     curX = [x for x in temRow if x != '']
+
+    validLen = len(curX)
 
     dataDict[curTypeName][subfigTitle[0]]['x-value'] = curX
-    for j in range(6):
-        temRow = dataSheet_1.row_values(i+2+j)
+    for j in range(3):
+        temRow = dataSheet_1.row_values(i+4+j)
         curRow = [x for x in temRow if x != '']
         # print(i+2+j)
         # print(curRow)
         curType = curRow[0]
-        curData = curRow[1:]
+        curData = curRow[1:1+validLen]
         dataDict[curTypeName][subfigTitle[0]][curType] = curData
 
-    dataDict[curTypeName][subfigTitle[1]]['x-value'] = curX
-    for j in range(6):
-        temRow = dataSheet_1.row_values(i+8+j)
-        curRow = [x for x in temRow if x != '']
-        # print(i+8+j)
-        # print(curRow)
-        curType = curRow[0]
-        curData = curRow[1:]
-        dataDict[curTypeName][subfigTitle[1]][curType] = curData
-    
-    i += 15
+    i += 8
 
-# print(dataDict)
-
-
-# 读取80的数据
-dataSheet_2 = readbook.sheet_by_name('Write-70')
-
-nrows = dataSheet_2.nrows
-
-i = 0
-while i < nrows:
-    curRow = dataSheet_2.row_values(i)
-    curTypeName = curRow[0]
-
-    # 名字这部分在30的部分就已经读过了，这里再弄反而混乱且没必要
-    # if len(curRow) > 1 and curRow[1] != '':
-    #     curYName = curRow[1]
-    #     figYLabel[curTypeName] = curMatrix
-
-    # print(i)
-    # print(curTypeName)
-
-    # dataDict[curTypeName] = {
-    #     subfigTitle[0]:{},
-    #     subfigTitle[1]:{},
-    #     subfigTitle[2]:{},
-    #     subfigTitle[3]:{},
-    # }
-
-    temRow = dataSheet_2.row_values(i+1)[1:]
-    curX = [x for x in temRow if x != '']
-
-    dataDict[curTypeName][subfigTitle[2]]['x-value'] = curX
-    for j in range(6):
-        temRow = dataSheet_2.row_values(i+2+j)
-        curRow = [x for x in temRow if x != '']
-        # print(i+2+j)
-        # print(curRow)
-        curType = curRow[0]
-        curData = curRow[1:]
-        dataDict[curTypeName][subfigTitle[2]][curType] = curData
-
-    dataDict[curTypeName][subfigTitle[3]]['x-value'] = curX
-    for j in range(6):
-        temRow = dataSheet_2.row_values(i+8+j)
-        curRow = [x for x in temRow if x != '']
-        # print(i+8+j)
-        # print(curRow)
-        curType = curRow[0]
-        curData = curRow[1:]
-        dataDict[curTypeName][subfigTitle[3]][curType] = curData
-    
-    i += 15
-
-# print(dataDict)
-# print(figYLabel)
-# print(figXLabel)
 
 width = 0.12
 gap = 0.1*width
@@ -169,7 +101,7 @@ line_lw = 2
 
 for figType in dataDict.keys():
     subFigK = list(dataDict[figType].keys())
-    plt.figure(figsize=(36,6))
+    plt.figure(figsize=(9*len(subFigK),6))
 
     legendArr = []
     legendEntryArr = []
@@ -192,6 +124,7 @@ for figType in dataDict.keys():
             # 求这幅图里的所有数据的最大值，用于控制y轴的缩放给legend留空间
             # print(figType, curSubFigK, legendName)
             # print(figType)
+            # print(dataDict[figType][curSubFigK][legendName])
             curMaxValue = max(dataDict[figType][curSubFigK][legendName])
             if curMaxValue > subFigMaxValue:
                 subFigMaxValue = curMaxValue
@@ -214,6 +147,7 @@ for figType in dataDict.keys():
                     # print(tmpMax)
             
 
+            
             totalBarNum = len(legendNameArr)-1
             offset = 0.0-width*(totalBarNum/2.0)-gap*((totalBarNum-1.0)/2)+(barCnt+0.5)*width+barCnt*gap
             # print(offset)
@@ -253,12 +187,12 @@ for figType in dataDict.keys():
         # 用来设置纵坐标自动放缩，这里用不到
         # plt.autoscale(enable=True, axis='y', tight=False)   
 
-        plt.subplots_adjust(left=0.03, right=0.99, top=0.85, bottom=0.13) # 图的上下左右边界
+        plt.subplots_adjust(left=0.15, right=0.99, top=0.85, bottom=0.13) # 图的上下左右边界
 
         # 用统一的图例了，所以不单画
         # plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
 
-        plt.title(curSubFigK, fontsize=16)  # 图标题
+        # plt.title(curSubFigK, fontsize=16)  # 图标题
 
     # 统一的图例，参数见：https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figlegend.html#matplotlib.pyplot.figlegend
     plt.figlegend(legendArr, legendEntryArr,ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3)
@@ -266,4 +200,5 @@ for figType in dataDict.keys():
     fileName = '_'.join('_'.join(figType.split(' ')).split('/'))
     # plt.show()
     print(fileName)
-    plt.savefig("%s.pdf" % (fileName))
+    # plt.show()
+    plt.savefig("space_%s.pdf" % (fileName))
