@@ -6,6 +6,7 @@
 import xlrd
 import matplotlib.pyplot as plt
 import numpy as np
+from textwrap import fill
 
 # {
 #     'RR-swans-RAID-0': '#1f497d', 
@@ -27,11 +28,15 @@ markerDict = {}
 # }
 dataDict = {}
 
+subTitleDict = {}
+
 subfigTitle = ['Write-30/RAID-0', 'Write-30/RAID-5', 'Write-70/RAID-0', 'Write-70/RAID-5']
 figYLabel = {} # Y轴说明
 figXLabel = {} # X轴说明
 plotType = {} # 画图类型
 cntType = {} # 科学计数法 or 常规记法
+
+letterArr = [chr(x) for x in range(97, 123)]
 
 readbook = xlrd.open_workbook('5.xlsx')
 
@@ -41,14 +46,28 @@ configSheet = readbook.sheet_by_name('draw_config')
 nrows = configSheet.nrows
 
 for i in range(1, nrows):
-    # print(configSheet.row_values(i))
     curRow = configSheet.row_values(i)
     colorDict[curRow[0]] = curRow[1]
     hatchDict[curRow[0]] = curRow[2]
     markerDict[curRow[0]] = curRow[3]
-    
 
-# print(colorDict)
+# 读取subfig_title簿
+subtitleSheet = readbook.sheet_by_name('subfig_title')
+
+nrows = subtitleSheet.nrows
+
+for i in range(1, nrows):
+    curRow = subtitleSheet.row_values(i)
+    curFigType = curRow[0]
+    curSubFig = curRow[1]
+    curTitle = curRow[2]
+
+    if curFigType not in subTitleDict:
+        subTitleDict[curFigType] = {}
+    subTitleDict[curFigType][curSubFig] = curTitle
+
+    
+# print(subTitleDict)
 
 # 读取30的数据
 dataSheet_1 = readbook.sheet_by_name('Write-30')
@@ -172,7 +191,7 @@ for baseFigType in dataDict.keys():
     if baseFigType[-1] == '2':
         continue
 
-    plt.figure(figsize=(36,12))
+    plt.figure(figsize=(36,15))
 
     legendArr = []
     legendEntryArr = []
@@ -272,11 +291,11 @@ for baseFigType in dataDict.keys():
             # 用统一的图例了，所以不单画
             # plt.legend(fontsize=22, loc='upper left', ncol=2, columnspacing=1)   # 图例
 
-            plt.title(curSubFigK, fontsize=16)  # 图标题
+            plt.title(fill(('(%s) %s' % (letterArr[subFigCnt-1], subTitleDict[figType][curSubFigK])), 60), fontsize=16, y=-0.25)  # 图标题
 
     # 统一的图例，参数见：https://matplotlib.org/3.1.1/api/_as_gen/matplotlib.pyplot.figlegend.html#matplotlib.pyplot.figlegend
-    plt.figlegend(legendArr, legendEntryArr, ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3)
-    plt.subplots_adjust(left=0.03, right=0.99, top=0.9, bottom=0.1, hspace=0.4) # 图的上下左右边界
+    plt.figlegend(legendArr, legendEntryArr, ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3, bbox_to_anchor=(0.5, 1.01))
+    plt.subplots_adjust(left=0.03, right=0.99, top=0.93, bottom=0.11, hspace=0.3) # 图的上下左右边界
 
     fileName = '_'.join('_'.join(baseFigType.split(' ')).split('/'))
     # plt.show()
