@@ -1,5 +1,6 @@
 *.zip
 *.pdf
-*.xlsx
+# *.xlsx
+~$*.xlsx
 !template.xlsx
 .vscode
