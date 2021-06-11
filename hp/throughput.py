@@ -12,7 +12,7 @@ colorDict = {'PRM':'darkviolet','Greedy':'dodgerblue','PPR':'skyblue','RP':'gold
 
 dataArr = [{}]
 
-readbook = xlrd.open_workbook('RS(4,3)-4-throughput.xlsx')
+readbook = xlrd.open_workbook('RS(4,3)-1.6G-throughput.xlsx')
 
 sheets = readbook.sheets()
 
@@ -39,7 +39,7 @@ for sheetId in range(1, len(sheets)):
 # print(dataArr)
 
 
-readbook = xlrd.open_workbook('RS(6,9)-4-throughput.xlsx')
+readbook = xlrd.open_workbook('RS(6,9)-1.6G-throughput.xlsx')
 
 sheets = readbook.sheets()
 
@@ -59,6 +59,9 @@ for sheetId in range(1, len(sheets)):
 
     for rowId in range(1, nrows):
         curRow = curSheet.row_values(rowId)
+        # print(curRow)
+        if curRow[0] == '':
+            continue
 
         dataArr[sheetId]['x-arr'].append(curRow[0])
         dataArr[sheetId][metaRow[1]].append(curRow[1])
