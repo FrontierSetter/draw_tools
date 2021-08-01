@@ -38,11 +38,19 @@ allocTime = []
 freeTime = []
 
 colorDict = {
-    'arch_interrupt': '#00B050',
-    'alloc_useful': '#1f497d',
-    'alloc_lock': '#C00000',
-    'free_lock': '#F79646',
-    'free_useful': '#4BACC6',
+    'architecture overhead': '#00B050',
+    'allocation': '#1f497d',
+    'waiting (allocation)': '#C00000',
+    'waiting (deallocation)': '#F79646',
+    'deallocation': '#4BACC6',
+}
+
+hatchDict = {
+    'architecture overhead': '',
+    'allocation': '-',
+    'waiting (allocation)': '////',
+    'waiting (deallocation)': '\\\\\\\\',
+    'deallocation': '|',
 }
 
 readbook = xlrd.open_workbook('mem_contention_final.xlsx')
@@ -87,8 +95,10 @@ freeManagerTime = []
 freeLockTime = []
 freeUseful = []
 
+scalNum = 1000
+
 for i in range(len(allocTime)):
-    totalMemTime.append((allocTime[i]+freeTime[i])/(1024*1024*5))
+    totalMemTime.append((allocTime[i]+freeTime[i])/(1024*1024*5*scalNum))
 
     archInteruptTime.append(totalMemTime[i]*archInteruptPercent[i]/100.0)
 
@@ -113,23 +123,23 @@ for i in range(len(allocTime)):
 ind = np.arange(len(allocLockTime))
 curBase = [0]*len(allocLockTime)
 
-plt.figure(figsize=(5,6))
+plt.figure(figsize=(9,6))
+
+bar_width = 0.5
+
 
 def draw_bar(barArr, labelName):
     global curBase
-    if 'lock' in labelName:
-        plt.bar(ind, barArr, label=labelName, edgecolor=colorDict[labelName], bottom=curBase, hatch='//////', color='white', lw=3)
-    else:
-        plt.bar(ind, barArr, label=labelName, edgecolor=colorDict[labelName], bottom=curBase, color='white', lw=3)
+    plt.bar(ind, barArr, bar_width, label=labelName, edgecolor=colorDict[labelName], bottom=curBase, hatch=hatchDict[labelName], color='white', lw=3)
     for i in range(len(curBase)):
         curBase[i] += barArr[i]
 
 
-draw_bar(archInteruptTime, 'arch_interrupt')
-draw_bar(allocUseful, 'alloc_useful')
-draw_bar(allocLockTime, 'alloc_lock')
-draw_bar(freeLockTime, 'free_lock')
-draw_bar(freeUseful, 'free_useful')
+draw_bar(archInteruptTime, 'architecture overhead')
+draw_bar(allocUseful, 'allocation')
+draw_bar(allocLockTime, 'waiting (allocation)')
+draw_bar(freeLockTime, 'waiting (deallocation)')
+draw_bar(freeUseful, 'deallocation')
 
 xfmt = ScalarFormatter(useMathText=True)
 xfmt.set_powerlimits((0, 0))
@@ -137,12 +147,15 @@ plt.gca().yaxis.set_major_formatter(xfmt)
 
 plt.ylabel('Request Latency (cycles)', fontsize=26)
 plt.xlabel('Number of Threads', fontsize=26)
-plt.subplots_adjust(left=0.14, right=0.99, top=0.95, bottom=0.12)
+plt.subplots_adjust(left=0.08, right=0.99, top=0.95, bottom=0.12)
 
 plt.legend(fontsize=20, handletextpad=0.3, handlelength=1)
 plt.yticks(fontsize=20)
 plt.xticks(ind, processNum, fontsize=20)
 
-plt.savefig('mem_contention.pdf')
+xmin, xmax, ymin, ymax = plt.axis()
+plt.text(xmin, ymax*1.005, r'$\times10^{%d}$'%(3),fontsize=20,ha='left')
+
+plt.savefig('mem_contention_lite.pdf')
 
 plt.show()

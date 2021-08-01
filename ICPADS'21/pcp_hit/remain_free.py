@@ -78,7 +78,7 @@ for barId in range(totalBarNum):
         edgecolor=colorDict[labelArr[barId]], hatch=hatchDict[labelArr[barId]], lw=3)
     barCnt += 1
 
-plt.ylabel('Lazy Layer Remaining Pages', fontsize=26)
+plt.ylabel('Lazy Layer Residual Pages', fontsize=26)
 plt.yticks(fontsize=20)
 # plt.ylim(0,1.25)
 
@@ -88,12 +88,12 @@ plt.yticks(fontsize=20)
 
 # plt.text(-0.5, 1.25, r'$\times10^{-2}$',fontsize=20)
 
-plt.xticks(ind,tickArr, fontsize=18, rotation=360-10)
+plt.xticks(ind,tickArr, fontsize=20, rotation=360-13)
 # plt.xlabel('Main Memory Capacity(GB)', fontsize=26)
 
-plt.subplots_adjust(left=0.11, right=0.99, top=0.90, bottom=0.11)
+plt.subplots_adjust(left=0.115, right=0.99, top=0.90, bottom=0.14)
 
-plt.legend(fontsize=18, ncol = 4, loc='upper center', columnspacing=1, handletextpad=0.3, bbox_to_anchor=(0.455, 1.15))
+plt.legend(fontsize=21, ncol = 4, loc='upper center', columnspacing=0.5, handletextpad=0.15, bbox_to_anchor=(0.453, 1.15), handlelength=1.3)
 
 plt.savefig('%s.pdf' % os.path.splitext(sys.argv[0])[0])
 plt.show()

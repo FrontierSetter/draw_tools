@@ -18,15 +18,20 @@ plt.figure(figsize=(9,6))
 targetName = list(yDict.keys())
 
 for i in range(len(targetName)):
-    plt.plot(xArr,yDict[targetName[i]], label=targetName[i], linewidth=4, marker=markerTable[targetName[i]], color=colorTable[targetName[i]], markersize=12)
+    plt.plot(xArr, [num/1000.0 for num in yDict[targetName[i]]], label=targetName[i], linewidth=4, marker=markerTable[targetName[i]], color=colorTable[targetName[i]], markersize=12)
+    # plt.plot(xArr, yDict[targetName[i]], label=targetName[i], linewidth=4, marker=markerTable[targetName[i]], color=colorTable[targetName[i]], markersize=12)
 
-plt.legend(fontsize=20)
-plt.xticks(fontsize=20)
-plt.yticks(fontsize=20)
-plt.xticks(xArr,xArr,fontsize=20)
-plt.ylabel('Request Latency (cycles)', fontsize=26)
-plt.xlabel('Number of Threads', fontsize=26)
-plt.subplots_adjust(left=0.08, right=0.99, top=0.99, bottom=0.12)
+plt.legend(fontsize=22)
+plt.xticks(fontsize=22)
+plt.yticks(fontsize=22)
+plt.xticks(xArr,xArr,fontsize=22)
+plt.ylabel('Request Latency (cycles)', fontsize=28)
+plt.xlabel('Number of Threads', fontsize=28)
+
+xmin, xmax, ymin, ymax = plt.axis()
+plt.text(xmin, ymax*1.005, r'$\times10^{%d}$'%(3),fontsize=20,ha='left')
+
+plt.subplots_adjust(left=0.135, right=0.99, top=0.95, bottom=0.128)
 
 plt.savefig('%s.pdf' % os.path.splitext(sys.argv[0])[0])
 
