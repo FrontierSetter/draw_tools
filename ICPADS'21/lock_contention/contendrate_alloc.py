@@ -82,7 +82,7 @@ for barId in range(totalBarNum):
         edgecolor=colorDict[labelArr[barId]], hatch=hatchDict[labelArr[barId]], lw=3)
     barCnt += 1
 
-plt.ylabel('Core Layer Contention Rate (%)', fontsize=24)
+plt.ylabel('Resource Contention Rate (%)', fontsize=24)
 plt.yticks(fontsize=20)
 # plt.ylim(0,1.25)
 

@@ -148,7 +148,7 @@ bar_width = 0.5
 
 def draw_bar(barArr, labelName):
     global curBase
-    plt.bar(ind, barArr, bar_width, label=labelName, edgecolor=colorDict[labelName], bottom=curBase, hatch=hatchDict[labelName], color='white', lw=3)
+    plt.bar(ind, barArr, bar_width, label=labelName, edgecolor=colorDict[labelName], bottom=curBase, hatch=hatchDict[labelName], color='white', lw=3, zorder=5)
     for i in range(len(curBase)):
         curBase[i] += barArr[i]
 
@@ -167,9 +167,9 @@ draw_bar(freeUseful, 'deallocation')
 draw_bar(allocLockTime, 'waiting (allocation)')
 draw_bar(freeLockTime, 'waiting (deallocation)')
 
-# plt.plot(ind,archOverheadTime,color='black')
-# plt.plot(ind,[archOverheadTime[i]+usefulWorkTime[i] for i in range(len(archOverheadTime))], color='black')
-# plt.plot(ind,[archOverheadTime[i]+usefulWorkTime[i]+lockTime[i] for i in range(len(archOverheadTime))], color='black')
+plt.plot(ind,archOverheadTime,color=colors[0],zorder=0,lw=3,ls='--')
+plt.plot(ind,[archOverheadTime[i]+usefulWorkTime[i] for i in range(len(archOverheadTime))], color=colors[1],zorder=0,lw=3,ls='--')
+plt.plot(ind,[archOverheadTime[i]+usefulWorkTime[i]+lockTime[i] for i in range(len(archOverheadTime))], color=colors[2],zorder=0,lw=3,ls='--')
 
 
 # plt.bar(range(len(curBase)+2), [0]*(len(curBase)+2), bar_width, color='white', lw=1)
