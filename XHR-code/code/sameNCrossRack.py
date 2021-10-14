@@ -42,29 +42,25 @@ three4=[threeFaultCost(XORNums[i],HHNums[i],k,4) for i in range(len(XORNums))]
 one=[oneFaultCost(XORNums[i],HHNums[i],k) for i in range(len(XORNums))]
 two3=[twoFaultCost(XORNums[i],HHNums[i],k,3) for i in range(len(XORNums))]
 three3=[threeFaultCost(XORNums[i],HHNums[i],k,3) for i in range(len(XORNums))]
-fig,ax=plt.subplots(figsize=(9,6), dpi=100)
+
+plt.figure(figsize=(9,6))
     # 画图
-ax.plot(XORNums, one, label='single failure, $r_h$=3 or 4', linestyle='-', marker='s',  markersize='5')
-ax.plot(XORNums, two4, label='double failure, $r_h$=3 or 4', linestyle='-', marker='p', markersize='5')
-ax.plot(XORNums, three4, label='triple failure, $r_h$=3 or 4', linestyle='-', marker='o', markersize='5')
+plt.plot(XORNums, one, label='single failure, $r_h$=3 or 4', linestyle='-', marker='^',  markersize=12, linewidth=4)
+plt.plot(XORNums, two4, label='double failure, $r_h$=3 or 4', linestyle='-', marker='D', markersize=12, linewidth=4)
+plt.plot(XORNums, three4, label='triple failure, $r_h$=3 or 4', linestyle='-', marker='o', markersize=12, linewidth=4)
 # 设置坐标轴
 # ax.set_xlim(1, 1.2)
 # ax.set_ylim(0, 1.4)
-ax.set_xlabel('$m_l$', fontsize=16)
-ax.set_ylabel('Cross Rack Bandwidth', fontsize=16)
-ax.set_xscale('linear')
-# ax.set_yscale('symlog')
-# ax.set_yticks([0, 1, 10, 100])
-# 设置刻度
-ax.tick_params(axis='both', labelsize=11)
-# 显示网格
-ax.grid(True, linestyle='-.')
-ax.yaxis.grid(True, linestyle='-.')
-# 添加图例
-legend = ax.legend(loc='best',fontsize=16)
+plt.xlabel('$m_l$', fontsize=26)
+plt.ylabel('Cross Rack Bandwidth', fontsize=26)
+plt.xticks(fontsize=20)
+plt.yticks(fontsize=20)
+plt.grid(True, linestyle='-.')
 # 添加标题
-plt.title(f'k={k}, n={n}')
-plt.legend(fontsize=16)
+plt.title(f'k={k}, n={n}', fontsize=26)
+plt.legend(fontsize=22)
+plt.subplots_adjust(top=0.925,bottom=0.13,left=0.125,right=0.99,)
+
+plt.savefig(f'./sameNCrossRack.pdf')
 plt.show()
-fig.savefig(f'./sameNCrossRack.pdf')
 

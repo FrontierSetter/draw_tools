@@ -13,6 +13,12 @@ colorDict = {
     'Computation Time': '#F79646'
 }
 
+# colorDict = {
+#     'I/O Time': 'tab:blue', 
+#     'Transmission Time': 'tab:orange', 
+#     'Computation Time': 'tab:green'
+# }
+
 hatchDict = {
     'I/O Time': '\\\\\\\\', 
     'Transmission Time': '////', 
@@ -21,10 +27,8 @@ hatchDict = {
 
 readbook = xlrd.open_workbook('number of IOs_new.xlsx')
 
-# readbook = xlrd.open_workbook('10.9.xlsx')
-
 # 子表编号
-sheetIdx = 3
+sheetIdx = 2
 
 sheets = readbook.sheets()
 sheetNames = readbook.sheet_names()
@@ -34,7 +38,7 @@ print('now draw %s' % (sheetNames[sheetIdx]))
 
 dataArr = []
 
-for curGroup in range(0, 1):
+for curGroup in range(0, 4):
     curStartLine = curGroup*12+6
     
     dataArr.append({})
@@ -54,6 +58,7 @@ for curGroup in range(0, 1):
                 curCol = 2+curStage+4*curSize
                 dataArr[-1][curMethod][stageNameArr[curStage]].append(curArr[curCol])
 
+# print(dataArr)
 
 width = 0.24
 gap = 0.1*width
@@ -81,7 +86,7 @@ for figNum in range(len(dataArr)):
         for i in range(len(curStageArr)):
             baseArr[i] += curStageArr[i]
     for x_, y in zip(x, baseArr) :
-        plt.text(x_-width-gap*1.5, y+0.1, "XHR", fontsize=16, ha = 'center',va = 'bottom', rotation=90)
+        plt.text(x_-width-gap*1.5, y+0.15, "XHR", fontsize=26, ha = 'center',va = 'bottom', rotation=90)
     yMax = max(yMax, max(baseArr))
 
     # 画第二方法
@@ -96,7 +101,7 @@ for figNum in range(len(dataArr)):
         for i in range(len(curStageArr)):
             baseArr[i] += curStageArr[i]
     for x_, y in zip(x, baseArr) :
-        plt.text(x_, y+0.1, "ECWide", fontsize=16, ha = 'center',va = 'bottom', rotation=90)
+        plt.text(x_, y+0.15, "ECWide", fontsize=26, ha = 'center',va = 'bottom', rotation=90)
     yMax = max(yMax, max(baseArr))
 
 
@@ -112,17 +117,19 @@ for figNum in range(len(dataArr)):
         for i in range(len(curStageArr)):
             baseArr[i] += curStageArr[i]
     for x_, y in zip(x, baseArr) :
-        plt.text(x_+width+gap*1.5, y+0.1, "LRC", fontsize=16, ha = 'center',va = 'bottom', rotation=90)
+        plt.text(x_+width+gap*1.5, y+0.15, "LRC", fontsize=26, ha = 'center',va = 'bottom', rotation=90)
     yMax = max(yMax, max(baseArr))
 
 
-    plt.ylabel('Total Repair Time', fontsize=26)
-    plt.xticks(x, ['(76,64)', '(143,128)', '(211,192)'], fontsize=20)
-    plt.xlabel('(n,k)', fontsize=26)
-    plt.legend(legendArrBar, legendEntryArrBar, columnspacing=0.7, ncol=1, fontsize=18,loc='upper left')
+    plt.yticks(fontsize=24)
+    plt.ylabel('Total Repair Time', fontsize=28)
+    plt.xticks(x, ['16M', '32M', '64M'], fontsize=26)
+    plt.xlabel('Block Size', fontsize=28)
+    plt.legend(legendArrBar, legendEntryArrBar, columnspacing=0.7, ncol=1, fontsize=22,loc='upper left')
 
-    plt.subplots_adjust(left=0.12, right=0.99, top=0.99, bottom=0.13)
-    plt.ylim(0, yMax*1.25)
+    plt.subplots_adjust(left=0.1, right=0.99, top=0.99, bottom=0.135)
+    # plt.subplots_adjust(left=0.13, right=0.99, top=0.99, bottom=0.135)
+    plt.ylim(0, yMax*1.26)
     plt.yticks(fontsize=20)
 
     plt.savefig('%s_%d_3.pdf' % (sheetNames[sheetIdx], figNum))

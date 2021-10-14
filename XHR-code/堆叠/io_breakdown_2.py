@@ -77,7 +77,7 @@ for figNum in range(len(dataArr)):
         for i in range(len(curStageArr)):
             baseArr[i] += curStageArr[i]
     for x_, y in zip(x, baseArr) :
-        plt.text(x_-0.5*width-0.5*gap, y+0.05, "XHR", fontsize=14, ha = 'center',va = 'bottom', rotation=90)
+        plt.text(x_-0.5*width-0.5*gap, y+0.03, "XHR", fontsize=26, ha = 'center',va = 'bottom', rotation=90)
     yMax = max(yMax, max(baseArr))
 
     # 画第二方法
@@ -92,7 +92,7 @@ for figNum in range(len(dataArr)):
         for i in range(len(curStageArr)):
             baseArr[i] += curStageArr[i]
     for x_, y in zip(x, baseArr) :
-        plt.text(x_+0.5*width+0.5*gap, y+0.05, "ECWide", fontsize=14, ha = 'center',va = 'bottom', rotation=90)
+        plt.text(x_+0.5*width+0.5*gap, y+0.03, "ECWide", fontsize=26, ha = 'center',va = 'bottom', rotation=90)
     yMax = max(yMax, max(baseArr))
 
 
@@ -112,17 +112,18 @@ for figNum in range(len(dataArr)):
     # yMax = max(yMax, max(baseArr))
 
 
-    plt.ylabel('Total Transmission Time', fontsize=26)
-    plt.xticks(x, ['16M', '32M', '64M'], fontsize=20)
-    plt.xlabel('Block Size', fontsize=26)
+    plt.yticks(fontsize=24)
+    plt.ylabel('Total Transmission Time', fontsize=28)
+    plt.xticks(x, ['16M', '32M', '64M'], fontsize=26)
+    plt.xlabel('Block Size', fontsize=28)
     plt.legend(legendArrBar, legendEntryArrBar, columnspacing=0.7, ncol=1, fontsize=22,loc='upper left')
 
-    plt.subplots_adjust(left=0.12, right=0.99, top=0.99, bottom=0.13)
-    plt.ylim(0, yMax*1.25)
+    plt.subplots_adjust(left=0.13, right=0.99, top=0.99, bottom=0.135)
+    plt.ylim(0, yMax*1.45)
     plt.yticks(fontsize=20)
 
     plt.savefig('%s_%d.pdf' % (sheetNames[sheetIdx], figNum))
-    # plt.show()
+    plt.show()
 
 
 
