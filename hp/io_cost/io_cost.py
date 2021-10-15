@@ -24,7 +24,7 @@ markerDict = {'PRM':'o','Greedy':'d','RP':'^','PPR':'x'}  #设置配色
 readbook = xlrd.open_workbook('new_new_60%_100%_RecoveryTime_RS(k,r)-10-15.xlsx')
 '''
 
-colorDict = {'PRM-Typical': '#80499C', 'Typical': '#5088C7', 'PRM-RP': '#87CFEC', 'RP': '#FCD718', 'PRM-PPR': '#3CB474', 'PPR': '#F26750'}  # 设置配色 2021-09-21
+colorDict = {'PRM-Typical': '#80499C', 'Typical': '#5088C7', 'PRM-RP': '#219ebc', 'RP': '#B8860B', 'PRM-PPR': '#3CB474', 'PPR': '#F26750'}  # 设置配色 2021-09-21
 markerDict = {'PRM-Typical': '^', 'Typical': 'o', 'PRM-RP': 'v', 'RP': 'D', 'PRM-PPR': '>', 'PPR': 's'}  # 设置配色 2021-09-21
 readbook = xlrd.open_workbook('new_new_60%_100%_RecoveryTime_RS(k,r)-10-15.xlsx')
 
@@ -164,28 +164,34 @@ for subfigId in range(0, len(dataArr)):
     # plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1f'))
     plt.gca().yaxis.set_major_formatter(ticker.FormatStrFormatter('%.0f'))
     
-    plt.xticks(ind, dataArr[subfigId]['x-arr'], fontsize=24)
+    plt.xticks(ind, dataArr[subfigId]['x-arr'], fontsize=20)
     # plt.xlabel('X label', fontsize=26) # x轴文字
-    plt.xlabel('(k,r))', fontsize=24) # x轴文字
+    plt.xlabel('(k,r)', fontsize=24) # x轴文字
     # plt.xlabel('Data sets', fontsize=24) # x轴文字
     plt.yticks(fontsize=20) # y轴标签字体
     # plt.ylabel('Y label', fontsize=26) # y轴文字
     # plt.ylabel('IO Access Times', fontsize=24) # y轴文字
-    plt.ylabel('Recovery Time(s)', fontsize=20) # y轴文字
+    plt.ylabel('Recovery Time(s)', fontsize=24) # y轴文字
 
     # plt.ylabel('acc(%)', fontsize=26) # y轴文字
-    plt.legend(fontsize=11,ncol=2,columnspacing=0.7,handletextpad=0.6)#显示图例，即label
+    # plt.legend(fontsize=20,ncol=6,columnspacing=0.7,handletextpad=0.6)#显示图例，即label
 
 
-
+    if subfigId == 0:
+        plt.ylim(0, 7)
+    elif subfigId == 1:
+        plt.ylim(0, 7.5)
     # plt.ylim(0, 100)
 
     # plt.ylim(0, 5)
 
-    plt.title(sheetNames[subfigId], fontsize=24)  # 图标题
+    plt.grid(True, linestyle='-.')
+    plt.title('Block Size = %s' % (sheetNames[subfigId]), fontsize=24)  # 图标题
 
+plt.legend(fontsize=20,ncol=6, \
+    loc= 'upper left', bbox_to_anchor=(-0.97, 1.24))#显示图例，即label
 # plt.figlegend(legendArr, legendEntryArr, ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3, bbox_to_anchor=(0.5, 1.01))
-plt.subplots_adjust(left=0.07, right=0.99, top=0.90, bottom=0.16) # 图的上下左右边界
+plt.subplots_adjust(left=0.036, right=0.99, top=0.842, bottom=0.127, wspace=0.1) # 图的上下左右边界
 
 # plt.savefig('io_cost.pdf')
 

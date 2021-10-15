@@ -9,7 +9,8 @@ from textwrap import fill
 # colorDict = {'PRM-Typical':'#008000','Greedy-Typical':'#fa8080','Typical':'#0000FF','PRM-PPR':'#95a2ff','Greedy-PPR':'#87e885','PPR':'gold','PRM-RP':'darkviolet','Greedy-RP':'dodgerblue','RP':'skyblue'}  #设置配色
 
 # colorDict = {'PRM-Typical':'#008000','Typical':'#0000FF','PRM-RP':'darkviolet','RP':'skyblue','PRM-PPR':'#95a2ff','PPR':'gold'}  #设置配色
-colorDict = {'PRM-Typical': '#80499C', 'Typical': '#5088C7', 'PRM-RP': '#87CFEC', 'RP': '#FCD718', 'PRM-PPR': '#3CB474', 'PPR': '#F26750'}  # 设置配色 2021-09-21
+# colorDict = {'PRM-Typical': '#80499C', 'Typical': '#5088C7', 'PRM-RP': '#87CFEC', 'RP': '#FCD718', 'PRM-PPR': '#3CB474', 'PPR': '#F26750'}  # 设置配色 2021-09-21
+colorDict = {'PRM-Typical': '#80499C', 'Typical': '#3478BF', 'PRM-RP': '#219ebc', 'RP': '#B8860B', 'PRM-PPR': '#0a9396', 'PPR': '#F26750', 'GAN': '#C00000'}  # 设置配色 2021-09-21
 
 
 
@@ -101,6 +102,7 @@ gap_width = 0.06
 # totalBarNum = 2
 totalBarNum = 2
 fig = plt.figure(figsize=(9,7.5))
+plt.rc('axes', axisbelow=True)
 
 # 第一幅子图
 plt.subplot(311)
@@ -128,6 +130,7 @@ plt.legend(fontsize=18,ncol=3,columnspacing=0.8,handletextpad=0.5)#显示图例�
 plt.yticks(fontsize=18)
 plt.ylim(0, 115)
 # plt.xticks(ind, dataArr[1]['x-arr'], fontsize=16)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
+plt.grid(True, linestyle='-.', axis='y')
 plt.xticks(ind, dataArr[1]['x-arr'], fontsize=18)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
 # plt.xticks(rotation=352) #x轴标签旋转
 
@@ -160,6 +163,7 @@ plt.legend(fontsize=18,ncol=3,columnspacing=0.8,handletextpad=0.5, loc='upper ri
 plt.yticks(fontsize=18)
 plt.ylim(0, 189)
 # plt.xticks(ind, dataArr[1]['x-arr'], fontsize=16)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
+plt.grid(True, linestyle='-.', axis='y')
 plt.xticks(ind, dataArr[1]['x-arr'], fontsize=18)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
 # plt.xticks(rotation=352) #x轴标签旋转
 
@@ -188,6 +192,7 @@ plt.legend(fontsize=18,ncol=3,columnspacing=0.8,handletextpad=0.5, loc='upper ri
 plt.yticks(fontsize=18)
 plt.ylim(0, 150)
 # plt.xticks(ind, dataArr[1]['x-arr'], fontsize=16)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
+plt.grid(True, linestyle='-.', axis='y')
 plt.xticks(ind, dataArr[1]['x-arr'], fontsize=18)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
 # plt.xticks(ind, dataArr[4]['x-arr'], fontsize=16)#显示x坐r标轴的标签,即tick_label,调整位置，使其落在两个直方图中间位置
 # plt.xticks(rotation=352) #x轴标签旋转
@@ -205,6 +210,7 @@ plt.subplots_adjust(left=0.14, right=0.98, top=0.99, bottom=0.1)#图片的页边
 left,bottom,width,height = 0.002,-0.03,1,0.15
 # left,bottom,width,height = 0.71,0.15,0.25,0.20
 ax1 = fig.add_axes([left,bottom,width,height])
+ax1.axis('off')
 ax1.patch.set_alpha(0.0)
 ax1.spines['top'].set_visible(False)
 ax1.spines['right'].set_visible(False)
