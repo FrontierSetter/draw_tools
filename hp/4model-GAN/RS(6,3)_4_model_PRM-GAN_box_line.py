@@ -1,3 +1,4 @@
+from numpy.lib.function_base import median
 import xlrd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -7,7 +8,7 @@ from matplotlib.pyplot import MultipleLocator
 #              'Baseline': 'skyblue','GAN': '#fa8080'}  # 设置配色 2021-09-21
 
 # colorDict = {'PRM-Typical': '#80499C', 'PRM-PPR': '#87CFEC', 'PRM-RP': '#3CB474', 'GAN': '#F26750'}  # 设置配色 2021-09-21
-# hatchDict = {'PRM-Typical': '////', 'PRM-PPR': '\\\\\\\\', 'PRM-RP': 'xxxx', 'GAN': '----'}
+# hatchDict = {'PRM-Typical': '////', 'PRM-PPR': '\\\\\\\\', 'PRM-RP': 'xxxx', 'GAN': '--'}
 
 colorDict = {'PRM-Typical': '#80499C', 'Typical': '#3478BF', 'PRM-RP': '#219ebc', 'RP': '#ee9b00', 'PRM-PPR': '#0a9396', 'PPR': '#F26750', 'GAN': '#C00000'}  # 设置配色 2021-09-21
 markerDict = {'PRM-Typical': '^', 'Typical': 'o', 'PRM-RP': 'v', 'RP': 'D', 'PRM-PPR': '>', 'PPR': 's', 'GAN': 'x'}  # 设置配色 2021-09-21
@@ -82,6 +83,7 @@ for subFigId in range(len(dataDict)):
     ind=np.arange(len(dataDict[curModelName]['x-arr']))
     bar_width = 0.8#设置柱状图的宽度
     gap_width = 0.06
+    line_width = 1.65
     totalBarNum = 2
     totalGroupNum = len(dataDict[curModelName]['x-arr'])
 
@@ -95,11 +97,26 @@ for subFigId in range(len(dataDict)):
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['PRM-Typical'], hatch='//////')
     setBoxplotStyle(bp, 'PRM-Typical')
     
+    # plot_x = []
+    # plot_y = []
+    # for x in range(totalGroupNum):
+    #     plot_x.append(x*3+1-bar_width/2)
+    #     plot_x.append(x*3+1+bar_width/2)
+    # for medline in bp['medians']:
+    #     plot_y.append(medline.get_ydata()[0])
+    #     plot_y.append(medline.get_ydata()[1])
+    # plt.plot(plot_x, plot_y, color=colorDict['PRM-Typical'], alpha=0.6)
+    plt.plot([x*3+1 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['PRM-Typical'], alpha=0.9, ls='-')
+    
     bp = plt.boxplot(dataDict[curModelName]['Typical'], positions=[x*3+2 for x in range(totalGroupNum)], widths=bar_width, patch_artist=True)
     legendArr.append(bp["boxes"][0])
     legendEntryArr.append('Typical')
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['Typical'], hatch='//////')
     setBoxplotStyle(bp, 'Typical')
+    plt.plot([x*3+2 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['Typical'], alpha=0.9, ls='-')
+
 
     plt.ylabel('acc(%)', fontsize=22)
     plt.legend(legendArr, legendEntryArr, fontsize=18,ncol=2,columnspacing=0.8,handletextpad=0.5, loc=legacyPositionDict[subFigId])#显示图例，即label
@@ -110,6 +127,12 @@ for subFigId in range(len(dataDict)):
     plt.grid(True, linestyle='-.', axis='y')
     # plt.xticks(rotation=352) #x轴标签旋转
 
+    left,bottom,width,height = 0.002,0.03,1,0.15
+    # left,bottom,width,height = 0.71,0.15,0.25,0.20
+    ax1 = fig.add_axes([left,bottom,width,height])
+    ax1.set_ylim(0,1)
+    ax1.set_xlim(0,1)
+
     # 第二幅子图
     plt.subplot(312)
     legendArr = []
@@ -119,12 +142,16 @@ for subFigId in range(len(dataDict)):
     legendEntryArr.append('PRM-RP')
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['PRM-Typical'], hatch='//////')
     setBoxplotStyle(bp, 'PRM-RP')
+    plt.plot([x*3+1 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['PRM-RP'], alpha=0.9, ls='-')
     
     bp = plt.boxplot(dataDict[curModelName]['RP'], positions=[x*3+2 for x in range(totalGroupNum)], widths=bar_width, patch_artist=True)
     legendArr.append(bp["boxes"][0])
     legendEntryArr.append('RP')
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['Typical'], hatch='//////')
     setBoxplotStyle(bp, 'RP')
+    plt.plot([x*3+2 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['RP'], alpha=0.9, ls='-')
 
     plt.ylabel('acc(%)', fontsize=22)
     plt.legend(legendArr, legendEntryArr, fontsize=18,ncol=2,columnspacing=0.8,handletextpad=0.5, loc=legacyPositionDict[subFigId])#显示图例，即label
@@ -143,12 +170,16 @@ for subFigId in range(len(dataDict)):
     legendEntryArr.append('PRM-PPR')
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['PRM-Typical'], hatch='//////')
     setBoxplotStyle(bp, 'PRM-PPR')
-    
+    plt.plot([x*3+1 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['PRM-PPR'], alpha=0.9, ls='-')
+
     bp = plt.boxplot(dataDict[curModelName]['PPR'], positions=[x*3+2 for x in range(totalGroupNum)], widths=bar_width, patch_artist=True)
     legendArr.append(bp["boxes"][0])
     legendEntryArr.append('PPR')
     # plt.bar([],[], color='white', linewidth=2, edgecolor=colorDict['Typical'], hatch='//////')
     setBoxplotStyle(bp, 'PPR')
+    plt.plot([x*3+2 for x in range(totalGroupNum)], [medline.get_ydata()[0] for medline in bp['medians']], \
+        lw=line_width, color=colorDict['PPR'], alpha=0.9, ls='-')
 
     plt.ylabel('acc(%)', fontsize=22)
     plt.legend(legendArr, legendEntryArr, fontsize=18,ncol=2,columnspacing=0.8,handletextpad=0.5, loc=legacyPositionDict[subFigId])#显示图例，即label
@@ -162,5 +193,5 @@ for subFigId in range(len(dataDict)):
 
     plt.subplots_adjust(left=0.085, right=0.98, top=0.99, bottom=0.07, hspace=0.295)#图片的页边距
 
-    plt.savefig('RS(6,3)_4_model_GAN_%s_box.pdf' % (curModelName))
+    plt.savefig('RS(6,3)_4_model_GAN_%s_box_line.pdf' % (curModelName))
     plt.show()

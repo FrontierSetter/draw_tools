@@ -10,6 +10,7 @@ from matplotlib.pyplot import MultipleLocator
 # hatchDict = {'PRM-Typical': '////', 'PRM-PPR': '\\\\\\\\', 'PRM-RP': 'xxxx', 'GAN': '----'}
 
 colorDict = {'PRM-Typical': '#80499C', 'Typical': '#5088C7', 'PRM-RP': '#87CFEC', 'RP': '#FCD718', 'PRM-PPR': '#3CB474', 'PPR': '#F26750', 'GAN': '#C00000'}  # 设置配色 2021-09-21
+# colorDict = {'PRM-Typical': '#80499C', 'Typical': '#3478BF', 'PRM-RP': '#219ebc', 'RP': '#ee9b00', 'PRM-PPR': '#0a9396', 'PPR': '#F26750', 'GAN': '#C00000'}  # 设置配色 2021-09-21
 markerDict = {'PRM-Typical': '^', 'Typical': 'o', 'PRM-RP': 'v', 'RP': 'D', 'PRM-PPR': '>', 'PPR': 's', 'GAN': 'x'}  # 设置配色 2021-09-21
 
 
@@ -130,6 +131,7 @@ for subFigId in range(len(dataDict)):
     plt.ylim(paraDict[curModelName]['yMin'], paraDict[curModelName]['yMax'])
     # plt.ylim(paraDict[curModelName]['base_line']-1, paraDict[curModelName]['full_line']+10)
 
+    plt.grid(True, linestyle='-.')
     # plt.title(curModelName, fontsize=28)  # 图标题
 
     # plt.figlegend(legendArr, legendEntryArr, ncol=len(legendEntryArr), loc="upper center", fontsize=22, columnspacing=1, handletextpad=0.3, bbox_to_anchor=(0.5, 1.01))
