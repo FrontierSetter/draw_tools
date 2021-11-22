@@ -33,7 +33,6 @@ for i in range(0, 256, 32):
     xIdx.append(i+0.5)
 xIdx.append(255.5)
 
-
 for i in xIdx:
     xNum.append("%d" % (i))
 
@@ -53,8 +52,7 @@ grey_color = LinearSegmentedColormap.from_list('grey', clist_black)
 
 # im = plt.imshow(Z, cmap=grey_color, aspect=3)   #用aspect调整每个cell的横纵比例
 # plt.grid(color="w", linestyle='-', linewidth=5)
-ax = sns.heatmap(Z, cmap=grey_color, linewidth=0.2, cbar=False,\
-     yticklabels=2)
+ax = sns.heatmap(Z, cmap=grey_color, linewidth=0.2, cbar=False, yticklabels=2)
 for _, spine in ax.spines.items():
     spine.set_visible(True)
 
