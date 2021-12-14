@@ -29,8 +29,8 @@ hatchDict = {
 readbook = xlrd.open_workbook('latency.xlsx')
 dataSheet = readbook.sheet_by_name('transfer')
 
-startRow = 16
-finalRow = 21
+startRow = 23
+finalRow = 29
 
 dataArr = []
 xArr = []
@@ -66,5 +66,5 @@ plt.grid(True, linestyle='-.', axis='both')
 
 plt.subplots_adjust(left=0.145, right=0.995, top=0.99, bottom=0.13)
 
-plt.savefig('transfer_3.pdf')
+plt.savefig('transfer_4.pdf')
 plt.show()

@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 colorDict = {
-    'network': '#00B050', 
-    'computation': '#1f497d', 
+    'network': '#1f497d', 
+    'computation': '#00B050', 
     'I/O': '#C00000', 
 }
 
@@ -14,8 +14,8 @@ hatchDict = {
     'I/O': '////',
 }
 
-readbook = xlrd.open_workbook('latency(2)(2).xlsx')
-dataSheet = readbook.sheet_by_name('Sheet2')
+readbook = xlrd.open_workbook('latency.xlsx')
+dataSheet = readbook.sheet_by_name('access components')
 
 nrows = dataSheet.nrows
 
@@ -54,15 +54,15 @@ for i in range(len(stageArr)):
     for j in range(len(curBase)):
         curBase[j] += dataDict[stageArr[i]][j]
 
-plt.ylabel('Overhead(ms)', fontsize=26)
+plt.ylabel('Overhead(ms)', fontsize=28)
 # plt.xlabel('Number of Threads', fontsize=26)
 
 plt.legend(legendArr, legendEntryArr, fontsize=24)
 plt.yticks(fontsize=22)
-plt.xticks(ind, methodArr, fontsize=22, rotation=-10)
+plt.xticks(ind, methodArr, fontsize=22, rotation=-35)
 
 
-plt.subplots_adjust(left=0.1, right=0.995, top=0.99, bottom=0.13)
+plt.subplots_adjust(left=0.1, right=0.99, top=0.99, bottom=0.26)
 
 plt.savefig('latency_stack.pdf')
-# plt.show()
+plt.show()

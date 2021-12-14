@@ -27,10 +27,10 @@ hatchDict = {
 }
 
 readbook = xlrd.open_workbook('latency.xlsx')
-dataSheet = readbook.sheet_by_name('throughput')
+dataSheet = readbook.sheet_by_name('storage')
 
 startRow = 8
-finalRow = 14
+finalRow = 13
 
 dataDict = {}
 
@@ -74,12 +74,12 @@ plt.xlabel(xLabel, fontsize=28)
 
 plt.legend(fontsize=22, ncol=2, columnspacing=0.6, labelspacing=0.2, loc='upper center', bbox_to_anchor=(0.4755, 1.375))
 plt.yticks(fontsize=22)
-plt.xticks(fontsize=22)
+plt.xticks(xArr, [str(int(i)) for i in xArr], fontsize=22)
 
 plt.ylim(0)
 plt.grid(True, linestyle='-.', axis='both')
 
 plt.subplots_adjust(left=0.145, right=0.995, top=0.78, bottom=0.13)
 
-plt.savefig('throughput_2.pdf')
+plt.savefig('storage_2.pdf')
 plt.show()

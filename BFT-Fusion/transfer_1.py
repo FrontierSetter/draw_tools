@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 colorDict = {
-    'network': '#00B050', 
-    'computation': '#1f497d', 
+    'network': '#1f497d', 
+    'computation': '#00B050', 
     'I/O': '#C00000', 
 }
 
@@ -14,7 +14,7 @@ hatchDict = {
     'I/O': '////',
 }
 
-readbook = xlrd.open_workbook('latency(2)(2).xlsx')
+readbook = xlrd.open_workbook('latency.xlsx')
 dataSheet = readbook.sheet_by_name('transfer')
 
 startRow = 0
@@ -57,8 +57,8 @@ for i in range(len(stageArr)):
     for j in range(len(curBase)):
         curBase[j] += dataDict[stageArr[i]][j]
 
-plt.ylabel(yLabel, fontsize=26)
-plt.xlabel(xLabel, fontsize=26)
+plt.ylabel(yLabel, fontsize=28)
+plt.xlabel(xLabel, fontsize=28)
 
 plt.legend(legendArr, legendEntryArr, fontsize=24, ncol=3, \
     columnspacing=1, labelspacing=0.2, loc='upper center', bbox_to_anchor=(0.5, 1.176))
