@@ -1,0 +1,4 @@
+x_tick,precision,recall,f1-score,support
+0,23,32,16,65
+1,16,65,19,15
+2,19,15,32,16
