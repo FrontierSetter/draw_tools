@@ -1,0 +1,7011 @@
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 4096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6948273672
+deduplication ratio: 0.9283, 13.9477
+total time(s): 2925.063
+throughput(MB/s): 31.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10287
+size of rewritten chunks: 24668160
+rewritten rate in size: 0.000
+rewrite_time : 36.468s, 2534.34MB/s
+read_time : 39.316s, 2350.77MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.059s, 1923.11MB/s
+filter_time : 2693.820s, 34.31MB/s
+write_time : 0.237s, 390485.67MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 590.011
+throughput(MB/s): 156.65
+read_container_num: 61187
+speed factor: 1.51
+read_recipe_time : 36.924s, 2503.05MB/s
+read_chunk_time : 26.763s, 3453.43MB/s
+write_chunk_time : 548.184s, 168.60MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 4096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6948340149
+deduplication ratio: 0.9283, 13.9476
+total time(s): 2920.060
+throughput(MB/s): 31.65
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10301
+size of rewritten chunks: 24734637
+rewritten rate in size: 0.000
+rewrite_time : 35.448s, 2607.24MB/s
+read_time : 33.843s, 2730.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.970s, 1926.67MB/s
+filter_time : 2692.287s, 34.33MB/s
+write_time : 0.433s, 213431.99MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.001
+throughput(MB/s): 880.21
+read_container_num: 61057
+speed factor: 1.51
+read_recipe_time : 27.145s, 3404.76MB/s
+read_chunk_time : 18.327s, 5042.91MB/s
+write_chunk_time : 65.481s, 1411.45MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 4096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6948428267
+deduplication ratio: 0.9283, 13.9474
+total time(s): 2900.059
+throughput(MB/s): 31.87
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10109
+size of rewritten chunks: 24822755
+rewritten rate in size: 0.000
+rewrite_time : 35.034s, 2638.11MB/s
+read_time : 32.437s, 2849.34MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.374s, 1910.57MB/s
+filter_time : 2675.957s, 34.54MB/s
+write_time : 0.216s, 428314.01MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 61402
+speed factor: 1.51
+read_recipe_time : 26.771s, 3452.31MB/s
+read_chunk_time : 17.951s, 5148.50MB/s
+write_chunk_time : 65.393s, 1413.34MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 4096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6948367563
+deduplication ratio: 0.9283, 13.9475
+total time(s): 2910.063
+throughput(MB/s): 31.76
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10055
+size of rewritten chunks: 24762051
+rewritten rate in size: 0.000
+rewrite_time : 35.586s, 2597.18MB/s
+read_time : 32.514s, 2842.57MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.775s, 1934.55MB/s
+filter_time : 2687.512s, 34.39MB/s
+write_time : 0.203s, 455437.69MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 61567
+speed factor: 1.50
+read_recipe_time : 26.701s, 3461.39MB/s
+read_chunk_time : 17.961s, 5145.77MB/s
+write_chunk_time : 64.824s, 1425.74MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 12288
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6957691028
+deduplication ratio: 0.9282, 13.9288
+total time(s): 2900.060
+throughput(MB/s): 31.87
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 14201
+size of rewritten chunks: 34085516
+rewritten rate in size: 0.000
+rewrite_time : 34.825s, 2653.95MB/s
+read_time : 33.217s, 2782.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.272s, 1955.11MB/s
+filter_time : 2672.903s, 34.58MB/s
+write_time : 0.193s, 479269.87MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 57881
+speed factor: 1.60
+read_recipe_time : 27.292s, 3386.41MB/s
+read_chunk_time : 16.761s, 5514.01MB/s
+write_chunk_time : 64.301s, 1437.34MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 12288
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6957977361
+deduplication ratio: 0.9282, 13.9282
+total time(s): 2825.060
+throughput(MB/s): 32.72
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 14044
+size of rewritten chunks: 34371849
+rewritten rate in size: 0.000
+rewrite_time : 34.488s, 2679.86MB/s
+read_time : 32.828s, 2815.39MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.976s, 1967.44MB/s
+filter_time : 2596.188s, 35.60MB/s
+write_time : 0.202s, 456898.91MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 58077
+speed factor: 1.59
+read_recipe_time : 26.333s, 3509.76MB/s
+read_chunk_time : 15.966s, 5788.80MB/s
+write_chunk_time : 63.039s, 1466.11MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 12288
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6958090433
+deduplication ratio: 0.9282, 13.9280
+total time(s): 2900.061
+throughput(MB/s): 31.87
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 14185
+size of rewritten chunks: 34484921
+rewritten rate in size: 0.000
+rewrite_time : 35.136s, 2630.40MB/s
+read_time : 32.155s, 2874.29MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.370s, 1910.73MB/s
+filter_time : 2677.867s, 34.51MB/s
+write_time : 0.249s, 371182.19MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 58403
+speed factor: 1.58
+read_recipe_time : 31.929s, 2894.63MB/s
+read_chunk_time : 17.998s, 5135.14MB/s
+write_chunk_time : 64.221s, 1439.15MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 12288
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6958014700
+deduplication ratio: 0.9282, 13.9282
+total time(s): 2920.062
+throughput(MB/s): 31.65
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 14158
+size of rewritten chunks: 34409188
+rewritten rate in size: 0.000
+rewrite_time : 35.389s, 2611.59MB/s
+read_time : 32.437s, 2849.31MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.603s, 1941.55MB/s
+filter_time : 2697.527s, 34.26MB/s
+write_time : 0.231s, 400241.13MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 58480
+speed factor: 1.58
+read_recipe_time : 27.115s, 3408.55MB/s
+read_chunk_time : 17.659s, 5233.77MB/s
+write_chunk_time : 65.002s, 1421.84MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 20480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6968292706
+deduplication ratio: 0.9281, 13.9076
+total time(s): 2870.062
+throughput(MB/s): 32.20
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18810
+size of rewritten chunks: 44687194
+rewritten rate in size: 0.000
+rewrite_time : 35.524s, 2601.73MB/s
+read_time : 32.720s, 2824.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.553s, 1903.56MB/s
+filter_time : 2646.074s, 34.93MB/s
+write_time : 0.236s, 391986.13MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 56612
+speed factor: 1.63
+read_recipe_time : 28.026s, 3297.72MB/s
+read_chunk_time : 18.373s, 5030.33MB/s
+write_chunk_time : 66.190s, 1396.32MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 20480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6968406157
+deduplication ratio: 0.9281, 13.9074
+total time(s): 2930.059
+throughput(MB/s): 31.54
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18695
+size of rewritten chunks: 44800645
+rewritten rate in size: 0.000
+rewrite_time : 34.863s, 2651.04MB/s
+read_time : 32.219s, 2868.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.424s, 1948.85MB/s
+filter_time : 2710.089s, 34.10MB/s
+write_time : 0.437s, 211402.58MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 56521
+speed factor: 1.64
+read_recipe_time : 26.812s, 3447.05MB/s
+read_chunk_time : 16.900s, 5468.94MB/s
+write_chunk_time : 62.531s, 1478.03MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 20480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6968747060
+deduplication ratio: 0.9281, 13.9067
+total time(s): 2955.062
+throughput(MB/s): 31.28
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18221
+size of rewritten chunks: 45141548
+rewritten rate in size: 0.000
+rewrite_time : 34.591s, 2671.87MB/s
+read_time : 31.394s, 2944.01MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.985s, 2009.85MB/s
+filter_time : 2743.481s, 33.69MB/s
+write_time : 0.524s, 176266.52MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 56876
+speed factor: 1.62
+read_recipe_time : 26.913s, 3434.15MB/s
+read_chunk_time : 17.093s, 5407.02MB/s
+write_chunk_time : 64.046s, 1443.06MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 20480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6968867225
+deduplication ratio: 0.9281, 13.9065
+total time(s): 2980.060
+throughput(MB/s): 31.01
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18384
+size of rewritten chunks: 45261713
+rewritten rate in size: 0.000
+rewrite_time : 34.085s, 2711.57MB/s
+read_time : 30.560s, 3024.29MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.633s, 2025.35MB/s
+filter_time : 2772.650s, 33.33MB/s
+write_time : 0.191s, 482958.91MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 150.003
+throughput(MB/s): 616.14
+read_container_num: 57077
+speed factor: 1.62
+read_recipe_time : 76.164s, 1213.48MB/s
+read_chunk_time : 18.287s, 5053.93MB/s
+write_chunk_time : 62.741s, 1473.09MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 28672
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6979874465
+deduplication ratio: 0.9280, 13.8845
+total time(s): 3020.058
+throughput(MB/s): 30.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23806
+size of rewritten chunks: 56268953
+rewritten rate in size: 0.001
+rewrite_time : 34.369s, 2689.15MB/s
+read_time : 63.446s, 1456.71MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.392s, 2036.11MB/s
+filter_time : 2777.577s, 33.27MB/s
+write_time : 0.464s, 199339.33MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 55625
+speed factor: 1.66
+read_recipe_time : 29.755s, 3106.08MB/s
+read_chunk_time : 16.870s, 5478.47MB/s
+write_chunk_time : 62.253s, 1484.63MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 28672
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6979051334
+deduplication ratio: 0.9280, 13.8862
+total time(s): 2930.059
+throughput(MB/s): 31.54
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23324
+size of rewritten chunks: 55445822
+rewritten rate in size: 0.001
+rewrite_time : 33.902s, 2726.17MB/s
+read_time : 30.560s, 3024.32MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.844s, 2016.02MB/s
+filter_time : 2717.941s, 34.00MB/s
+write_time : 0.225s, 411137.47MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 55451
+speed factor: 1.67
+read_recipe_time : 26.882s, 3438.05MB/s
+read_chunk_time : 17.084s, 5409.82MB/s
+write_chunk_time : 63.472s, 1456.11MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 28672
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6978885533
+deduplication ratio: 0.9280, 13.8865
+total time(s): 2965.059
+throughput(MB/s): 31.17
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23038
+size of rewritten chunks: 55280021
+rewritten rate in size: 0.001
+rewrite_time : 34.197s, 2702.66MB/s
+read_time : 30.887s, 2992.26MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.722s, 2021.42MB/s
+filter_time : 2756.178s, 33.53MB/s
+write_time : 0.195s, 475086.65MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 55730
+speed factor: 1.66
+read_recipe_time : 26.843s, 3443.05MB/s
+read_chunk_time : 17.246s, 5359.13MB/s
+write_chunk_time : 63.740s, 1449.99MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 28672
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6979174197
+deduplication ratio: 0.9280, 13.8859
+total time(s): 2965.060
+throughput(MB/s): 31.17
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23079
+size of rewritten chunks: 55568685
+rewritten rate in size: 0.001
+rewrite_time : 34.269s, 2696.99MB/s
+read_time : 30.792s, 3001.50MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.257s, 1998.01MB/s
+filter_time : 2751.919s, 33.58MB/s
+write_time : 0.189s, 488790.13MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.001
+throughput(MB/s): 924.22
+read_container_num: 55817
+speed factor: 1.66
+read_recipe_time : 26.431s, 3496.73MB/s
+read_chunk_time : 16.883s, 5474.32MB/s
+write_chunk_time : 62.409s, 1480.91MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 36864
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6989878392
+deduplication ratio: 0.9279, 13.8647
+total time(s): 2985.059
+throughput(MB/s): 30.96
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 27580
+size of rewritten chunks: 66272880
+rewritten rate in size: 0.001
+rewrite_time : 34.962s, 2643.51MB/s
+read_time : 40.112s, 2304.12MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.984s, 2009.88MB/s
+filter_time : 2761.703s, 33.47MB/s
+write_time : 0.201s, 460124.37MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 115.002
+throughput(MB/s): 803.67
+read_container_num: 54976
+speed factor: 1.68
+read_recipe_time : 41.854s, 2208.23MB/s
+read_chunk_time : 17.382s, 5317.29MB/s
+write_chunk_time : 64.141s, 1440.92MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 36864
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6988965388
+deduplication ratio: 0.9279, 13.8665
+total time(s): 3025.058
+throughput(MB/s): 30.55
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 27805
+size of rewritten chunks: 65359876
+rewritten rate in size: 0.001
+rewrite_time : 34.648s, 2667.47MB/s
+read_time : 54.237s, 1704.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.504s, 1945.60MB/s
+filter_time : 2786.755s, 33.17MB/s
+write_time : 0.222s, 415632.18MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 520.009
+throughput(MB/s): 177.73
+read_container_num: 54786
+speed factor: 1.69
+read_recipe_time : 41.722s, 2215.22MB/s
+read_chunk_time : 21.721s, 4254.94MB/s
+write_chunk_time : 471.906s, 195.85MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 36864
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6989324186
+deduplication ratio: 0.9279, 13.8658
+total time(s): 3025.056
+throughput(MB/s): 30.55
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 27474
+size of rewritten chunks: 65718674
+rewritten rate in size: 0.001
+rewrite_time : 35.870s, 2576.63MB/s
+read_time : 61.895s, 1493.21MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.968s, 1967.79MB/s
+filter_time : 2777.713s, 33.27MB/s
+write_time : 0.245s, 377570.67MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 125.002
+throughput(MB/s): 739.37
+read_container_num: 55071
+speed factor: 1.68
+read_recipe_time : 47.996s, 1925.63MB/s
+read_chunk_time : 18.481s, 5001.05MB/s
+write_chunk_time : 64.418s, 1434.73MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 36864
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6988932369
+deduplication ratio: 0.9279, 13.8666
+total time(s): 2915.089
+throughput(MB/s): 31.70
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 27686
+size of rewritten chunks: 65326857
+rewritten rate in size: 0.001
+rewrite_time : 34.832s, 2653.37MB/s
+read_time : 57.557s, 1605.76MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.300s, 1996.16MB/s
+filter_time : 2671.945s, 34.59MB/s
+write_time : 0.194s, 477260.26MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 245.004
+throughput(MB/s): 377.23
+read_container_num: 55164
+speed factor: 1.68
+read_recipe_time : 42.100s, 2195.30MB/s
+read_chunk_time : 19.079s, 4844.12MB/s
+write_chunk_time : 194.267s, 475.75MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 40960
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6994333535
+deduplication ratio: 0.9278, 13.8558
+total time(s): 2905.056
+throughput(MB/s): 31.81
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 29638
+size of rewritten chunks: 70728023
+rewritten rate in size: 0.001
+rewrite_time : 35.665s, 2591.41MB/s
+read_time : 56.771s, 1627.99MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.375s, 1910.54MB/s
+filter_time : 2650.355s, 34.87MB/s
+write_time : 0.300s, 307617.92MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 110.002
+throughput(MB/s): 840.19
+read_container_num: 54436
+speed factor: 1.70
+read_recipe_time : 28.852s, 3203.37MB/s
+read_chunk_time : 16.872s, 5477.94MB/s
+write_chunk_time : 71.673s, 1289.50MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 40960
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6994182329
+deduplication ratio: 0.9278, 13.8561
+total time(s): 2845.059
+throughput(MB/s): 32.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 30276
+size of rewritten chunks: 70576817
+rewritten rate in size: 0.001
+rewrite_time : 34.359s, 2689.90MB/s
+read_time : 33.682s, 2744.02MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.017s, 1965.73MB/s
+filter_time : 2620.044s, 35.28MB/s
+write_time : 0.202s, 457165.59MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 54229
+speed factor: 1.70
+read_recipe_time : 27.257s, 3390.85MB/s
+read_chunk_time : 16.073s, 5750.33MB/s
+write_chunk_time : 64.787s, 1426.57MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 40960
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6994744480
+deduplication ratio: 0.9278, 13.8550
+total time(s): 2885.061
+throughput(MB/s): 32.03
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 29863
+size of rewritten chunks: 71138968
+rewritten rate in size: 0.001
+rewrite_time : 34.999s, 2640.71MB/s
+read_time : 33.615s, 2749.44MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.003s, 1966.31MB/s
+filter_time : 2655.717s, 34.80MB/s
+write_time : 0.235s, 393756.34MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 54628
+speed factor: 1.69
+read_recipe_time : 27.199s, 3397.98MB/s
+read_chunk_time : 16.447s, 5619.57MB/s
+write_chunk_time : 64.160s, 1440.50MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 40960
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 6994744480
+deduplication ratio: 0.9278, 13.8550
+total time(s): 2905.059
+throughput(MB/s): 31.81
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 29863
+size of rewritten chunks: 71138968
+rewritten rate in size: 0.001
+rewrite_time : 35.436s, 2608.13MB/s
+read_time : 32.751s, 2821.98MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.161s, 1959.72MB/s
+filter_time : 2683.688s, 34.44MB/s
+write_time : 0.401s, 230371.85MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 54628
+speed factor: 1.69
+read_recipe_time : 27.406s, 3372.42MB/s
+read_chunk_time : 16.459s, 5615.25MB/s
+write_chunk_time : 64.766s, 1427.03MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 122880
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7101415173
+deduplication ratio: 0.9267, 13.6469
+total time(s): 2890.062
+throughput(MB/s): 31.98
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 70962
+size of rewritten chunks: 177809661
+rewritten rate in size: 0.002
+rewrite_time : 35.418s, 2609.50MB/s
+read_time : 32.565s, 2838.09MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.800s, 1974.85MB/s
+filter_time : 2667.328s, 34.65MB/s
+write_time : 0.222s, 416300.53MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 50597
+speed factor: 1.83
+read_recipe_time : 26.817s, 3446.42MB/s
+read_chunk_time : 15.300s, 6040.58MB/s
+write_chunk_time : 64.429s, 1434.50MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 122880
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7099868204
+deduplication ratio: 0.9267, 13.6499
+total time(s): 2875.063
+throughput(MB/s): 32.15
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 71222
+size of rewritten chunks: 176262692
+rewritten rate in size: 0.002
+rewrite_time : 34.827s, 2653.79MB/s
+read_time : 32.329s, 2858.83MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 47.173s, 1959.24MB/s
+filter_time : 2651.342s, 34.86MB/s
+write_time : 0.244s, 378839.75MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 50718
+speed factor: 1.82
+read_recipe_time : 27.006s, 3422.28MB/s
+read_chunk_time : 15.358s, 6017.94MB/s
+write_chunk_time : 61.895s, 1493.21MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 122880
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7100791014
+deduplication ratio: 0.9267, 13.6481
+total time(s): 2885.057
+throughput(MB/s): 32.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 70551
+size of rewritten chunks: 177185502
+rewritten rate in size: 0.002
+rewrite_time : 33.705s, 2742.08MB/s
+read_time : 31.698s, 2915.74MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.770s, 2064.40MB/s
+filter_time : 2666.195s, 34.66MB/s
+write_time : 0.192s, 480423.34MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 50247
+speed factor: 1.84
+read_recipe_time : 30.875s, 2993.42MB/s
+read_chunk_time : 15.361s, 6016.80MB/s
+write_chunk_time : 62.749s, 1472.89MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 122880
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7100358407
+deduplication ratio: 0.9267, 13.6489
+total time(s): 2905.053
+throughput(MB/s): 31.81
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 70427
+size of rewritten chunks: 176752895
+rewritten rate in size: 0.002
+rewrite_time : 33.423s, 2765.25MB/s
+read_time : 31.204s, 2961.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.846s, 2060.87MB/s
+filter_time : 2688.009s, 34.38MB/s
+write_time : 0.242s, 382046.92MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 50258
+speed factor: 1.84
+read_recipe_time : 32.273s, 2863.79MB/s
+read_chunk_time : 14.842s, 6227.27MB/s
+write_chunk_time : 62.486s, 1479.09MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 204800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7204656379
+deduplication ratio: 0.9257, 13.4514
+total time(s): 2925.053
+throughput(MB/s): 31.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 104260
+size of rewritten chunks: 281050867
+rewritten rate in size: 0.003
+rewrite_time : 32.803s, 2817.49MB/s
+read_time : 31.079s, 2973.81MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.898s, 2154.50MB/s
+filter_time : 2711.227s, 34.09MB/s
+write_time : 0.226s, 409374.67MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 480.009
+throughput(MB/s): 192.54
+read_container_num: 48630
+speed factor: 1.90
+read_recipe_time : 35.541s, 2600.48MB/s
+read_chunk_time : 19.374s, 4770.53MB/s
+write_chunk_time : 441.658s, 209.26MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 204800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7207397950
+deduplication ratio: 0.9256, 13.4462
+total time(s): 2955.059
+throughput(MB/s): 31.28
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 107789
+size of rewritten chunks: 283792438
+rewritten rate in size: 0.003
+rewrite_time : 33.134s, 2789.35MB/s
+read_time : 30.423s, 3037.90MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.889s, 2105.83MB/s
+filter_time : 2747.209s, 33.64MB/s
+write_time : 0.293s, 315332.06MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 48461
+speed factor: 1.91
+read_recipe_time : 32.755s, 2821.63MB/s
+read_chunk_time : 15.645s, 5907.68MB/s
+write_chunk_time : 62.854s, 1470.44MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 204800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7209618975
+deduplication ratio: 0.9256, 13.4421
+total time(s): 3020.059
+throughput(MB/s): 30.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 109542
+size of rewritten chunks: 286013463
+rewritten rate in size: 0.003
+rewrite_time : 34.227s, 2700.31MB/s
+read_time : 43.736s, 2113.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.123s, 2094.67MB/s
+filter_time : 2802.627s, 32.98MB/s
+write_time : 0.255s, 362796.93MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 115.002
+throughput(MB/s): 803.66
+read_container_num: 48677
+speed factor: 1.90
+read_recipe_time : 31.909s, 2896.43MB/s
+read_chunk_time : 16.304s, 5668.68MB/s
+write_chunk_time : 71.871s, 1285.96MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 204800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7208948603
+deduplication ratio: 0.9256, 13.4433
+total time(s): 3025.056
+throughput(MB/s): 30.55
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 108664
+size of rewritten chunks: 285343091
+rewritten rate in size: 0.003
+rewrite_time : 33.495s, 2759.27MB/s
+read_time : 34.410s, 2685.95MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.914s, 2104.64MB/s
+filter_time : 2822.371s, 32.75MB/s
+write_time : 0.289s, 320354.39MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 48648
+speed factor: 1.90
+read_recipe_time : 33.786s, 2735.57MB/s
+read_chunk_time : 16.484s, 5606.68MB/s
+write_chunk_time : 62.458s, 1479.76MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 286720
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7316973664
+deduplication ratio: 0.9245, 13.2449
+total time(s): 3015.057
+throughput(MB/s): 30.65
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 147542
+size of rewritten chunks: 393368152
+rewritten rate in size: 0.004
+rewrite_time : 33.623s, 2748.83MB/s
+read_time : 34.600s, 2671.21MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.177s, 2092.09MB/s
+filter_time : 2808.547s, 32.91MB/s
+write_time : 0.202s, 457378.26MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 47342
+speed factor: 1.95
+read_recipe_time : 27.810s, 3323.40MB/s
+read_chunk_time : 15.474s, 5972.80MB/s
+write_chunk_time : 63.498s, 1455.53MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 286720
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7315835975
+deduplication ratio: 0.9245, 13.2469
+total time(s): 3075.142
+throughput(MB/s): 30.05
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 146787
+size of rewritten chunks: 392230463
+rewritten rate in size: 0.004
+rewrite_time : 35.037s, 2637.86MB/s
+read_time : 62.980s, 1467.49MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.601s, 2072.23MB/s
+filter_time : 2838.474s, 32.56MB/s
+write_time : 0.443s, 208743.09MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 765.013
+throughput(MB/s): 120.81
+read_container_num: 46415
+speed factor: 1.99
+read_recipe_time : 47.533s, 1944.40MB/s
+read_chunk_time : 22.599s, 4089.76MB/s
+write_chunk_time : 719.911s, 128.38MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 286720
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7319775377
+deduplication ratio: 0.9245, 13.2398
+total time(s): 3245.061
+throughput(MB/s): 28.48
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 146649
+size of rewritten chunks: 396169865
+rewritten rate in size: 0.004
+rewrite_time : 35.861s, 2577.28MB/s
+read_time : 281.605s, 328.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.445s, 1907.78MB/s
+filter_time : 2775.873s, 33.30MB/s
+write_time : 3.639s, 25400.78MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 415.009
+throughput(MB/s): 222.70
+read_container_num: 46849
+speed factor: 1.97
+read_recipe_time : 133.619s, 691.69MB/s
+read_chunk_time : 19.459s, 4749.60MB/s
+write_chunk_time : 277.253s, 333.35MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 286720
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7317282086
+deduplication ratio: 0.9245, 13.2443
+total time(s): 3640.075
+throughput(MB/s): 25.39
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 142736
+size of rewritten chunks: 393676574
+rewritten rate in size: 0.004
+rewrite_time : 37.374s, 2472.94MB/s
+read_time : 539.376s, 171.35MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 55.736s, 1658.23MB/s
+filter_time : 2892.813s, 31.95MB/s
+write_time : 1.518s, 60877.98MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 200.004
+throughput(MB/s): 462.11
+read_container_num: 47390
+speed factor: 1.95
+read_recipe_time : 124.450s, 742.65MB/s
+read_chunk_time : 17.579s, 5257.52MB/s
+write_chunk_time : 67.308s, 1373.14MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 368640
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7426216352
+deduplication ratio: 0.9234, 13.0500
+total time(s): 3715.121
+throughput(MB/s): 24.88
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 182647
+size of rewritten chunks: 502610840
+rewritten rate in size: 0.005
+rewrite_time : 37.678s, 2452.98MB/s
+read_time : 645.413s, 143.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 52.657s, 1755.19MB/s
+filter_time : 2853.768s, 32.39MB/s
+write_time : 2.884s, 32045.20MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 260.005
+throughput(MB/s): 355.47
+read_container_num: 45920
+speed factor: 2.01
+read_recipe_time : 140.758s, 656.61MB/s
+read_chunk_time : 17.564s, 5262.02MB/s
+write_chunk_time : 112.513s, 821.44MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 368640
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7426015187
+deduplication ratio: 0.9234, 13.0504
+total time(s): 3755.079
+throughput(MB/s): 24.61
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 184646
+size of rewritten chunks: 502409675
+rewritten rate in size: 0.005
+rewrite_time : 38.170s, 2421.38MB/s
+read_time : 742.995s, 124.39MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 53.543s, 1726.13MB/s
+filter_time : 2791.091s, 33.11MB/s
+write_time : 0.702s, 131673.03MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 1215.022
+throughput(MB/s): 76.07
+read_container_num: 45526
+speed factor: 2.03
+read_recipe_time : 204.092s, 452.85MB/s
+read_chunk_time : 23.688s, 3901.70MB/s
+write_chunk_time : 1016.253s, 90.94MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 368640
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7427754372
+deduplication ratio: 0.9234, 13.0473
+total time(s): 3775.077
+throughput(MB/s): 24.48
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 181267
+size of rewritten chunks: 504148860
+rewritten rate in size: 0.005
+rewrite_time : 38.596s, 2394.60MB/s
+read_time : 774.215s, 119.38MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 55.996s, 1650.54MB/s
+filter_time : 2779.847s, 33.25MB/s
+write_time : 0.686s, 134656.76MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 265.005
+throughput(MB/s): 348.76
+read_container_num: 46214
+speed factor: 2.00
+read_recipe_time : 183.195s, 504.51MB/s
+read_chunk_time : 18.001s, 5134.39MB/s
+write_chunk_time : 73.668s, 1254.59MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 368640
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7427834585
+deduplication ratio: 0.9234, 13.0472
+total time(s): 3065.065
+throughput(MB/s): 30.15
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 183299
+size of rewritten chunks: 504229073
+rewritten rate in size: 0.005
+rewrite_time : 35.965s, 2569.83MB/s
+read_time : 187.995s, 491.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 48.033s, 1924.14MB/s
+filter_time : 2674.949s, 34.55MB/s
+write_time : 1.259s, 73437.99MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 45876
+speed factor: 2.01
+read_recipe_time : 27.058s, 3415.75MB/s
+read_chunk_time : 14.561s, 6347.43MB/s
+write_chunk_time : 64.197s, 1439.67MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 450560
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7534505013
+deduplication ratio: 0.9223, 12.8625
+total time(s): 2880.062
+throughput(MB/s): 32.09
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 216538
+size of rewritten chunks: 610899501
+rewritten rate in size: 0.006
+rewrite_time : 35.782s, 2582.92MB/s
+read_time : 34.411s, 2685.84MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.874s, 2014.70MB/s
+filter_time : 2654.611s, 34.82MB/s
+write_time : 0.214s, 432612.40MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 45014
+speed factor: 2.05
+read_recipe_time : 27.594s, 3349.40MB/s
+read_chunk_time : 14.953s, 6180.87MB/s
+write_chunk_time : 65.972s, 1400.94MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 450560
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7535405539
+deduplication ratio: 0.9222, 12.8609
+total time(s): 2850.059
+throughput(MB/s): 32.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 219301
+size of rewritten chunks: 611800027
+rewritten rate in size: 0.006
+rewrite_time : 34.453s, 2682.61MB/s
+read_time : 33.295s, 2775.87MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.145s, 2047.25MB/s
+filter_time : 2625.047s, 35.21MB/s
+write_time : 0.237s, 389662.51MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 45054
+speed factor: 2.05
+read_recipe_time : 27.259s, 3390.50MB/s
+read_chunk_time : 14.596s, 6331.98MB/s
+write_chunk_time : 64.746s, 1427.46MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 450560
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7537765069
+deduplication ratio: 0.9222, 12.8569
+total time(s): 2850.060
+throughput(MB/s): 32.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 220887
+size of rewritten chunks: 614159557
+rewritten rate in size: 0.006
+rewrite_time : 34.173s, 2704.56MB/s
+read_time : 33.774s, 2736.51MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.954s, 2055.93MB/s
+filter_time : 2625.326s, 35.20MB/s
+write_time : 0.281s, 329174.14MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 45332
+speed factor: 2.04
+read_recipe_time : 33.363s, 2770.18MB/s
+read_chunk_time : 14.536s, 6358.32MB/s
+write_chunk_time : 63.488s, 1455.75MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 450560
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7538456223
+deduplication ratio: 0.9222, 12.8557
+total time(s): 2860.058
+throughput(MB/s): 32.32
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 220008
+size of rewritten chunks: 614850711
+rewritten rate in size: 0.006
+rewrite_time : 33.568s, 2753.29MB/s
+read_time : 33.404s, 2766.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.142s, 2047.39MB/s
+filter_time : 2637.833s, 35.04MB/s
+write_time : 0.231s, 400419.74MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 110.002
+throughput(MB/s): 840.19
+read_container_num: 45338
+speed factor: 2.04
+read_recipe_time : 35.753s, 2585.01MB/s
+read_chunk_time : 14.286s, 6469.66MB/s
+write_chunk_time : 63.772s, 1449.26MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 532480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7644201784
+deduplication ratio: 0.9211, 12.6779
+total time(s): 2875.058
+throughput(MB/s): 32.15
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 255353
+size of rewritten chunks: 720596272
+rewritten rate in size: 0.007
+rewrite_time : 34.618s, 2669.79MB/s
+read_time : 42.139s, 2193.29MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.665s, 2069.22MB/s
+filter_time : 2644.080s, 34.95MB/s
+write_time : 0.245s, 377126.96MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 205.003
+throughput(MB/s): 450.84
+read_container_num: 44449
+speed factor: 2.08
+read_recipe_time : 31.987s, 2889.40MB/s
+read_chunk_time : 15.566s, 5937.47MB/s
+write_chunk_time : 165.190s, 559.49MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 532480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7644426109
+deduplication ratio: 0.9211, 12.6775
+total time(s): 2845.056
+throughput(MB/s): 32.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 258327
+size of rewritten chunks: 720820597
+rewritten rate in size: 0.007
+rewrite_time : 34.204s, 2702.09MB/s
+read_time : 33.540s, 2755.60MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.780s, 2063.92MB/s
+filter_time : 2620.165s, 35.27MB/s
+write_time : 0.244s, 379030.85MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 730.012
+throughput(MB/s): 126.60
+read_container_num: 44356
+speed factor: 2.08
+read_recipe_time : 49.753s, 1857.64MB/s
+read_chunk_time : 19.933s, 4636.63MB/s
+write_chunk_time : 678.111s, 136.29MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 532480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7647079896
+deduplication ratio: 0.9211, 12.6731
+total time(s): 2905.057
+throughput(MB/s): 31.81
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 251231
+size of rewritten chunks: 723474384
+rewritten rate in size: 0.007
+rewrite_time : 33.334s, 2772.67MB/s
+read_time : 42.821s, 2158.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.471s, 2032.55MB/s
+filter_time : 2673.702s, 34.57MB/s
+write_time : 2.653s, 34837.65MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 190.003
+throughput(MB/s): 486.43
+read_container_num: 44577
+speed factor: 2.07
+read_recipe_time : 102.136s, 904.90MB/s
+read_chunk_time : 15.889s, 5816.71MB/s
+write_chunk_time : 78.459s, 1177.98MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 532480
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7643708008
+deduplication ratio: 0.9211, 12.6787
+total time(s): 2990.057
+throughput(MB/s): 30.91
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 250131
+size of rewritten chunks: 720102496
+rewritten rate in size: 0.007
+rewrite_time : 33.644s, 2747.06MB/s
+read_time : 67.795s, 1363.27MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.341s, 2038.41MB/s
+filter_time : 2734.869s, 33.79MB/s
+write_time : 0.757s, 122120.35MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 205.004
+throughput(MB/s): 450.84
+read_container_num: 44892
+speed factor: 2.06
+read_recipe_time : 100.580s, 918.90MB/s
+read_chunk_time : 17.296s, 5343.66MB/s
+write_chunk_time : 96.343s, 959.31MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 614400
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7755694795
+deduplication ratio: 0.9200, 12.4956
+total time(s): 2965.089
+throughput(MB/s): 31.17
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 295082
+size of rewritten chunks: 832089283
+rewritten rate in size: 0.009
+rewrite_time : 33.548s, 2754.95MB/s
+read_time : 80.496s, 1148.17MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.262s, 2136.35MB/s
+filter_time : 2698.275s, 34.25MB/s
+write_time : 0.270s, 342369.10MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 110.002
+throughput(MB/s): 840.19
+read_container_num: 43616
+speed factor: 2.12
+read_recipe_time : 39.079s, 2365.00MB/s
+read_chunk_time : 14.089s, 6559.79MB/s
+write_chunk_time : 63.383s, 1458.17MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 614400
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7755859737
+deduplication ratio: 0.9200, 12.4954
+total time(s): 2910.054
+throughput(MB/s): 31.76
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 292694
+size of rewritten chunks: 832254225
+rewritten rate in size: 0.009
+rewrite_time : 33.260s, 2778.79MB/s
+read_time : 45.951s, 2011.32MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.462s, 2176.62MB/s
+filter_time : 2683.257s, 34.44MB/s
+write_time : 0.258s, 358485.28MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 43748
+speed factor: 2.11
+read_recipe_time : 31.481s, 2935.85MB/s
+read_chunk_time : 14.037s, 6584.37MB/s
+write_chunk_time : 62.534s, 1477.95MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 614400
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7755958584
+deduplication ratio: 0.9200, 12.4952
+total time(s): 2825.056
+throughput(MB/s): 32.72
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 290424
+size of rewritten chunks: 832353072
+rewritten rate in size: 0.009
+rewrite_time : 33.638s, 2747.56MB/s
+read_time : 43.221s, 2138.38MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.014s, 2099.84MB/s
+filter_time : 2593.808s, 35.63MB/s
+write_time : 0.257s, 360314.70MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 44215
+speed factor: 2.09
+read_recipe_time : 34.440s, 2683.63MB/s
+read_chunk_time : 13.749s, 6722.34MB/s
+write_chunk_time : 62.912s, 1469.07MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 614400
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7754231167
+deduplication ratio: 0.9200, 12.4980
+total time(s): 2785.470
+throughput(MB/s): 33.18
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 292269
+size of rewritten chunks: 830625655
+rewritten rate in size: 0.009
+rewrite_time : 34.086s, 2711.47MB/s
+read_time : 32.695s, 2826.78MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.285s, 2087.01MB/s
+filter_time : 2562.076s, 36.07MB/s
+write_time : 0.305s, 303468.61MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 44264
+speed factor: 2.09
+read_recipe_time : 33.599s, 2750.75MB/s
+read_chunk_time : 14.022s, 6591.50MB/s
+write_chunk_time : 62.022s, 1490.15MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 618496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7762102288
+deduplication ratio: 0.9199, 12.4853
+total time(s): 2795.058
+throughput(MB/s): 33.07
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 292915
+size of rewritten chunks: 838496776
+rewritten rate in size: 0.009
+rewrite_time : 33.916s, 2725.02MB/s
+read_time : 32.863s, 2812.34MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.319s, 2085.39MB/s
+filter_time : 2570.131s, 35.96MB/s
+write_time : 0.235s, 393689.25MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 43760
+speed factor: 2.11
+read_recipe_time : 29.631s, 3119.09MB/s
+read_chunk_time : 13.480s, 6856.24MB/s
+write_chunk_time : 62.656s, 1475.09MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 618496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7761178214
+deduplication ratio: 0.9199, 12.4868
+total time(s): 2915.092
+throughput(MB/s): 31.70
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 293130
+size of rewritten chunks: 837572702
+rewritten rate in size: 0.009
+rewrite_time : 34.363s, 2689.60MB/s
+read_time : 50.869s, 1816.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.292s, 2040.59MB/s
+filter_time : 2672.443s, 34.58MB/s
+write_time : 0.301s, 307453.17MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 570.010
+throughput(MB/s): 162.14
+read_container_num: 44338
+speed factor: 2.08
+read_recipe_time : 45.938s, 2011.91MB/s
+read_chunk_time : 19.813s, 4664.79MB/s
+write_chunk_time : 521.226s, 177.32MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 618496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 7759145829
+deduplication ratio: 0.9199, 12.4901
+total time(s): 2940.179
+throughput(MB/s): 31.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 291156
+size of rewritten chunks: 835540317
+rewritten rate in size: 0.009
+rewrite_time : 35.263s, 2620.92MB/s
+read_time : 60.097s, 1537.89MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 50.229s, 1840.02MB/s
+filter_time : 2687.818s, 34.39MB/s
+write_time : 0.346s, 266762.73MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 640.011
+throughput(MB/s): 144.41
+read_container_num: 44189
+speed factor: 2.09
+read_recipe_time : 54.437s, 1697.80MB/s
+read_chunk_time : 19.795s, 4668.99MB/s
+write_chunk_time : 583.887s, 158.29MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 823296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8037912347
+deduplication ratio: 0.9171, 12.0569
+total time(s): 2940.058
+throughput(MB/s): 31.44
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 383821
+size of rewritten chunks: 1114306835
+rewritten rate in size: 0.011
+rewrite_time : 34.626s, 2669.14MB/s
+read_time : 64.978s, 1422.37MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.512s, 2076.34MB/s
+filter_time : 2685.861s, 34.41MB/s
+write_time : 0.237s, 390368.57MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 120.002
+throughput(MB/s): 770.18
+read_container_num: 42489
+speed factor: 2.18
+read_recipe_time : 46.231s, 1999.14MB/s
+read_chunk_time : 14.481s, 6382.43MB/s
+write_chunk_time : 64.339s, 1436.49MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 823296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8036358647
+deduplication ratio: 0.9171, 12.0592
+total time(s): 2935.056
+throughput(MB/s): 31.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 388990
+size of rewritten chunks: 1112753135
+rewritten rate in size: 0.011
+rewrite_time : 34.425s, 2684.77MB/s
+read_time : 70.999s, 1301.74MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.749s, 2065.38MB/s
+filter_time : 2677.648s, 34.52MB/s
+write_time : 0.392s, 235669.85MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 490.008
+throughput(MB/s): 188.61
+read_container_num: 42344
+speed factor: 2.18
+read_recipe_time : 39.445s, 2343.09MB/s
+read_chunk_time : 18.163s, 5088.39MB/s
+write_chunk_time : 448.911s, 205.88MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 823296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8037282401
+deduplication ratio: 0.9171, 12.0579
+total time(s): 2910.125
+throughput(MB/s): 31.76
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 386630
+size of rewritten chunks: 1113676889
+rewritten rate in size: 0.011
+rewrite_time : 34.615s, 2670.06MB/s
+read_time : 54.540s, 1694.58MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.426s, 2080.37MB/s
+filter_time : 2669.082s, 34.63MB/s
+write_time : 0.443s, 208485.52MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 515.009
+throughput(MB/s): 179.46
+read_container_num: 42762
+speed factor: 2.16
+read_recipe_time : 51.402s, 1798.05MB/s
+read_chunk_time : 18.874s, 4896.92MB/s
+write_chunk_time : 460.668s, 200.63MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 823296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8038623318
+deduplication ratio: 0.9171, 12.0558
+total time(s): 2925.059
+throughput(MB/s): 31.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 383496
+size of rewritten chunks: 1115017806
+rewritten rate in size: 0.012
+rewrite_time : 34.647s, 2667.57MB/s
+read_time : 64.328s, 1436.75MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.196s, 2091.19MB/s
+filter_time : 2674.100s, 34.56MB/s
+write_time : 0.586s, 157671.14MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 43242
+speed factor: 2.14
+read_recipe_time : 29.503s, 3132.71MB/s
+read_chunk_time : 13.763s, 6715.23MB/s
+write_chunk_time : 62.281s, 1483.97MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 1028096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8313171310
+deduplication ratio: 0.9142, 11.6577
+total time(s): 2925.058
+throughput(MB/s): 31.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 474526
+size of rewritten chunks: 1389565798
+rewritten rate in size: 0.014
+rewrite_time : 35.000s, 2640.67MB/s
+read_time : 52.154s, 1772.12MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.123s, 2094.66MB/s
+filter_time : 2683.924s, 34.44MB/s
+write_time : 0.282s, 328115.37MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 380.005
+throughput(MB/s): 243.21
+read_container_num: 41657
+speed factor: 2.22
+read_recipe_time : 37.457s, 2467.47MB/s
+read_chunk_time : 17.185s, 5377.96MB/s
+write_chunk_time : 337.353s, 273.96MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 1028096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8312038683
+deduplication ratio: 0.9142, 11.6593
+total time(s): 2820.061
+throughput(MB/s): 32.77
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 481524
+size of rewritten chunks: 1388433171
+rewritten rate in size: 0.014
+rewrite_time : 34.598s, 2671.31MB/s
+read_time : 42.666s, 2166.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.153s, 2002.53MB/s
+filter_time : 2584.337s, 35.76MB/s
+write_time : 0.262s, 352553.21MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 41889
+speed factor: 2.21
+read_recipe_time : 26.098s, 3541.41MB/s
+read_chunk_time : 13.143s, 7032.12MB/s
+write_chunk_time : 61.617s, 1499.96MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 1028096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8313896966
+deduplication ratio: 0.9142, 11.6567
+total time(s): 2760.055
+throughput(MB/s): 33.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 475405
+size of rewritten chunks: 1390291454
+rewritten rate in size: 0.014
+rewrite_time : 34.330s, 2692.19MB/s
+read_time : 38.855s, 2378.63MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.610s, 2071.81MB/s
+filter_time : 2528.884s, 36.55MB/s
+write_time : 0.308s, 300158.10MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 42621
+speed factor: 2.17
+read_recipe_time : 25.740s, 3590.64MB/s
+read_chunk_time : 12.922s, 7152.58MB/s
+write_chunk_time : 62.697s, 1474.13MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 1028096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8313870126
+deduplication ratio: 0.9142, 11.6567
+total time(s): 2685.060
+throughput(MB/s): 34.42
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 475695
+size of rewritten chunks: 1390264614
+rewritten rate in size: 0.014
+rewrite_time : 35.154s, 2629.12MB/s
+read_time : 34.294s, 2695.00MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.121s, 2048.32MB/s
+filter_time : 2453.265s, 37.67MB/s
+write_time : 0.341s, 270702.22MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 42591
+speed factor: 2.17
+read_recipe_time : 26.756s, 3454.31MB/s
+read_chunk_time : 13.559s, 6816.12MB/s
+write_chunk_time : 62.859s, 1470.32MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 1232896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8589850035
+deduplication ratio: 0.9114, 11.2822
+total time(s): 2735.059
+throughput(MB/s): 33.79
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 567269
+size of rewritten chunks: 1666244523
+rewritten rate in size: 0.017
+rewrite_time : 34.809s, 2655.16MB/s
+read_time : 32.890s, 2810.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.704s, 2067.45MB/s
+filter_time : 2510.375s, 36.82MB/s
+write_time : 0.302s, 305549.38MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 40852
+speed factor: 2.26
+read_recipe_time : 30.828s, 2998.02MB/s
+read_chunk_time : 12.912s, 7157.91MB/s
+write_chunk_time : 62.335s, 1482.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 1232896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8586673274
+deduplication ratio: 0.9114, 11.2864
+total time(s): 2695.054
+throughput(MB/s): 34.29
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 564342
+size of rewritten chunks: 1663067762
+rewritten rate in size: 0.017
+rewrite_time : 33.599s, 2750.77MB/s
+read_time : 39.527s, 2338.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.081s, 2096.64MB/s
+filter_time : 2463.161s, 37.52MB/s
+write_time : 0.246s, 375924.35MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 41332
+speed factor: 2.24
+read_recipe_time : 30.639s, 3016.54MB/s
+read_chunk_time : 12.798s, 7221.87MB/s
+write_chunk_time : 60.934s, 1516.77MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 1232896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8584554417
+deduplication ratio: 0.9114, 11.2892
+total time(s): 2710.051
+throughput(MB/s): 34.10
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 557210
+size of rewritten chunks: 1660948905
+rewritten rate in size: 0.017
+rewrite_time : 33.839s, 2731.27MB/s
+read_time : 35.752s, 2585.10MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.271s, 2087.66MB/s
+filter_time : 2481.442s, 37.25MB/s
+write_time : 0.273s, 338330.95MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 41721
+speed factor: 2.22
+read_recipe_time : 26.600s, 3474.60MB/s
+read_chunk_time : 12.799s, 7221.32MB/s
+write_chunk_time : 61.482s, 1503.25MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 1232896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8581766466
+deduplication ratio: 0.9114, 11.2928
+total time(s): 2730.055
+throughput(MB/s): 33.85
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 559404
+size of rewritten chunks: 1658160954
+rewritten rate in size: 0.017
+rewrite_time : 33.253s, 2779.38MB/s
+read_time : 32.930s, 2806.64MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.199s, 2091.05MB/s
+filter_time : 2504.787s, 36.90MB/s
+write_time : 0.311s, 297147.20MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 445.008
+throughput(MB/s): 207.69
+read_container_num: 41773
+speed factor: 2.21
+read_recipe_time : 38.595s, 2394.70MB/s
+read_chunk_time : 18.126s, 5098.97MB/s
+write_chunk_time : 403.316s, 229.16MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 1437696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8859974420
+deduplication ratio: 0.9086, 10.9382
+total time(s): 2705.056
+throughput(MB/s): 34.17
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 646349
+size of rewritten chunks: 1936368908
+rewritten rate in size: 0.020
+rewrite_time : 34.196s, 2702.75MB/s
+read_time : 33.029s, 2798.24MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.148s, 2093.47MB/s
+filter_time : 2477.610s, 37.30MB/s
+write_time : 0.350s, 263808.35MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 40153
+speed factor: 2.30
+read_recipe_time : 27.554s, 3354.22MB/s
+read_chunk_time : 12.564s, 7355.95MB/s
+write_chunk_time : 62.399s, 1481.15MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 1437696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8860240251
+deduplication ratio: 0.9086, 10.9379
+total time(s): 2600.058
+throughput(MB/s): 35.55
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 656683
+size of rewritten chunks: 1936634739
+rewritten rate in size: 0.020
+rewrite_time : 34.450s, 2682.82MB/s
+read_time : 34.580s, 2672.76MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.496s, 2077.10MB/s
+filter_time : 2365.659s, 39.07MB/s
+write_time : 0.315s, 293179.81MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 39833
+speed factor: 2.32
+read_recipe_time : 25.721s, 3593.31MB/s
+read_chunk_time : 11.836s, 7808.82MB/s
+write_chunk_time : 61.556s, 1501.45MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 1437696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8859045198
+deduplication ratio: 0.9086, 10.9394
+total time(s): 2590.057
+throughput(MB/s): 35.68
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 656449
+size of rewritten chunks: 1935439686
+rewritten rate in size: 0.020
+rewrite_time : 33.100s, 2792.24MB/s
+read_time : 33.161s, 2787.09MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.377s, 2130.69MB/s
+filter_time : 2361.518s, 39.14MB/s
+write_time : 0.329s, 281236.04MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 40272
+speed factor: 2.29
+read_recipe_time : 25.879s, 3571.37MB/s
+read_chunk_time : 11.932s, 7745.82MB/s
+write_chunk_time : 60.500s, 1527.64MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 1437696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 8857115137
+deduplication ratio: 0.9086, 10.9418
+total time(s): 2615.057
+throughput(MB/s): 35.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 655315
+size of rewritten chunks: 1933509625
+rewritten rate in size: 0.020
+rewrite_time : 35.368s, 2613.19MB/s
+read_time : 33.614s, 2749.57MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.733s, 2066.12MB/s
+filter_time : 2385.090s, 38.75MB/s
+write_time : 0.311s, 297090.84MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 40310
+speed factor: 2.29
+read_recipe_time : 25.907s, 3567.47MB/s
+read_chunk_time : 11.937s, 7742.77MB/s
+write_chunk_time : 61.705s, 1497.81MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 1642496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9133134696
+deduplication ratio: 0.9058, 10.6111
+total time(s): 2620.059
+throughput(MB/s): 35.28
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 731377
+size of rewritten chunks: 2209529184
+rewritten rate in size: 0.023
+rewrite_time : 33.792s, 2735.01MB/s
+read_time : 34.603s, 2670.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.618s, 2071.42MB/s
+filter_time : 2385.782s, 38.74MB/s
+write_time : 0.276s, 334362.76MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 39586
+speed factor: 2.33
+read_recipe_time : 28.755s, 3214.20MB/s
+read_chunk_time : 12.011s, 7694.70MB/s
+write_chunk_time : 61.496s, 1502.91MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 1642496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9138439587
+deduplication ratio: 0.9057, 10.6049
+total time(s): 2630.057
+throughput(MB/s): 35.14
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 739826
+size of rewritten chunks: 2214834075
+rewritten rate in size: 0.023
+rewrite_time : 35.137s, 2630.32MB/s
+read_time : 35.066s, 2635.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.777s, 2018.99MB/s
+filter_time : 2389.968s, 38.67MB/s
+write_time : 0.377s, 244869.69MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 39667
+speed factor: 2.33
+read_recipe_time : 30.626s, 3017.84MB/s
+read_chunk_time : 12.243s, 7548.87MB/s
+write_chunk_time : 61.042s, 1514.09MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 1642496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9133225384
+deduplication ratio: 0.9058, 10.6110
+total time(s): 2610.042
+throughput(MB/s): 35.41
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 736605
+size of rewritten chunks: 2209619872
+rewritten rate in size: 0.023
+rewrite_time : 34.258s, 2697.85MB/s
+read_time : 35.540s, 2600.55MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.701s, 2067.56MB/s
+filter_time : 2376.833s, 38.88MB/s
+write_time : 0.364s, 253815.58MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 100.002
+throughput(MB/s): 924.21
+read_container_num: 40176
+speed factor: 2.30
+read_recipe_time : 30.595s, 3020.84MB/s
+read_chunk_time : 12.299s, 7514.38MB/s
+write_chunk_time : 61.346s, 1506.60MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 1642496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9133224071
+deduplication ratio: 0.9058, 10.6110
+total time(s): 2600.057
+throughput(MB/s): 35.55
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 736604
+size of rewritten chunks: 2209618559
+rewritten rate in size: 0.023
+rewrite_time : 34.189s, 2703.30MB/s
+read_time : 34.151s, 2706.33MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.521s, 2075.96MB/s
+filter_time : 2368.706s, 39.02MB/s
+write_time : 0.354s, 260948.16MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 40176
+speed factor: 2.30
+read_recipe_time : 25.985s, 3556.79MB/s
+read_chunk_time : 11.979s, 7715.33MB/s
+write_chunk_time : 61.483s, 1503.23MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 1847296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9413326861
+deduplication ratio: 0.9029, 10.2952
+total time(s): 2550.056
+throughput(MB/s): 36.24
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 823245
+size of rewritten chunks: 2489721349
+rewritten rate in size: 0.026
+rewrite_time : 34.006s, 2717.88MB/s
+read_time : 35.129s, 2630.99MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.944s, 2103.18MB/s
+filter_time : 2315.369s, 39.92MB/s
+write_time : 0.337s, 274560.65MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 38894
+speed factor: 2.38
+read_recipe_time : 24.634s, 3751.83MB/s
+read_chunk_time : 11.228s, 8231.46MB/s
+write_chunk_time : 60.929s, 1516.90MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 1847296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9413259856
+deduplication ratio: 0.9029, 10.2953
+total time(s): 2490.052
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 816823
+size of rewritten chunks: 2489654344
+rewritten rate in size: 0.026
+rewrite_time : 33.323s, 2773.56MB/s
+read_time : 35.232s, 2623.27MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.877s, 2106.41MB/s
+filter_time : 2253.837s, 41.01MB/s
+write_time : 0.268s, 344242.38MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 39416
+speed factor: 2.34
+read_recipe_time : 24.816s, 3724.32MB/s
+read_chunk_time : 11.233s, 8227.47MB/s
+write_chunk_time : 60.001s, 1540.36MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 1847296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9407621363
+deduplication ratio: 0.9029, 10.3015
+total time(s): 2495.054
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 811013
+size of rewritten chunks: 2484015851
+rewritten rate in size: 0.026
+rewrite_time : 33.665s, 2745.36MB/s
+read_time : 34.477s, 2680.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.857s, 2107.37MB/s
+filter_time : 2261.877s, 40.86MB/s
+write_time : 0.339s, 273026.90MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 40148
+speed factor: 2.30
+read_recipe_time : 24.731s, 3737.18MB/s
+read_chunk_time : 11.512s, 8028.43MB/s
+write_chunk_time : 60.159s, 1536.31MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 1847296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9407621363
+deduplication ratio: 0.9029, 10.3015
+total time(s): 2490.055
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 811013
+size of rewritten chunks: 2484015851
+rewritten rate in size: 0.026
+rewrite_time : 34.697s, 2663.70MB/s
+read_time : 35.068s, 2635.50MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.595s, 2072.51MB/s
+filter_time : 2252.262s, 41.04MB/s
+write_time : 0.297s, 311306.60MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 40148
+speed factor: 2.30
+read_recipe_time : 25.185s, 3669.78MB/s
+read_chunk_time : 11.336s, 8153.06MB/s
+write_chunk_time : 60.941s, 1516.60MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 2052096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9686749994
+deduplication ratio: 0.9000, 10.0046
+total time(s): 2480.055
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 917577
+size of rewritten chunks: 2763144482
+rewritten rate in size: 0.029
+rewrite_time : 34.139s, 2707.25MB/s
+read_time : 35.235s, 2623.02MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.199s, 2091.07MB/s
+filter_time : 2243.116s, 41.20MB/s
+write_time : 0.445s, 207777.31MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38444
+speed factor: 2.40
+read_recipe_time : 24.621s, 3753.81MB/s
+read_chunk_time : 10.922s, 8461.89MB/s
+write_chunk_time : 60.177s, 1535.84MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 2052096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9674733538
+deduplication ratio: 0.9002, 10.0171
+total time(s): 2490.040
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 901124
+size of rewritten chunks: 2751128026
+rewritten rate in size: 0.028
+rewrite_time : 34.160s, 2705.60MB/s
+read_time : 35.248s, 2622.07MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.541s, 2075.02MB/s
+filter_time : 2252.991s, 41.02MB/s
+write_time : 0.337s, 274475.85MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38369
+speed factor: 2.41
+read_recipe_time : 25.456s, 3630.72MB/s
+read_chunk_time : 11.226s, 8232.93MB/s
+write_chunk_time : 60.496s, 1527.75MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 2052096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9673699425
+deduplication ratio: 0.9002, 10.0181
+total time(s): 2480.042
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 899448
+size of rewritten chunks: 2750093913
+rewritten rate in size: 0.028
+rewrite_time : 34.396s, 2687.05MB/s
+read_time : 34.658s, 2666.71MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.064s, 2097.49MB/s
+filter_time : 2246.677s, 41.14MB/s
+write_time : 0.318s, 290960.06MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 38933
+speed factor: 2.37
+read_recipe_time : 23.867s, 3872.36MB/s
+read_chunk_time : 11.197s, 8254.45MB/s
+write_chunk_time : 59.601s, 1550.70MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 2052096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9671665903
+deduplication ratio: 0.9002, 10.0202
+total time(s): 2495.055
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 897705
+size of rewritten chunks: 2748060391
+rewritten rate in size: 0.028
+rewrite_time : 33.645s, 2746.98MB/s
+read_time : 34.583s, 2672.49MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.406s, 2081.32MB/s
+filter_time : 2260.284s, 40.89MB/s
+write_time : 0.374s, 247301.84MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 39082
+speed factor: 2.36
+read_recipe_time : 24.536s, 3766.83MB/s
+read_chunk_time : 11.069s, 8349.39MB/s
+write_chunk_time : 59.072s, 1564.58MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 2256896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9962354451
+deduplication ratio: 0.8972, 9.7279
+total time(s): 2500.054
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 989957
+size of rewritten chunks: 3038748939
+rewritten rate in size: 0.031
+rewrite_time : 33.746s, 2738.81MB/s
+read_time : 33.921s, 2724.66MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.187s, 2091.64MB/s
+filter_time : 2266.878s, 40.77MB/s
+write_time : 0.356s, 259463.97MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 38125
+speed factor: 2.42
+read_recipe_time : 24.951s, 3704.10MB/s
+read_chunk_time : 11.089s, 8334.81MB/s
+write_chunk_time : 60.145s, 1536.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 2256896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9952960534
+deduplication ratio: 0.8973, 9.7370
+total time(s): 2505.051
+throughput(MB/s): 36.89
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1003117
+size of rewritten chunks: 3029355022
+rewritten rate in size: 0.031
+rewrite_time : 33.952s, 2722.15MB/s
+read_time : 32.932s, 2806.51MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.633s, 2118.21MB/s
+filter_time : 2273.504s, 40.65MB/s
+write_time : 0.337s, 274045.32MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 38140
+speed factor: 2.42
+read_recipe_time : 24.290s, 3805.03MB/s
+read_chunk_time : 11.219s, 8237.70MB/s
+write_chunk_time : 59.898s, 1543.00MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 2256896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9951369524
+deduplication ratio: 0.8973, 9.7386
+total time(s): 2485.055
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1005079
+size of rewritten chunks: 3027764012
+rewritten rate in size: 0.031
+rewrite_time : 33.666s, 2745.30MB/s
+read_time : 34.811s, 2655.02MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.895s, 2154.61MB/s
+filter_time : 2255.309s, 40.98MB/s
+write_time : 0.339s, 272806.89MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38594
+speed factor: 2.39
+read_recipe_time : 24.494s, 3773.26MB/s
+read_chunk_time : 11.117s, 8313.65MB/s
+write_chunk_time : 59.352s, 1557.19MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 2256896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 9951370837
+deduplication ratio: 0.8973, 9.7386
+total time(s): 2500.054
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1005080
+size of rewritten chunks: 3027765325
+rewritten rate in size: 0.031
+rewrite_time : 35.322s, 2616.55MB/s
+read_time : 34.534s, 2676.30MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.742s, 2065.71MB/s
+filter_time : 2266.560s, 40.78MB/s
+write_time : 0.374s, 247072.44MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38594
+speed factor: 2.39
+read_recipe_time : 24.540s, 3766.19MB/s
+read_chunk_time : 11.316s, 8167.63MB/s
+write_chunk_time : 59.961s, 1541.39MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 2461696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10233962654
+deduplication ratio: 0.8944, 9.4697
+total time(s): 2500.056
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1092824
+size of rewritten chunks: 3310357142
+rewritten rate in size: 0.034
+rewrite_time : 33.673s, 2744.68MB/s
+read_time : 34.341s, 2691.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.263s, 2088.05MB/s
+filter_time : 2263.808s, 40.83MB/s
+write_time : 0.320s, 288766.46MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37529
+speed factor: 2.46
+read_recipe_time : 24.390s, 3789.30MB/s
+read_chunk_time : 10.962s, 8431.33MB/s
+write_chunk_time : 59.442s, 1554.85MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 2461696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10233233377
+deduplication ratio: 0.8944, 9.4704
+total time(s): 2475.043
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1082235
+size of rewritten chunks: 3309627865
+rewritten rate in size: 0.034
+rewrite_time : 34.670s, 2665.77MB/s
+read_time : 35.447s, 2607.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.387s, 2082.22MB/s
+filter_time : 2232.972s, 41.39MB/s
+write_time : 0.351s, 263617.23MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37727
+speed factor: 2.45
+read_recipe_time : 24.362s, 3793.74MB/s
+read_chunk_time : 10.949s, 8441.00MB/s
+write_chunk_time : 60.205s, 1535.14MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 2461696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10232951607
+deduplication ratio: 0.8944, 9.4706
+total time(s): 2475.055
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1087733
+size of rewritten chunks: 3309346095
+rewritten rate in size: 0.034
+rewrite_time : 32.937s, 2806.06MB/s
+read_time : 34.280s, 2696.10MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.066s, 2097.38MB/s
+filter_time : 2240.242s, 41.26MB/s
+write_time : 0.370s, 250008.47MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 37946
+speed factor: 2.44
+read_recipe_time : 25.026s, 3693.06MB/s
+read_chunk_time : 11.071s, 8348.42MB/s
+write_chunk_time : 60.629s, 1524.39MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 2461696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10227036318
+deduplication ratio: 0.8945, 9.4761
+total time(s): 2480.049
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1082964
+size of rewritten chunks: 3303430806
+rewritten rate in size: 0.034
+rewrite_time : 34.560s, 2674.26MB/s
+read_time : 35.948s, 2571.01MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.789s, 2110.65MB/s
+filter_time : 2242.322s, 41.22MB/s
+write_time : 0.370s, 249970.60MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38066
+speed factor: 2.43
+read_recipe_time : 24.778s, 3729.98MB/s
+read_chunk_time : 10.813s, 8547.51MB/s
+write_chunk_time : 60.104s, 1537.73MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 2666496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10521779049
+deduplication ratio: 0.8914, 9.2106
+total time(s): 2480.038
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1177577
+size of rewritten chunks: 3598173537
+rewritten rate in size: 0.037
+rewrite_time : 34.354s, 2690.29MB/s
+read_time : 35.208s, 2625.08MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.483s, 2077.71MB/s
+filter_time : 2238.891s, 41.28MB/s
+write_time : 0.344s, 268740.70MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37510
+speed factor: 2.46
+read_recipe_time : 24.824s, 3723.11MB/s
+read_chunk_time : 10.770s, 8581.36MB/s
+write_chunk_time : 60.290s, 1532.97MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 2666496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10511296289
+deduplication ratio: 0.8915, 9.2198
+total time(s): 2480.067
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1174652
+size of rewritten chunks: 3587690777
+rewritten rate in size: 0.037
+rewrite_time : 33.709s, 2741.77MB/s
+read_time : 34.222s, 2700.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.233s, 2089.43MB/s
+filter_time : 2244.909s, 41.17MB/s
+write_time : 0.332s, 278336.06MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 37763
+speed factor: 2.45
+read_recipe_time : 23.779s, 3886.67MB/s
+read_chunk_time : 11.100s, 8326.64MB/s
+write_chunk_time : 59.295s, 1558.69MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 2666496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10502869303
+deduplication ratio: 0.8916, 9.2272
+total time(s): 2490.056
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1172747
+size of rewritten chunks: 3579263791
+rewritten rate in size: 0.037
+rewrite_time : 34.270s, 2696.88MB/s
+read_time : 36.060s, 2563.03MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.451s, 2079.19MB/s
+filter_time : 2246.402s, 41.14MB/s
+write_time : 0.429s, 215441.47MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38173
+speed factor: 2.42
+read_recipe_time : 24.022s, 3847.41MB/s
+read_chunk_time : 11.001s, 8401.36MB/s
+write_chunk_time : 59.955s, 1541.55MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 2666496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10508088686
+deduplication ratio: 0.8916, 9.2226
+total time(s): 2480.054
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1171475
+size of rewritten chunks: 3584483174
+rewritten rate in size: 0.037
+rewrite_time : 33.744s, 2738.94MB/s
+read_time : 35.493s, 2604.01MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.009s, 2100.08MB/s
+filter_time : 2244.149s, 41.18MB/s
+write_time : 0.398s, 232156.46MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 38127
+speed factor: 2.42
+read_recipe_time : 25.726s, 3592.59MB/s
+read_chunk_time : 11.095s, 8330.23MB/s
+write_chunk_time : 61.839s, 1494.57MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 2871296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10787275675
+deduplication ratio: 0.8887, 8.9840
+total time(s): 2495.052
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1262167
+size of rewritten chunks: 3863670163
+rewritten rate in size: 0.040
+rewrite_time : 33.939s, 2723.19MB/s
+read_time : 34.841s, 2652.70MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.758s, 2112.12MB/s
+filter_time : 2261.437s, 40.87MB/s
+write_time : 0.336s, 275313.10MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 36888
+speed factor: 2.51
+read_recipe_time : 23.923s, 3863.31MB/s
+read_chunk_time : 10.731s, 8612.46MB/s
+write_chunk_time : 59.822s, 1544.96MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 2871296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10787280879
+deduplication ratio: 0.8887, 8.9840
+total time(s): 2495.055
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1251550
+size of rewritten chunks: 3863675367
+rewritten rate in size: 0.040
+rewrite_time : 33.927s, 2724.16MB/s
+read_time : 35.296s, 2618.49MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.676s, 2068.73MB/s
+filter_time : 2253.835s, 41.01MB/s
+write_time : 0.473s, 195342.70MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 37106
+speed factor: 2.49
+read_recipe_time : 24.767s, 3731.62MB/s
+read_chunk_time : 10.846s, 8521.66MB/s
+write_chunk_time : 60.280s, 1533.22MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 2871296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10775479890
+deduplication ratio: 0.8888, 8.9938
+total time(s): 2490.041
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1251264
+size of rewritten chunks: 3851874378
+rewritten rate in size: 0.040
+rewrite_time : 34.090s, 2711.13MB/s
+read_time : 34.649s, 2667.41MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.075s, 2096.92MB/s
+filter_time : 2252.326s, 41.03MB/s
+write_time : 0.393s, 234907.93MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37375
+speed factor: 2.47
+read_recipe_time : 24.639s, 3751.06MB/s
+read_chunk_time : 10.809s, 8550.35MB/s
+write_chunk_time : 59.729s, 1547.37MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 2871296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 10775479890
+deduplication ratio: 0.8888, 8.9938
+total time(s): 2490.054
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1251264
+size of rewritten chunks: 3851874378
+rewritten rate in size: 0.040
+rewrite_time : 33.369s, 2769.75MB/s
+read_time : 34.242s, 2699.13MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.110s, 2095.26MB/s
+filter_time : 2254.381s, 41.00MB/s
+write_time : 0.344s, 268387.18MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 37375
+speed factor: 2.47
+read_recipe_time : 24.027s, 3846.57MB/s
+read_chunk_time : 10.999s, 8403.13MB/s
+write_chunk_time : 59.445s, 1554.76MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 3076096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11056528861
+deduplication ratio: 0.8859, 8.7652
+total time(s): 2475.057
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1338169
+size of rewritten chunks: 4132923349
+rewritten rate in size: 0.043
+rewrite_time : 33.381s, 2768.75MB/s
+read_time : 34.188s, 2703.37MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.034s, 2098.92MB/s
+filter_time : 2239.710s, 41.27MB/s
+write_time : 0.364s, 254146.40MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 36662
+speed factor: 2.52
+read_recipe_time : 24.606s, 3756.13MB/s
+read_chunk_time : 10.602s, 8717.85MB/s
+write_chunk_time : 60.442s, 1529.12MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 3076096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11050224212
+deduplication ratio: 0.8860, 8.7702
+total time(s): 2470.040
+throughput(MB/s): 37.42
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1325956
+size of rewritten chunks: 4126618700
+rewritten rate in size: 0.043
+rewrite_time : 33.902s, 2726.19MB/s
+read_time : 35.229s, 2623.51MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.056s, 2097.87MB/s
+filter_time : 2229.254s, 41.46MB/s
+write_time : 0.345s, 267622.46MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 36721
+speed factor: 2.52
+read_recipe_time : 24.809s, 3725.40MB/s
+read_chunk_time : 10.741s, 8604.60MB/s
+write_chunk_time : 60.633s, 1524.31MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 3076096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11036019735
+deduplication ratio: 0.8861, 8.7815
+total time(s): 2480.055
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1318151
+size of rewritten chunks: 4112414223
+rewritten rate in size: 0.042
+rewrite_time : 34.297s, 2694.76MB/s
+read_time : 35.427s, 2608.80MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.269s, 2136.01MB/s
+filter_time : 2240.889s, 41.24MB/s
+write_time : 0.346s, 267429.64MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37189
+speed factor: 2.49
+read_recipe_time : 24.616s, 3754.58MB/s
+read_chunk_time : 10.473s, 8824.99MB/s
+write_chunk_time : 59.645s, 1549.56MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 3076096
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11036019735
+deduplication ratio: 0.8861, 8.7815
+total time(s): 2480.048
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1318151
+size of rewritten chunks: 4112414223
+rewritten rate in size: 0.042
+rewrite_time : 34.436s, 2683.93MB/s
+read_time : 35.140s, 2630.14MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.423s, 2080.54MB/s
+filter_time : 2240.796s, 41.25MB/s
+write_time : 0.333s, 277766.40MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 37189
+speed factor: 2.49
+read_recipe_time : 24.644s, 3750.26MB/s
+read_chunk_time : 10.890s, 8486.65MB/s
+write_chunk_time : 59.352s, 1557.19MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 3280896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11334410755
+deduplication ratio: 0.8830, 8.5503
+total time(s): 2490.070
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1413648
+size of rewritten chunks: 4410805243
+rewritten rate in size: 0.046
+rewrite_time : 33.573s, 2752.91MB/s
+read_time : 34.589s, 2672.02MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.487s, 2077.52MB/s
+filter_time : 2252.331s, 41.03MB/s
+write_time : 0.452s, 204642.01MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 105.002
+throughput(MB/s): 880.20
+read_container_num: 36288
+speed factor: 2.55
+read_recipe_time : 36.104s, 2559.91MB/s
+read_chunk_time : 11.104s, 8323.51MB/s
+write_chunk_time : 60.453s, 1528.83MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 3280896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11337449703
+deduplication ratio: 0.8830, 8.5480
+total time(s): 2505.055
+throughput(MB/s): 36.89
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1431610
+size of rewritten chunks: 4413844191
+rewritten rate in size: 0.046
+rewrite_time : 34.863s, 2651.04MB/s
+read_time : 41.100s, 2248.74MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.023s, 2052.81MB/s
+filter_time : 2260.902s, 40.88MB/s
+write_time : 0.357s, 258924.61MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 110.002
+throughput(MB/s): 840.20
+read_container_num: 36478
+speed factor: 2.53
+read_recipe_time : 38.541s, 2398.01MB/s
+read_chunk_time : 11.592s, 7973.15MB/s
+write_chunk_time : 60.976s, 1515.73MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 3280896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11330216566
+deduplication ratio: 0.8831, 8.5534
+total time(s): 2515.045
+throughput(MB/s): 36.75
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1420137
+size of rewritten chunks: 4406611054
+rewritten rate in size: 0.045
+rewrite_time : 35.160s, 2628.60MB/s
+read_time : 46.798s, 1974.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.550s, 2122.23MB/s
+filter_time : 2270.177s, 40.71MB/s
+write_time : 0.450s, 205250.54MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 36897
+speed factor: 2.50
+read_recipe_time : 26.946s, 3429.98MB/s
+read_chunk_time : 10.815s, 8546.13MB/s
+write_chunk_time : 59.390s, 1556.20MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 3280896
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11325634233
+deduplication ratio: 0.8831, 8.5569
+total time(s): 2485.054
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1423337
+size of rewritten chunks: 4402028721
+rewritten rate in size: 0.045
+rewrite_time : 33.854s, 2730.01MB/s
+read_time : 36.030s, 2565.19MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.945s, 2103.17MB/s
+filter_time : 2244.614s, 41.18MB/s
+write_time : 0.418s, 221089.92MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 36726
+speed factor: 2.52
+read_recipe_time : 24.853s, 3718.77MB/s
+read_chunk_time : 10.844s, 8522.61MB/s
+write_chunk_time : 60.561s, 1526.11MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 3485696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11608523187
+deduplication ratio: 0.8802, 8.3484
+total time(s): 2465.040
+throughput(MB/s): 37.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1499356
+size of rewritten chunks: 4684917675
+rewritten rate in size: 0.048
+rewrite_time : 33.577s, 2752.60MB/s
+read_time : 35.486s, 2604.50MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.417s, 2128.73MB/s
+filter_time : 2228.258s, 41.48MB/s
+write_time : 0.358s, 258363.66MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35998
+speed factor: 2.57
+read_recipe_time : 24.835s, 3721.48MB/s
+read_chunk_time : 10.469s, 8828.18MB/s
+write_chunk_time : 60.582s, 1525.60MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 3485696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11622570941
+deduplication ratio: 0.8801, 8.3383
+total time(s): 2480.040
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1515399
+size of rewritten chunks: 4698965429
+rewritten rate in size: 0.048
+rewrite_time : 34.199s, 2702.48MB/s
+read_time : 35.160s, 2628.64MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.809s, 2109.66MB/s
+filter_time : 2244.090s, 41.19MB/s
+write_time : 0.380s, 243238.59MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 36448
+speed factor: 2.54
+read_recipe_time : 24.757s, 3733.23MB/s
+read_chunk_time : 10.782s, 8572.12MB/s
+write_chunk_time : 61.043s, 1514.05MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 3485696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11614036127
+deduplication ratio: 0.8802, 8.3444
+total time(s): 2475.054
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1511546
+size of rewritten chunks: 4690430615
+rewritten rate in size: 0.048
+rewrite_time : 34.459s, 2682.13MB/s
+read_time : 34.878s, 2649.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.660s, 2069.47MB/s
+filter_time : 2238.019s, 41.30MB/s
+write_time : 0.462s, 199976.81MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 36767
+speed factor: 2.51
+read_recipe_time : 24.275s, 3807.28MB/s
+read_chunk_time : 10.756s, 8592.50MB/s
+write_chunk_time : 60.344s, 1531.61MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 3485696
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11611665821
+deduplication ratio: 0.8802, 8.3461
+total time(s): 2490.049
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1513917
+size of rewritten chunks: 4688060309
+rewritten rate in size: 0.048
+rewrite_time : 34.040s, 2715.15MB/s
+read_time : 34.874s, 2650.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.064s, 2097.45MB/s
+filter_time : 2255.486s, 40.98MB/s
+write_time : 0.400s, 230941.16MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 36929
+speed factor: 2.50
+read_recipe_time : 24.764s, 3732.12MB/s
+read_chunk_time : 10.667s, 8664.52MB/s
+write_chunk_time : 60.427s, 1529.50MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 3690496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11889687586
+deduplication ratio: 0.8773, 8.1510
+total time(s): 2465.054
+throughput(MB/s): 37.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1606979
+size of rewritten chunks: 4966082074
+rewritten rate in size: 0.051
+rewrite_time : 34.002s, 2718.13MB/s
+read_time : 34.161s, 2705.49MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.438s, 2079.83MB/s
+filter_time : 2229.391s, 41.46MB/s
+write_time : 0.576s, 160454.44MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 35767
+speed factor: 2.58
+read_recipe_time : 23.590s, 3917.85MB/s
+read_chunk_time : 10.287s, 8984.51MB/s
+write_chunk_time : 59.692s, 1548.34MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 3690496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11886338951
+deduplication ratio: 0.8773, 8.1533
+total time(s): 2490.056
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1604499
+size of rewritten chunks: 4962733439
+rewritten rate in size: 0.051
+rewrite_time : 33.915s, 2725.10MB/s
+read_time : 34.410s, 2685.95MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.209s, 2090.59MB/s
+filter_time : 2251.479s, 41.05MB/s
+write_time : 0.394s, 234851.82MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 36147
+speed factor: 2.56
+read_recipe_time : 24.347s, 3796.03MB/s
+read_chunk_time : 10.621s, 8702.05MB/s
+write_chunk_time : 61.272s, 1508.41MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 3690496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11880654998
+deduplication ratio: 0.8774, 8.1572
+total time(s): 2490.042
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1595076
+size of rewritten chunks: 4957049486
+rewritten rate in size: 0.051
+rewrite_time : 33.721s, 2740.83MB/s
+read_time : 34.141s, 2707.11MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.675s, 2116.14MB/s
+filter_time : 2257.106s, 40.95MB/s
+write_time : 0.474s, 194850.97MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 36390
+speed factor: 2.54
+read_recipe_time : 24.640s, 3750.85MB/s
+read_chunk_time : 10.753s, 8595.29MB/s
+write_chunk_time : 60.909s, 1517.38MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 3690496
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 11874982911
+deduplication ratio: 0.8775, 8.1611
+total time(s): 2475.055
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1595563
+size of rewritten chunks: 4951377399
+rewritten rate in size: 0.051
+rewrite_time : 33.831s, 2731.90MB/s
+read_time : 35.285s, 2619.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.194s, 2091.32MB/s
+filter_time : 2236.129s, 41.33MB/s
+write_time : 0.470s, 196478.88MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 36457
+speed factor: 2.54
+read_recipe_time : 25.478s, 3627.54MB/s
+read_chunk_time : 10.757s, 8591.74MB/s
+write_chunk_time : 60.735s, 1521.73MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 3895296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12154798482
+deduplication ratio: 0.8746, 7.9732
+total time(s): 2500.054
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1674280
+size of rewritten chunks: 5231192970
+rewritten rate in size: 0.054
+rewrite_time : 34.052s, 2714.15MB/s
+read_time : 34.989s, 2641.48MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.300s, 2086.30MB/s
+filter_time : 2260.482s, 40.89MB/s
+write_time : 0.395s, 233992.64MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35534
+speed factor: 2.60
+read_recipe_time : 24.993s, 3697.97MB/s
+read_chunk_time : 10.360s, 8921.01MB/s
+write_chunk_time : 59.927s, 1542.25MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 3895296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12151244450
+deduplication ratio: 0.8746, 7.9755
+total time(s): 2490.055
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1695687
+size of rewritten chunks: 5227638938
+rewritten rate in size: 0.054
+rewrite_time : 33.386s, 2768.34MB/s
+read_time : 34.959s, 2643.72MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.611s, 2119.28MB/s
+filter_time : 2251.505s, 41.05MB/s
+write_time : 0.469s, 197159.56MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35734
+speed factor: 2.59
+read_recipe_time : 24.452s, 3779.78MB/s
+read_chunk_time : 10.306s, 8967.63MB/s
+write_chunk_time : 60.509s, 1527.43MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 3895296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12156946375
+deduplication ratio: 0.8746, 7.9718
+total time(s): 2485.055
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1692762
+size of rewritten chunks: 5233340863
+rewritten rate in size: 0.054
+rewrite_time : 33.987s, 2719.33MB/s
+read_time : 34.581s, 2672.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.668s, 2069.13MB/s
+filter_time : 2247.550s, 41.12MB/s
+write_time : 0.464s, 199105.71MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35723
+speed factor: 2.59
+read_recipe_time : 24.855s, 3718.47MB/s
+read_chunk_time : 10.382s, 8902.62MB/s
+write_chunk_time : 61.105s, 1512.52MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 3895296
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12160255111
+deduplication ratio: 0.8745, 7.9696
+total time(s): 2480.051
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1703422
+size of rewritten chunks: 5236649599
+rewritten rate in size: 0.054
+rewrite_time : 33.001s, 2800.58MB/s
+read_time : 32.853s, 2813.24MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.916s, 2104.53MB/s
+filter_time : 2245.194s, 41.16MB/s
+write_time : 0.494s, 187125.70MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35655
+speed factor: 2.59
+read_recipe_time : 24.411s, 3786.11MB/s
+read_chunk_time : 10.192s, 9068.60MB/s
+write_chunk_time : 60.766s, 1520.95MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 4096000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12437635668
+deduplication ratio: 0.8717, 7.7919
+total time(s): 2480.050
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1781218
+size of rewritten chunks: 5514030156
+rewritten rate in size: 0.057
+rewrite_time : 34.382s, 2688.15MB/s
+read_time : 34.228s, 2700.19MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.061s, 2146.34MB/s
+filter_time : 2246.507s, 41.14MB/s
+write_time : 0.415s, 222649.94MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 35300
+speed factor: 2.62
+read_recipe_time : 24.319s, 3800.50MB/s
+read_chunk_time : 10.325s, 8951.46MB/s
+write_chunk_time : 60.034s, 1539.50MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 4096000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12427063164
+deduplication ratio: 0.8718, 7.7985
+total time(s): 2485.054
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1784936
+size of rewritten chunks: 5503457652
+rewritten rate in size: 0.057
+rewrite_time : 34.060s, 2713.50MB/s
+read_time : 35.414s, 2609.77MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.986s, 2101.20MB/s
+filter_time : 2244.763s, 41.17MB/s
+write_time : 0.424s, 217741.24MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 35407
+speed factor: 2.61
+read_recipe_time : 25.091s, 3683.50MB/s
+read_chunk_time : 10.594s, 8723.71MB/s
+write_chunk_time : 61.765s, 1496.37MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 4096000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12394551483
+deduplication ratio: 0.8721, 7.8190
+total time(s): 2475.058
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1771736
+size of rewritten chunks: 5470945971
+rewritten rate in size: 0.056
+rewrite_time : 34.045s, 2714.69MB/s
+read_time : 34.716s, 2662.29MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.435s, 2079.96MB/s
+filter_time : 2237.393s, 41.31MB/s
+write_time : 0.481s, 192035.97MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 35633
+speed factor: 2.59
+read_recipe_time : 24.321s, 3800.08MB/s
+read_chunk_time : 10.136s, 9118.50MB/s
+write_chunk_time : 60.816s, 1519.71MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 4096000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 12394551483
+deduplication ratio: 0.8721, 7.8190
+total time(s): 2485.057
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1771736
+size of rewritten chunks: 5470945971
+rewritten rate in size: 0.056
+rewrite_time : 33.358s, 2770.65MB/s
+read_time : 34.893s, 2648.76MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.173s, 2092.31MB/s
+filter_time : 2246.091s, 41.15MB/s
+write_time : 0.413s, 223662.91MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 35633
+speed factor: 2.59
+read_recipe_time : 24.818s, 3724.01MB/s
+read_chunk_time : 10.449s, 8845.53MB/s
+write_chunk_time : 61.595s, 1500.49MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 8192000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 17953180358
+deduplication ratio: 0.8147, 5.3981
+total time(s): 2485.050
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3508212
+size of rewritten chunks: 11029574846
+rewritten rate in size: 0.114
+rewrite_time : 32.793s, 2818.39MB/s
+read_time : 34.337s, 2691.66MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.480s, 2125.67MB/s
+filter_time : 2244.453s, 41.18MB/s
+write_time : 0.603s, 153342.47MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 31476
+speed factor: 2.94
+read_recipe_time : 24.634s, 3751.89MB/s
+read_chunk_time : 9.873s, 9361.32MB/s
+write_chunk_time : 61.933s, 1492.30MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 8192000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 17624559883
+deduplication ratio: 0.8181, 5.4987
+total time(s): 2475.048
+throughput(MB/s): 37.34
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3426300
+size of rewritten chunks: 10700954371
+rewritten rate in size: 0.110
+rewrite_time : 32.919s, 2807.56MB/s
+read_time : 34.989s, 2641.46MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.139s, 2093.91MB/s
+filter_time : 2231.325s, 41.42MB/s
+write_time : 0.647s, 142780.60MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 31632
+speed factor: 2.92
+read_recipe_time : 24.506s, 3771.40MB/s
+read_chunk_time : 9.614s, 9613.26MB/s
+write_chunk_time : 61.291s, 1507.94MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 8192000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 17614851181
+deduplication ratio: 0.8182, 5.5017
+total time(s): 2480.053
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3425115
+size of rewritten chunks: 10691245669
+rewritten rate in size: 0.110
+rewrite_time : 33.433s, 2764.46MB/s
+read_time : 35.232s, 2623.28MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.214s, 2090.36MB/s
+filter_time : 2238.952s, 41.28MB/s
+write_time : 0.628s, 147082.83MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 31637
+speed factor: 2.92
+read_recipe_time : 24.619s, 3754.17MB/s
+read_chunk_time : 9.637s, 9590.14MB/s
+write_chunk_time : 60.820s, 1519.62MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 8192000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 17624559883
+deduplication ratio: 0.8181, 5.4987
+total time(s): 2480.058
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3426300
+size of rewritten chunks: 10700954371
+rewritten rate in size: 0.110
+rewrite_time : 33.269s, 2778.05MB/s
+read_time : 35.812s, 2580.81MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.315s, 2085.59MB/s
+filter_time : 2237.745s, 41.30MB/s
+write_time : 0.580s, 159461.97MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 31632
+speed factor: 2.92
+read_recipe_time : 24.008s, 3849.68MB/s
+read_chunk_time : 9.492s, 9737.37MB/s
+write_chunk_time : 60.168s, 1536.09MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 12288000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 23440078749
+deduplication ratio: 0.7581, 4.1345
+total time(s): 2480.058
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5221120
+size of rewritten chunks: 16516473237
+rewritten rate in size: 0.170
+rewrite_time : 32.808s, 2817.05MB/s
+read_time : 35.068s, 2635.51MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.289s, 2086.82MB/s
+filter_time : 2235.240s, 41.35MB/s
+write_time : 0.777s, 118875.70MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 29154
+speed factor: 3.17
+read_recipe_time : 24.568s, 3761.92MB/s
+read_chunk_time : 9.013s, 10253.94MB/s
+write_chunk_time : 60.796s, 1520.21MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 12288000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 18457512168
+deduplication ratio: 0.8095, 5.2506
+total time(s): 2495.057
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3653709
+size of rewritten chunks: 11533906656
+rewritten rate in size: 0.119
+rewrite_time : 33.480s, 2760.52MB/s
+read_time : 35.402s, 2610.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.420s, 2080.66MB/s
+filter_time : 2252.299s, 41.03MB/s
+write_time : 0.596s, 155005.63MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 32087
+speed factor: 2.88
+read_recipe_time : 24.635s, 3751.64MB/s
+read_chunk_time : 9.657s, 9570.86MB/s
+write_chunk_time : 60.428s, 1529.48MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 12288000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 18457512168
+deduplication ratio: 0.8095, 5.2506
+total time(s): 2485.047
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3653709
+size of rewritten chunks: 11533906656
+rewritten rate in size: 0.119
+rewrite_time : 32.566s, 2838.02MB/s
+read_time : 33.651s, 2746.48MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.025s, 2099.35MB/s
+filter_time : 2246.503s, 41.14MB/s
+write_time : 0.596s, 155014.21MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 32087
+speed factor: 2.88
+read_recipe_time : 24.388s, 3789.65MB/s
+read_chunk_time : 9.807s, 9424.00MB/s
+write_chunk_time : 60.585s, 1525.51MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 12288000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 18455675135
+deduplication ratio: 0.8096, 5.2511
+total time(s): 2485.059
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3652864
+size of rewritten chunks: 11532069623
+rewritten rate in size: 0.119
+rewrite_time : 33.226s, 2781.65MB/s
+read_time : 33.209s, 2783.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.008s, 2053.47MB/s
+filter_time : 2249.611s, 41.08MB/s
+write_time : 0.590s, 156566.69MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 32087
+speed factor: 2.88
+read_recipe_time : 24.595s, 3757.77MB/s
+read_chunk_time : 9.691s, 9536.65MB/s
+write_chunk_time : 60.726s, 1521.96MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 16384000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 28894864529
+deduplication ratio: 0.7018, 3.3540
+total time(s): 2490.061
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 6897445
+size of rewritten chunks: 21971259017
+rewritten rate in size: 0.227
+rewrite_time : 32.408s, 2851.89MB/s
+read_time : 33.943s, 2722.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.318s, 2085.47MB/s
+filter_time : 2246.832s, 41.13MB/s
+write_time : 1.048s, 88213.85MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 27621
+speed factor: 3.35
+read_recipe_time : 24.582s, 3759.73MB/s
+read_chunk_time : 8.627s, 10712.99MB/s
+write_chunk_time : 59.843s, 1544.42MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 16384000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25629306922
+deduplication ratio: 0.7355, 3.7813
+total time(s): 2490.047
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5827736
+size of rewritten chunks: 18705701410
+rewritten rate in size: 0.193
+rewrite_time : 33.723s, 2740.62MB/s
+read_time : 35.285s, 2619.32MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.509s, 2124.20MB/s
+filter_time : 2246.753s, 41.14MB/s
+write_time : 0.959s, 96338.26MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 28517
+speed factor: 3.24
+read_recipe_time : 25.181s, 3670.36MB/s
+read_chunk_time : 8.990s, 10280.94MB/s
+write_chunk_time : 61.320s, 1507.21MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 16384000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25629306922
+deduplication ratio: 0.7355, 3.7813
+total time(s): 2490.059
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5827736
+size of rewritten chunks: 18705701410
+rewritten rate in size: 0.193
+rewrite_time : 32.616s, 2833.63MB/s
+read_time : 35.211s, 2624.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.665s, 2166.26MB/s
+filter_time : 2248.753s, 41.10MB/s
+write_time : 0.864s, 106976.25MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 28517
+speed factor: 3.24
+read_recipe_time : 24.699s, 3741.96MB/s
+read_chunk_time : 8.915s, 10367.20MB/s
+write_chunk_time : 60.417s, 1529.74MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 16384000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25629306922
+deduplication ratio: 0.7355, 3.7813
+total time(s): 2495.045
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5827736
+size of rewritten chunks: 18705701410
+rewritten rate in size: 0.193
+rewrite_time : 33.055s, 2796.01MB/s
+read_time : 35.564s, 2598.80MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.367s, 2083.16MB/s
+filter_time : 2250.008s, 41.08MB/s
+write_time : 0.854s, 108254.82MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 28517
+speed factor: 3.24
+read_recipe_time : 24.896s, 3712.29MB/s
+read_chunk_time : 8.821s, 10477.65MB/s
+write_chunk_time : 61.261s, 1508.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 20480000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 34432345785
+deduplication ratio: 0.6447, 2.8146
+total time(s): 2500.059
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8589929
+size of rewritten chunks: 27508740273
+rewritten rate in size: 0.284
+rewrite_time : 32.427s, 2850.21MB/s
+read_time : 35.358s, 2613.93MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.921s, 2104.30MB/s
+filter_time : 2251.317s, 41.05MB/s
+write_time : 1.146s, 80661.47MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 26556
+speed factor: 3.48
+read_recipe_time : 25.094s, 3683.12MB/s
+read_chunk_time : 8.695s, 10628.83MB/s
+write_chunk_time : 60.551s, 1526.37MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 20480000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 31953814836
+deduplication ratio: 0.6703, 3.0329
+total time(s): 2500.062
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 7774338
+size of rewritten chunks: 25030209324
+rewritten rate in size: 0.258
+rewrite_time : 32.601s, 2834.94MB/s
+read_time : 34.932s, 2645.79MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.442s, 2079.61MB/s
+filter_time : 2251.881s, 41.04MB/s
+write_time : 1.201s, 76972.24MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 27166
+speed factor: 3.40
+read_recipe_time : 24.876s, 3715.36MB/s
+read_chunk_time : 8.628s, 10712.51MB/s
+write_chunk_time : 60.353s, 1531.36MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 20480000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 31953814836
+deduplication ratio: 0.6703, 3.0329
+total time(s): 2490.063
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 7774338
+size of rewritten chunks: 25030209324
+rewritten rate in size: 0.258
+rewrite_time : 32.467s, 2846.70MB/s
+read_time : 35.236s, 2622.99MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.185s, 2091.71MB/s
+filter_time : 2243.466s, 41.20MB/s
+write_time : 1.117s, 82775.33MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 27166
+speed factor: 3.40
+read_recipe_time : 24.708s, 3740.64MB/s
+read_chunk_time : 8.525s, 10841.67MB/s
+write_chunk_time : 61.615s, 1500.01MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 20480000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 31953814836
+deduplication ratio: 0.6703, 3.0329
+total time(s): 2500.063
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 7774338
+size of rewritten chunks: 25030209324
+rewritten rate in size: 0.258
+rewrite_time : 32.791s, 2818.54MB/s
+read_time : 35.120s, 2631.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.871s, 2106.69MB/s
+filter_time : 2253.061s, 41.02MB/s
+write_time : 1.054s, 87669.94MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 27166
+speed factor: 3.40
+read_recipe_time : 24.615s, 3754.69MB/s
+read_chunk_time : 8.623s, 10718.02MB/s
+write_chunk_time : 60.378s, 1530.74MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 24576000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 39936519491
+deduplication ratio: 0.5879, 2.4267
+total time(s): 2500.060
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10231574
+size of rewritten chunks: 33012913979
+rewritten rate in size: 0.341
+rewrite_time : 31.830s, 2903.63MB/s
+read_time : 33.218s, 2782.33MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.765s, 2064.64MB/s
+filter_time : 2253.331s, 41.02MB/s
+write_time : 1.353s, 68326.16MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 25839
+speed factor: 3.58
+read_recipe_time : 24.996s, 3697.49MB/s
+read_chunk_time : 8.384s, 11024.03MB/s
+write_chunk_time : 61.111s, 1512.37MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 24576000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 39406425610
+deduplication ratio: 0.5934, 2.4593
+total time(s): 2500.064
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10016217
+size of rewritten chunks: 32482820098
+rewritten rate in size: 0.335
+rewrite_time : 31.764s, 2909.71MB/s
+read_time : 34.318s, 2693.12MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.444s, 2079.51MB/s
+filter_time : 2247.686s, 41.12MB/s
+write_time : 1.283s, 72028.68MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 26264
+speed factor: 3.52
+read_recipe_time : 24.915s, 3709.56MB/s
+read_chunk_time : 8.547s, 10813.59MB/s
+write_chunk_time : 61.560s, 1501.35MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 24576000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 39406425610
+deduplication ratio: 0.5934, 2.4593
+total time(s): 2505.063
+throughput(MB/s): 36.89
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10016217
+size of rewritten chunks: 32482820098
+rewritten rate in size: 0.335
+rewrite_time : 32.374s, 2854.83MB/s
+read_time : 33.973s, 2720.45MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.658s, 2069.55MB/s
+filter_time : 2259.100s, 40.91MB/s
+write_time : 1.282s, 72111.91MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 26264
+speed factor: 3.52
+read_recipe_time : 25.124s, 3678.65MB/s
+read_chunk_time : 8.294s, 11142.93MB/s
+write_chunk_time : 60.014s, 1540.03MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 24576000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 39406425610
+deduplication ratio: 0.5934, 2.4593
+total time(s): 2510.063
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 10016217
+size of rewritten chunks: 32482820098
+rewritten rate in size: 0.335
+rewrite_time : 32.644s, 2831.23MB/s
+read_time : 34.952s, 2644.26MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.947s, 2056.25MB/s
+filter_time : 2258.816s, 40.92MB/s
+write_time : 1.289s, 71703.51MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 26264
+speed factor: 3.52
+read_recipe_time : 24.514s, 3770.25MB/s
+read_chunk_time : 8.449s, 10938.97MB/s
+write_chunk_time : 60.181s, 1535.76MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 28672000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 45466507109
+deduplication ratio: 0.5308, 2.1315
+total time(s): 2510.063
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 11888495
+size of rewritten chunks: 38542901597
+rewritten rate in size: 0.398
+rewrite_time : 32.527s, 2841.45MB/s
+read_time : 33.792s, 2735.02MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.324s, 2085.17MB/s
+filter_time : 2264.391s, 40.82MB/s
+write_time : 1.441s, 64124.18MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 25351
+speed factor: 3.65
+read_recipe_time : 24.493s, 3773.48MB/s
+read_chunk_time : 8.337s, 11085.78MB/s
+write_chunk_time : 60.046s, 1539.20MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 28672000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 38806890750
+deduplication ratio: 0.5996, 2.4973
+total time(s): 2500.062
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 9828393
+size of rewritten chunks: 31883285238
+rewritten rate in size: 0.329
+rewrite_time : 32.249s, 2865.88MB/s
+read_time : 32.515s, 2842.50MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.735s, 2066.00MB/s
+filter_time : 2255.796s, 40.97MB/s
+write_time : 1.244s, 74294.08MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 26164
+speed factor: 3.53
+read_recipe_time : 24.375s, 3791.65MB/s
+read_chunk_time : 8.195s, 11278.47MB/s
+write_chunk_time : 59.872s, 1543.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 28672000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 38768628078
+deduplication ratio: 0.6000, 2.4998
+total time(s): 2490.044
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 9820191
+size of rewritten chunks: 31845022566
+rewritten rate in size: 0.329
+rewrite_time : 32.418s, 2850.96MB/s
+read_time : 34.906s, 2647.79MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.786s, 2110.78MB/s
+filter_time : 2240.300s, 41.25MB/s
+write_time : 1.292s, 71545.65MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 26158
+speed factor: 3.53
+read_recipe_time : 24.643s, 3750.49MB/s
+read_chunk_time : 8.438s, 10953.41MB/s
+write_chunk_time : 59.545s, 1552.15MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 28672000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 38806890750
+deduplication ratio: 0.5996, 2.4973
+total time(s): 2500.063
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 9828393
+size of rewritten chunks: 31883285238
+rewritten rate in size: 0.329
+rewrite_time : 31.601s, 2924.65MB/s
+read_time : 33.733s, 2739.87MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.614s, 2071.62MB/s
+filter_time : 2254.039s, 41.00MB/s
+write_time : 1.349s, 68525.05MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 26164
+speed factor: 3.53
+read_recipe_time : 24.940s, 3705.86MB/s
+read_chunk_time : 8.541s, 10820.53MB/s
+write_chunk_time : 61.796s, 1495.61MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 32768000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 51005150494
+deduplication ratio: 0.4737, 1.9001
+total time(s): 2530.070
+throughput(MB/s): 36.53
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 13499328
+size of rewritten chunks: 44081544982
+rewritten rate in size: 0.455
+rewrite_time : 31.983s, 2889.78MB/s
+read_time : 35.443s, 2607.68MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.006s, 2053.56MB/s
+filter_time : 2276.054s, 40.61MB/s
+write_time : 1.638s, 56421.23MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 24994
+speed factor: 3.70
+read_recipe_time : 24.862s, 3717.38MB/s
+read_chunk_time : 7.941s, 11638.04MB/s
+write_chunk_time : 59.955s, 1541.52MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 32768000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 50126895912
+deduplication ratio: 0.4828, 1.9333
+total time(s): 2515.064
+throughput(MB/s): 36.75
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 13192725
+size of rewritten chunks: 43203290400
+rewritten rate in size: 0.446
+rewrite_time : 32.390s, 2853.41MB/s
+read_time : 34.205s, 2702.01MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.912s, 2057.88MB/s
+filter_time : 2261.321s, 40.87MB/s
+write_time : 1.611s, 57381.74MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 25139
+speed factor: 3.68
+read_recipe_time : 24.963s, 3702.43MB/s
+read_chunk_time : 8.335s, 11087.94MB/s
+write_chunk_time : 60.622s, 1524.57MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 32768000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 50126895912
+deduplication ratio: 0.4828, 1.9333
+total time(s): 2510.053
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 13192725
+size of rewritten chunks: 43203290400
+rewritten rate in size: 0.446
+rewrite_time : 32.236s, 2867.04MB/s
+read_time : 34.979s, 2642.25MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.510s, 2076.45MB/s
+filter_time : 2260.074s, 40.89MB/s
+write_time : 1.652s, 55936.57MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 25139
+speed factor: 3.68
+read_recipe_time : 24.470s, 3776.92MB/s
+read_chunk_time : 8.320s, 11108.78MB/s
+write_chunk_time : 60.223s, 1534.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 32768000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 50126895912
+deduplication ratio: 0.4828, 1.9333
+total time(s): 2510.063
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 13192725
+size of rewritten chunks: 43203290400
+rewritten rate in size: 0.446
+rewrite_time : 32.379s, 2854.40MB/s
+read_time : 35.306s, 2617.79MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.869s, 2106.78MB/s
+filter_time : 2261.025s, 40.88MB/s
+write_time : 1.698s, 54423.87MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 25139
+speed factor: 3.68
+read_recipe_time : 24.313s, 3801.34MB/s
+read_chunk_time : 8.031s, 11508.98MB/s
+write_chunk_time : 60.459s, 1528.68MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 36864000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 56507391030
+deduplication ratio: 0.4169, 1.7150
+total time(s): 2510.051
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 15083618
+size of rewritten chunks: 49583785518
+rewritten rate in size: 0.512
+rewrite_time : 32.868s, 2811.91MB/s
+read_time : 35.123s, 2631.43MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.860s, 2107.22MB/s
+filter_time : 2261.028s, 40.88MB/s
+write_time : 1.827s, 50576.94MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 24609
+speed factor: 3.76
+read_recipe_time : 24.400s, 3787.85MB/s
+read_chunk_time : 7.779s, 11880.83MB/s
+write_chunk_time : 59.957s, 1541.49MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 36864000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 33628076516
+deduplication ratio: 0.6530, 2.8819
+total time(s): 2480.060
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8214364
+size of rewritten chunks: 26704471004
+rewritten rate in size: 0.276
+rewrite_time : 31.658s, 2919.40MB/s
+read_time : 32.790s, 2818.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.903s, 2105.14MB/s
+filter_time : 2239.372s, 41.27MB/s
+write_time : 1.232s, 75047.26MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 26704
+speed factor: 3.46
+read_recipe_time : 24.472s, 3776.67MB/s
+read_chunk_time : 8.088s, 11426.77MB/s
+write_chunk_time : 59.445s, 1554.77MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 36864000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 33628076516
+deduplication ratio: 0.6530, 2.8819
+total time(s): 2500.071
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8214364
+size of rewritten chunks: 26704471004
+rewritten rate in size: 0.276
+rewrite_time : 32.346s, 2857.34MB/s
+read_time : 34.165s, 2705.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.970s, 2101.93MB/s
+filter_time : 2255.590s, 40.98MB/s
+write_time : 1.101s, 83949.29MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 26704
+speed factor: 3.46
+read_recipe_time : 24.875s, 3715.48MB/s
+read_chunk_time : 8.605s, 10739.98MB/s
+write_chunk_time : 60.629s, 1524.41MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 36864000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 33628076516
+deduplication ratio: 0.6530, 2.8819
+total time(s): 2490.058
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8214364
+size of rewritten chunks: 26704471004
+rewritten rate in size: 0.276
+rewrite_time : 32.023s, 2886.10MB/s
+read_time : 34.781s, 2657.30MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.829s, 2157.96MB/s
+filter_time : 2249.497s, 41.09MB/s
+write_time : 1.097s, 84221.79MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 26704
+speed factor: 3.46
+read_recipe_time : 24.617s, 3754.46MB/s
+read_chunk_time : 8.584s, 10766.56MB/s
+write_chunk_time : 60.980s, 1515.62MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 38092800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 58139842413
+deduplication ratio: 0.4001, 1.6669
+total time(s): 2520.054
+throughput(MB/s): 36.67
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 15563024
+size of rewritten chunks: 51216236901
+rewritten rate in size: 0.528
+rewrite_time : 32.324s, 2859.26MB/s
+read_time : 34.815s, 2654.72MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.098s, 2049.39MB/s
+filter_time : 2266.979s, 40.77MB/s
+write_time : 1.779s, 51949.12MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 24598
+speed factor: 3.76
+read_recipe_time : 24.770s, 3731.26MB/s
+read_chunk_time : 7.823s, 11814.88MB/s
+write_chunk_time : 60.209s, 1535.03MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 38092800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 46811032687
+deduplication ratio: 0.5170, 2.0703
+total time(s): 2510.065
+throughput(MB/s): 36.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 12201760
+size of rewritten chunks: 39887427175
+rewritten rate in size: 0.412
+rewrite_time : 32.055s, 2883.30MB/s
+read_time : 34.889s, 2649.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.603s, 2072.12MB/s
+filter_time : 2256.412s, 40.96MB/s
+write_time : 1.584s, 58350.91MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 25299
+speed factor: 3.65
+read_recipe_time : 24.424s, 3784.13MB/s
+read_chunk_time : 8.000s, 11553.38MB/s
+write_chunk_time : 59.780s, 1546.05MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 38092800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 46811032687
+deduplication ratio: 0.5170, 2.0703
+total time(s): 2505.055
+throughput(MB/s): 36.89
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 12201760
+size of rewritten chunks: 39887427175
+rewritten rate in size: 0.412
+rewrite_time : 32.152s, 2874.53MB/s
+read_time : 33.577s, 2752.53MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.489s, 2077.44MB/s
+filter_time : 2257.699s, 40.94MB/s
+write_time : 1.529s, 60431.44MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.003
+throughput(MB/s): 972.84
+read_container_num: 25299
+speed factor: 3.65
+read_recipe_time : 25.234s, 3662.70MB/s
+read_chunk_time : 8.125s, 11375.31MB/s
+write_chunk_time : 60.455s, 1528.80MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 38092800
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 46801288355
+deduplication ratio: 0.5171, 2.0707
+total time(s): 2500.065
+throughput(MB/s): 36.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 12198734
+size of rewritten chunks: 39877682843
+rewritten rate in size: 0.411
+rewrite_time : 32.599s, 2835.15MB/s
+read_time : 35.112s, 2632.26MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 42.440s, 2177.73MB/s
+filter_time : 2253.166s, 41.02MB/s
+write_time : 1.553s, 59503.74MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 25297
+speed factor: 3.65
+read_recipe_time : 24.884s, 3714.18MB/s
+read_chunk_time : 8.117s, 11386.57MB/s
+write_chunk_time : 61.403s, 1505.18MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 39321600
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 59774176732
+deduplication ratio: 0.3832, 1.6213
+total time(s): 2505.069
+throughput(MB/s): 36.89
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 15986435
+size of rewritten chunks: 52850571220
+rewritten rate in size: 0.545
+rewrite_time : 32.258s, 2865.15MB/s
+read_time : 34.184s, 2703.70MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.198s, 2044.82MB/s
+filter_time : 2253.201s, 41.02MB/s
+write_time : 2.016s, 45842.05MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 24552
+speed factor: 3.76
+read_recipe_time : 24.437s, 3782.02MB/s
+read_chunk_time : 8.144s, 11348.21MB/s
+write_chunk_time : 60.376s, 1530.79MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 39321600
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 24731590575
+deduplication ratio: 0.7448, 3.9186
+total time(s): 2485.059
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5460407
+size of rewritten chunks: 17807985063
+rewritten rate in size: 0.184
+rewrite_time : 33.420s, 2765.48MB/s
+read_time : 35.415s, 2609.73MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.644s, 2117.65MB/s
+filter_time : 2238.407s, 41.29MB/s
+write_time : 0.830s, 111333.29MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 29137
+speed factor: 3.17
+read_recipe_time : 25.039s, 3691.20MB/s
+read_chunk_time : 9.091s, 10166.17MB/s
+write_chunk_time : 60.800s, 1520.13MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 39321600
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 24826147936
+deduplication ratio: 0.7438, 3.9036
+total time(s): 2490.059
+throughput(MB/s): 37.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5479531
+size of rewritten chunks: 17902542424
+rewritten rate in size: 0.185
+rewrite_time : 32.820s, 2816.05MB/s
+read_time : 34.440s, 2683.57MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.638s, 2117.95MB/s
+filter_time : 2245.948s, 41.15MB/s
+write_time : 0.865s, 106847.63MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 29158
+speed factor: 3.17
+read_recipe_time : 24.848s, 3719.52MB/s
+read_chunk_time : 9.060s, 10201.21MB/s
+write_chunk_time : 59.686s, 1548.48MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 39321600
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 24812864337
+deduplication ratio: 0.7440, 3.9057
+total time(s): 2480.045
+throughput(MB/s): 37.27
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5472019
+size of rewritten chunks: 17889258825
+rewritten rate in size: 0.185
+rewrite_time : 32.710s, 2825.55MB/s
+read_time : 34.721s, 2661.87MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.985s, 2101.23MB/s
+filter_time : 2238.588s, 41.29MB/s
+write_time : 0.842s, 109804.23MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 29149
+speed factor: 3.17
+read_recipe_time : 24.804s, 3726.07MB/s
+read_chunk_time : 8.913s, 10369.33MB/s
+write_chunk_time : 60.950s, 1516.38MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 40960000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 62005952327
+deduplication ratio: 0.3602, 1.5630
+total time(s): 2520.070
+throughput(MB/s): 36.67
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 16614838
+size of rewritten chunks: 55082346815
+rewritten rate in size: 0.568
+rewrite_time : 32.581s, 2836.70MB/s
+read_time : 34.628s, 2669.03MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.355s, 2037.78MB/s
+filter_time : 2266.582s, 40.78MB/s
+write_time : 2.042s, 45255.29MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 24439
+speed factor: 3.78
+read_recipe_time : 24.007s, 3849.87MB/s
+read_chunk_time : 7.806s, 11840.09MB/s
+write_chunk_time : 59.699s, 1548.14MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 40960000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25437545074
+deduplication ratio: 0.7375, 3.8098
+total time(s): 2485.058
+throughput(MB/s): 37.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5673360
+size of rewritten chunks: 18513939562
+rewritten rate in size: 0.191
+rewrite_time : 33.224s, 2781.77MB/s
+read_time : 35.364s, 2613.46MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.999s, 2100.58MB/s
+filter_time : 2240.478s, 41.25MB/s
+write_time : 0.845s, 109379.04MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.86
+read_container_num: 29161
+speed factor: 3.17
+read_recipe_time : 24.943s, 3705.30MB/s
+read_chunk_time : 9.012s, 10255.04MB/s
+write_chunk_time : 60.791s, 1520.34MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 40960000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25436256061
+deduplication ratio: 0.7375, 3.8100
+total time(s): 2495.046
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5673316
+size of rewritten chunks: 18512650549
+rewritten rate in size: 0.191
+rewrite_time : 33.162s, 2787.05MB/s
+read_time : 37.721s, 2450.16MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.717s, 2114.10MB/s
+filter_time : 2248.064s, 41.11MB/s
+write_time : 0.855s, 108074.31MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.001
+throughput(MB/s): 972.86
+read_container_num: 29161
+speed factor: 3.17
+read_recipe_time : 24.896s, 3712.42MB/s
+read_chunk_time : 9.021s, 10245.13MB/s
+write_chunk_time : 59.849s, 1544.28MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 40960000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 25437545074
+deduplication ratio: 0.7375, 3.8098
+total time(s): 2495.053
+throughput(MB/s): 37.04
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5673360
+size of rewritten chunks: 18513939562
+rewritten rate in size: 0.191
+rewrite_time : 32.672s, 2828.79MB/s
+read_time : 34.488s, 2679.88MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.683s, 2115.77MB/s
+filter_time : 2251.132s, 41.06MB/s
+write_time : 0.839s, 110129.37MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 29161
+speed factor: 3.17
+read_recipe_time : 24.878s, 3714.99MB/s
+read_chunk_time : 8.910s, 10372.58MB/s
+write_chunk_time : 60.891s, 1517.85MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 5
+rewrite_chunk_size: 81920000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 87884475941
+deduplication ratio: 0.0932, 1.1027
+total time(s): 2535.076
+throughput(MB/s): 36.46
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23558945
+size of rewritten chunks: 80960870429
+rewritten rate in size: 0.835
+rewrite_time : 33.062s, 2795.47MB/s
+read_time : 34.695s, 2663.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.002s, 2009.11MB/s
+filter_time : 2277.315s, 40.58MB/s
+write_time : 2.763s, 33446.23MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 23944
+speed factor: 3.86
+read_recipe_time : 24.703s, 3741.41MB/s
+read_chunk_time : 7.837s, 11793.41MB/s
+write_chunk_time : 60.465s, 1528.55MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 25
+rewrite_chunk_size: 81920000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 87884475941
+deduplication ratio: 0.0932, 1.1027
+total time(s): 2540.077
+throughput(MB/s): 36.39
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23558945
+size of rewritten chunks: 80960870429
+rewritten rate in size: 0.835
+rewrite_time : 31.888s, 2898.38MB/s
+read_time : 34.369s, 2689.13MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 45.605s, 2026.59MB/s
+filter_time : 2280.548s, 40.53MB/s
+write_time : 2.667s, 34649.22MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 23944
+speed factor: 3.86
+read_recipe_time : 24.754s, 3733.62MB/s
+read_chunk_time : 7.845s, 11781.55MB/s
+write_chunk_time : 59.732s, 1547.29MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 45
+rewrite_chunk_size: 81920000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 87884475941
+deduplication ratio: 0.0932, 1.1027
+total time(s): 2535.078
+throughput(MB/s): 36.46
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23558945
+size of rewritten chunks: 80960870429
+rewritten rate in size: 0.835
+rewrite_time : 32.502s, 2843.60MB/s
+read_time : 34.145s, 2706.75MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 46.096s, 2005.02MB/s
+filter_time : 2280.939s, 40.52MB/s
+write_time : 2.848s, 32449.04MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 90.002
+throughput(MB/s): 1026.90
+read_container_num: 23944
+speed factor: 3.86
+read_recipe_time : 24.535s, 3766.92MB/s
+read_chunk_time : 7.773s, 11890.88MB/s
+write_chunk_time : 60.297s, 1532.80MB/s
+
+
+REWRITE_FCAPPING
+fixed_capping_level: 65
+rewrite_chunk_size: 81920000
+job id: 0
+backup path: chromiun_trace/chromiun_src.trace
+number of files: 7326360
+number of chunks: 27901825 (3473 bytes on average)
+number of unique chunks: 1896227
+total size(B): 96912415330
+stored data size(B): 87884475941
+deduplication ratio: 0.0932, 1.1027
+total time(s): 2540.077
+throughput(MB/s): 36.39
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23558945
+size of rewritten chunks: 80960870429
+rewritten rate in size: 0.835
+rewrite_time : 32.479s, 2845.61MB/s
+read_time : 35.227s, 2623.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 44.985s, 2054.54MB/s
+filter_time : 2282.773s, 40.49MB/s
+write_time : 2.730s, 33849.15MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 27901825
+total size(B): 96912415330
+total time(s): 95.002
+throughput(MB/s): 972.85
+read_container_num: 23944
+speed factor: 3.86
+read_recipe_time : 24.838s, 3721.03MB/s
+read_chunk_time : 8.003s, 11547.92MB/s
+write_chunk_time : 60.397s, 1530.25MB/s
+
+
