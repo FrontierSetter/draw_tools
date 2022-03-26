@@ -1,6 +1,9 @@
 import matplotlib.pyplot as  plt
 import math
 import numpy as np
+import sys
+sys.path.append("..\\header")
+from marker import *
 
 def gen_target_data(file_name):
     new_file_name=file_name+" new_result.txt"
@@ -104,7 +107,7 @@ for i in range(len(dataArr)):
     print(len(dataArr[i][0]))
     curMethod = labelArr[i]
     plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
-        marker=markerDict[curMethod],markersize=16,markevery=5,linewidth=line_width)
+        marker=markerDict[curMethod],markersize=16,markevery=getMarkerArr(len(dataArr[i][0]), 17),linewidth=line_width)
 
 #让图例生效
 plt.legend(fontsize=23, loc='lower left', bbox_to_anchor=(0, -0.02), labelspacing=0.25, handlelength=1.5)

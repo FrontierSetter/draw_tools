@@ -9,4 +9,6 @@ pathArr = [
 targetBash = sys.argv[1]
 
 for i in range(len(pathArr)):
-    os.system(pathArr[i]+targetBash)
+    curBash = pathArr[i]+targetBash
+    print(curBash)
+    os.system(curBash)

@@ -9,6 +9,41 @@ total_size=39794111305
 
 x=[]
 y=[]
+f_result=open(mine_file_name,"r")
+for line in f_result.readlines():
+    line=line.replace('\n','')
+    a=line.split(",")
+    if a[0]=="rewrite_time":
+        for b in range(1,len(a)-1):#第一个是字符，最后一个是','
+            x.append(float(a[b])+13)
+    if a[0]=="readContainerNum_lru":
+        for b in range(1,len(a)-1):
+            y.append(float(a[b]))
+
+
+new_rewrite_time=[]
+new_read_containter=[]
+new_speed_factor=[]
+#过滤
+for i in range(0,len(x)):
+    if len(new_rewrite_time)>0:
+        if x[i]>new_rewrite_time[-1]:
+            new_rewrite_time.append(x[i])
+            new_read_containter.append(y[i])
+            new_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
+    else:
+        new_rewrite_time.append(x[i])
+        new_read_containter.append(y[i])
+        new_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
+
+
+max_read_container=new_read_containter[0]
+min_read_container=new_read_containter[-1]
+
+
+
+x=[]
+y=[]
 f_result=open(capping_file_name,"r")
 for line in f_result.readlines():
     line=line.replace('\n','')
@@ -26,10 +61,10 @@ capping_read_container=[]
 capping_speed_factor=[]
 #过滤
 for i in range(0,len(x)):
-    capping_rewrite_time.append(x[i])
-    capping_read_container.append(y[i])
-    capping_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
-
+    if y[i] >= min_read_container and y[i] <= max_read_container:
+        capping_rewrite_time.append(x[i])
+        capping_read_container.append(y[i])
+        capping_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
 
 x=[]
 y=[]
@@ -50,32 +85,12 @@ smr_read_container=[]
 smr_speed_factor=[]
 #过滤
 for i in range(0,len(x)):
-    smr_rewrite_time.append(x[i])
-    smr_read_container.append(y[i])
-    smr_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
-
-x=[]
-y=[]
-f_result=open(mine_file_name,"r")
-for line in f_result.readlines():
-    line=line.replace('\n','')
-    a=line.split(",")
-    if a[0]=="rewrite_time":
-        for b in range(1,len(a)-1):#第一个是字符，最后一个是','
-            x.append(float(a[b])+13)
-    if a[0]=="readContainerNum_lru":
-        for b in range(1,len(a)-1):
-            y.append(float(a[b]))
+    if y[i] >= min_read_container and y[i] <= max_read_container:
+        smr_rewrite_time.append(x[i])
+        smr_read_container.append(y[i])
+        smr_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
 
 
-new_rewrite_time=[]
-new_read_containter=[]
-new_speed_factor=[]
-#过滤
-for i in range(0,len(x)):
-    new_rewrite_time.append(x[i])
-    new_read_containter.append(y[i])
-    new_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
 
 x=[]
 y=[]
@@ -100,7 +115,7 @@ now_flag=z[0]
 now_value=y[0]
 now_off=0
 for h in range(0,len(z)):
-    if z[h]==now_flag and now_value<y[h]:
+    if z[h]==now_flag and now_value > y[h]:
         now_value=y[h]
         now_off=h
     elif z[h]!=now_flag:
@@ -114,36 +129,80 @@ fcapping_read_container=[]
 fcapping_speed_factor=[]
 #过滤
 for i in range(0,len(x)):
-    fcapping_rewrite_time.append(x[i])
-    fcapping_read_container.append(y[i])
-    fcapping_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
+    if y[i] >= min_read_container and y[i] <= max_read_container:
+        if choose_off.count(i)==1:
+            if len(fcapping_read_container)>1:
+                if y[i] < fcapping_read_container[-1]:
+                    fcapping_rewrite_time.append(x[i])
+                    fcapping_read_container.append(y[i])
+                    fcapping_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
+            else:
+                fcapping_rewrite_time.append(x[i])
+                fcapping_read_container.append(y[i])
+                fcapping_speed_factor.append(total_size / (1024.0 * 1024 * y[i]))
 
+labelArr = [
+    "Capping",
+    "SMR",
+    "FCRC",
+    "ERP",
+]
 
-plt.figure(figsize=(19,11))
-#设置线宽
-plt.plot(capping_speed_factor,capping_rewrite_time,label=u'Capping',linewidth=7)
-plt.plot(smr_speed_factor,smr_rewrite_time,label=u'SMR',linewidth=7)
-plt.plot(fcapping_speed_factor,fcapping_rewrite_time,label=u'FCRC',linewidth=7)
-plt.plot(new_speed_factor,new_rewrite_time,label=u'ERP',linewidth=7)
-
-
-font={
-    'family':'Times New Roman',
-    'weight':'normal',
-    'size':40
+colorDict = {
+    "Capping":"#324665",
+    "SMR":"#3478BF",
+    "FCRC":"#40A776",
+    "ERP":"#F15326",
 }
 
+markerDict = {
+    "Capping":"s",
+    "SMR":"o",
+    "FCRC":"^",
+    "ERP":"d",
+}
+
+dataArr = [
+    [capping_speed_factor,capping_rewrite_time],
+    [smr_speed_factor,smr_rewrite_time],
+    [fcapping_speed_factor,fcapping_rewrite_time],
+    [new_speed_factor,new_rewrite_time],
+]
+
+import sys
+sys.path.append("..\\header")
+from marker import *
+
+# 生成图片实例，figsize的元组是宽高比
+fig = plt.figure(figsize=(12,6))
+
+# 生成背后的网格
+plt.grid(True, linestyle='-.', axis='both')
+
+#绘图
+line_width = 4
+for i in range(len(dataArr)):
+    print(len(dataArr[i][0]))
+    curMethod = labelArr[i]
+    plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
+        marker=markerDict[curMethod],markersize=16,markevery=getMarkerArr(len(dataArr[i][0]), 15),linewidth=line_width)
+
 #让图例生效
-plt.legend(prop=font,frameon=False,loc='upper left')
+plt.legend(fontsize=23, loc='upper left', labelspacing=0.25, handlelength=1.5)
 
-plt.tick_params(labelsize=35)
+# plt.tick_params(labelsize=35)
+plt.yticks(fontsize=22)
+plt.xticks(np.arange(1, 3.1, 0.25), fontsize=22)
 
+#给坐标轴添加标签
+plt.xlabel("Speed Factor", fontsize=28)
+plt.ylabel("Rewrite Time (s)", fontsize=28)
 
-#设置图表标题，并给坐标轴添加标签
-plt.xlabel("Speed Factor",fontsize=40)
-plt.ylabel("Rewrite Time (s)",fontsize=40)
-plt.xticks(np.arange(1, 3.1, 0.5))
-plt.savefig('../image/gcc_rewrite_time.png')
+# plt.xlim(1.24)
 
+# 设置图片边距
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.111,right=0.995,hspace=0.2,wspace=0.2)
+
+plt.savefig('../image/gcc_rewrite_time.pdf')
 
 plt.show()

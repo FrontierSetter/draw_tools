@@ -1,10 +1,3 @@
-t10="../../new method/cache size/linux t10"
-t50="../../new method/cache size/linux t50"
-t100="../../new method/cache size/linux t100"
-t200="../../new method/cache size/linux t200"
-t400="../../new method/cache size/linux t400"
-t600="../../new method/cache size/linux t600"
-
 total_size=100021823518
 unique_size=2581046673
 
@@ -56,37 +49,75 @@ def gen_target_data(file_name):
                 y.append(total_size / (1024.0 * 1024 * int(a[b])))
     return x,y
 
-x_10,y_10=gen_target_data(t10)
-x_50,y_50=gen_target_data(t50)
-x_100,y_100=gen_target_data(t100)
-x_200,y_200=gen_target_data(t200)
-x_400,y_400=gen_target_data(t400)
-x_600,y_600=gen_target_data(t600)
+fileArr = [
+    "../../new method/cache size/linux t10",
+    "../../new method/cache size/linux t50",
+    "../../new method/cache size/linux t100",
+    "../../new method/cache size/linux t200",
+    "../../new method/cache size/linux t400",
+    "../../new method/cache size/linux t600",
+]
 
-plt.figure(figsize=(19,11))
-#设置线宽
-plt.plot(x_10,y_10,label=u'threshold 10',linewidth=7)
-plt.plot(x_50,y_50,label=u'threshold 50',linewidth=7)
-plt.plot(x_100,y_100,label=u'threshold 100',linewidth=7)
-plt.plot(x_200,y_200,label=u'threshold 200',linewidth=7)
-plt.plot(x_400,y_400,label=u'threshold 400',linewidth=7)
-plt.plot(x_600,y_600,label=u'threshold 600',linewidth=7)
+labelArr = [
+    "threshold-10",
+    "threshold-50",
+    "threshold-100",
+    "threshold-200",
+    "threshold-400",
+    "threshold-600",
+]
 
-font={
-    'family':'Times New Roman',
-    'weight':'normal',
-    'size':30
+colorDict = {
+    "threshold-10":"#324665",
+    "threshold-50":"#3478BF",
+    "threshold-100":"#40A776",
+    "threshold-200":"#F15326",
+    "threshold-400":"#EED777",
+    "threshold-600":"#8064A2",
 }
 
+markerDict = {
+    "threshold-10":"s",
+    "threshold-50":"o",
+    "threshold-100":"^",
+    "threshold-200":"d",
+    "threshold-400":"v",
+    "threshold-600":"<",
+}
+
+dataArr = []
+for i in range(len(fileArr)):
+    dataArr.append(gen_target_data(fileArr[i]))
+
+# 生成图片实例，figsize的元组是宽高比
+fig = plt.figure(figsize=(12,6))
+
+# 生成背后的网格
+plt.grid(True, linestyle='-.', axis='both')
+
+#绘图
+line_width = 4
+for i in range(len(dataArr)):
+    print(len(dataArr[i][0]))
+    curMethod = labelArr[i]
+    plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
+        marker=markerDict[curMethod],markersize=16,markevery=None,linewidth=line_width)
+
 #让图例生效
-plt.legend(prop=font,frameon=False,loc='lower right')
+plt.legend(fontsize=23, loc='lower right', labelspacing=0.25, handlelength=1.5,ncol=2)
 
-plt.tick_params(labelsize=35)
+# plt.tick_params(labelsize=35)
+plt.yticks(fontsize=22)
+plt.xticks(fontsize=22)
 
+#给坐标轴添加标签
+plt.xlabel("Cache Size", fontsize=28)
+plt.ylabel("Speed Factor", fontsize=28)
 
-#设置图表标题，并给坐标轴添加标签
-plt.xlabel("Cache Size",fontsize=40)
-plt.ylabel("Speed Factor",fontsize=40)
-plt.yticks(np.arange(0.5, 3.1, 0.5))
-plt.savefig('../image/linux_cache_size.png')
+plt.ylim(0)
+
+# 设置图片边距
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+
+plt.savefig('../image/linux_cache_size.pdf')
 plt.show()
