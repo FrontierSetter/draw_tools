@@ -1,14 +1,14 @@
-capping_name="F:/论文/实验数据/capping/linux 1-100.txt"
-smr_name="F:/论文/实验数据/smr/linux 1-100.txt"
-fcapping_name="F:/论文/实验数据/fcapping/linux 1.txt"
-mine_name="F:/论文/实验数据/new method/linux.txt"
-old_name="F:/论文/实验数据/old method/linux.txt"
+capping_name="../../capping/linux 1-100.txt"
+smr_name="../../smr/linux 1-100.txt"
+fcapping_name="../../fcapping/linux 1.txt"
+mine_name="../../new method/linux.txt"
+old_name="../../old method/linux.txt"
 
-capping_file_name="F:/论文/实验数据/capping/linux 1-100 new_result.txt"
-smr_file_name="F:/论文/实验数据/smr/linux 1-100 new_result.txt"
-fcapping_file_name="F:/论文/实验数据/fcapping/linux 1 new_result.txt"
-mine_file_name="F:/论文/实验数据/new method/linux new_result.txt"
-old_file_name="F:/论文/实验数据/old method/linux new_result.txt"
+capping_file_name="../../capping/linux 1-100 new_result.txt"
+smr_file_name="../../smr/linux 1-100 new_result.txt"
+fcapping_file_name="../../fcapping/linux 1 new_result.txt"
+mine_file_name="../../new method/linux new_result.txt"
+old_file_name="../../old method/linux new_result.txt"
 
 
 count_item=["rewrite_capping_level","rewrite_time ","number of rewritten chunks","size of rewritten chunks","read_container_num"]

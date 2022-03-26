@@ -1,16 +1,16 @@
-capping_name="F:/论文/实验数据/capping/chromiun.txt"
-smr_name="F:/论文/实验数据/smr/chromiun 1-100.txt"
-fcapping_name="F:/论文/实验数据/fcapping/chromiun 1.txt"
-mine_name="F:/论文/实验数据/new method/chromiun.txt"
-#old_name="F:/论文/实验数据/old method/linux.txt"
+capping_name="../../capping/chromiun.txt"
+smr_name="../../smr/chromiun 1-100.txt"
+fcapping_name="../../fcapping/chromiun 1.txt"
+mine_name="../../new method/chromiun.txt"
+#old_name="../../old method/linux.txt"
 
 
 
-capping_file_name="F:/论文/实验数据/capping/chromiun new_result.txt"
-smr_file_name="F:/论文/实验数据/smr/chromiun 1-100 new_result.txt"
-fcapping_file_name="F:/论文/实验数据/fcapping/chromiun 1 new_result.txt"
-mine_file_name="F:/论文/实验数据/new method/chromiun new_result.txt"
-#old_file_name="F:/论文/实验数据/old method/linux new_result.txt"
+capping_file_name="../../capping/chromiun new_result.txt"
+smr_file_name="../../smr/chromiun 1-100 new_result.txt"
+fcapping_file_name="../../fcapping/chromiun 1 new_result.txt"
+mine_file_name="../../new method/chromiun new_result.txt"
+#old_file_name="../../old method/linux new_result.txt"
 
 
 

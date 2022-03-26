@@ -1,9 +1,9 @@
-t10="F:/论文/实验数据/new method/cache size/chromiun t10"
-t50="F:/论文/实验数据/new method/cache size/chromiun t50"
-t100="F:/论文/实验数据/new method/cache size/chromiun t100"
-t200="F:/论文/实验数据/new method/cache size/chromiun t200"
-t400="F:/论文/实验数据/new method/cache size/chromiun t400"
-t600="F:/论文/实验数据/new method/cache size/chromiun t600"
+t10="../../new method/cache size/chromiun t10"
+t50="../../new method/cache size/chromiun t50"
+t100="../../new method/cache size/chromiun t100"
+t200="../../new method/cache size/chromiun t200"
+t400="../../new method/cache size/chromiun t400"
+t600="../../new method/cache size/chromiun t600"
 
 total_size=96912415330
 unique_size=6923605512

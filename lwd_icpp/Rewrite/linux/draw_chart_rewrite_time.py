@@ -1,7 +1,7 @@
-capping_file_name="F:/论文/实验数据/capping/linux 1-100 new_result.txt"
-fcapping_file_name="F:/论文/实验数据/fcapping/linux 1 new_result.txt"
-smr_file_name="F:/论文/实验数据/smr/linux 1-100 new_result.txt"
-mine_file_name="F:/论文/实验数据/new method/linux new_result.txt"
+capping_file_name="../../capping/linux 1-100 new_result.txt"
+fcapping_file_name="../../fcapping/linux 1 new_result.txt"
+smr_file_name="../../smr/linux 1-100 new_result.txt"
+mine_file_name="../../new method/linux new_result.txt"
 
 total_size=100021823518
 

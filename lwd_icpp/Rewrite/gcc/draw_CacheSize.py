@@ -1,9 +1,9 @@
-t10="F:/论文/实验数据/new method/cache size/gcc t10"
-t50="F:/论文/实验数据/new method/cache size/gcc t50"
-t100="F:/论文/实验数据/new method/cache size/gcc t100"
-t200="F:/论文/实验数据/new method/cache size/gcc t200"
-t400="F:/论文/实验数据/new method/cache size/gcc t400"
-t600="F:/论文/实验数据/new method/cache size/gcc t600"
+t10="../../new method/cache size/gcc t10"
+t50="../../new method/cache size/gcc t50"
+t100="../../new method/cache size/gcc t100"
+t200="../../new method/cache size/gcc t200"
+t400="../../new method/cache size/gcc t400"
+t600="../../new method/cache size/gcc t600"
 
 total_size=39794111305
 unique_size=9002549528

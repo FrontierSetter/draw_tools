@@ -1,14 +1,14 @@
-capping_name="F:/论文/实验数据/capping/gcc.txt"
-smr_name="F:/论文/实验数据/smr/gcc 1-100.txt"
-fcapping_name="F:/论文/实验数据/fcapping/gcc 1.txt"
-mine_name="F:/论文/实验数据/new method/gcc.txt"
-#old_name="F:/论文/实验数据/old method/linux.txt"
+capping_name="../../capping/gcc.txt"
+smr_name="../../smr/gcc 1-100.txt"
+fcapping_name="../../fcapping/gcc 1.txt"
+mine_name="../../new method/gcc.txt"
+#old_name="../../old method/linux.txt"
 
-capping_file_name="F:/论文/实验数据/capping/gcc new_result.txt"
-smr_file_name="F:/论文/实验数据/smr/gcc 1-100 new_result.txt"
-fcapping_file_name="F:/论文/实验数据/fcapping/gcc 1 new_result.txt"
-mine_file_name="F:/论文/实验数据/new method/gcc new_result.txt"
-#old_file_name="F:/论文/实验数据/old method/linux new_result.txt"
+capping_file_name="../../capping/gcc new_result.txt"
+smr_file_name="../../smr/gcc 1-100 new_result.txt"
+fcapping_file_name="../../fcapping/gcc 1 new_result.txt"
+mine_file_name="../../new method/gcc new_result.txt"
+#old_file_name="../../old method/linux new_result.txt"
 
 
 count_item=["rewrite_capping_level","rewrite_time ","number of rewritten chunks","size of rewritten chunks","read_container_num"]

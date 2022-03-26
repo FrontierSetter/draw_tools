@@ -1,7 +1,7 @@
-capping_file_name="F:/论文/实验数据/capping/gcc new_result.txt"
-fcapping_file_name="F:/论文/实验数据/fcapping/gcc 1 new_result.txt"
-smr_file_name="F:/论文/实验数据/smr/gcc 1-100 new_result.txt"
-mine_file_name="F:/论文/实验数据/new method/gcc new_result.txt"
+capping_file_name="../../capping/gcc new_result.txt"
+fcapping_file_name="../../fcapping/gcc 1 new_result.txt"
+smr_file_name="../../smr/gcc 1-100 new_result.txt"
+mine_file_name="../../new method/gcc new_result.txt"
 
 import matplotlib.pyplot as  plt
 import numpy as np
