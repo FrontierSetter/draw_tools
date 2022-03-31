@@ -230,7 +230,7 @@ plt.xticks(np.arange(0.5, 4.2, 0.5), fontsize=22)
 
 #给坐标轴添加标签
 plt.xlabel("Speed Factor", fontsize=28)
-plt.ylabel("Rewrite Time (s)", fontsize=28)
+plt.ylabel("Write Time (s)", fontsize=28)
 
 plt.xlim(0.4, 4.2)
 

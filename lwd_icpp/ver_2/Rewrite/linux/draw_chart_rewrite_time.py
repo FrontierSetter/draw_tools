@@ -209,7 +209,7 @@ plt.ylim(0, 1350)
 plt.xlim(1.67, 3.7)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.146,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.95,bottom=0.135,left=0.146,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/linux_rewrite_time.pdf')
 

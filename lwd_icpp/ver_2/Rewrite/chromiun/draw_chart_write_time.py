@@ -224,12 +224,12 @@ plt.xticks(np.arange(1.25, 4, 0.25), fontsize=22)
 
 #给坐标轴添加标签
 plt.xlabel("Speed Factor", fontsize=28)
-plt.ylabel("Rewrite Time (s)", fontsize=28)
+plt.ylabel("Write Time (s)", fontsize=28)
 
 plt.xlim(1.35, 3.6)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.126,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.945,bottom=0.135,left=0.126,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/chromiun_write_time.pdf')
 

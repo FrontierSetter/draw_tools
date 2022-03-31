@@ -203,7 +203,7 @@ plt.xlim(1.35, 3.6)
 plt.ylim(0, 820)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.126,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.95,bottom=0.135,left=0.126,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/chromiun_rewrite_time.pdf')
 

@@ -4,6 +4,7 @@ pathArr = [
     "..\\chromiun\\",
     "..\\gcc\\",
     "..\\linux\\",
+    "..\\vmdk\\",
 ]
 
 targetBash = sys.argv[1]

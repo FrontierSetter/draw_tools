@@ -197,7 +197,7 @@ plt.legend(fontsize=23, loc='upper left', labelspacing=0.25, handlelength=1.5)
 
 # plt.tick_params(labelsize=35)
 plt.yticks(np.arange(0, 61, 10), fontsize=22)
-plt.xticks(np.arange(1.75, 4.0, 0.25), fontsize=22)
+plt.xticks(np.arange(1.75, 3.75, 0.25), fontsize=22)
 
 
 #给坐标轴添加标签
@@ -205,7 +205,7 @@ plt.xlabel("Speed Factor", fontsize=28)
 plt.ylabel("Size of Rewritten Chunks (GB) ", fontsize=28)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.925,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.925,bottom=0.135,left=0.146,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/linux_rewrite_cost.pdf')
 

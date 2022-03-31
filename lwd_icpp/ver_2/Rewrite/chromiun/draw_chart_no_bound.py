@@ -211,7 +211,7 @@ plt.xlabel("Speed Factor", fontsize=28)
 plt.ylabel("Size of Rewritten Chunks (GB) ", fontsize=28)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.925,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.925,bottom=0.135,left=0.146,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/chromiun_rewrite_cost.pdf')
 
