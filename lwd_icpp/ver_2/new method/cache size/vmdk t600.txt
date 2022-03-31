@@ -1,0 +1,76 @@
+
+new method
+threshold:600
+lru_num:10
+readContainerNum:386460
+readContainerNum_lru:431843
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.147
+
+
+new method
+threshold:600
+lru_num:20
+readContainerNum:386460
+readContainerNum_lru:373542
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.638
+
+
+new method
+threshold:600
+lru_num:30
+readContainerNum:386460
+readContainerNum_lru:366936
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.704
+
+
+new method
+threshold:600
+lru_num:40
+readContainerNum:386460
+readContainerNum_lru:365954
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.714
+
+
+new method
+threshold:600
+lru_num:50
+readContainerNum:386460
+readContainerNum_lru:364263
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.731
+
+
+new method
+threshold:600
+lru_num:60
+readContainerNum:386460
+readContainerNum_lru:363041
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.743
+
+
+new method
+threshold:600
+lru_num:70
+readContainerNum:386460
+readContainerNum_lru:362008
+rewriteNum:34960066
+rewritesize:143196430336
+rewrite_time:2900.478/s
+speed_factor:3.754

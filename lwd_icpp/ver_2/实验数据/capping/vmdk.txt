@@ -1,0 +1,1400 @@
+REWRITE_CAPPING
+rewrite_capping_level: 5
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 1062509309952
+deduplication ratio: 0.2544, 1.3412
+total time(s): 5345.349
+throughput(MB/s): 254.24
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 241336782
+size of rewritten chunks: 988515459072
+rewritten rate in size: 0.694
+rewrite_time : 400.578s, 3392.61MB/s
+read_time : 388.725s, 3496.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 594.391s, 2286.38MB/s
+filter_time : 3100.632s, 438.30MB/s
+write_time : 31.518s, 43118.39MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 655.014
+throughput(MB/s): 2074.77
+read_container_num: 337895
+speed factor: 4.02
+read_recipe_time : 301.358s, 4509.61MB/s
+read_chunk_time : 112.058s, 12127.71MB/s
+write_chunk_time : 0.000s, 3860812322.44MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 7
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 941184548864
+deduplication ratio: 0.3395, 1.5141
+total time(s): 5295.378
+throughput(MB/s): 256.64
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 211716479
+size of rewritten chunks: 867190697984
+rewritten rate in size: 0.609
+rewrite_time : 403.034s, 3371.94MB/s
+read_time : 402.282s, 3378.24MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 601.926s, 2257.76MB/s
+filter_time : 3046.290s, 446.12MB/s
+write_time : 27.985s, 48562.02MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 630.009
+throughput(MB/s): 2157.12
+read_container_num: 342109
+speed factor: 3.97
+read_recipe_time : 276.977s, 4906.57MB/s
+read_chunk_time : 108.920s, 12477.09MB/s
+write_chunk_time : 0.000s, 3860812322.44MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 9
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 826789462016
+deduplication ratio: 0.4198, 1.7236
+total time(s): 5085.307
+throughput(MB/s): 267.24
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 183787991
+size of rewritten chunks: 752795611136
+rewritten rate in size: 0.528
+rewrite_time : 404.258s, 3361.73MB/s
+read_time : 391.907s, 3467.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 581.926s, 2335.36MB/s
+filter_time : 2822.899s, 481.42MB/s
+write_time : 25.045s, 54263.27MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 585.010
+throughput(MB/s): 2323.05
+read_container_num: 347936
+speed factor: 3.91
+read_recipe_time : 254.148s, 5347.30MB/s
+read_chunk_time : 98.249s, 13832.23MB/s
+write_chunk_time : 0.000s, 4260206700.63MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 11
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 721336594432
+deduplication ratio: 0.4938, 1.9755
+total time(s): 5040.278
+throughput(MB/s): 269.63
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 158042662
+size of rewritten chunks: 647342743552
+rewritten rate in size: 0.454
+rewrite_time : 406.568s, 3342.63MB/s
+read_time : 411.299s, 3304.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 587.996s, 2311.25MB/s
+filter_time : 2752.829s, 493.68MB/s
+write_time : 22.511s, 60370.72MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 785.017
+throughput(MB/s): 1731.18
+read_container_num: 355736
+speed factor: 3.82
+read_recipe_time : 415.229s, 3272.91MB/s
+read_chunk_time : 118.281s, 11489.68MB/s
+write_chunk_time : 0.000s, 4470414268.09MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 13
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 624506007552
+deduplication ratio: 0.5618, 2.2818
+total time(s): 5025.288
+throughput(MB/s): 270.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 134402382
+size of rewritten chunks: 550512156672
+rewritten rate in size: 0.386
+rewrite_time : 405.780s, 3349.12MB/s
+read_time : 481.992s, 2819.56MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 591.821s, 2296.31MB/s
+filter_time : 2682.974s, 506.53MB/s
+write_time : 21.490s, 63238.78MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 820.016
+throughput(MB/s): 1657.29
+read_container_num: 365498
+speed factor: 3.72
+read_recipe_time : 438.038s, 3102.49MB/s
+read_chunk_time : 124.787s, 10890.57MB/s
+write_chunk_time : 0.000s, 4686227370.69MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 15
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 539322093568
+deduplication ratio: 0.6215, 2.6422
+total time(s): 4940.255
+throughput(MB/s): 275.09
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 113605528
+size of rewritten chunks: 465328242688
+rewritten rate in size: 0.327
+rewrite_time : 424.878s, 3198.58MB/s
+read_time : 441.269s, 3079.77MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 594.619s, 2285.51MB/s
+filter_time : 2636.576s, 515.44MB/s
+write_time : 17.719s, 76699.40MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 835.017
+throughput(MB/s): 1627.52
+read_container_num: 377676
+speed factor: 3.60
+read_recipe_time : 456.431s, 2977.46MB/s
+read_chunk_time : 126.301s, 10760.10MB/s
+write_chunk_time : 0.000s, 4328044386.94MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 17
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 468285964288
+deduplication ratio: 0.6714, 3.0431
+total time(s): 4880.208
+throughput(MB/s): 278.47
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 96262723
+size of rewritten chunks: 394292113408
+rewritten rate in size: 0.277
+rewrite_time : 404.543s, 3359.36MB/s
+read_time : 447.083s, 3039.72MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 600.524s, 2263.03MB/s
+filter_time : 2570.660s, 528.66MB/s
+write_time : 15.762s, 86219.43MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 620.011
+throughput(MB/s): 2191.91
+read_container_num: 393156
+speed factor: 3.46
+read_recipe_time : 279.664s, 4859.42MB/s
+read_chunk_time : 105.506s, 12880.87MB/s
+write_chunk_time : 0.000s, 4143310785.06MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 19
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 416067510272
+deduplication ratio: 0.7080, 3.4250
+total time(s): 4645.200
+throughput(MB/s): 292.56
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 83514077
+size of rewritten chunks: 342073659392
+rewritten rate in size: 0.240
+rewrite_time : 394.529s, 3444.63MB/s
+read_time : 388.073s, 3501.93MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 575.743s, 2360.44MB/s
+filter_time : 2476.303s, 548.80MB/s
+write_time : 13.322s, 102014.80MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 680.012
+throughput(MB/s): 1998.50
+read_container_num: 412812
+speed factor: 3.29
+read_recipe_time : 301.318s, 4510.20MB/s
+read_chunk_time : 124.834s, 10886.54MB/s
+write_chunk_time : 0.000s, 4260206700.63MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 21
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 372243890176
+deduplication ratio: 0.7388, 3.8282
+total time(s): 4685.187
+throughput(MB/s): 290.06
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 72814951
+size of rewritten chunks: 298250039296
+rewritten rate in size: 0.209
+rewrite_time : 395.949s, 3432.28MB/s
+read_time : 365.662s, 3716.56MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 584.451s, 2325.27MB/s
+filter_time : 2643.331s, 514.13MB/s
+write_time : 11.582s, 117340.01MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 680.013
+throughput(MB/s): 1998.50
+read_container_num: 432649
+speed factor: 3.14
+read_recipe_time : 298.241s, 4556.74MB/s
+read_chunk_time : 127.983s, 10618.68MB/s
+write_chunk_time : 0.000s, 3905189475.57MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 23
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 335137681408
+deduplication ratio: 0.7648, 4.2520
+total time(s): 4635.169
+throughput(MB/s): 293.19
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 63755818
+size of rewritten chunks: 261143830528
+rewritten rate in size: 0.183
+rewrite_time : 395.694s, 3434.49MB/s
+read_time : 367.263s, 3700.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 579.225s, 2346.25MB/s
+filter_time : 2611.881s, 520.32MB/s
+write_time : 9.732s, 139646.53MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 680.012
+throughput(MB/s): 1998.50
+read_container_num: 450507
+speed factor: 3.02
+read_recipe_time : 295.788s, 4594.52MB/s
+read_chunk_time : 130.756s, 10393.43MB/s
+write_chunk_time : 0.000s, 4441195874.18MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 25
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 312176218112
+deduplication ratio: 0.7809, 4.5648
+total time(s): 4625.169
+throughput(MB/s): 293.83
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 58149992
+size of rewritten chunks: 238182367232
+rewritten rate in size: 0.167
+rewrite_time : 397.047s, 3422.78MB/s
+read_time : 373.575s, 3637.84MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 588.851s, 2307.89MB/s
+filter_time : 2583.830s, 525.97MB/s
+write_time : 9.024s, 150591.45MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 685.012
+throughput(MB/s): 1983.92
+read_container_num: 471999
+speed factor: 2.88
+read_recipe_time : 296.060s, 4590.31MB/s
+read_chunk_time : 136.325s, 9968.89MB/s
+write_chunk_time : 0.000s, 4870989023.30MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 27
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 293986766848
+deduplication ratio: 0.7937, 4.8472
+total time(s): 4600.166
+throughput(MB/s): 295.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 53709208
+size of rewritten chunks: 219992915968
+rewritten rate in size: 0.154
+rewrite_time : 394.043s, 3448.88MB/s
+read_time : 360.633s, 3768.39MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 583.568s, 2328.79MB/s
+filter_time : 2581.266s, 526.49MB/s
+write_time : 8.509s, 159712.72MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 695.012
+throughput(MB/s): 1955.37
+read_container_num: 494397
+speed factor: 2.75
+read_recipe_time : 302.570s, 4491.54MB/s
+read_chunk_time : 143.648s, 9460.66MB/s
+write_chunk_time : 0.000s, 4341872004.79MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 29
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 277667377152
+deduplication ratio: 0.8051, 5.1321
+total time(s): 4630.163
+throughput(MB/s): 293.51
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 49724982
+size of rewritten chunks: 203673526272
+rewritten rate in size: 0.143
+rewrite_time : 398.110s, 3413.64MB/s
+read_time : 368.816s, 3684.78MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 589.930s, 2303.67MB/s
+filter_time : 2603.137s, 522.06MB/s
+write_time : 8.264s, 164449.05MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 660.012
+throughput(MB/s): 2059.06
+read_container_num: 516909
+speed factor: 2.63
+read_recipe_time : 287.520s, 4726.64MB/s
+read_chunk_time : 133.372s, 10189.62MB/s
+write_chunk_time : 0.000s, 4638245520.48MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 31
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 263851712512
+deduplication ratio: 0.8148, 5.4008
+total time(s): 4595.158
+throughput(MB/s): 295.75
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 46352017
+size of rewritten chunks: 189857861632
+rewritten rate in size: 0.133
+rewrite_time : 391.492s, 3471.35MB/s
+read_time : 381.859s, 3558.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 598.180s, 2271.90MB/s
+filter_time : 2480.395s, 547.90MB/s
+write_time : 7.567s, 179603.94MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 645.012
+throughput(MB/s): 2106.95
+read_container_num: 539613
+speed factor: 2.52
+read_recipe_time : 271.172s, 5011.59MB/s
+read_chunk_time : 137.807s, 9861.63MB/s
+write_chunk_time : 0.000s, 4575777567.34MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 33
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 250843328512
+deduplication ratio: 0.8240, 5.6809
+total time(s): 4570.142
+throughput(MB/s): 297.37
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 43176142
+size of rewritten chunks: 176849477632
+rewritten rate in size: 0.124
+rewrite_time : 394.520s, 3444.71MB/s
+read_time : 378.848s, 3587.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 597.627s, 2274.00MB/s
+filter_time : 2483.105s, 547.30MB/s
+write_time : 7.451s, 182380.40MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 700.012
+throughput(MB/s): 1941.40
+read_container_num: 562278
+speed factor: 2.42
+read_recipe_time : 303.929s, 4471.46MB/s
+read_chunk_time : 155.176s, 8757.86MB/s
+write_chunk_time : 0.000s, 4118199810.61MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 35
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 239492857856
+deduplication ratio: 0.8319, 5.9502
+total time(s): 4570.135
+throughput(MB/s): 297.37
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 40405031
+size of rewritten chunks: 165499006976
+rewritten rate in size: 0.116
+rewrite_time : 392.474s, 3462.67MB/s
+read_time : 363.928s, 3734.27MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 601.924s, 2257.77MB/s
+filter_time : 2526.576s, 537.88MB/s
+write_time : 6.993s, 194327.15MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 700.014
+throughput(MB/s): 1941.40
+read_container_num: 585850
+speed factor: 2.32
+read_recipe_time : 315.959s, 4301.20MB/s
+read_chunk_time : 152.426s, 8915.85MB/s
+write_chunk_time : 0.000s, 4341872004.79MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 37
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 229820866560
+deduplication ratio: 0.8387, 6.2006
+total time(s): 4565.143
+throughput(MB/s): 297.69
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 38043705
+size of rewritten chunks: 155827015680
+rewritten rate in size: 0.109
+rewrite_time : 397.560s, 3418.37MB/s
+read_time : 373.561s, 3637.98MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 608.769s, 2232.38MB/s
+filter_time : 2515.794s, 540.19MB/s
+write_time : 6.693s, 203062.96MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 715.013
+throughput(MB/s): 1900.67
+read_container_num: 609952
+speed factor: 2.23
+read_recipe_time : 316.430s, 4294.81MB/s
+read_chunk_time : 163.308s, 8321.73MB/s
+write_chunk_time : 0.000s, 4670123496.56MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 39
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 220793122816
+deduplication ratio: 0.8451, 6.4541
+total time(s): 4570.132
+throughput(MB/s): 297.37
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 35839666
+size of rewritten chunks: 146799271936
+rewritten rate in size: 0.103
+rewrite_time : 395.983s, 3431.98MB/s
+read_time : 371.918s, 3654.04MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 603.859s, 2250.54MB/s
+filter_time : 2560.917s, 530.67MB/s
+write_time : 6.812s, 199491.30MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 715.014
+throughput(MB/s): 1900.67
+read_container_num: 634044
+speed factor: 2.14
+read_recipe_time : 315.596s, 4306.15MB/s
+read_chunk_time : 166.034s, 8185.10MB/s
+write_chunk_time : 0.000s, 4383890120.97MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 41
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 213199982592
+deduplication ratio: 0.8504, 6.6840
+total time(s): 4615.146
+throughput(MB/s): 294.47
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 33985872
+size of rewritten chunks: 139206131712
+rewritten rate in size: 0.098
+rewrite_time : 401.732s, 3382.87MB/s
+read_time : 369.992s, 3673.07MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 627.403s, 2166.08MB/s
+filter_time : 2535.874s, 535.91MB/s
+write_time : 6.488s, 209455.21MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 710.013
+throughput(MB/s): 1914.06
+read_container_num: 659425
+speed factor: 2.06
+read_recipe_time : 311.442s, 4363.59MB/s
+read_chunk_time : 169.607s, 8012.67MB/s
+write_chunk_time : 0.000s, 4044660528.27MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 43
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 204776247296
+deduplication ratio: 0.8563, 6.9589
+total time(s): 4625.150
+throughput(MB/s): 293.83
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 31929296
+size of rewritten chunks: 130782396416
+rewritten rate in size: 0.092
+rewrite_time : 401.147s, 3387.80MB/s
+read_time : 383.133s, 3547.09MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 635.184s, 2139.55MB/s
+filter_time : 2530.829s, 536.98MB/s
+write_time : 5.882s, 231051.82MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 875.015
+throughput(MB/s): 1553.12
+read_container_num: 683029
+speed factor: 1.99
+read_recipe_time : 445.805s, 3048.43MB/s
+read_chunk_time : 191.080s, 7112.22MB/s
+write_chunk_time : 0.000s, 4606799788.14MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 45
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 197466877952
+deduplication ratio: 0.8614, 7.2165
+total time(s): 4640.131
+throughput(MB/s): 292.88
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 30144782
+size of rewritten chunks: 123473027072
+rewritten rate in size: 0.087
+rewrite_time : 399.575s, 3401.13MB/s
+read_time : 472.436s, 2876.59MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 625.343s, 2173.22MB/s
+filter_time : 2515.288s, 540.30MB/s
+write_time : 6.788s, 200202.70MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 890.015
+throughput(MB/s): 1526.95
+read_container_num: 707925
+speed factor: 1.92
+read_recipe_time : 459.190s, 2959.57MB/s
+read_chunk_time : 198.405s, 6849.65MB/s
+write_chunk_time : 0.000s, 4686227370.69MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 47
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 190105554944
+deduplication ratio: 0.8666, 7.4959
+total time(s): 4635.160
+throughput(MB/s): 293.20
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 28347584
+size of rewritten chunks: 116111704064
+rewritten rate in size: 0.081
+rewrite_time : 397.733s, 3416.88MB/s
+read_time : 443.778s, 3062.35MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 634.307s, 2142.50MB/s
+filter_time : 2520.955s, 539.08MB/s
+write_time : 6.682s, 203387.86MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 890.016
+throughput(MB/s): 1526.95
+read_container_num: 732484
+speed factor: 1.86
+read_recipe_time : 455.933s, 2980.71MB/s
+read_chunk_time : 202.768s, 6702.28MB/s
+write_chunk_time : 0.000s, 4996345358.46MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 49
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 183556128768
+deduplication ratio: 0.8712, 7.7634
+total time(s): 4685.123
+throughput(MB/s): 290.07
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 26748603
+size of rewritten chunks: 109562277888
+rewritten rate in size: 0.077
+rewrite_time : 400.494s, 3393.33MB/s
+read_time : 452.055s, 3006.29MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 635.090s, 2139.86MB/s
+filter_time : 2548.882s, 533.18MB/s
+write_time : 5.935s, 229000.80MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 925.016
+throughput(MB/s): 1469.17
+read_container_num: 757547
+speed factor: 1.79
+read_recipe_time : 484.574s, 2804.54MB/s
+read_chunk_time : 210.550s, 6454.54MB/s
+write_chunk_time : 0.000s, 4560422609.06MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 55
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 164828123136
+deduplication ratio: 0.8843, 8.6455
+total time(s): 4580.130
+throughput(MB/s): 296.72
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 22176336
+size of rewritten chunks: 90834272256
+rewritten rate in size: 0.064
+rewrite_time : 413.140s, 3289.45MB/s
+read_time : 376.549s, 3609.11MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 651.739s, 2085.20MB/s
+filter_time : 2467.223s, 550.82MB/s
+write_time : 5.364s, 253366.21MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 735.014
+throughput(MB/s): 1848.95
+read_container_num: 834278
+speed factor: 1.63
+read_recipe_time : 312.983s, 4342.11MB/s
+read_chunk_time : 204.378s, 6649.46MB/s
+write_chunk_time : 0.000s, 4273603577.04MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 60
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 150992220160
+deduplication ratio: 0.8940, 9.4377
+total time(s): 4530.126
+throughput(MB/s): 299.99
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18798430
+size of rewritten chunks: 76998369280
+rewritten rate in size: 0.054
+rewrite_time : 402.965s, 3372.52MB/s
+read_time : 368.878s, 3684.16MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 650.073s, 2090.54MB/s
+filter_time : 2459.305s, 552.60MB/s
+write_time : 4.642s, 292757.97MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 715.014
+throughput(MB/s): 1900.67
+read_container_num: 899014
+speed factor: 1.51
+read_recipe_time : 290.357s, 4680.46MB/s
+read_chunk_time : 212.331s, 6400.41MB/s
+write_chunk_time : 0.000s, 4606799788.14MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 65
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 136791158784
+deduplication ratio: 0.9040, 10.4175
+total time(s): 4625.118
+throughput(MB/s): 293.83
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 15331374
+size of rewritten chunks: 62797307904
+rewritten rate in size: 0.044
+rewrite_time : 412.183s, 3297.09MB/s
+read_time : 377.207s, 3602.81MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 670.511s, 2026.82MB/s
+filter_time : 2493.737s, 544.97MB/s
+write_time : 4.225s, 321683.18MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 750.014
+throughput(MB/s): 1811.98
+read_container_num: 964455
+speed factor: 1.41
+read_recipe_time : 313.543s, 4334.36MB/s
+read_chunk_time : 228.678s, 5942.88MB/s
+write_chunk_time : 0.000s, 4246893554.69MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 70
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 124864724992
+deduplication ratio: 0.9124, 11.4125
+total time(s): 4585.113
+throughput(MB/s): 296.40
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 12419647
+size of rewritten chunks: 50870874112
+rewritten rate in size: 0.036
+rewrite_time : 403.438s, 3368.56MB/s
+read_time : 374.919s, 3624.80MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 657.669s, 2066.40MB/s
+filter_time : 2487.211s, 546.40MB/s
+write_time : 3.700s, 367284.51MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 760.013
+throughput(MB/s): 1788.13
+read_container_num: 1029429
+speed factor: 1.32
+read_recipe_time : 315.289s, 4310.35MB/s
+read_chunk_time : 238.910s, 5688.37MB/s
+write_chunk_time : 0.000s, 4560422609.06MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 75
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 113999200256
+deduplication ratio: 0.9200, 12.5003
+total time(s): 5175.132
+throughput(MB/s): 262.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 9766931
+size of rewritten chunks: 40005349376
+rewritten rate in size: 0.028
+rewrite_time : 405.100s, 3354.74MB/s
+read_time : 792.756s, 1714.28MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 706.727s, 1922.96MB/s
+filter_time : 2623.967s, 517.92MB/s
+write_time : 17.596s, 77233.91MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 845.015
+throughput(MB/s): 1608.26
+read_container_num: 1099446
+speed factor: 1.24
+read_recipe_time : 373.837s, 3635.29MB/s
+read_chunk_time : 267.504s, 5080.32MB/s
+write_chunk_time : 0.000s, 4220515333.85MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 80
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 105142476800
+deduplication ratio: 0.9262, 13.5532
+total time(s): 4580.186
+throughput(MB/s): 296.71
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 7604645
+size of rewritten chunks: 31148625920
+rewritten rate in size: 0.022
+rewrite_time : 402.505s, 3376.37MB/s
+read_time : 416.938s, 3259.49MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 650.198s, 2090.14MB/s
+filter_time : 2532.538s, 536.62MB/s
+write_time : 3.154s, 430894.78MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1145.019
+throughput(MB/s): 1186.89
+read_container_num: 1169762
+speed factor: 1.16
+read_recipe_time : 604.908s, 2246.63MB/s
+read_chunk_time : 338.386s, 4016.14MB/s
+write_chunk_time : 0.000s, 4300651700.95MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 90
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 92023599104
+deduplication ratio: 0.9354, 15.4854
+total time(s): 5060.164
+throughput(MB/s): 268.57
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 4401794
+size of rewritten chunks: 18029748224
+rewritten rate in size: 0.013
+rewrite_time : 423.024s, 3212.60MB/s
+read_time : 741.956s, 1831.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 761.144s, 1785.48MB/s
+filter_time : 2574.914s, 527.79MB/s
+write_time : 3.456s, 393215.41MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1120.019
+throughput(MB/s): 1213.38
+read_container_num: 1316748
+speed factor: 1.03
+read_recipe_time : 558.705s, 2432.42MB/s
+read_chunk_time : 355.800s, 3819.58MB/s
+write_chunk_time : 0.000s, 4300651700.95MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 100
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 84251717632
+deduplication ratio: 0.9409, 16.9139
+total time(s): 4675.206
+throughput(MB/s): 290.68
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 2504362
+size of rewritten chunks: 10257866752
+rewritten rate in size: 0.007
+rewrite_time : 404.180s, 3362.38MB/s
+read_time : 530.113s, 2563.62MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 666.310s, 2039.60MB/s
+filter_time : 2556.004s, 531.69MB/s
+write_time : 2.678s, 507461.38MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1070.018
+throughput(MB/s): 1270.08
+read_container_num: 1463314
+speed factor: 0.93
+read_recipe_time : 484.504s, 2804.94MB/s
+read_chunk_time : 405.760s, 3349.29MB/s
+write_chunk_time : 0.000s, 4545170359.53MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 110
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 79872548864
+deduplication ratio: 0.9439, 17.8412
+total time(s): 4630.187
+throughput(MB/s): 293.51
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1435229
+size of rewritten chunks: 5878697984
+rewritten rate in size: 0.004
+rewrite_time : 406.192s, 3345.73MB/s
+read_time : 509.059s, 2669.64MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 665.987s, 2040.59MB/s
+filter_time : 2524.345s, 538.36MB/s
+write_time : 2.934s, 463221.10MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1060.017
+throughput(MB/s): 1282.06
+read_container_num: 1586091
+speed factor: 0.86
+read_recipe_time : 473.004s, 2873.14MB/s
+read_chunk_time : 410.449s, 3311.03MB/s
+write_chunk_time : 0.000s, 4996345358.46MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 130
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 75912892416
+deduplication ratio: 0.9467, 18.7718
+total time(s): 4570.211
+throughput(MB/s): 297.36
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 468516
+size of rewritten chunks: 1919041536
+rewritten rate in size: 0.001
+rewrite_time : 414.794s, 3276.34MB/s
+read_time : 437.733s, 3104.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 663.520s, 2048.18MB/s
+filter_time : 2540.517s, 534.93MB/s
+write_time : 2.611s, 520559.10MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 995.015
+throughput(MB/s): 1365.81
+read_container_num: 1756426
+speed factor: 0.77
+read_recipe_time : 364.775s, 3725.60MB/s
+read_chunk_time : 475.802s, 2856.24MB/s
+write_chunk_time : 0.000s, 4455757172.13MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 140
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 75175993344
+deduplication ratio: 0.9472, 18.9558
+total time(s): 4905.151
+throughput(MB/s): 277.06
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 288609
+size of rewritten chunks: 1182142464
+rewritten rate in size: 0.001
+rewrite_time : 436.806s, 3111.23MB/s
+read_time : 416.065s, 3266.33MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 749.887s, 1812.28MB/s
+filter_time : 2671.308s, 508.74MB/s
+write_time : 2.916s, 466008.43MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 990.016
+throughput(MB/s): 1372.71
+read_container_num: 1827516
+speed factor: 0.74
+read_recipe_time : 354.830s, 3830.02MB/s
+read_chunk_time : 479.490s, 2834.28MB/s
+write_chunk_time : 0.000s, 4441195874.18MB/s
+
+
+REWRITE_CAPPING
+rewrite_capping_level: 150
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 74716819456
+deduplication ratio: 0.9476, 19.0723
+total time(s): 4645.186
+throughput(MB/s): 292.56
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 176506
+size of rewritten chunks: 722968576
+rewritten rate in size: 0.001
+rewrite_time : 420.369s, 3232.89MB/s
+read_time : 403.012s, 3372.12MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 715.878s, 1898.38MB/s
+filter_time : 2566.974s, 529.42MB/s
+write_time : 2.381s, 570852.59MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1010.080
+throughput(MB/s): 1345.44
+read_container_num: 1875085
+speed factor: 0.72
+read_recipe_time : 388.824s, 3495.17MB/s
+read_chunk_time : 464.943s, 2922.95MB/s
+write_chunk_time : 0.000s, 4870989023.30MB/s
+
+

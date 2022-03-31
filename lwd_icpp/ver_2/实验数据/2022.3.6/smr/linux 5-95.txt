@@ -1,0 +1,627 @@
+REWRITE_SMR
+rewrite_smr_level: 5
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 72795851251
+deduplication ratio: 0.2722, 1.3740
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 20267525
+size of rewritten chunks: 70214804578
+rewritten rate in size: 0.702
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 420.008
+throughput(MB/s): 227.11
+read_container_num: 25645
+speed factor: 3.72
+read_recipe_time : 42.758s, 2230.87MB/s
+read_chunk_time : 14.241s, 6698.14MB/s
+write_chunk_time : 376.732s, 253.20MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 10
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 45752108878
+deduplication ratio: 0.5426, 2.1862
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 12324472
+size of rewritten chunks: 43171062205
+rewritten rate in size: 0.432
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 25820
+speed factor: 3.69
+read_recipe_time : 24.858s, 3837.35MB/s
+read_chunk_time : 7.932s, 12025.21MB/s
+write_chunk_time : 52.267s, 1825.02MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 15
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 20872152775
+deduplication ratio: 0.7913, 4.7921
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5262913
+size of rewritten chunks: 18291106102
+rewritten rate in size: 0.183
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 26644
+speed factor: 3.58
+read_recipe_time : 24.831s, 3841.49MB/s
+read_chunk_time : 8.190s, 11647.51MB/s
+write_chunk_time : 52.492s, 1817.19MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 20
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 8774933698
+deduplication ratio: 0.9123, 11.3986
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1807313
+size of rewritten chunks: 6193887025
+rewritten rate in size: 0.062
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 30337
+speed factor: 3.14
+read_recipe_time : 24.920s, 3827.81MB/s
+read_chunk_time : 9.227s, 10337.99MB/s
+write_chunk_time : 53.059s, 1797.78MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 25
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 5230990503
+deduplication ratio: 0.9477, 19.1210
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 784692
+size of rewritten chunks: 2649943830
+rewritten rate in size: 0.026
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 34536
+speed factor: 2.76
+read_recipe_time : 24.924s, 3827.19MB/s
+read_chunk_time : 9.972s, 9565.30MB/s
+write_chunk_time : 52.687s, 1810.48MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 30
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 3843726599
+deduplication ratio: 0.9616, 26.0221
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 375965
+size of rewritten chunks: 1262679926
+rewritten rate in size: 0.013
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 38688
+speed factor: 2.47
+read_recipe_time : 24.923s, 3827.31MB/s
+read_chunk_time : 10.786s, 8843.32MB/s
+write_chunk_time : 52.517s, 1816.34MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 35
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 3257910710
+deduplication ratio: 0.9674, 30.7012
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 200476
+size of rewritten chunks: 676864037
+rewritten rate in size: 0.007
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 42642
+speed factor: 2.24
+read_recipe_time : 25.052s, 3807.67MB/s
+read_chunk_time : 11.712s, 8144.58MB/s
+write_chunk_time : 52.821s, 1805.89MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 40
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2932288997
+deduplication ratio: 0.9707, 34.1105
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 103359
+size of rewritten chunks: 351242324
+rewritten rate in size: 0.004
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.84
+read_container_num: 46227
+speed factor: 2.06
+read_recipe_time : 25.355s, 3762.17MB/s
+read_chunk_time : 12.713s, 7503.10MB/s
+write_chunk_time : 54.086s, 1763.65MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 45
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2763177132
+deduplication ratio: 0.9724, 36.1981
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 53464
+size of rewritten chunks: 182130459
+rewritten rate in size: 0.002
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 49689
+speed factor: 1.92
+read_recipe_time : 24.783s, 3848.90MB/s
+read_chunk_time : 12.837s, 7430.87MB/s
+write_chunk_time : 53.700s, 1776.33MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 50
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2645351589
+deduplication ratio: 0.9736, 37.8104
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 19140
+size of rewritten chunks: 64304916
+rewritten rate in size: 0.001
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 52583
+speed factor: 1.81
+read_recipe_time : 24.661s, 3868.05MB/s
+read_chunk_time : 13.330s, 7155.68MB/s
+write_chunk_time : 53.547s, 1781.39MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 55
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2601061919
+deduplication ratio: 0.9740, 38.4542
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 6238
+size of rewritten chunks: 20015246
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.84
+read_container_num: 54514
+speed factor: 1.75
+read_recipe_time : 25.442s, 3749.19MB/s
+read_chunk_time : 13.953s, 6836.32MB/s
+write_chunk_time : 54.044s, 1765.01MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 60
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2588012993
+deduplication ratio: 0.9741, 38.6481
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 2416
+size of rewritten chunks: 6966320
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.003
+throughput(MB/s): 1059.84
+read_container_num: 56259
+speed factor: 1.70
+read_recipe_time : 25.360s, 3761.31MB/s
+read_chunk_time : 14.329s, 6657.19MB/s
+write_chunk_time : 53.931s, 1768.72MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 65
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2584006333
+deduplication ratio: 0.9742, 38.7080
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1128
+size of rewritten chunks: 2959660
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.85
+read_container_num: 57805
+speed factor: 1.65
+read_recipe_time : 25.254s, 3777.21MB/s
+read_chunk_time : 14.676s, 6499.72MB/s
+write_chunk_time : 53.665s, 1777.46MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 70
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2583325298
+deduplication ratio: 0.9742, 38.7182
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 845
+size of rewritten chunks: 2278625
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 85.002
+throughput(MB/s): 1122.19
+read_container_num: 59011
+speed factor: 1.62
+read_recipe_time : 24.803s, 3845.88MB/s
+read_chunk_time : 14.417s, 6616.29MB/s
+write_chunk_time : 53.241s, 1791.64MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 75
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2582901795
+deduplication ratio: 0.9742, 38.7246
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 690
+size of rewritten chunks: 1855122
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.85
+read_container_num: 59789
+speed factor: 1.60
+read_recipe_time : 25.057s, 3806.90MB/s
+read_chunk_time : 14.874s, 6412.94MB/s
+write_chunk_time : 54.100s, 1763.20MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 80
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2582771213
+deduplication ratio: 0.9742, 38.7266
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 633
+size of rewritten chunks: 1724540
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.84
+read_container_num: 60358
+speed factor: 1.58
+read_recipe_time : 25.411s, 3753.80MB/s
+read_chunk_time : 15.122s, 6307.95MB/s
+write_chunk_time : 54.896s, 1737.61MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 85
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2582729441
+deduplication ratio: 0.9742, 38.7272
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 614
+size of rewritten chunks: 1682768
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.84
+read_container_num: 60451
+speed factor: 1.58
+read_recipe_time : 25.088s, 3802.16MB/s
+read_chunk_time : 15.170s, 6288.15MB/s
+write_chunk_time : 54.400s, 1753.47MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 90
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2582700951
+deduplication ratio: 0.9742, 38.7276
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 602
+size of rewritten chunks: 1654278
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.84
+read_container_num: 60454
+speed factor: 1.58
+read_recipe_time : 24.922s, 3827.49MB/s
+read_chunk_time : 14.771s, 6457.59MB/s
+write_chunk_time : 54.003s, 1766.34MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 95
+job id: 0
+backup path: linux_trace/linux_src.trace
+number of files: 8562413
+number of chunks: 29355261 (3407 bytes on average)
+number of unique chunks: 721259
+total size(B): 100021823518
+stored data size(B): 2582700945
+deduplication ratio: 0.9742, 38.7276
+total time(s): 0.000
+throughput(MB/s): inf
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 600
+size of rewritten chunks: 1654272
+rewritten rate in size: 0.000
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 29355261
+total size(B): 100021823518
+total time(s): 90.002
+throughput(MB/s): 1059.85
+read_container_num: 60485
+speed factor: 1.58
+read_recipe_time : 25.306s, 3769.45MB/s
+read_chunk_time : 14.943s, 6383.27MB/s
+write_chunk_time : 54.087s, 1763.62MB/s
+
+

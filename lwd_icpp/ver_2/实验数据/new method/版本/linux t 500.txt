@@ -1,0 +1,1500 @@
+
+
+backup version:1
+threshold:500
+lru_num:30
+readContainerNum:131
+readContainerNum_lru:142
+totalsize:552560691
+uniquesize:0
+speed_factor:3.711
+
+
+backup version:2
+threshold:500
+lru_num:30
+readContainerNum:153
+readContainerNum_lru:145
+totalsize:552559958
+uniquesize:0
+speed_factor:3.634
+
+
+backup version:3
+threshold:500
+lru_num:30
+readContainerNum:153
+readContainerNum_lru:145
+totalsize:552600540
+uniquesize:0
+speed_factor:3.634
+
+
+backup version:4
+threshold:500
+lru_num:30
+readContainerNum:153
+readContainerNum_lru:146
+totalsize:552602576
+uniquesize:0
+speed_factor:3.610
+
+
+backup version:5
+threshold:500
+lru_num:30
+readContainerNum:156
+readContainerNum_lru:147
+totalsize:552611309
+uniquesize:0
+speed_factor:3.585
+
+
+backup version:6
+threshold:500
+lru_num:30
+readContainerNum:157
+readContainerNum_lru:149
+totalsize:552626585
+uniquesize:0
+speed_factor:3.537
+
+
+backup version:7
+threshold:500
+lru_num:30
+readContainerNum:158
+readContainerNum_lru:150
+totalsize:552636104
+uniquesize:0
+speed_factor:3.514
+
+
+backup version:8
+threshold:500
+lru_num:30
+readContainerNum:158
+readContainerNum_lru:150
+totalsize:552638468
+uniquesize:0
+speed_factor:3.514
+
+
+backup version:9
+threshold:500
+lru_num:30
+readContainerNum:158
+readContainerNum_lru:150
+totalsize:552644762
+uniquesize:0
+speed_factor:3.514
+
+
+backup version:10
+threshold:500
+lru_num:30
+readContainerNum:159
+readContainerNum_lru:152
+totalsize:552663488
+uniquesize:0
+speed_factor:3.468
+
+
+backup version:11
+threshold:500
+lru_num:30
+readContainerNum:200
+readContainerNum_lru:176
+totalsize:558449169
+uniquesize:0
+speed_factor:3.026
+
+
+backup version:12
+threshold:500
+lru_num:30
+readContainerNum:184
+readContainerNum_lru:177
+totalsize:558450884
+uniquesize:0
+speed_factor:3.009
+
+
+backup version:13
+threshold:500
+lru_num:30
+readContainerNum:189
+readContainerNum_lru:184
+totalsize:558620433
+uniquesize:0
+speed_factor:2.895
+
+
+backup version:14
+threshold:500
+lru_num:30
+readContainerNum:194
+readContainerNum_lru:186
+totalsize:558624285
+uniquesize:0
+speed_factor:2.864
+
+
+backup version:15
+threshold:500
+lru_num:30
+readContainerNum:195
+readContainerNum_lru:188
+totalsize:558635507
+uniquesize:0
+speed_factor:2.834
+
+
+backup version:16
+threshold:500
+lru_num:30
+readContainerNum:194
+readContainerNum_lru:188
+totalsize:558654824
+uniquesize:0
+speed_factor:2.834
+
+
+backup version:17
+threshold:500
+lru_num:30
+readContainerNum:193
+readContainerNum_lru:186
+totalsize:558672273
+uniquesize:0
+speed_factor:2.864
+
+
+backup version:18
+threshold:500
+lru_num:30
+readContainerNum:195
+readContainerNum_lru:190
+totalsize:558677217
+uniquesize:0
+speed_factor:2.804
+
+
+backup version:19
+threshold:500
+lru_num:30
+readContainerNum:194
+readContainerNum_lru:186
+totalsize:558694760
+uniquesize:0
+speed_factor:2.865
+
+
+backup version:20
+threshold:500
+lru_num:30
+readContainerNum:196
+readContainerNum_lru:189
+totalsize:558811477
+uniquesize:0
+speed_factor:2.820
+
+
+backup version:21
+threshold:500
+lru_num:30
+readContainerNum:216
+readContainerNum_lru:192
+totalsize:558851041
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:22
+threshold:500
+lru_num:30
+readContainerNum:185
+readContainerNum_lru:177
+totalsize:558458045
+uniquesize:0
+speed_factor:3.009
+
+
+backup version:23
+threshold:500
+lru_num:30
+readContainerNum:196
+readContainerNum_lru:191
+totalsize:558878774
+uniquesize:0
+speed_factor:2.791
+
+
+backup version:24
+threshold:500
+lru_num:30
+readContainerNum:199
+readContainerNum_lru:192
+totalsize:558888152
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:25
+threshold:500
+lru_num:30
+readContainerNum:202
+readContainerNum_lru:195
+totalsize:558927903
+uniquesize:0
+speed_factor:2.734
+
+
+backup version:26
+threshold:500
+lru_num:30
+readContainerNum:202
+readContainerNum_lru:196
+totalsize:558942870
+uniquesize:0
+speed_factor:2.720
+
+
+backup version:27
+threshold:500
+lru_num:30
+readContainerNum:200
+readContainerNum_lru:194
+totalsize:558945189
+uniquesize:0
+speed_factor:2.748
+
+
+backup version:28
+threshold:500
+lru_num:30
+readContainerNum:204
+readContainerNum_lru:196
+totalsize:558883103
+uniquesize:0
+speed_factor:2.719
+
+
+backup version:29
+threshold:500
+lru_num:30
+readContainerNum:198
+readContainerNum_lru:192
+totalsize:558911337
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:30
+threshold:500
+lru_num:30
+readContainerNum:200
+readContainerNum_lru:193
+totalsize:558916414
+uniquesize:0
+speed_factor:2.762
+
+
+backup version:31
+threshold:500
+lru_num:30
+readContainerNum:222
+readContainerNum_lru:195
+totalsize:558951257
+uniquesize:0
+speed_factor:2.734
+
+
+backup version:32
+threshold:500
+lru_num:30
+readContainerNum:200
+readContainerNum_lru:193
+totalsize:558950959
+uniquesize:0
+speed_factor:2.762
+
+
+backup version:33
+threshold:500
+lru_num:30
+readContainerNum:185
+readContainerNum_lru:179
+totalsize:558483721
+uniquesize:0
+speed_factor:2.975
+
+
+backup version:34
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:198
+totalsize:558956992
+uniquesize:0
+speed_factor:2.692
+
+
+backup version:35
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:200
+totalsize:558983602
+uniquesize:0
+speed_factor:2.665
+
+
+backup version:36
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:197
+totalsize:558988969
+uniquesize:0
+speed_factor:2.706
+
+
+backup version:37
+threshold:500
+lru_num:30
+readContainerNum:202
+readContainerNum_lru:196
+totalsize:558998326
+uniquesize:0
+speed_factor:2.720
+
+
+backup version:38
+threshold:500
+lru_num:30
+readContainerNum:206
+readContainerNum_lru:199
+totalsize:559004107
+uniquesize:0
+speed_factor:2.679
+
+
+backup version:39
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:199
+totalsize:559006388
+uniquesize:0
+speed_factor:2.679
+
+
+backup version:40
+threshold:500
+lru_num:30
+readContainerNum:204
+readContainerNum_lru:196
+totalsize:559017130
+uniquesize:0
+speed_factor:2.720
+
+
+backup version:41
+threshold:500
+lru_num:30
+readContainerNum:222
+readContainerNum_lru:197
+totalsize:559025460
+uniquesize:0
+speed_factor:2.706
+
+
+backup version:42
+threshold:500
+lru_num:30
+readContainerNum:204
+readContainerNum_lru:197
+totalsize:559034614
+uniquesize:0
+speed_factor:2.706
+
+
+backup version:43
+threshold:500
+lru_num:30
+readContainerNum:202
+readContainerNum_lru:194
+totalsize:559049841
+uniquesize:0
+speed_factor:2.748
+
+
+backup version:44
+threshold:500
+lru_num:30
+readContainerNum:190
+readContainerNum_lru:185
+totalsize:558509352
+uniquesize:0
+speed_factor:2.879
+
+
+backup version:45
+threshold:500
+lru_num:30
+readContainerNum:204
+readContainerNum_lru:197
+totalsize:559077313
+uniquesize:0
+speed_factor:2.706
+
+
+backup version:46
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:202
+totalsize:559111792
+uniquesize:0
+speed_factor:2.640
+
+
+backup version:47
+threshold:500
+lru_num:30
+readContainerNum:207
+readContainerNum_lru:201
+totalsize:559127951
+uniquesize:0
+speed_factor:2.653
+
+
+backup version:48
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:200
+totalsize:559147464
+uniquesize:0
+speed_factor:2.666
+
+
+backup version:49
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:198
+totalsize:559166110
+uniquesize:0
+speed_factor:2.693
+
+
+backup version:50
+threshold:500
+lru_num:30
+readContainerNum:205
+readContainerNum_lru:197
+totalsize:559177087
+uniquesize:0
+speed_factor:2.707
+
+
+backup version:51
+threshold:500
+lru_num:30
+readContainerNum:224
+readContainerNum_lru:199
+totalsize:559197508
+uniquesize:0
+speed_factor:2.680
+
+
+backup version:52
+threshold:500
+lru_num:30
+readContainerNum:204
+readContainerNum_lru:198
+totalsize:559216306
+uniquesize:0
+speed_factor:2.693
+
+
+backup version:53
+threshold:500
+lru_num:30
+readContainerNum:206
+readContainerNum_lru:200
+totalsize:559220457
+uniquesize:0
+speed_factor:2.667
+
+
+backup version:54
+threshold:500
+lru_num:30
+readContainerNum:210
+readContainerNum_lru:201
+totalsize:559244546
+uniquesize:0
+speed_factor:2.653
+
+
+backup version:55
+threshold:500
+lru_num:30
+readContainerNum:190
+readContainerNum_lru:184
+totalsize:558528686
+uniquesize:0
+speed_factor:2.895
+
+
+backup version:56
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:202
+totalsize:559326776
+uniquesize:0
+speed_factor:2.641
+
+
+backup version:57
+threshold:500
+lru_num:30
+readContainerNum:207
+readContainerNum_lru:201
+totalsize:559338477
+uniquesize:0
+speed_factor:2.654
+
+
+backup version:58
+threshold:500
+lru_num:30
+readContainerNum:209
+readContainerNum_lru:204
+totalsize:559406221
+uniquesize:0
+speed_factor:2.615
+
+
+backup version:59
+threshold:500
+lru_num:30
+readContainerNum:191
+readContainerNum_lru:181
+totalsize:558540148
+uniquesize:0
+speed_factor:2.943
+
+
+backup version:60
+threshold:500
+lru_num:30
+readContainerNum:190
+readContainerNum_lru:183
+totalsize:558536831
+uniquesize:0
+speed_factor:2.911
+
+
+backup version:61
+threshold:500
+lru_num:30
+readContainerNum:211
+readContainerNum_lru:185
+totalsize:558553677
+uniquesize:0
+speed_factor:2.879
+
+
+backup version:62
+threshold:500
+lru_num:30
+readContainerNum:192
+readContainerNum_lru:184
+totalsize:558574838
+uniquesize:0
+speed_factor:2.895
+
+
+backup version:63
+threshold:500
+lru_num:30
+readContainerNum:180
+readContainerNum_lru:187
+totalsize:673161904
+uniquesize:0
+speed_factor:3.433
+
+
+backup version:64
+threshold:500
+lru_num:30
+readContainerNum:206
+readContainerNum_lru:187
+totalsize:673168572
+uniquesize:0
+speed_factor:3.433
+
+
+backup version:65
+threshold:500
+lru_num:30
+readContainerNum:209
+readContainerNum_lru:193
+totalsize:673256670
+uniquesize:0
+speed_factor:3.327
+
+
+backup version:66
+threshold:500
+lru_num:30
+readContainerNum:187
+readContainerNum_lru:192
+totalsize:673258354
+uniquesize:0
+speed_factor:3.344
+
+
+backup version:67
+threshold:500
+lru_num:30
+readContainerNum:210
+readContainerNum_lru:194
+totalsize:673269603
+uniquesize:0
+speed_factor:3.310
+
+
+backup version:68
+threshold:500
+lru_num:30
+readContainerNum:211
+readContainerNum_lru:194
+totalsize:673272436
+uniquesize:0
+speed_factor:3.310
+
+
+backup version:69
+threshold:500
+lru_num:30
+readContainerNum:212
+readContainerNum_lru:193
+totalsize:673280473
+uniquesize:0
+speed_factor:3.327
+
+
+backup version:70
+threshold:500
+lru_num:30
+readContainerNum:189
+readContainerNum_lru:195
+totalsize:673284674
+uniquesize:0
+speed_factor:3.293
+
+
+backup version:71
+threshold:500
+lru_num:30
+readContainerNum:213
+readContainerNum_lru:195
+totalsize:673293990
+uniquesize:0
+speed_factor:3.293
+
+
+backup version:72
+threshold:500
+lru_num:30
+readContainerNum:212
+readContainerNum_lru:195
+totalsize:673303504
+uniquesize:0
+speed_factor:3.293
+
+
+backup version:73
+threshold:500
+lru_num:30
+readContainerNum:184
+readContainerNum_lru:190
+totalsize:673192634
+uniquesize:0
+speed_factor:3.379
+
+
+backup version:74
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:190
+totalsize:673203117
+uniquesize:0
+speed_factor:3.379
+
+
+backup version:75
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:192
+totalsize:673208148
+uniquesize:0
+speed_factor:3.344
+
+
+backup version:76
+threshold:500
+lru_num:30
+readContainerNum:186
+readContainerNum_lru:190
+totalsize:673217188
+uniquesize:0
+speed_factor:3.379
+
+
+backup version:77
+threshold:500
+lru_num:30
+readContainerNum:208
+readContainerNum_lru:192
+totalsize:673219763
+uniquesize:0
+speed_factor:3.344
+
+
+backup version:78
+threshold:500
+lru_num:30
+readContainerNum:211
+readContainerNum_lru:194
+totalsize:673236008
+uniquesize:0
+speed_factor:3.310
+
+
+backup version:79
+threshold:500
+lru_num:30
+readContainerNum:210
+readContainerNum_lru:191
+totalsize:673236157
+uniquesize:0
+speed_factor:3.362
+
+
+backup version:80
+threshold:500
+lru_num:30
+readContainerNum:190
+readContainerNum_lru:196
+totalsize:673239859
+uniquesize:0
+speed_factor:3.276
+
+
+backup version:81
+threshold:500
+lru_num:30
+readContainerNum:241
+readContainerNum_lru:228
+totalsize:682298290
+uniquesize:0
+speed_factor:2.854
+
+
+backup version:82
+threshold:500
+lru_num:30
+readContainerNum:244
+readContainerNum_lru:231
+totalsize:682302661
+uniquesize:0
+speed_factor:2.817
+
+
+backup version:83
+threshold:500
+lru_num:30
+readContainerNum:250
+readContainerNum_lru:234
+totalsize:682405508
+uniquesize:0
+speed_factor:2.781
+
+
+backup version:84
+threshold:500
+lru_num:30
+readContainerNum:249
+readContainerNum_lru:234
+totalsize:682406167
+uniquesize:0
+speed_factor:2.781
+
+
+backup version:85
+threshold:500
+lru_num:30
+readContainerNum:249
+readContainerNum_lru:235
+totalsize:682420047
+uniquesize:0
+speed_factor:2.769
+
+
+backup version:86
+threshold:500
+lru_num:30
+readContainerNum:219
+readContainerNum_lru:229
+totalsize:682317355
+uniquesize:0
+speed_factor:2.842
+
+
+backup version:87
+threshold:500
+lru_num:30
+readContainerNum:245
+readContainerNum_lru:232
+totalsize:682345848
+uniquesize:0
+speed_factor:2.805
+
+
+backup version:88
+threshold:500
+lru_num:30
+readContainerNum:247
+readContainerNum_lru:233
+totalsize:682366078
+uniquesize:0
+speed_factor:2.793
+
+
+backup version:89
+threshold:500
+lru_num:30
+readContainerNum:247
+readContainerNum_lru:234
+totalsize:682379934
+uniquesize:0
+speed_factor:2.781
+
+
+backup version:90
+threshold:500
+lru_num:30
+readContainerNum:250
+readContainerNum_lru:235
+totalsize:682382841
+uniquesize:0
+speed_factor:2.769
+
+
+backup version:91
+threshold:500
+lru_num:30
+readContainerNum:248
+readContainerNum_lru:233
+totalsize:682388484
+uniquesize:0
+speed_factor:2.793
+
+
+backup version:92
+threshold:500
+lru_num:30
+readContainerNum:225
+readContainerNum_lru:233
+totalsize:682396961
+uniquesize:0
+speed_factor:2.793
+
+
+backup version:93
+threshold:500
+lru_num:30
+readContainerNum:248
+readContainerNum_lru:233
+totalsize:682401762
+uniquesize:0
+speed_factor:2.793
+
+
+backup version:94
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:266
+totalsize:747817570
+uniquesize:0
+speed_factor:2.681
+
+
+backup version:95
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:262
+totalsize:747818829
+uniquesize:0
+speed_factor:2.722
+
+
+backup version:96
+threshold:500
+lru_num:30
+readContainerNum:254
+readContainerNum_lru:260
+totalsize:747900599
+uniquesize:0
+speed_factor:2.743
+
+
+backup version:97
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:262
+totalsize:747906169
+uniquesize:0
+speed_factor:2.722
+
+
+backup version:98
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:261
+totalsize:747910793
+uniquesize:0
+speed_factor:2.733
+
+
+backup version:99
+threshold:500
+lru_num:30
+readContainerNum:282
+readContainerNum_lru:264
+totalsize:747913337
+uniquesize:0
+speed_factor:2.702
+
+
+backup version:100
+threshold:500
+lru_num:30
+readContainerNum:258
+readContainerNum_lru:266
+totalsize:747917203
+uniquesize:0
+speed_factor:2.681
+
+
+backup version:101
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:258
+totalsize:747819078
+uniquesize:0
+speed_factor:2.764
+
+
+backup version:102
+threshold:500
+lru_num:30
+readContainerNum:278
+readContainerNum_lru:259
+totalsize:747829730
+uniquesize:0
+speed_factor:2.754
+
+
+backup version:103
+threshold:500
+lru_num:30
+readContainerNum:256
+readContainerNum_lru:260
+totalsize:747855710
+uniquesize:0
+speed_factor:2.743
+
+
+backup version:104
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:265
+totalsize:747858113
+uniquesize:0
+speed_factor:2.691
+
+
+backup version:105
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:263
+totalsize:747869012
+uniquesize:0
+speed_factor:2.712
+
+
+backup version:106
+threshold:500
+lru_num:30
+readContainerNum:256
+readContainerNum_lru:262
+totalsize:747869160
+uniquesize:0
+speed_factor:2.722
+
+
+backup version:107
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:264
+totalsize:747880909
+uniquesize:0
+speed_factor:2.702
+
+
+backup version:108
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:263
+totalsize:747884654
+uniquesize:0
+speed_factor:2.712
+
+
+backup version:109
+threshold:500
+lru_num:30
+readContainerNum:287
+readContainerNum_lru:282
+totalsize:785965907
+uniquesize:0
+speed_factor:2.658
+
+
+backup version:110
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:278
+totalsize:785972488
+uniquesize:0
+speed_factor:2.696
+
+
+backup version:111
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:274
+totalsize:786062567
+uniquesize:0
+speed_factor:2.736
+
+
+backup version:112
+threshold:500
+lru_num:30
+readContainerNum:287
+readContainerNum_lru:274
+totalsize:786066963
+uniquesize:0
+speed_factor:2.736
+
+
+backup version:113
+threshold:500
+lru_num:30
+readContainerNum:308
+readContainerNum_lru:273
+totalsize:786071419
+uniquesize:0
+speed_factor:2.746
+
+
+backup version:114
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:278
+totalsize:786076066
+uniquesize:0
+speed_factor:2.697
+
+
+backup version:115
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:277
+totalsize:786082154
+uniquesize:0
+speed_factor:2.706
+
+
+backup version:116
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:276
+totalsize:786084860
+uniquesize:0
+speed_factor:2.716
+
+
+backup version:117
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:275
+totalsize:786086622
+uniquesize:0
+speed_factor:2.726
+
+
+backup version:118
+threshold:500
+lru_num:30
+readContainerNum:277
+readContainerNum_lru:268
+totalsize:785972819
+uniquesize:0
+speed_factor:2.797
+
+
+backup version:119
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:272
+totalsize:785984306
+uniquesize:0
+speed_factor:2.756
+
+
+backup version:120
+threshold:500
+lru_num:30
+readContainerNum:304
+readContainerNum_lru:271
+totalsize:786004276
+uniquesize:0
+speed_factor:2.766
+
+
+backup version:121
+threshold:500
+lru_num:30
+readContainerNum:279
+readContainerNum_lru:270
+totalsize:786024645
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:122
+threshold:500
+lru_num:30
+readContainerNum:282
+readContainerNum_lru:276
+totalsize:786044224
+uniquesize:0
+speed_factor:2.716
+
+
+backup version:123
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:273
+totalsize:786044346
+uniquesize:0
+speed_factor:2.746
+
+
+backup version:124
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:273
+totalsize:786048744
+uniquesize:0
+speed_factor:2.746
+
+
+backup version:125
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:270
+totalsize:786047438
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:126
+threshold:500
+lru_num:30
+readContainerNum:308
+readContainerNum_lru:273
+totalsize:793073774
+uniquesize:0
+speed_factor:2.770
+
+
+backup version:127
+threshold:500
+lru_num:30
+readContainerNum:276
+readContainerNum_lru:273
+totalsize:793221349
+uniquesize:0
+speed_factor:2.771
+
+
+backup version:128
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:280
+totalsize:794671691
+uniquesize:0
+speed_factor:2.707
+
+
+backup version:129
+threshold:500
+lru_num:30
+readContainerNum:305
+readContainerNum_lru:275
+totalsize:794671675
+uniquesize:0
+speed_factor:2.756
+
+
+backup version:130
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:278
+totalsize:794685745
+uniquesize:0
+speed_factor:2.726
+
+
+backup version:131
+threshold:500
+lru_num:30
+readContainerNum:286
+readContainerNum_lru:281
+totalsize:794688029
+uniquesize:0
+speed_factor:2.697
+
+
+backup version:132
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:274
+totalsize:794693836
+uniquesize:0
+speed_factor:2.766
+
+
+backup version:133
+threshold:500
+lru_num:30
+readContainerNum:310
+readContainerNum_lru:279
+totalsize:794699074
+uniquesize:0
+speed_factor:2.716
+
+
+backup version:134
+threshold:500
+lru_num:30
+readContainerNum:283
+readContainerNum_lru:279
+totalsize:794734799
+uniquesize:0
+speed_factor:2.717
+
+
+backup version:135
+threshold:500
+lru_num:30
+readContainerNum:281
+readContainerNum_lru:273
+totalsize:794737388
+uniquesize:0
+speed_factor:2.776
+
+
+backup version:136
+threshold:500
+lru_num:30
+readContainerNum:308
+readContainerNum_lru:277
+totalsize:794763917
+uniquesize:0
+speed_factor:2.736
+
+
+backup version:137
+threshold:500
+lru_num:30
+readContainerNum:278
+readContainerNum_lru:276
+totalsize:794766873
+uniquesize:0
+speed_factor:2.746
+
+
+backup version:138
+threshold:500
+lru_num:30
+readContainerNum:279
+readContainerNum_lru:271
+totalsize:793273415
+uniquesize:0
+speed_factor:2.792
+
+
+backup version:139
+threshold:500
+lru_num:30
+readContainerNum:306
+readContainerNum_lru:277
+totalsize:794788926
+uniquesize:0
+speed_factor:2.736
+
+
+backup version:140
+threshold:500
+lru_num:30
+readContainerNum:288
+readContainerNum_lru:284
+totalsize:794798571
+uniquesize:0
+speed_factor:2.669
+
+
+backup version:141
+threshold:500
+lru_num:30
+readContainerNum:291
+readContainerNum_lru:285
+totalsize:794812479
+uniquesize:0
+speed_factor:2.660
+
+
+backup version:142
+threshold:500
+lru_num:30
+readContainerNum:287
+readContainerNum_lru:277
+totalsize:794863071
+uniquesize:0
+speed_factor:2.737
+
+
+backup version:143
+threshold:500
+lru_num:30
+readContainerNum:314
+readContainerNum_lru:286
+totalsize:794872494
+uniquesize:0
+speed_factor:2.651
+
+
+backup version:144
+threshold:500
+lru_num:30
+readContainerNum:287
+readContainerNum_lru:279
+totalsize:794878756
+uniquesize:0
+speed_factor:2.717
+
+
+backup version:145
+threshold:500
+lru_num:30
+readContainerNum:287
+readContainerNum_lru:280
+totalsize:794883092
+uniquesize:0
+speed_factor:2.707
+
+
+backup version:146
+threshold:500
+lru_num:30
+readContainerNum:310
+readContainerNum_lru:282
+totalsize:794892532
+uniquesize:0
+speed_factor:2.688
+
+
+backup version:147
+threshold:500
+lru_num:30
+readContainerNum:284
+readContainerNum_lru:280
+totalsize:794896933
+uniquesize:0
+speed_factor:2.707
+
+
+backup version:148
+threshold:500
+lru_num:30
+readContainerNum:286
+readContainerNum_lru:276
+totalsize:794929545
+uniquesize:0
+speed_factor:2.747
+
+
+backup version:149
+threshold:500
+lru_num:30
+readContainerNum:296
+readContainerNum_lru:265
+totalsize:793274504
+uniquesize:0
+speed_factor:2.855
+
+
+backup version:150
+threshold:500
+lru_num:30
+readContainerNum:285
+readContainerNum_lru:278
+totalsize:794954306
+uniquesize:0
+speed_factor:2.727

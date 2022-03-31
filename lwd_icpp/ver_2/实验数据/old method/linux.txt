@@ -1,0 +1,1360 @@
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:510
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63679
+readContainerNum_lru:53276
+rewriteNum:379
+rewritesize:733886
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:520
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63561
+readContainerNum_lru:53134
+rewriteNum:406
+rewritesize:805506
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:540
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63536
+readContainerNum_lru:53123
+rewriteNum:410
+rewritesize:821890
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:560
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63498
+readContainerNum_lru:53089
+rewriteNum:423
+rewritesize:846368
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:580
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63391
+readContainerNum_lru:52959
+rewriteNum:440
+rewritesize:895512
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:600
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63264
+readContainerNum_lru:52805
+rewriteNum:464
+rewritesize:955292
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:620
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63208
+readContainerNum_lru:52751
+rewriteNum:472
+rewritesize:979293
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:640
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63168
+readContainerNum_lru:52732
+rewriteNum:475
+rewritesize:983495
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:660
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63105
+readContainerNum_lru:52649
+rewriteNum:484
+rewritesize:1005921
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:680
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:63043
+readContainerNum_lru:52586
+rewriteNum:489
+rewritesize:1014884
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:700
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62992
+readContainerNum_lru:52534
+rewriteNum:492
+rewritesize:1023705
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:720
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62984
+readContainerNum_lru:52542
+rewriteNum:508
+rewritesize:1031279
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:740
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62930
+readContainerNum_lru:52491
+rewriteNum:517
+rewritesize:1054529
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:760
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62873
+readContainerNum_lru:52437
+rewriteNum:534
+rewritesize:1103253
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:780
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62793
+readContainerNum_lru:52369
+rewriteNum:542
+rewritesize:1117724
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:800
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62758
+readContainerNum_lru:52341
+rewriteNum:545
+rewritesize:1126313
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:820
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62621
+readContainerNum_lru:52256
+rewriteNum:569
+rewritesize:1175218
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:840
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62549
+readContainerNum_lru:52174
+rewriteNum:586
+rewritesize:1229347
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:860
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62549
+readContainerNum_lru:52175
+rewriteNum:596
+rewritesize:1248437
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:880
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62472
+readContainerNum_lru:52104
+rewriteNum:613
+rewritesize:1296338
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:900
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62409
+readContainerNum_lru:52055
+rewriteNum:633
+rewritesize:1359602
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:920
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62302
+readContainerNum_lru:51908
+rewriteNum:670
+rewritesize:1478800
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:940
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62234
+readContainerNum_lru:51825
+rewriteNum:684
+rewritesize:1521296
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:960
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:62093
+readContainerNum_lru:51700
+rewriteNum:715
+rewritesize:1612896
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:980
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61957
+readContainerNum_lru:51557
+rewriteNum:750
+rewritesize:1727279
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1000
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61920
+readContainerNum_lru:51521
+rewriteNum:768
+rewritesize:1789349
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1020
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61904
+readContainerNum_lru:51501
+rewriteNum:771
+rewritesize:1799209
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1040
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61815
+readContainerNum_lru:51446
+rewriteNum:797
+rewritesize:1879529
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1060
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61776
+readContainerNum_lru:51411
+rewriteNum:818
+rewritesize:1945084
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1080
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61766
+readContainerNum_lru:51403
+rewriteNum:829
+rewritesize:1986164
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1100
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61692
+readContainerNum_lru:51328
+rewriteNum:842
+rewritesize:2032922
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1120
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61685
+readContainerNum_lru:51329
+rewriteNum:848
+rewritesize:2057498
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1140
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61665
+readContainerNum_lru:51308
+rewriteNum:854
+rewritesize:2071746
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1160
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61570
+readContainerNum_lru:51226
+rewriteNum:880
+rewritesize:2136178
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1180
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61585
+readContainerNum_lru:51241
+rewriteNum:882
+rewritesize:2142917
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1200
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61566
+readContainerNum_lru:51225
+rewriteNum:884
+rewritesize:2148056
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1220
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61526
+readContainerNum_lru:51185
+rewriteNum:885
+rewritesize:2152152
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1240
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61524
+readContainerNum_lru:51182
+rewriteNum:888
+rewritesize:2164440
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1260
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61504
+readContainerNum_lru:51167
+rewriteNum:904
+rewritesize:2210002
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1280
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61440
+readContainerNum_lru:51126
+rewriteNum:939
+rewritesize:2308245
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1300
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61444
+readContainerNum_lru:51130
+rewriteNum:943
+rewritesize:2324578
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1320
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61422
+readContainerNum_lru:51110
+rewriteNum:969
+rewritesize:2412434
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1340
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61400
+readContainerNum_lru:51097
+rewriteNum:971
+rewritesize:2418813
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1360
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61387
+readContainerNum_lru:51090
+rewriteNum:983
+rewritesize:2459890
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1380
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61372
+readContainerNum_lru:51081
+rewriteNum:998
+rewritesize:2501670
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1400
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61354
+readContainerNum_lru:51062
+rewriteNum:1000
+rewritesize:2506025
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1420
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61342
+readContainerNum_lru:51055
+rewriteNum:1007
+rewritesize:2527081
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1440
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61323
+readContainerNum_lru:51031
+rewriteNum:1011
+rewritesize:2537473
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1460
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61292
+readContainerNum_lru:50999
+rewriteNum:1017
+rewritesize:2559081
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1480
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61296
+readContainerNum_lru:51005
+rewriteNum:1019
+rewritesize:2566390
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1500
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61286
+readContainerNum_lru:51002
+rewriteNum:1042
+rewritesize:2646678
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1520
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61244
+readContainerNum_lru:50965
+rewriteNum:1067
+rewritesize:2736239
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1540
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61263
+readContainerNum_lru:50983
+rewriteNum:1070
+rewritesize:2746997
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1560
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61254
+readContainerNum_lru:50974
+rewriteNum:1072
+rewritesize:2748526
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1580
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61209
+readContainerNum_lru:50934
+rewriteNum:1091
+rewritesize:2813708
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1600
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61194
+readContainerNum_lru:50922
+rewriteNum:1107
+rewritesize:2867160
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1620
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61158
+readContainerNum_lru:50896
+rewriteNum:1127
+rewritesize:2936784
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1640
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61130
+readContainerNum_lru:50873
+rewriteNum:1131
+rewritesize:2946448
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1660
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61114
+readContainerNum_lru:50854
+rewriteNum:1149
+rewritesize:3008456
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1680
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61099
+readContainerNum_lru:50842
+rewriteNum:1153
+rewritesize:3015527
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1700
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61067
+readContainerNum_lru:50808
+rewriteNum:1156
+rewritesize:3024018
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1720
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61077
+readContainerNum_lru:50819
+rewriteNum:1158
+rewritesize:3026534
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1740
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61058
+readContainerNum_lru:50805
+rewriteNum:1162
+rewritesize:3041959
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1760
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61034
+readContainerNum_lru:50788
+rewriteNum:1167
+rewritesize:3058474
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1780
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61042
+readContainerNum_lru:50799
+rewriteNum:1170
+rewritesize:3068289
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1800
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61034
+readContainerNum_lru:50790
+rewriteNum:1172
+rewritesize:3076481
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1820
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:61005
+readContainerNum_lru:50767
+rewriteNum:1177
+rewritesize:3086906
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+
+old method
+my method
+F_limit:10
+Score:0.100000
+rewritelistlen:1840
+cache_num:1
+cachelimit:5
+lru_num:30
+readContainerNum:60984
+readContainerNum_lru:50761
+rewriteNum:1215
+rewritesize:3222101
+totalsize:0
+uniquesize:721259
+o_totalsize:100021823518
+o_readContainerNum:70812
+o_readContainerNum_lru:61442
+rewrite_time:0.000/s
+
+

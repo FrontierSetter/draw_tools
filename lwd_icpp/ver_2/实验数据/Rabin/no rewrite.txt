@@ -1,0 +1,114 @@
+job id: 0
+backup path: linux_trace/linux_src_rabin.trace
+number of files: 8562413
+number of chunks: 30092280 (3323 bytes on average)
+number of unique chunks: 444035
+total size(B): 100021823518
+stored data size(B): 1808033824
+deduplication ratio: 0.9819, 55.3208
+total time(s): 210.004
+throughput(MB/s): 454.22
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 0
+size of rewritten chunks: 0
+rewritten rate in size: 0.000
+rewrite_time : 1.709s, 55812.01MB/s
+read_time : 71.232s, 1339.12MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 31.933s, 2987.14MB/s
+filter_time : 46.519s, 2050.53MB/s
+write_time : 0.069s, 1380158.06MB/s
+
+
+job id: 0
+restore path: linux_restore/
+number of files: 8562413
+number of chunks: 30092280
+total size(B): 100021823518
+total time(s): 1210.022
+throughput(MB/s): 78.83
+read_container_num: 61550
+speed factor: 1.55
+read_recipe_time : 98.239s, 970.98MB/s
+read_chunk_time : 26.340s, 3621.37MB/s
+write_chunk_time : 1141.096s, 83.59MB/s
+
+
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198286
+total size(B): 39794111305
+stored data size(B): 4876997993
+deduplication ratio: 0.8774, 8.1596
+total time(s): 125.003
+throughput(MB/s): 303.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 0
+size of rewritten chunks: 0
+rewritten rate in size: 0.000
+rewrite_time : 0.861s, 44059.21MB/s
+read_time : 36.802s, 1031.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.942s, 1358.21MB/s
+filter_time : 29.148s, 1301.98MB/s
+write_time : 0.133s, 285568.47MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 90.002
+throughput(MB/s): 421.67
+read_container_num: 50688
+speed factor: 0.75
+read_recipe_time : 34.119s, 1112.32MB/s
+read_chunk_time : 14.974s, 2534.43MB/s
+write_chunk_time : 54.136s, 701.02MB/s
+
+
+job id: 0
+backup path: chromiun_trace/chromiun_src_rabin.trace
+number of files: 7326360
+number of chunks: 31859261 (3041 bytes on average)
+number of unique chunks: 1126335
+total size(B): 96912415330
+stored data size(B): 4268909814
+deduplication ratio: 0.9560, 22.7019
+total time(s): 195.005
+throughput(MB/s): 473.95
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 0
+size of rewritten chunks: 0
+rewritten rate in size: 0.000
+rewrite_time : 1.846s, 50056.05MB/s
+read_time : 53.111s, 1740.17MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 43.887s, 2105.91MB/s
+filter_time : 50.348s, 1835.67MB/s
+write_time : 0.186s, 495751.12MB/s
+
+
+job id: 0
+restore path: chromiun_restore/
+number of files: 7326360
+number of chunks: 31859261
+total size(B): 96912415330
+total time(s): 1160.020
+throughput(MB/s): 79.67
+read_container_num: 91379
+speed factor: 1.01
+read_recipe_time : 101.499s, 910.58MB/s
+read_chunk_time : 34.727s, 2661.43MB/s
+write_chunk_time : 1073.397s, 86.10MB/s
+
+

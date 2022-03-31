@@ -1,0 +1,36 @@
+job id: 0
+backup path: vmdk_trace/vmdk_src.trace
+number of files: 70
+number of chunks: 347905520 (4096 bytes on average)
+number of unique chunks: 18064905
+total size(B): 1425021009920
+stored data size(B): 73993850880
+deduplication ratio: 0.9481, 19.2586
+total time(s): 1500.062
+throughput(MB/s): 905.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 0
+size of rewritten chunks: 0
+rewritten rate in size: 0.000
+rewrite_time : 17.037s, 79766.10MB/s
+read_time : 353.896s, 3840.13MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 497.341s, 2732.54MB/s
+filter_time : 357.125s, 3805.41MB/s
+write_time : 2.301s, 590684.16MB/s
+
+
+job id: 0
+restore path: vmdk_restore/
+number of files: 70
+number of chunks: 347905520
+total size(B): 1425021009920
+total time(s): 1085.022
+throughput(MB/s): 1252.51
+read_container_num: 2076611
+speed factor: 0.65
+read_recipe_time : 626.608s, 2168.83MB/s
+read_chunk_time : 393.967s, 3449.55MB/s
+write_chunk_time : 0.000s, 4220515333.85MB/s
