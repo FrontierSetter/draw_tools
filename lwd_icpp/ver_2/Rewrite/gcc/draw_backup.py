@@ -9,6 +9,7 @@ t900="../../new method/版本/gcc t 900"
 import matplotlib.pyplot as  plt
 import math
 import numpy as np
+import sys
 
 def gen_target_data(file_name):
     new_file_name=file_name+" new_result.txt"
@@ -64,36 +65,76 @@ def gen_target_data(file_name):
             yy.append(y[i])
     return xx,yy
 
-x_100,y_100=gen_target_data(t100)
-x_300,y_300=gen_target_data(t300)
-x_500,y_500=gen_target_data(t500)
-x_700,y_700=gen_target_data(t700)
-x_900,y_900=gen_target_data(t900)
+fileArr = [
+    "../../new method/版本/gcc t 100",
+    "../../new method/版本/gcc t 300",
+    "../../new method/版本/gcc t 500",
+    "../../new method/版本/gcc t 700",
+    "../../new method/版本/gcc t 900"
+]
 
-plt.figure(figsize=(19,11))
-#设置线宽
-plt.plot(x_100,y_100,label=u'threshold 100',linewidth=7)
-plt.plot(x_300,y_300,label=u'threshold 300',linewidth=7)
-plt.plot(x_500,y_500,label=u'threshold 500',linewidth=7)
-plt.plot(x_700,y_700,label=u'threshold 700',linewidth=7)
-plt.plot(x_900,y_900,label=u'threshold 900',linewidth=7)
+labelArr = [
+    "threshold-100",
+    "threshold-300",
+    "threshold-500",
+    "threshold-700",
+    "threshold-900",
+]
 
-font={
-    'family':'Times New Roman',
-    'weight':'normal',
-    'size':30
+colorDict = {
+    "threshold-100":"#324665",
+    "threshold-300":"#3478BF",
+    "threshold-500":"#40A776",
+    "threshold-700":"#F15326",
+    "threshold-900":"#EED777",
 }
 
+markerDict = {
+    "threshold-100":"s",
+    "threshold-300":"o",
+    "threshold-500":"^",
+    "threshold-700":"d",
+    "threshold-900":"v",
+}
+
+dataArr = []
+for i in range(len(fileArr)):
+    dataArr.append(gen_target_data(fileArr[i]))
+    
+sys.path.append("..\\header")
+from marker import *
+
+# 生成图片实例，figsize的元组是宽高比
+fig = plt.figure(figsize=(12,6))
+
+# 生成背后的网格
+plt.grid(True, linestyle='-.', axis='both')
+
+#绘图
+line_width = 4
+for i in range(len(dataArr)):
+    print(len(dataArr[i][0]))
+    curMethod = labelArr[i]
+    plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
+        marker=markerDict[curMethod],markersize=16,markevery=getMarkerArr(len(dataArr[i][0]), 17),linewidth=line_width)
 
 #让图例生效
-plt.legend(prop=font,frameon=False,loc='lower left')
+plt.legend(fontsize=23, loc='lower left', bbox_to_anchor=(0, -0.02), labelspacing=0.25, handlelength=1.5)
 
-plt.tick_params(labelsize=35)
+# plt.tick_params(labelsize=35)
+# plt.yticks(np.arange(0,4,0.5),fontsize=22)
+plt.yticks(fontsize=22)
+plt.xticks(fontsize=22)
 
-#设置图表标题，并给坐标轴添加标签
-plt.xlabel("Backup Version",fontsize=40)
-plt.ylabel("Speed Factor",fontsize=40)
-plt.yticks(np.arange(0, 4, 0.5))
-plt.savefig('../image/gcc_backup.png')
+#给坐标轴添加标签
+plt.xlabel("Backup Version", fontsize=28)
+plt.ylabel("Speed Factor", fontsize=28)
+
+plt.ylim(0)
+
+# 设置图片边距
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+
+plt.savefig('../image/gcc_backup.pdf')
 
 plt.show()
