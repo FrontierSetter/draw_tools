@@ -185,7 +185,7 @@ dataArr = [
 ]
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
@@ -204,14 +204,16 @@ plt.legend(fontsize=23, loc='upper left', labelspacing=0.25, handlelength=1.5)
 
 # plt.tick_params(labelsize=35)
 plt.yticks(fontsize=22)
-plt.xticks(np.arange(1.75, 4.0, 0.25), fontsize=22)
+plt.xticks(np.arange(0.5, 4.6, 0.5), fontsize=22)
+
+plt.xlim(0.4, 4.3)
 
 #给坐标轴添加标签
 plt.xlabel("Speed Factor", fontsize=28)
-plt.ylabel("Size of Rewritten Chunks (GB)     ", fontsize=28)
+plt.ylabel("Size of Rewritten Chunks (GB) ", fontsize=28)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.925,bottom=0.135,left=0.146,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/vmdx_rewrite_cost.pdf')
 

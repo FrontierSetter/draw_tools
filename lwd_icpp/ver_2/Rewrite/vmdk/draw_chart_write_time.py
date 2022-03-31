@@ -202,34 +202,40 @@ sys.path.append("..\\header")
 from marker import *
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
+
+scalNum = 4
+scalFactor = 10000
 
 #绘图
 line_width = 4
 for i in range(len(dataArr)):
     print(len(dataArr[i][0]))
     curMethod = labelArr[i]
-    plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
+    plt.plot(dataArr[i][0],[x/scalFactor for x in dataArr[i][1]],label=curMethod,color=colorDict[curMethod], \
         marker=markerDict[curMethod],markersize=16,markevery=getMarkerArr(len(dataArr[i][0]), 15),linewidth=line_width)
+
+xmin, xmax, ymin, ymax = plt.axis()
+plt.text(xmin-0.04*xmax, ymax*1.008, r'$\times10^{%d}$'%(scalNum),fontsize=20,ha='left')
 
 #让图例生效
 plt.legend(fontsize=23, loc='upper left', labelspacing=0.25, handlelength=1.5)
 
 # plt.tick_params(labelsize=35)
 plt.yticks(fontsize=22)
-plt.xticks(np.arange(1.5, 4.0, 0.25), fontsize=22)
+plt.xticks(np.arange(0.5, 4.2, 0.5), fontsize=22)
 
 #给坐标轴添加标签
 plt.xlabel("Speed Factor", fontsize=28)
 plt.ylabel("Rewrite Time (s)", fontsize=28)
 
-# plt.xlim(1.7, 3.7)
+plt.xlim(0.4, 4.2)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.111,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.945,bottom=0.135,left=0.111,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/vmdk_write_time.pdf')
 

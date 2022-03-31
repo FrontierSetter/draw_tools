@@ -203,7 +203,7 @@ sys.path.append("..\\header")
 from marker import *
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
@@ -230,7 +230,7 @@ plt.ylabel("Rewrite Time (s)", fontsize=28)
 plt.xlim(1.7, 3.7)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.111,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.148,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/linux_write_time.pdf')
 

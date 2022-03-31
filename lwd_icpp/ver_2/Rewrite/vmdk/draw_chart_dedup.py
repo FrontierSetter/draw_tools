@@ -192,7 +192,7 @@ sys.path.append("..\\header")
 from marker import *
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
@@ -209,18 +209,18 @@ for i in range(len(dataArr)):
 plt.legend(fontsize=23, loc='lower left', labelspacing=0.25, handlelength=1.5)
 
 # plt.tick_params(labelsize=35)
-plt.yticks(fontsize=22)
+plt.yticks(np.arange(0, 21, 2), fontsize=22)
 plt.xticks(fontsize=22)
 
 #给坐标轴添加标签
 plt.xlabel("Speed Factor", fontsize=28)
 plt.ylabel("Deduplication Ratio", fontsize=28)
 
-plt.ylim(0)
+plt.ylim(0,20.5)
 # plt.xlim(right=3.75)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/vmdx_dedup.pdf')
 

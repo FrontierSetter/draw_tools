@@ -97,7 +97,7 @@ for i in range(len(fileArr)):
     dataArr.append(gen_target_data(fileArr[i]))
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
@@ -111,7 +111,8 @@ for i in range(len(dataArr)):
         marker=markerDict[curMethod],markersize=16,markevery=None,linewidth=line_width)
 
 #让图例生效
-plt.legend(fontsize=23, loc='lower right', labelspacing=0.25, handlelength=1.5,ncol=2)
+plt.legend(fontsize=21, loc='lower right', bbox_to_anchor=(1.021, -0.02),\
+     labelspacing=0.25, handlelength=1.5,ncol=2, columnspacing=0.6)
 
 # plt.tick_params(labelsize=35)
 plt.yticks(fontsize=22)
@@ -124,7 +125,7 @@ plt.ylabel("Speed Factor", fontsize=28)
 plt.ylim(0)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/vmdk_cache_size.pdf')
 plt.show()

@@ -96,7 +96,7 @@ for i in range(len(fileArr)):
     dataArr.append(gen_target_data(fileArr[i]))
 
 # 生成图片实例，figsize的元组是宽高比
-fig = plt.figure(figsize=(12,6))
+fig = plt.figure(figsize=(9,6))
 
 # 生成背后的网格
 plt.grid(True, linestyle='-.', axis='both')
@@ -120,10 +120,10 @@ plt.xticks(fontsize=22)
 plt.xlabel("Cache Size", fontsize=28)
 plt.ylabel("Speed Factor", fontsize=28)
 
-plt.ylim(0)
+plt.ylim(0.4)
 
 # 设置图片边距
-plt.subplots_adjust(top=0.995,bottom=0.135,left=0.086,right=0.995,hspace=0.2,wspace=0.2)
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
 
 plt.savefig('../image/gcc_cache_size.pdf')
 
