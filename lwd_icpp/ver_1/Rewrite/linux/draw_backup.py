@@ -1,8 +1,6 @@
 import matplotlib.pyplot as  plt
 import math
 import sys
-sys.path.append("..\\header")
-from marker import *
 
 def gen_target_data(file_name):
     new_file_name=file_name+" new_result.txt"
@@ -82,6 +80,9 @@ markerDict = {
 dataArr = []
 for i in range(len(fileArr)):
     dataArr.append(gen_target_data(fileArr[i]))
+
+sys.path.append("..\\header")
+from marker import *
 
 # 生成图片实例，figsize的元组是宽高比
 fig = plt.figure(figsize=(12,6))
