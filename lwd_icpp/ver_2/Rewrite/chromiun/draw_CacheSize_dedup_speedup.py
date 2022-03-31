@@ -101,34 +101,75 @@ for b in range(0,len(t)):
         x_70.append(x[b])
         y_70.append(y[b])
 
+labelArr = [
+    "cache-size-10",
+    "cache-size-20",
+    "cache-size-30",
+    "cache-size-40",
+    "cache-size-50",
+    "cache-size-60",
+    "cache-size-70",
+]
 
-
-
-plt.figure(figsize=(19,11))
-#设置线宽
-plt.plot(x_10,y_10,label=u'cache size 10',linewidth=7)
-plt.plot(x_20,y_20,label=u'cache size 20',linewidth=7)
-plt.plot(x_30,y_30,label=u'cache size 30',linewidth=7)
-plt.plot(x_40,y_40,label=u'cache size 40',linewidth=7)
-plt.plot(x_50,y_50,label=u'cache size 50',linewidth=7)
-plt.plot(x_60,y_60,label=u'cache size 60',linewidth=7)
-
-
-
-font={
-    'family':'Times New Roman',
-    'weight':'normal',
-    'size':30
+colorDict = {
+    "cache-size-10":"#324665",
+    "cache-size-20":"#3478BF",
+    "cache-size-30":"#40A776",
+    "cache-size-40":"#F15326",
+    "cache-size-50":"#EED777",
+    "cache-size-60":"#8064A2",
+    "cache-size-70":"#EC6568"
 }
 
+markerDict = {
+    "cache-size-10":"s",
+    "cache-size-20":"o",
+    "cache-size-30":"^",
+    "cache-size-40":"d",
+    "cache-size-50":"v",
+    "cache-size-60":"<",
+    "cache-size-70":">",
+}
+
+dataArr = [
+    [x_10,y_10],
+    [x_20,y_20],
+    [x_30,y_30],
+    [x_40,y_40],
+    [x_50,y_50],
+    [x_60,y_60],
+    # [x_70,y_70],
+]
+
+# 生成图片实例，figsize的元组是宽高比
+fig = plt.figure(figsize=(9,6))
+
+# 生成背后的网格
+plt.grid(True, linestyle='-.', axis='both')
+
+#绘图
+line_width = 4
+for i in range(len(dataArr)):
+    print(len(dataArr[i][0]))
+    curMethod = labelArr[i]
+    plt.plot(dataArr[i][0],dataArr[i][1],label=curMethod,color=colorDict[curMethod], \
+        marker=markerDict[curMethod],markersize=16,markevery=None,linewidth=line_width)
+
 #让图例生效
-plt.legend(prop=font,frameon=False,loc='lower left')
+plt.legend(fontsize=23, loc='lower left', labelspacing=0.25,handletextpad=0.8, handlelength=1.5,ncol=1, columnspacing=0.8)
 
-plt.tick_params(labelsize=35)
+# plt.tick_params(labelsize=35)
+plt.yticks(fontsize=22)
+plt.xticks(fontsize=22)
 
+#给坐标轴添加标签
+plt.xlabel("Speed Factor", fontsize=28)
+plt.ylabel("Deduplication Ratio", fontsize=28)
 
-#设置图表标题，并给坐标轴添加标签
-plt.xlabel("Speed Factor",fontsize=40)
-plt.ylabel("Deduplication Ratio",fontsize=40)
-plt.savefig('../image/chromiun_cache.png')
+plt.ylim(6.9)
+
+# 设置图片边距
+plt.subplots_adjust(top=0.995,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
+
+plt.savefig('../image/chromiun_cache.pdf')
 plt.show()

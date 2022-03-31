@@ -54,26 +54,68 @@ def gen_target_data(file_name):
 
 x,y,z=gen_target_data(t)
 
+labelArr = [
+    "Before Exclusion",
+    "After Exclusion",
+]
 
-plt.figure(figsize=(19,11))
-#设置线宽
-plt.plot(z,x,label=u'Before Exclusion',linewidth=2)
-plt.plot(z,y,label=u'After Exclusion',linewidth=2)
-
-font={
-    'family':'Times New Roman',
-    'weight':'normal',
-    'size':30
+colorDict = {
+    "Before Exclusion":"#3478BF",
+    "After Exclusion":"#F15326",
 }
 
+markerDict = {
+    "Before Exclusion":"s",
+    "After Exclusion":"d",
+}
+
+lineStyleDict = {
+    "Before Exclusion":"--",
+    "After Exclusion":"-",
+}
+
+dataArr = [
+    [z,x],
+    [z,y],
+]
+
+import sys
+sys.path.append("..\\header")
+from marker import *
+
+# 生成图片实例，figsize的元组是宽高比
+fig = plt.figure(figsize=(9,6))
+
+# 生成背后的网格
+plt.grid(True, linestyle='-.', axis='both')
+
+scalNum = 5
+scalFactor = 100000
+
+#绘图
+line_width = 2
+for i in range(len(dataArr)):
+    print(len(dataArr[i][0]))
+    curMethod = labelArr[i]
+    plt.plot(dataArr[i][0],[x/scalFactor for x in dataArr[i][1]],label=curMethod,color=colorDict[curMethod], \
+        linestyle=lineStyleDict[curMethod],linewidth=line_width)
+
+xmin, xmax, ymin, ymax = plt.axis()
+plt.text(xmin-0.01*xmax, ymax*1.008, r'$\times10^{%d}$'%(scalNum),fontsize=20,ha='left')
+
 #让图例生效
-plt.legend(prop=font,frameon=False,loc='upper left')
+plt.legend(fontsize=23, loc='upper left', labelspacing=0.25,handletextpad=0.8, handlelength=1.5,ncol=1, columnspacing=0.8)
 
-plt.tick_params(labelsize=35)
+# plt.tick_params(labelsize=35)
+plt.yticks(fontsize=22)
+plt.xticks(fontsize=22)
 
+#给坐标轴添加标签
+plt.xlabel("Segment", fontsize=28)
+plt.ylabel("Range to Select", fontsize=28)
 
-#设置图表标题，并给坐标轴添加标签
-plt.xlabel("Segment",fontsize=40)
-plt.ylabel("Range to Select",fontsize=40)
-plt.savefig('../image/chromiun_exclude.png')
+# 设置图片边距
+plt.subplots_adjust(top=0.945,bottom=0.135,left=0.116,right=0.995,hspace=0.2,wspace=0.2)
+
+plt.savefig('../image/chromiun_exclude.pdf')
 plt.show()
