@@ -1,0 +1,5551 @@
+segment:0
+before:0
+after:0
+m_before:0
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:410
+after:0
+m_before:7
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:18
+after:0
+m_before:8
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:38
+after:0
+m_before:9
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:0
+after:0
+m_before:0
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:6
+after:0
+m_before:4
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:120
+after:0
+m_before:13
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:11
+after:0
+m_before:5
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:129
+after:0
+m_before:21
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:2377
+after:0
+m_before:40
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:4791
+after:0
+m_before:40
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:14401
+after:3501
+m_before:46
+m_after:3
+selected container:3
+selected fingerprint:3501
+
+segment:0
+before:1141
+after:0
+m_before:32
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:4622
+after:0
+m_before:81
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:1067
+after:0
+m_before:48
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:5730
+after:1044
+m_before:50
+m_after:1
+selected container:1
+selected fingerprint:1044
+
+segment:0
+before:2986
+after:0
+m_before:38
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:11419
+after:2136
+m_before:40
+m_after:2
+selected container:2
+selected fingerprint:2136
+
+segment:0
+before:17948
+after:11027
+m_before:41
+m_after:10
+selected container:10
+selected fingerprint:11027
+
+segment:0
+before:17078
+after:2124
+m_before:41
+m_after:2
+selected container:2
+selected fingerprint:2124
+
+segment:0
+before:7681
+after:0
+m_before:64
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:3455
+after:0
+m_before:36
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:6796
+after:1010
+m_before:64
+m_after:1
+selected container:1
+selected fingerprint:1010
+
+segment:0
+before:19191
+after:6718
+m_before:132
+m_after:6
+selected container:6
+selected fingerprint:6718
+
+segment:0
+before:12830
+after:0
+m_before:112
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:15339
+after:5442
+m_before:78
+m_after:5
+selected container:4
+selected fingerprint:4417
+
+segment:0
+before:21601
+after:19729
+m_before:55
+m_after:17
+selected container:17
+selected fingerprint:19729
+
+segment:0
+before:20730
+after:12828
+m_before:90
+m_after:11
+selected container:11
+selected fingerprint:12826
+
+segment:0
+before:19914
+after:6397
+m_before:48
+m_after:6
+selected container:4
+selected fingerprint:4373
+
+segment:0
+before:29400
+after:17292
+m_before:66
+m_after:16
+selected container:13
+selected fingerprint:14156
+
+segment:0
+before:27754
+after:8195
+m_before:91
+m_after:8
+selected container:7
+selected fingerprint:7172
+
+segment:0
+before:12216
+after:0
+m_before:88
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:14277
+after:1010
+m_before:118
+m_after:1
+selected container:1
+selected fingerprint:1010
+
+segment:0
+before:16038
+after:0
+m_before:126
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:22206
+after:9217
+m_before:90
+m_after:8
+selected container:8
+selected fingerprint:9217
+
+segment:0
+before:24357
+after:19664
+m_before:91
+m_after:17
+selected container:17
+selected fingerprint:19664
+
+segment:0
+before:17785
+after:9268
+m_before:91
+m_after:8
+selected container:8
+selected fingerprint:9268
+
+segment:0
+before:29116
+after:7659
+m_before:67
+m_after:7
+selected container:7
+selected fingerprint:7659
+
+segment:0
+before:31637
+after:22071
+m_before:74
+m_after:20
+selected container:14
+selected fingerprint:15684
+
+segment:0
+before:38718
+after:11663
+m_before:88
+m_after:11
+selected container:10
+selected fingerprint:10570
+
+segment:0
+before:17227
+after:0
+m_before:103
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:14010
+after:0
+m_before:67
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:23359
+after:1010
+m_before:160
+m_after:1
+selected container:1
+selected fingerprint:1010
+
+segment:0
+before:36372
+after:13145
+m_before:146
+m_after:12
+selected container:10
+selected fingerprint:11050
+
+segment:0
+before:24155
+after:19763
+m_before:70
+m_after:17
+selected container:16
+selected fingerprint:18657
+
+segment:0
+before:28525
+after:18385
+m_before:124
+m_after:16
+selected container:15
+selected fingerprint:17316
+
+segment:0
+before:30511
+after:13710
+m_before:107
+m_after:13
+selected container:11
+selected fingerprint:11686
+
+segment:0
+before:40268
+after:22024
+m_before:96
+m_after:20
+selected container:16
+selected fingerprint:17913
+
+segment:0
+before:47504
+after:18320
+m_before:111
+m_after:17
+selected container:15
+selected fingerprint:16284
+
+segment:0
+before:27515
+after:1020
+m_before:136
+m_after:1
+selected container:1
+selected fingerprint:1020
+
+segment:0
+before:37266
+after:11015
+m_before:150
+m_after:10
+selected container:10
+selected fingerprint:11014
+
+segment:0
+before:19366
+after:0
+m_before:168
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:19605
+after:2112
+m_before:126
+m_after:2
+selected container:2
+selected fingerprint:2112
+
+segment:0
+before:8519
+after:0
+m_before:112
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:35525
+after:14862
+m_before:56
+m_after:14
+selected container:13
+selected fingerprint:13849
+
+segment:0
+before:30842
+after:14363
+m_before:89
+m_after:13
+selected container:10
+selected fingerprint:11189
+
+segment:0
+before:34796
+after:9581
+m_before:81
+m_after:9
+selected container:9
+selected fingerprint:9578
+
+segment:0
+before:27155
+after:0
+m_before:158
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:13165
+after:0
+m_before:134
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:26515
+after:2026
+m_before:193
+m_after:2
+selected container:1
+selected fingerprint:1016
+
+segment:0
+before:23692
+after:0
+m_before:201
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:30584
+after:5282
+m_before:162
+m_after:5
+selected container:4
+selected fingerprint:4255
+
+segment:0
+before:23965
+after:20811
+m_before:74
+m_after:18
+selected container:17
+selected fingerprint:19668
+
+segment:0
+before:31303
+after:13848
+m_before:141
+m_after:12
+selected container:12
+selected fingerprint:13846
+
+segment:0
+before:19839
+after:4235
+m_before:129
+m_after:4
+selected container:3
+selected fingerprint:3216
+
+segment:0
+before:42050
+after:14574
+m_before:76
+m_after:14
+selected container:10
+selected fingerprint:10434
+
+segment:0
+before:50760
+after:24878
+m_before:126
+m_after:23
+selected container:13
+selected fingerprint:14322
+
+segment:0
+before:38973
+after:4093
+m_before:159
+m_after:4
+selected container:3
+selected fingerprint:3088
+
+segment:0
+before:31051
+after:0
+m_before:176
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:32538
+after:0
+m_before:204
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:29480
+after:2026
+m_before:238
+m_after:2
+selected container:1
+selected fingerprint:1016
+
+segment:0
+before:20513
+after:7689
+m_before:127
+m_after:7
+selected container:7
+selected fingerprint:7689
+
+segment:0
+before:20651
+after:6782
+m_before:151
+m_after:6
+selected container:6
+selected fingerprint:6782
+
+segment:0
+before:23328
+after:6534
+m_before:193
+m_after:6
+selected container:4
+selected fingerprint:4410
+
+segment:0
+before:50407
+after:7747
+m_before:177
+m_after:7
+selected container:6
+selected fingerprint:6734
+
+segment:0
+before:44650
+after:0
+m_before:266
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:18036
+after:0
+m_before:239
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:37138
+after:9229
+m_before:293
+m_after:8
+selected container:8
+selected fingerprint:9229
+
+segment:0
+before:47832
+after:18418
+m_before:196
+m_after:17
+selected container:13
+selected fingerprint:14236
+
+segment:0
+before:32028
+after:20985
+m_before:135
+m_after:18
+selected container:17
+selected fingerprint:19842
+
+segment:0
+before:38141
+after:18021
+m_before:185
+m_after:16
+selected container:16
+selected fingerprint:18008
+
+segment:0
+before:46727
+after:19917
+m_before:129
+m_after:18
+selected container:14
+selected fingerprint:15627
+
+segment:0
+before:53168
+after:24895
+m_before:142
+m_after:22
+selected container:16
+selected fingerprint:18561
+
+segment:0
+before:73097
+after:17138
+m_before:184
+m_after:15
+selected container:13
+selected fingerprint:14931
+
+segment:0
+before:42343
+after:1090
+m_before:229
+m_after:1
+selected container:1
+selected fingerprint:1090
+
+segment:0
+before:52134
+after:10839
+m_before:277
+m_after:10
+selected container:10
+selected fingerprint:10834
+
+segment:0
+before:43544
+after:8504
+m_before:325
+m_after:8
+selected container:7
+selected fingerprint:7488
+
+segment:0
+before:31775
+after:11008
+m_before:162
+m_after:10
+selected container:9
+selected fingerprint:9967
+
+segment:0
+before:31833
+after:17698
+m_before:175
+m_after:16
+selected container:14
+selected fingerprint:15464
+
+segment:0
+before:25813
+after:4636
+m_before:210
+m_after:4
+selected container:4
+selected fingerprint:4636
+
+segment:0
+before:46054
+after:13104
+m_before:165
+m_after:12
+selected container:11
+selected fingerprint:12069
+
+segment:0
+before:73667
+after:10578
+m_before:228
+m_after:10
+selected container:9
+selected fingerprint:9472
+
+segment:0
+before:34132
+after:0
+m_before:284
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:31484
+after:1016
+m_before:312
+m_after:1
+selected container:1
+selected fingerprint:1016
+
+segment:0
+before:8609
+after:0
+m_before:233
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:47402
+after:7827
+m_before:245
+m_after:7
+selected container:6
+selected fingerprint:6798
+
+segment:0
+before:7090
+after:0
+m_before:227
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:20230
+after:4315
+m_before:316
+m_after:4
+selected container:4
+selected fingerprint:4315
+
+segment:0
+before:11012
+after:0
+m_before:329
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:32114
+after:12724
+m_before:313
+m_after:11
+selected container:11
+selected fingerprint:12724
+
+segment:0
+before:43549
+after:15656
+m_before:221
+m_after:14
+selected container:14
+selected fingerprint:15656
+
+segment:0
+before:32056
+after:6265
+m_before:219
+m_after:6
+selected container:6
+selected fingerprint:6265
+
+segment:0
+before:52476
+after:18543
+m_before:92
+m_after:17
+selected container:16
+selected fingerprint:17531
+
+segment:0
+before:52320
+after:23400
+m_before:158
+m_after:21
+selected container:16
+selected fingerprint:18156
+
+segment:0
+before:61363
+after:18918
+m_before:141
+m_after:17
+selected container:17
+selected fingerprint:18915
+
+segment:0
+before:60409
+after:3234
+m_before:273
+m_after:3
+selected container:3
+selected fingerprint:3234
+
+segment:0
+before:38704
+after:11649
+m_before:251
+m_after:11
+selected container:11
+selected fingerprint:11649
+
+segment:0
+before:56360
+after:13093
+m_before:360
+m_after:12
+selected container:11
+selected fingerprint:12083
+
+segment:0
+before:28691
+after:2162
+m_before:309
+m_after:2
+selected container:2
+selected fingerprint:2162
+
+segment:0
+before:33416
+after:3302
+m_before:333
+m_after:3
+selected container:2
+selected fingerprint:2291
+
+segment:0
+before:59836
+after:11172
+m_before:332
+m_after:10
+selected container:7
+selected fingerprint:7900
+
+segment:0
+before:21879
+after:0
+m_before:391
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:24068
+after:3198
+m_before:341
+m_after:3
+selected container:3
+selected fingerprint:3198
+
+segment:0
+before:25892
+after:2076
+m_before:413
+m_after:2
+selected container:2
+selected fingerprint:2076
+
+segment:0
+before:39895
+after:8082
+m_before:381
+m_after:7
+selected container:7
+selected fingerprint:8082
+
+segment:0
+before:57481
+after:18482
+m_before:260
+m_after:17
+selected container:12
+selected fingerprint:13148
+
+segment:0
+before:36800
+after:20942
+m_before:142
+m_after:18
+selected container:17
+selected fingerprint:19799
+
+segment:0
+before:48204
+after:17225
+m_before:309
+m_after:15
+selected container:15
+selected fingerprint:17211
+
+segment:0
+before:56898
+after:24956
+m_before:170
+m_after:23
+selected container:18
+selected fingerprint:19620
+
+segment:0
+before:63374
+after:26956
+m_before:176
+m_after:24
+selected container:15
+selected fingerprint:17408
+
+segment:0
+before:88193
+after:18287
+m_before:224
+m_after:16
+selected container:14
+selected fingerprint:16077
+
+segment:0
+before:66144
+after:2094
+m_before:330
+m_after:2
+selected container:2
+selected fingerprint:2094
+
+segment:0
+before:67656
+after:15924
+m_before:359
+m_after:15
+selected container:14
+selected fingerprint:14882
+
+segment:0
+before:51933
+after:13096
+m_before:382
+m_after:12
+selected container:11
+selected fingerprint:12080
+
+segment:0
+before:42689
+after:8667
+m_before:430
+m_after:8
+selected container:7
+selected fingerprint:7498
+
+segment:0
+before:31319
+after:6669
+m_before:405
+m_after:6
+selected container:6
+selected fingerprint:6668
+
+segment:0
+before:46618
+after:9403
+m_before:303
+m_after:9
+selected container:7
+selected fingerprint:7370
+
+segment:0
+before:35120
+after:22426
+m_before:132
+m_after:20
+selected container:17
+selected fingerprint:19096
+
+segment:0
+before:47659
+after:15683
+m_before:332
+m_after:14
+selected container:13
+selected fingerprint:14645
+
+segment:0
+before:45257
+after:12684
+m_before:143
+m_after:12
+selected container:7
+selected fingerprint:7426
+
+segment:0
+before:65275
+after:18228
+m_before:206
+m_after:17
+selected container:10
+selected fingerprint:10899
+
+segment:0
+before:79327
+after:5114
+m_before:332
+m_after:5
+selected container:4
+selected fingerprint:4113
+
+segment:0
+before:46692
+after:0
+m_before:331
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:46641
+after:1016
+m_before:472
+m_after:1
+selected container:1
+selected fingerprint:1016
+
+segment:0
+before:60199
+after:15126
+m_before:394
+m_after:14
+selected container:13
+selected fingerprint:13964
+
+segment:0
+before:34441
+after:22320
+m_before:137
+m_after:20
+selected container:17
+selected fingerprint:18990
+
+segment:0
+before:49574
+after:16743
+m_before:346
+m_after:15
+selected container:14
+selected fingerprint:15701
+
+segment:0
+before:54163
+after:15294
+m_before:153
+m_after:14
+selected container:10
+selected fingerprint:11124
+
+segment:0
+before:83953
+after:24694
+m_before:229
+m_after:23
+selected container:15
+selected fingerprint:16340
+
+segment:0
+before:85921
+after:3216
+m_before:480
+m_after:3
+selected container:3
+selected fingerprint:3216
+
+segment:0
+before:53983
+after:9941
+m_before:382
+m_after:9
+selected container:9
+selected fingerprint:9938
+
+segment:0
+before:48633
+after:11910
+m_before:458
+m_after:11
+selected container:9
+selected fingerprint:9822
+
+segment:0
+before:56657
+after:11818
+m_before:516
+m_after:11
+selected container:10
+selected fingerprint:10649
+
+segment:0
+before:40249
+after:11030
+m_before:345
+m_after:10
+selected container:10
+selected fingerprint:11029
+
+segment:0
+before:43780
+after:9921
+m_before:489
+m_after:9
+selected container:8
+selected fingerprint:8706
+
+segment:0
+before:36876
+after:5571
+m_before:372
+m_after:5
+selected container:5
+selected fingerprint:5571
+
+segment:0
+before:35682
+after:7485
+m_before:233
+m_after:7
+selected container:7
+selected fingerprint:7485
+
+segment:0
+before:44127
+after:18125
+m_before:256
+m_after:16
+selected container:16
+selected fingerprint:18123
+
+segment:0
+before:39248
+after:9718
+m_before:301
+m_after:9
+selected container:6
+selected fingerprint:6550
+
+segment:0
+before:77615
+after:12256
+m_before:288
+m_after:11
+selected container:8
+selected fingerprint:9036
+
+segment:0
+before:79702
+after:0
+m_before:555
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:35715
+after:2087
+m_before:419
+m_after:2
+selected container:2
+selected fingerprint:2087
+
+segment:0
+before:48174
+after:15129
+m_before:424
+m_after:14
+selected container:12
+selected fingerprint:13046
+
+segment:0
+before:62622
+after:6649
+m_before:562
+m_after:6
+selected container:6
+selected fingerprint:6576
+
+segment:0
+before:48120
+after:10274
+m_before:441
+m_after:9
+selected container:9
+selected fingerprint:10274
+
+segment:0
+before:56018
+after:17234
+m_before:395
+m_after:15
+selected container:15
+selected fingerprint:17231
+
+segment:0
+before:56228
+after:19039
+m_before:293
+m_after:17
+selected container:11
+selected fingerprint:12684
+
+segment:0
+before:79221
+after:10917
+m_before:691
+m_after:10
+selected container:6
+selected fingerprint:6662
+
+segment:0
+before:33347
+after:8796
+m_before:445
+m_after:8
+selected container:8
+selected fingerprint:8794
+
+segment:0
+before:22039
+after:0
+m_before:308
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:39242
+after:3134
+m_before:289
+m_after:3
+selected container:3
+selected fingerprint:3134
+
+segment:0
+before:29576
+after:5276
+m_before:163
+m_after:5
+selected container:4
+selected fingerprint:4200
+
+segment:0
+before:51430
+after:11879
+m_before:106
+m_after:11
+selected container:10
+selected fingerprint:10839
+
+segment:0
+before:55793
+after:15586
+m_before:208
+m_after:14
+selected container:10
+selected fingerprint:11392
+
+segment:0
+before:66688
+after:11483
+m_before:184
+m_after:11
+selected container:11
+selected fingerprint:11483
+
+segment:0
+before:75109
+after:2209
+m_before:403
+m_after:2
+selected container:2
+selected fingerprint:2209
+
+segment:0
+before:35425
+after:0
+m_before:386
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:38605
+after:0
+m_before:298
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:57218
+after:7603
+m_before:567
+m_after:7
+selected container:6
+selected fingerprint:6593
+
+segment:0
+before:57565
+after:10980
+m_before:586
+m_after:10
+selected container:9
+selected fingerprint:9765
+
+segment:0
+before:36982
+after:13347
+m_before:391
+m_after:12
+selected container:12
+selected fingerprint:13346
+
+segment:0
+before:53502
+after:15533
+m_before:406
+m_after:14
+selected container:14
+selected fingerprint:15532
+
+segment:0
+before:31164
+after:4362
+m_before:328
+m_after:4
+selected container:4
+selected fingerprint:4358
+
+segment:0
+before:71235
+after:18050
+m_before:228
+m_after:17
+selected container:14
+selected fingerprint:14862
+
+segment:0
+before:54970
+after:20036
+m_before:201
+m_after:18
+selected container:16
+selected fingerprint:17947
+
+segment:0
+before:88187
+after:20803
+m_before:258
+m_after:19
+selected container:16
+selected fingerprint:17653
+
+segment:0
+before:89786
+after:8619
+m_before:390
+m_after:8
+selected container:5
+selected fingerprint:5482
+
+segment:0
+before:66219
+after:3121
+m_before:486
+m_after:3
+selected container:3
+selected fingerprint:3121
+
+segment:0
+before:69479
+after:9883
+m_before:484
+m_after:9
+selected container:9
+selected fingerprint:9883
+
+segment:0
+before:69246
+after:14196
+m_before:503
+m_after:13
+selected container:11
+selected fingerprint:12181
+
+segment:0
+before:48003
+after:19558
+m_before:243
+m_after:18
+selected container:17
+selected fingerprint:18547
+
+segment:0
+before:49347
+after:20017
+m_before:352
+m_after:18
+selected container:16
+selected fingerprint:17995
+
+segment:0
+before:49253
+after:10888
+m_before:333
+m_after:10
+selected container:7
+selected fingerprint:7718
+
+segment:0
+before:101508
+after:23346
+m_before:331
+m_after:21
+selected container:16
+selected fingerprint:18120
+
+segment:0
+before:93097
+after:2292
+m_before:698
+m_after:2
+selected container:2
+selected fingerprint:2292
+
+segment:0
+before:59633
+after:10942
+m_before:507
+m_after:10
+selected container:10
+selected fingerprint:10942
+
+segment:0
+before:61010
+after:12154
+m_before:494
+m_after:11
+selected container:9
+selected fingerprint:9991
+
+segment:0
+before:61735
+after:5475
+m_before:635
+m_after:5
+selected container:5
+selected fingerprint:5474
+
+segment:0
+before:58694
+after:9069
+m_before:695
+m_after:8
+selected container:7
+selected fingerprint:8024
+
+segment:0
+before:32681
+after:5177
+m_before:534
+m_after:5
+selected container:5
+selected fingerprint:5177
+
+segment:0
+before:48408
+after:10009
+m_before:488
+m_after:9
+selected container:8
+selected fingerprint:9002
+
+segment:0
+before:50515
+after:19963
+m_before:203
+m_after:18
+selected container:17
+selected fingerprint:18933
+
+segment:0
+before:50764
+after:18984
+m_before:372
+m_after:17
+selected container:16
+selected fingerprint:17934
+
+segment:0
+before:68213
+after:20457
+m_before:379
+m_after:19
+selected container:16
+selected fingerprint:17289
+
+segment:0
+before:106133
+after:22589
+m_before:322
+m_after:20
+selected container:17
+selected fingerprint:19298
+
+segment:0
+before:100914
+after:5376
+m_before:763
+m_after:5
+selected container:5
+selected fingerprint:5376
+
+segment:0
+before:74719
+after:11918
+m_before:607
+m_after:11
+selected container:11
+selected fingerprint:11918
+
+segment:0
+before:70044
+after:20222
+m_before:449
+m_after:18
+selected container:14
+selected fingerprint:15931
+
+segment:0
+before:46260
+after:20436
+m_before:244
+m_after:18
+selected container:16
+selected fingerprint:18346
+
+segment:0
+before:55788
+after:17956
+m_before:409
+m_after:16
+selected container:16
+selected fingerprint:17937
+
+segment:0
+before:77456
+after:22200
+m_before:226
+m_after:20
+selected container:16
+selected fingerprint:17828
+
+segment:0
+before:123424
+after:24341
+m_before:403
+m_after:22
+selected container:13
+selected fingerprint:14844
+
+segment:0
+before:88786
+after:2211
+m_before:641
+m_after:2
+selected container:2
+selected fingerprint:2211
+
+segment:0
+before:79135
+after:9779
+m_before:627
+m_after:9
+selected container:8
+selected fingerprint:8720
+
+segment:0
+before:70255
+after:18827
+m_before:490
+m_after:17
+selected container:15
+selected fingerprint:16731
+
+segment:0
+before:55957
+after:22836
+m_before:322
+m_after:20
+selected container:16
+selected fingerprint:18492
+
+segment:0
+before:53232
+after:22892
+m_before:406
+m_after:20
+selected container:17
+selected fingerprint:19594
+
+segment:0
+before:67335
+after:22061
+m_before:406
+m_after:21
+selected container:16
+selected fingerprint:16781
+
+segment:0
+before:78673
+after:23077
+m_before:249
+m_after:21
+selected container:17
+selected fingerprint:18965
+
+segment:0
+before:124397
+after:35767
+m_before:299
+m_after:33
+selected container:17
+selected fingerprint:18675
+
+segment:0
+before:111769
+after:4115
+m_before:689
+m_after:4
+selected container:4
+selected fingerprint:4115
+
+segment:0
+before:85680
+after:15180
+m_before:526
+m_after:14
+selected container:13
+selected fingerprint:14096
+
+segment:0
+before:46966
+after:8502
+m_before:561
+m_after:8
+selected container:5
+selected fingerprint:5350
+
+segment:0
+before:39284
+after:2111
+m_before:392
+m_after:2
+selected container:2
+selected fingerprint:2111
+
+segment:0
+before:24987
+after:0
+m_before:322
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:35673
+after:5155
+m_before:209
+m_after:5
+selected container:4
+selected fingerprint:4139
+
+segment:0
+before:49114
+after:9791
+m_before:109
+m_after:9
+selected container:9
+selected fingerprint:9791
+
+segment:0
+before:64884
+after:22012
+m_before:237
+m_after:20
+selected container:13
+selected fingerprint:14565
+
+segment:0
+before:61000
+after:11771
+m_before:209
+m_after:11
+selected container:10
+selected fingerprint:10705
+
+segment:0
+before:89547
+after:7281
+m_before:349
+m_after:7
+selected container:5
+selected fingerprint:5242
+
+segment:0
+before:69705
+after:0
+m_before:438
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:35318
+after:2053
+m_before:321
+m_after:2
+selected container:2
+selected fingerprint:2053
+
+segment:0
+before:59024
+after:3035
+m_before:461
+m_after:3
+selected container:2
+selected fingerprint:2025
+
+segment:0
+before:69643
+after:15393
+m_before:562
+m_after:14
+selected container:13
+selected fingerprint:14243
+
+segment:0
+before:84837
+after:14105
+m_before:754
+m_after:13
+selected container:11
+selected fingerprint:11947
+
+segment:0
+before:35921
+after:3264
+m_before:451
+m_after:3
+selected container:3
+selected fingerprint:3264
+
+segment:0
+before:38271
+after:1068
+m_before:427
+m_after:1
+selected container:1
+selected fingerprint:1068
+
+segment:0
+before:35104
+after:1059
+m_before:346
+m_after:1
+selected container:1
+selected fingerprint:1059
+
+segment:0
+before:33701
+after:3345
+m_before:203
+m_after:3
+selected container:3
+selected fingerprint:3345
+
+segment:0
+before:54464
+after:12113
+m_before:118
+m_after:11
+selected container:11
+selected fingerprint:12113
+
+segment:0
+before:46402
+after:17577
+m_before:201
+m_after:16
+selected container:13
+selected fingerprint:14394
+
+segment:0
+before:71376
+after:13851
+m_before:281
+m_after:13
+selected container:8
+selected fingerprint:8489
+
+segment:0
+before:76769
+after:14948
+m_before:221
+m_after:14
+selected container:13
+selected fingerprint:13923
+
+segment:0
+before:97878
+after:0
+m_before:502
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:41296
+after:0
+m_before:454
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:48466
+after:0
+m_before:342
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:65688
+after:2026
+m_before:648
+m_after:2
+selected container:1
+selected fingerprint:1016
+
+segment:0
+before:37574
+after:0
+m_before:311
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:48671
+after:4088
+m_before:328
+m_after:4
+selected container:4
+selected fingerprint:4088
+
+segment:0
+before:49774
+after:10668
+m_before:435
+m_after:10
+selected container:6
+selected fingerprint:6463
+
+segment:0
+before:108751
+after:19835
+m_before:442
+m_after:18
+selected container:11
+selected fingerprint:12261
+
+segment:0
+before:82164
+after:0
+m_before:939
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:31552
+after:0
+m_before:637
+m_after:0
+selected container:0
+selected fingerprint:0
+
+segment:0
+before:25111
+after:6438
+m_before:538
+m_after:6
+selected container:6
+selected fingerprint:6438
+
+segment:0
+before:67964
+after:15408
+m_before:634
+m_after:14
+selected container:13
+selected fingerprint:14403
+
+segment:0
+before:66665
+after:24020
+m_before:258
+m_after:22
+selected container:17
+selected fingerprint:18712
+
+segment:0
+before:65695
+after:21154
+m_before:457
+m_after:19
+selected container:16
+selected fingerprint:17974
+
+segment:0
+before:79074
+after:21356
+m_before:464
+m_after:20
+selected container:16
+selected fingerprint:17128
+
+segment:0
+before:122556
+after:31922
+m_before:389
+m_after:29
+selected container:16
+selected fingerprint:18109
+
+segment:0
+before:130790
+after:6404
+m_before:934
+m_after:6
+selected container:6
+selected fingerprint:6404
+
+segment:0
+before:83661
+after:17352
+m_before:700
+m_after:16
+selected container:14
+selected fingerprint:15209
+
+segment:0
+before:53757
+after:14758
+m_before:413
+m_after:13
+selected container:13
+selected fingerprint:14726
+
+segment:0
+before:55922
+after:10949
+m_before:380
+m_after:10
+selected container:9
+selected fingerprint:9908
+
+segment:0
+before:22129
+after:1161
+m_before:189
+m_after:1
+selected container:1
+selected fingerprint:1161
+
+segment:0
+before:81392
+after:21821
+m_before:291
+m_after:20
+selected container:16
+selected fingerprint:17514
+
+segment:0
+before:60947
+after:23145
+m_before:147
+m_after:21
+selected container:16
+selected fingerprint:17810
+
+segment:0
+before:75804
+after:29894
+m_before:291
+m_after:27
+selected container:16
+selected fingerprint:18085
+
+segment:0
+before:92278
+after:22884
+m_before:243
+m_after:21
+selected container:15
+selected fingerprint:16654
+
+segment:0
+before:116919
+after:2198
+m_before:585
+m_after:2
+selected container:2
+selected fingerprint:2198
+
+segment:0
+before:70556
+after:5305
+m_before:567
+m_after:5
+selected container:5
+selected fingerprint:5305
+
+segment:0
+before:75697
+after:9554
+m_before:390
+m_after:9
+selected container:9
+selected fingerprint:9554
+
+segment:0
+before:80054
+after:10519
+m_before:674
+m_after:10
+selected container:9
+selected fingerprint:9509
+
+segment:0
+before:75130
+after:18691
+m_before:555
+m_after:17
+selected container:14
+selected fingerprint:15620
+
+segment:0
+before:67525
+after:19487
+m_before:408
+m_after:17
+selected container:12
+selected fingerprint:14018
+
+segment:0
+before:50773
+after:19633
+m_before:397
+m_after:17
+selected container:16
+selected fingerprint:18490
+
+segment:0
+before:61577
+after:12924
+m_before:496
+m_after:12
+selected container:10
+selected fingerprint:10751
+
+segment:0
+before:101174
+after:24069
+m_before:320
+m_after:22
+selected container:16
+selected fingerprint:17783
+
+segment:0
+before:100500
+after:29780
+m_before:339
+m_after:27
+selected container:16
+selected fingerprint:17812
+
+segment:0
+before:136035
+after:12830
+m_before:499
+m_after:12
+selected container:10
+selected fingerprint:10784
+
+segment:0
+before:99804
+after:1012
+m_before:660
+m_after:1
+selected container:1
+selected fingerprint:1012
+
+segment:0
+before:92895
+after:10847
+m_before:714
+m_after:10
+selected container:10
+selected fingerprint:10847
+
+segment:0
+before:90434
+after:16396
+m_before:710
+m_after:15
+selected container:13
+selected fingerprint:14373
+
+segment:0
+before:69058
+after:24187
+m_before:272
+m_after:22
+selected container:17
+selected fingerprint:18882
+
+segment:0
+before:68988
+after:20053
+m_before:483
+m_after:18
+selected container:16
+selected fingerprint:17989
+
+segment:0
+before:80303
+after:21345
+m_before:480
+m_after:20
+selected container:16
+selected fingerprint:17118
+
+segment:0
+before:126607
+after:33035
+m_before:419
+m_after:30
+selected container:17
+selected fingerprint:19186
+
+segment:0
+before:148360
+after:10558
+m_before:1014
+m_after:10
+selected container:10
+selected fingerprint:10558
+
+segment:0
+before:90733
+after:18391
+m_before:750
+m_after:17
+selected container:15
+selected fingerprint:16244
+
+segment:0
+before:59083
+after:18147
+m_before:550
+m_after:16
+selected container:15
+selected fingerprint:17032
+
+segment:0
+before:72457
+after:14793
+m_before:516
+m_after:14
+selected container:10
+selected fingerprint:10622
+
+segment:0
+before:71511
+after:25553
+m_before:287
+m_after:24
+selected container:18
+selected fingerprint:19121
+
+segment:0
+before:86727
+after:24206
+m_before:188
+m_after:22
+selected container:17
+selected fingerprint:18999
+
+segment:0
+before:109810
+after:34470
+m_before:356
+m_after:31
+selected container:16
+selected fingerprint:18310
+
+segment:0
+before:121469
+after:14596
+m_before:582
+m_after:13
+selected container:8
+selected fingerprint:9344
+
+segment:0
+before:111050
+after:2173
+m_before:651
+m_after:2
+selected container:2
+selected fingerprint:2173
+
+segment:0
+before:98417
+after:9830
+m_before:684
+m_after:9
+selected container:9
+selected fingerprint:9830
+
+segment:0
+before:91921
+after:11868
+m_before:773
+m_after:11
+selected container:8
+selected fingerprint:8790
+
+segment:0
+before:79173
+after:15959
+m_before:451
+m_after:15
+selected container:10
+selected fingerprint:10597
+
+segment:0
+before:54312
+after:22170
+m_before:327
+m_after:20
+selected container:16
+selected fingerprint:17692
+
+segment:0
+before:64248
+after:14686
+m_before:510
+m_after:13
+selected container:12
+selected fingerprint:13552
+
+segment:0
+before:89773
+after:19340
+m_before:272
+m_after:18
+selected container:12
+selected fingerprint:13020
+
+segment:0
+before:116640
+after:34877
+m_before:386
+m_after:32
+selected container:16
+selected fingerprint:17876
+
+segment:0
+before:153579
+after:5353
+m_before:827
+m_after:5
+selected container:5
+selected fingerprint:5353
+
+segment:0
+before:78164
+after:7445
+m_before:498
+m_after:7
+selected container:7
+selected fingerprint:7444
+
+segment:0
+before:88113
+after:5362
+m_before:965
+m_after:5
+selected container:5
+selected fingerprint:5362
+
+segment:0
+before:60986
+after:9106
+m_before:638
+m_after:8
+selected container:8
+selected fingerprint:9106
+
+segment:0
+before:98198
+after:18906
+m_before:733
+m_after:17
+selected container:10
+selected fingerprint:11521
+
+segment:0
+before:37169
+after:6706
+m_before:811
+m_after:6
+selected container:6
+selected fingerprint:6706
+
+segment:0
+before:98338
+after:19089
+m_before:676
+m_after:17
+selected container:14
+selected fingerprint:15884
+
+segment:0
+before:64342
+after:25878
+m_before:314
+m_after:23
+selected container:18
+selected fingerprint:20378
+
+segment:0
+before:82171
+after:19425
+m_before:557
+m_after:17
+selected container:16
+selected fingerprint:18282
+
+segment:0
+before:95001
+after:23013
+m_before:291
+m_after:21
+selected container:16
+selected fingerprint:17623
+
+segment:0
+before:140936
+after:33064
+m_before:480
+m_after:30
+selected container:16
+selected fingerprint:18234
+
+segment:0
+before:147306
+after:7440
+m_before:949
+m_after:7
+selected container:6
+selected fingerprint:6337
+
+segment:0
+before:102023
+after:12122
+m_before:828
+m_after:11
+selected container:10
+selected fingerprint:11051
+
+segment:0
+before:51249
+after:14422
+m_before:666
+m_after:13
+selected container:11
+selected fingerprint:12375
+
+segment:0
+before:111012
+after:23630
+m_before:553
+m_after:21
+selected container:14
+selected fingerprint:16076
+
+segment:0
+before:56209
+after:6653
+m_before:754
+m_after:6
+selected container:6
+selected fingerprint:6653
+
+segment:0
+before:90366
+after:14360
+m_before:915
+m_after:13
+selected container:10
+selected fingerprint:10999
+
+segment:0
+before:79170
+after:27342
+m_before:423
+m_after:25
+selected container:16
+selected fingerprint:17527
+
+segment:0
+before:56698
+after:22233
+m_before:432
+m_after:20
+selected container:16
+selected fingerprint:17922
+
+segment:0
+before:77210
+after:19254
+m_before:609
+m_after:18
+selected container:14
+selected fingerprint:14873
+
+segment:0
+before:103659
+after:25390
+m_before:382
+m_after:23
+selected container:15
+selected fingerprint:16772
+
+segment:0
+before:172940
+after:19516
+m_before:623
+m_after:18
+selected container:14
+selected fingerprint:15187
+
+segment:0
+before:129100
+after:7485
+m_before:898
+m_after:7
+selected container:6
+selected fingerprint:6463
+
+segment:0
+before:108351
+after:11995
+m_before:844
+m_after:11
+selected container:10
+selected fingerprint:10911
+
+segment:0
+before:94803
+after:21368
+m_before:626
+m_after:19
+selected container:15
+selected fingerprint:17073
+
+segment:0
+before:65801
+after:21566
+m_before:347
+m_after:19
+selected container:15
+selected fingerprint:17215
+
+segment:0
+before:71289
+after:15807
+m_before:567
+m_after:14
+selected container:12
+selected fingerprint:13559
+
+segment:0
+before:96480
+after:23255
+m_before:304
+m_after:21
+selected container:13
+selected fingerprint:14644
+
+segment:0
+before:176970
+after:25396
+m_before:623
+m_after:23
+selected container:13
+selected fingerprint:14734
+
+segment:0
+before:131371
+after:7550
+m_before:934
+m_after:7
+selected container:6
+selected fingerprint:6529
+
+segment:0
+before:94585
+after:13256
+m_before:897
+m_after:12
+selected container:11
+selected fingerprint:12185
+
+segment:0
+before:74940
+after:17233
+m_before:627
+m_after:15
+selected container:15
+selected fingerprint:17232
+
+segment:0
+before:70937
+after:16870
+m_before:570
+m_after:16
+selected container:14
+selected fingerprint:14823
+
+segment:0
+before:84132
+after:23999
+m_before:320
+m_after:23
+selected container:18
+selected fingerprint:18738
+
+segment:0
+before:83955
+after:21061
+m_before:194
+m_after:19
+selected container:16
+selected fingerprint:17790
+
+segment:0
+before:109535
+after:27933
+m_before:369
+m_after:25
+selected container:16
+selected fingerprint:18234
+
+segment:0
+before:147201
+after:16232
+m_before:504
+m_after:15
+selected container:10
+selected fingerprint:10881
+
+segment:0
+before:128729
+after:3190
+m_before:674
+m_after:3
+selected container:3
+selected fingerprint:3190
+
+segment:0
+before:83729
+after:14027
+m_before:522
+m_after:13
+selected container:12
+selected fingerprint:12986
+
+segment:0
+before:135125
+after:15289
+m_before:981
+m_after:14
+selected container:11
+selected fingerprint:12217
+
+segment:0
+before:77620
+after:25951
+m_before:468
+m_after:24
+selected container:17
+selected fingerprint:18608
+
+segment:0
+before:73409
+after:23892
+m_before:454
+m_after:21
+selected container:17
+selected fingerprint:19455
+
+segment:0
+before:76432
+after:22563
+m_before:556
+m_after:21
+selected container:14
+selected fingerprint:14804
+
+segment:0
+before:119931
+after:32213
+m_before:435
+m_after:29
+selected container:16
+selected fingerprint:18283
+
+segment:0
+before:206808
+after:16270
+m_before:987
+m_after:15
+selected container:9
+selected fingerprint:9986
+
+segment:0
+before:103536
+after:12196
+m_before:833
+m_after:11
+selected container:9
+selected fingerprint:9998
+
+segment:0
+before:56202
+after:8488
+m_before:993
+m_after:8
+selected container:8
+selected fingerprint:8488
+
+segment:0
+before:64145
+after:17250
+m_before:674
+m_after:15
+selected container:15
+selected fingerprint:17250
+
+segment:0
+before:88651
+after:15130
+m_before:625
+m_after:14
+selected container:12
+selected fingerprint:13031
+
+segment:0
+before:51760
+after:6519
+m_before:307
+m_after:6
+selected container:4
+selected fingerprint:4349
+
+segment:0
+before:86038
+after:23853
+m_before:186
+m_after:22
+selected container:17
+selected fingerprint:18588
+
+segment:0
+before:103945
+after:30051
+m_before:347
+m_after:27
+selected container:16
+selected fingerprint:18045
+
+segment:0
+before:136045
+after:26090
+m_before:426
+m_after:24
+selected container:15
+selected fingerprint:16399
+
+segment:0
+before:172820
+after:6130
+m_before:738
+m_after:6
+selected container:5
+selected fingerprint:5114
+
+segment:0
+before:81907
+after:17022
+m_before:530
+m_after:16
+selected container:14
+selected fingerprint:14871
+
+segment:0
+before:141175
+after:11657
+m_before:986
+m_after:11
+selected container:9
+selected fingerprint:9620
+
+segment:0
+before:68619
+after:13373
+m_before:534
+m_after:12
+selected container:12
+selected fingerprint:13366
+
+segment:0
+before:66981
+after:18313
+m_before:357
+m_after:16
+selected container:16
+selected fingerprint:18313
+
+segment:0
+before:60408
+after:11788
+m_before:516
+m_after:11
+selected container:7
+selected fingerprint:7622
+
+segment:0
+before:121153
+after:31749
+m_before:528
+m_after:29
+selected container:16
+selected fingerprint:17733
+
+segment:0
+before:143541
+after:5414
+m_before:1176
+m_after:5
+selected container:5
+selected fingerprint:5411
+
+segment:0
+before:60460
+after:9660
+m_before:848
+m_after:9
+selected container:9
+selected fingerprint:9660
+
+segment:0
+before:101153
+after:15596
+m_before:891
+m_after:14
+selected container:12
+selected fingerprint:13572
+
+segment:0
+before:89059
+after:26700
+m_before:493
+m_after:24
+selected container:15
+selected fingerprint:17051
+
+segment:0
+before:65155
+after:21876
+m_before:481
+m_after:19
+selected container:17
+selected fingerprint:19699
+
+segment:0
+before:73551
+after:22511
+m_before:582
+m_after:21
+selected container:17
+selected fingerprint:18132
+
+segment:0
+before:124812
+after:29405
+m_before:436
+m_after:27
+selected container:16
+selected fingerprint:17753
+
+segment:0
+before:133066
+after:42650
+m_before:412
+m_after:39
+selected container:16
+selected fingerprint:17982
+
+segment:0
+before:204469
+after:6217
+m_before:1021
+m_after:6
+selected container:5
+selected fingerprint:5182
+
+segment:0
+before:81340
+after:16187
+m_before:534
+m_after:15
+selected container:14
+selected fingerprint:15103
+
+segment:0
+before:127015
+after:13004
+m_before:1124
+m_after:12
+selected container:10
+selected fingerprint:10874
+
+segment:0
+before:78053
+after:16366
+m_before:712
+m_after:15
+selected container:14
+selected fingerprint:15348
+
+segment:0
+before:128851
+after:17754
+m_before:937
+m_after:16
+selected container:10
+selected fingerprint:11263
+
+segment:0
+before:60946
+after:9854
+m_before:998
+m_after:9
+selected container:8
+selected fingerprint:8748
+
+segment:0
+before:80936
+after:17710
+m_before:601
+m_after:16
+selected container:15
+selected fingerprint:16694
+
+segment:0
+before:69337
+after:19482
+m_before:322
+m_after:17
+selected container:16
+selected fingerprint:18313
+
+segment:0
+before:75827
+after:16062
+m_before:580
+m_after:15
+selected container:10
+selected fingerprint:10788
+
+segment:0
+before:126114
+after:31882
+m_before:542
+m_after:29
+selected container:16
+selected fingerprint:17875
+
+segment:0
+before:159629
+after:7643
+m_before:1197
+m_after:7
+selected container:6
+selected fingerprint:6637
+
+segment:0
+before:71058
+after:11850
+m_before:910
+m_after:11
+selected container:10
+selected fingerprint:10793
+
+segment:0
+before:108882
+after:19291
+m_before:863
+m_after:18
+selected container:10
+selected fingerprint:10757
+
+segment:0
+before:88298
+after:26177
+m_before:475
+m_after:24
+selected container:14
+selected fingerprint:15324
+
+segment:0
+before:64697
+after:24564
+m_before:490
+m_after:22
+selected container:17
+selected fingerprint:19219
+
+segment:0
+before:77185
+after:11134
+m_before:717
+m_after:10
+selected container:9
+selected fingerprint:10007
+
+segment:0
+before:109133
+after:27064
+m_before:294
+m_after:25
+selected container:16
+selected fingerprint:17398
+
+segment:0
+before:164781
+after:34759
+m_before:512
+m_after:32
+selected container:17
+selected fingerprint:18879
+
+segment:0
+before:173539
+after:2046
+m_before:1037
+m_after:2
+selected container:2
+selected fingerprint:2046
+
+segment:0
+before:120942
+after:14029
+m_before:982
+m_after:13
+selected container:11
+selected fingerprint:11936
+
+segment:0
+before:84516
+after:14402
+m_before:1220
+m_after:13
+selected container:11
+selected fingerprint:12342
+
+segment:0
+before:73217
+after:6231
+m_before:991
+m_after:6
+selected container:4
+selected fingerprint:4165
+
+segment:0
+before:80258
+after:13126
+m_before:707
+m_after:12
+selected container:8
+selected fingerprint:8743
+
+segment:0
+before:74785
+after:1004
+m_before:1154
+m_after:1
+selected container:1
+selected fingerprint:1004
+
+segment:0
+before:63443
+after:5640
+m_before:887
+m_after:5
+selected container:5
+selected fingerprint:5640
+
+segment:0
+before:113525
+after:19682
+m_before:760
+m_after:18
+selected container:12
+selected fingerprint:13254
+
+segment:0
+before:61376
+after:6564
+m_before:991
+m_after:6
+selected container:6
+selected fingerprint:6562
+
+segment:0
+before:91305
+after:12637
+m_before:976
+m_after:11
+selected container:10
+selected fingerprint:11468
+
+segment:0
+before:77700
+after:14757
+m_before:730
+m_after:13
+selected container:13
+selected fingerprint:14754
+
+segment:0
+before:137189
+after:32121
+m_before:600
+m_after:29
+selected container:14
+selected fingerprint:16007
+
+segment:0
+before:129620
+after:9704
+m_before:1467
+m_after:9
+selected container:8
+selected fingerprint:8593
+
+segment:0
+before:98708
+after:10008
+m_before:1043
+m_after:9
+selected container:9
+selected fingerprint:10006
+
+segment:0
+before:84906
+after:19315
+m_before:547
+m_after:18
+selected container:14
+selected fingerprint:15202
+
+segment:0
+before:80158
+after:27241
+m_before:471
+m_after:24
+selected container:15
+selected fingerprint:17418
+
+segment:0
+before:78842
+after:24879
+m_before:646
+m_after:22
+selected container:17
+selected fingerprint:19492
+
+segment:0
+before:73706
+after:6534
+m_before:681
+m_after:6
+selected container:4
+selected fingerprint:4394
+
+segment:0
+before:111315
+after:23016
+m_before:278
+m_after:21
+selected container:17
+selected fingerprint:18770
+
+segment:0
+before:130627
+after:40209
+m_before:435
+m_after:37
+selected container:16
+selected fingerprint:17793
+
+segment:0
+before:169464
+after:8578
+m_before:806
+m_after:8
+selected container:8
+selected fingerprint:8578
+
+segment:0
+before:137696
+after:8378
+m_before:851
+m_after:8
+selected container:7
+selected fingerprint:7302
+
+segment:0
+before:123739
+after:14940
+m_before:1040
+m_after:14
+selected container:13
+selected fingerprint:13924
+
+segment:0
+before:82988
+after:12116
+m_before:904
+m_after:11
+selected container:10
+selected fingerprint:10957
+
+segment:0
+before:130589
+after:23900
+m_before:847
+m_after:22
+selected container:13
+selected fingerprint:14325
+
+segment:0
+before:68959
+after:10735
+m_before:991
+m_after:10
+selected container:9
+selected fingerprint:9729
+
+segment:0
+before:88283
+after:16567
+m_before:889
+m_after:15
+selected container:14
+selected fingerprint:15397
+
+segment:0
+before:141655
+after:21679
+m_before:1063
+m_after:20
+selected container:9
+selected fingerprint:9999
+
+segment:0
+before:76937
+after:10792
+m_before:1111
+m_after:10
+selected container:10
+selected fingerprint:10790
+
+segment:0
+before:96720
+after:26326
+m_before:758
+m_after:24
+selected container:16
+selected fingerprint:17858
+
+segment:0
+before:88107
+after:26982
+m_before:536
+m_after:24
+selected container:16
+selected fingerprint:18359
+
+segment:0
+before:66455
+after:22001
+m_before:540
+m_after:19
+selected container:17
+selected fingerprint:19838
+
+segment:0
+before:98507
+after:20125
+m_before:790
+m_after:19
+selected container:17
+selected fingerprint:17947
+
+segment:0
+before:117109
+after:28313
+m_before:314
+m_after:25
+selected container:16
+selected fingerprint:18584
+
+segment:0
+before:141495
+after:43166
+m_before:439
+m_after:39
+selected container:17
+selected fingerprint:19721
+
+segment:0
+before:207221
+after:7852
+m_before:1061
+m_after:7
+selected container:6
+selected fingerprint:6841
+
+segment:0
+before:108874
+after:10835
+m_before:640
+m_after:10
+selected container:9
+selected fingerprint:9788
+
+segment:0
+before:128184
+after:10759
+m_before:1152
+m_after:10
+selected container:9
+selected fingerprint:9743
+
+segment:0
+before:60847
+after:19531
+m_before:577
+m_after:17
+selected container:16
+selected fingerprint:18365
+
+segment:0
+before:82243
+after:19729
+m_before:499
+m_after:18
+selected container:14
+selected fingerprint:15497
+
+segment:0
+before:32448
+after:1019
+m_before:470
+m_after:1
+selected container:1
+selected fingerprint:1019
+
+segment:0
+before:98161
+after:23220
+m_before:223
+m_after:21
+selected container:16
+selected fingerprint:17841
+
+segment:0
+before:68751
+after:22314
+m_before:188
+m_after:20
+selected container:16
+selected fingerprint:18056
+
+segment:0
+before:100521
+after:34838
+m_before:408
+m_after:32
+selected container:17
+selected fingerprint:18872
+
+segment:0
+before:111131
+after:23155
+m_before:389
+m_after:21
+selected container:16
+selected fingerprint:17883
+
+segment:0
+before:183078
+after:4091
+m_before:881
+m_after:4
+selected container:4
+selected fingerprint:4091
+
+segment:0
+before:92817
+after:12792
+m_before:689
+m_after:12
+selected container:12
+selected fingerprint:12792
+
+segment:0
+before:110177
+after:14833
+m_before:768
+m_after:14
+selected container:13
+selected fingerprint:13775
+
+segment:0
+before:104093
+after:15351
+m_before:940
+m_after:14
+selected container:13
+selected fingerprint:14332
+
+segment:0
+before:100393
+after:28637
+m_before:770
+m_after:26
+selected container:17
+selected fingerprint:18617
+
+segment:0
+before:116672
+after:10655
+m_before:1294
+m_after:10
+selected container:9
+selected fingerprint:9651
+
+segment:0
+before:81316
+after:11209
+m_before:1067
+m_after:10
+selected container:9
+selected fingerprint:10164
+
+segment:0
+before:80970
+after:3334
+m_before:1302
+m_after:3
+selected container:3
+selected fingerprint:3334
+
+segment:0
+before:68945
+after:17152
+m_before:644
+m_after:15
+selected container:15
+selected fingerprint:17152
+
+segment:0
+before:78601
+after:7280
+m_before:614
+m_after:7
+selected container:6
+selected fingerprint:6241
+
+segment:0
+before:71349
+after:13918
+m_before:345
+m_after:13
+selected container:9
+selected fingerprint:9640
+
+segment:0
+before:87117
+after:24165
+m_before:202
+m_after:22
+selected container:18
+selected fingerprint:19908
+
+segment:0
+before:105177
+after:34334
+m_before:395
+m_after:31
+selected container:16
+selected fingerprint:18343
+
+segment:0
+before:114337
+after:27099
+m_before:315
+m_after:25
+selected container:16
+selected fingerprint:17490
+
+segment:0
+before:185480
+after:2226
+m_before:925
+m_after:2
+selected container:2
+selected fingerprint:2226
+
+segment:0
+before:102012
+after:5145
+m_before:833
+m_after:5
+selected container:5
+selected fingerprint:5145
+
+segment:0
+before:106251
+after:11978
+m_before:629
+m_after:11
+selected container:10
+selected fingerprint:10967
+
+segment:0
+before:117044
+after:10026
+m_before:1159
+m_after:9
+selected container:8
+selected fingerprint:9016
+
+segment:0
+before:82826
+after:20701
+m_before:659
+m_after:18
+selected container:16
+selected fingerprint:18408
+
+segment:0
+before:97607
+after:16549
+m_before:1014
+m_after:15
+selected container:9
+selected fingerprint:10367
+
+segment:0
+before:195179
+after:19805
+m_before:1364
+m_after:18
+selected container:10
+selected fingerprint:11352
+
+segment:0
+before:75200
+after:15313
+m_before:1252
+m_after:14
+selected container:13
+selected fingerprint:14279
+
+segment:0
+before:90500
+after:16003
+m_before:815
+m_after:14
+selected container:14
+selected fingerprint:15999
+
+segment:0
+before:92141
+after:22423
+m_before:546
+m_after:21
+selected container:14
+selected fingerprint:15114
+
+segment:0
+before:64322
+after:19582
+m_before:430
+m_after:17
+selected container:15
+selected fingerprint:17358
+
+segment:0
+before:92796
+after:17255
+m_before:735
+m_after:15
+selected container:12
+selected fingerprint:13867
+
+segment:0
+before:81643
+after:15083
+m_before:374
+m_after:14
+selected container:9
+selected fingerprint:9869
+
+segment:0
+before:99818
+after:22747
+m_before:324
+m_after:21
+selected container:15
+selected fingerprint:16471
+
+segment:0
+before:151654
+after:33482
+m_before:466
+m_after:31
+selected container:15
+selected fingerprint:16455
+
+segment:0
+before:200903
+after:3478
+m_before:1005
+m_after:3
+selected container:3
+selected fingerprint:3478
+
+segment:0
+before:113967
+after:7543
+m_before:847
+m_after:7
+selected container:7
+selected fingerprint:7543
+
+segment:0
+before:131333
+after:14182
+m_before:1106
+m_after:13
+selected container:12
+selected fingerprint:13163
+
+segment:0
+before:94200
+after:9836
+m_before:1018
+m_after:9
+selected container:8
+selected fingerprint:8679
+
+segment:0
+before:158307
+after:24059
+m_before:1178
+m_after:22
+selected container:10
+selected fingerprint:10994
+
+segment:0
+before:66052
+after:6568
+m_before:1078
+m_after:6
+selected container:5
+selected fingerprint:5418
+
+segment:0
+before:79391
+after:19128
+m_before:755
+m_after:17
+selected container:16
+selected fingerprint:18032
+
+segment:0
+before:92614
+after:16961
+m_before:724
+m_after:16
+selected container:12
+selected fingerprint:12776
+
+segment:0
+before:98186
+after:26702
+m_before:402
+m_after:25
+selected container:17
+selected fingerprint:18308
+
+segment:0
+before:101278
+after:27499
+m_before:237
+m_after:25
+selected container:16
+selected fingerprint:17939
+
+segment:0
+before:142763
+after:39765
+m_before:470
+m_after:36
+selected container:16
+selected fingerprint:18439
+
+segment:0
+before:175819
+after:14474
+m_before:785
+m_after:13
+selected container:7
+selected fingerprint:8159
+
+segment:0
+before:165212
+after:6243
+m_before:972
+m_after:6
+selected container:5
+selected fingerprint:5239
+
+segment:0
+before:137807
+after:11879
+m_before:999
+m_after:11
+selected container:10
+selected fingerprint:10770
+
+segment:0
+before:107214
+after:18656
+m_before:1009
+m_after:17
+selected container:15
+selected fingerprint:16619
+
+segment:0
+before:79975
+after:19611
+m_before:393
+m_after:17
+selected container:16
+selected fingerprint:18281
+
+segment:0
+before:90967
+after:26167
+m_before:630
+m_after:24
+selected container:17
+selected fingerprint:18763
+
+segment:0
+before:112254
+after:19192
+m_before:781
+m_after:18
+selected container:12
+selected fingerprint:12856
+
+segment:0
+before:190240
+after:24339
+m_before:900
+m_after:22
+selected container:12
+selected fingerprint:13455
+
+segment:0
+before:102893
+after:14964
+m_before:1278
+m_after:14
+selected container:12
+selected fingerprint:12898
+
+segment:0
+before:136019
+after:11068
+m_before:1257
+m_after:10
+selected container:9
+selected fingerprint:10018
+
+segment:0
+before:94846
+after:17458
+m_before:646
+m_after:16
+selected container:13
+selected fingerprint:14347
+
+segment:0
+before:68537
+after:26027
+m_before:338
+m_after:23
+selected container:17
+selected fingerprint:19661
+
+segment:0
+before:107038
+after:26115
+m_before:852
+m_after:23
+selected container:15
+selected fingerprint:17197
+
+segment:0
+before:97830
+after:22463
+m_before:470
+m_after:21
+selected container:14
+selected fingerprint:15104
+
+segment:0
+before:138246
+after:37302
+m_before:453
+m_after:34
+selected container:16
+selected fingerprint:17763
+
+segment:0
+before:207576
+after:24695
+m_before:760
+m_after:23
+selected container:10
+selected fingerprint:10823
+
+segment:0
+before:171187
+after:6432
+m_before:1143
+m_after:6
+selected container:5
+selected fingerprint:5347
+
+segment:0
+before:135178
+after:16557
+m_before:1203
+m_after:15
+selected container:13
+selected fingerprint:14430
+
+segment:0
+before:66256
+after:16929
+m_before:730
+m_after:15
+selected container:15
+selected fingerprint:16895
+
+segment:0
+before:58715
+after:14100
+m_before:361
+m_after:13
+selected container:11
+selected fingerprint:12007
+
+segment:0
+before:46121
+after:6435
+m_before:536
+m_after:6
+selected container:6
+selected fingerprint:6435
+
+segment:0
+before:77941
+after:13665
+m_before:398
+m_after:12
+selected container:11
+selected fingerprint:12547
+
+segment:0
+before:76636
+after:26550
+m_before:168
+m_after:24
+selected container:17
+selected fingerprint:18872
+
+segment:0
+before:97248
+after:27993
+m_before:414
+m_after:25
+selected container:15
+selected fingerprint:16731
+
+segment:0
+before:96462
+after:26338
+m_before:338
+m_after:24
+selected container:16
+selected fingerprint:17896
+
+segment:0
+before:136977
+after:17290
+m_before:524
+m_after:16
+selected container:14
+selected fingerprint:15186
+
+segment:0
+before:191666
+after:1011
+m_before:894
+m_after:1
+selected container:1
+selected fingerprint:1011
+
+segment:0
+before:63774
+after:11833
+m_before:699
+m_after:11
+selected container:11
+selected fingerprint:11833
+
+segment:0
+before:113876
+after:12128
+m_before:1001
+m_after:11
+selected container:11
+selected fingerprint:12127
+
+segment:0
+before:122986
+after:15482
+m_before:1043
+m_after:14
+selected container:13
+selected fingerprint:14464
+
+segment:0
+before:97962
+after:20469
+m_before:620
+m_after:19
+selected container:14
+selected fingerprint:15262
+
+segment:0
+before:71735
+after:29729
+m_before:298
+m_after:26
+selected container:17
+selected fingerprint:19849
+
+segment:0
+before:100049
+after:27104
+m_before:783
+m_after:24
+selected container:16
+selected fingerprint:18408
+
+segment:0
+before:99738
+after:23934
+m_before:750
+m_after:23
+selected container:16
+selected fingerprint:16595
+
+segment:0
+before:113160
+after:23148
+m_before:306
+m_after:21
+selected container:15
+selected fingerprint:16851
+
+segment:0
+before:156587
+after:41789
+m_before:499
+m_after:38
+selected container:16
+selected fingerprint:17870
+
+segment:0
+before:228240
+after:8486
+m_before:1007
+m_after:8
+selected container:7
+selected fingerprint:7439
+
+segment:0
+before:143946
+after:11781
+m_before:964
+m_after:11
+selected container:10
+selected fingerprint:10705
+
+segment:0
+before:144145
+after:12960
+m_before:1236
+m_after:12
+selected container:11
+selected fingerprint:11944
+
+segment:0
+before:116387
+after:16716
+m_before:1255
+m_after:15
+selected container:12
+selected fingerprint:13236
+
+segment:0
+before:68178
+after:8680
+m_before:1286
+m_after:8
+selected container:7
+selected fingerprint:7668
+
+segment:0
+before:109403
+after:13627
+m_before:1073
+m_after:12
+selected container:12
+selected fingerprint:13620
+
+segment:0
+before:76621
+after:20587
+m_before:379
+m_after:18
+selected container:16
+selected fingerprint:18317
+
+segment:0
+before:98425
+after:26965
+m_before:743
+m_after:25
+selected container:16
+selected fingerprint:17476
+
+segment:0
+before:131943
+after:34330
+m_before:578
+m_after:31
+selected container:16
+selected fingerprint:17789
+
+segment:0
+before:226332
+after:13340
+m_before:1379
+m_after:12
+selected container:8
+selected fingerprint:8980
+
+segment:0
+before:101397
+after:15195
+m_before:1265
+m_after:14
+selected container:13
+selected fingerprint:14183
+
+segment:0
+before:104663
+after:13141
+m_before:1157
+m_after:12
+selected container:12
+selected fingerprint:13141
+
+segment:0
+before:112749
+after:19212
+m_before:665
+m_after:18
+selected container:13
+selected fingerprint:14006
+
+segment:0
+before:73026
+after:23003
+m_before:370
+m_after:20
+selected container:16
+selected fingerprint:18666
+
+segment:0
+before:108265
+after:25814
+m_before:910
+m_after:23
+selected container:15
+selected fingerprint:17059
+
+segment:0
+before:83141
+after:15257
+m_before:411
+m_after:14
+selected container:7
+selected fingerprint:7758
+
+segment:0
+before:115821
+after:32187
+m_before:372
+m_after:29
+selected container:16
+selected fingerprint:17862
+
+segment:0
+before:175882
+after:33162
+m_before:517
+m_after:31
+selected container:17
+selected fingerprint:18182
+
+segment:0
+before:263218
+after:3157
+m_before:1384
+m_after:3
+selected container:3
+selected fingerprint:3157
+
+segment:0
+before:96609
+after:15988
+m_before:615
+m_after:15
+selected container:12
+selected fingerprint:12826
+
+segment:0
+before:177984
+after:12752
+m_before:1431
+m_after:12
+selected container:10
+selected fingerprint:10675
+
+segment:0
+before:100606
+after:25191
+m_before:859
+m_after:23
+selected container:15
+selected fingerprint:16819
+
+segment:0
+before:99280
+after:29212
+m_before:608
+m_after:26
+selected container:16
+selected fingerprint:18471
+
+segment:0
+before:77223
+after:23173
+m_before:620
+m_after:20
+selected container:17
+selected fingerprint:19841
+
+segment:0
+before:109424
+after:19070
+m_before:930
+m_after:18
+selected container:16
+selected fingerprint:16894
+
+segment:0
+before:126736
+after:27353
+m_before:351
+m_after:24
+selected container:16
+selected fingerprint:18645
+
+segment:0
+before:165242
+after:50039
+m_before:513
+m_after:45
+selected container:17
+selected fingerprint:19769
+
+segment:0
+before:262860
+after:6877
+m_before:1332
+m_after:6
+selected container:5
+selected fingerprint:5709
+
+segment:0
+before:122060
+after:15135
+m_before:725
+m_after:14
+selected container:12
+selected fingerprint:13088
+
+segment:0
+before:174782
+after:13141
+m_before:1334
+m_after:12
+selected container:10
+selected fingerprint:11002
+
+segment:0
+before:84233
+after:19153
+m_before:793
+m_after:17
+selected container:16
+selected fingerprint:18124
+
+segment:0
+before:107608
+after:25289
+m_before:615
+m_after:23
+selected container:14
+selected fingerprint:15584
+
+segment:0
+before:77500
+after:21763
+m_before:623
+m_after:19
+selected container:16
+selected fingerprint:18431
+
+segment:0
+before:86121
+after:15839
+m_before:752
+m_after:14
+selected container:10
+selected fingerprint:11451
+
+segment:0
+before:107103
+after:23703
+m_before:441
+m_after:22
+selected container:13
+selected fingerprint:14332
+
+segment:0
+before:120718
+after:36471
+m_before:406
+m_after:33
+selected container:17
+selected fingerprint:18863
+
+segment:0
+before:163080
+after:31357
+m_before:503
+m_after:29
+selected container:16
+selected fingerprint:17611
+
+segment:0
+before:264934
+after:6422
+m_before:1344
+m_after:6
+selected container:5
+selected fingerprint:5394
+
+segment:0
+before:108731
+after:11837
+m_before:793
+m_after:11
+selected container:10
+selected fingerprint:10830
+
+segment:0
+before:153745
+after:15149
+m_before:1361
+m_after:14
+selected container:12
+selected fingerprint:13087
+
+segment:0
+before:96132
+after:14824
+m_before:860
+m_after:13
+selected container:13
+selected fingerprint:14823
+
+segment:0
+before:107357
+after:19429
+m_before:615
+m_after:18
+selected container:12
+selected fingerprint:13025
+
+segment:0
+before:73031
+after:22925
+m_before:487
+m_after:20
+selected container:17
+selected fingerprint:19696
+
+segment:0
+before:108214
+after:22493
+m_before:832
+m_after:20
+selected container:15
+selected fingerprint:16950
+
+segment:0
+before:94146
+after:19350
+m_before:430
+m_after:18
+selected container:13
+selected fingerprint:14140
+
+segment:0
+before:115535
+after:27376
+m_before:267
+m_after:25
+selected container:16
+selected fingerprint:17547
+
+segment:0
+before:162464
+after:44722
+m_before:523
+m_after:41
+selected container:17
+selected fingerprint:18932
+
+segment:0
+before:238291
+after:10913
+m_before:1060
+m_after:10
+selected container:6
+selected fingerprint:6415
+
+segment:0
+before:162116
+after:5442
+m_before:1122
+m_after:5
+selected container:5
+selected fingerprint:5441
+
+segment:0
+before:152927
+after:13049
+m_before:1220
+m_after:12
+selected container:11
+selected fingerprint:12039
+
+segment:0
+before:134883
+after:19543
+m_before:1137
+m_after:18
+selected container:12
+selected fingerprint:12981
+
+segment:0
+before:112124
+after:30439
+m_before:598
+m_after:28
+selected container:16
+selected fingerprint:17518
+
+segment:0
+before:84007
+after:26659
+m_before:641
+m_after:24
+selected container:16
+selected fingerprint:17867
+
+segment:0
+before:72714
+after:11393
+m_before:778
+m_after:10
+selected container:7
+selected fingerprint:8051
+
+segment:0
+before:150336
+after:31538
+m_before:456
+m_after:29
+selected container:17
+selected fingerprint:18597
+
+segment:0
+before:183349
+after:41573
+m_before:530
+m_after:38
+selected container:17
+selected fingerprint:19030
+
+segment:0
+before:259661
+after:1013
+m_before:1567
+m_after:1
+selected container:1
+selected fingerprint:1013
+
+segment:0
+before:142340
+after:12940
+m_before:1043
+m_after:12
+selected container:11
+selected fingerprint:11850
+
+segment:0
+before:112761
+after:15036
+m_before:1539
+m_after:14
+selected container:11
+selected fingerprint:11922
+
+segment:0
+before:114233
+after:11152
+m_before:1391
+m_after:10
+selected container:7
+selected fingerprint:7783
+
+segment:0
+before:91532
+after:11364
+m_before:1012
+m_after:10
+selected container:9
+selected fingerprint:10219
+
+segment:0
+before:149196
+after:37570
+m_before:995
+m_after:34
+selected container:14
+selected fingerprint:15297
+
+segment:0
+before:110755
+after:14027
+m_before:1222
+m_after:13
+selected container:11
+selected fingerprint:11859
+
+segment:0
+before:91292
+after:13786
+m_before:1088
+m_after:12
+selected container:11
+selected fingerprint:12727
+
+segment:0
+before:86930
+after:17658
+m_before:546
+m_after:16
+selected container:15
+selected fingerprint:16619
+
+segment:0
+before:37925
+after:4347
+m_before:434
+m_after:4
+selected container:4
+selected fingerprint:4347
+
+segment:0
+before:134448
+after:25985
+m_before:474
+m_after:24
+selected container:16
+selected fingerprint:17572
+
+segment:0
+before:106973
+after:35653
+m_before:417
+m_after:32
+selected container:16
+selected fingerprint:18239
+
+segment:0
+before:126701
+after:32773
+m_before:522
+m_after:30
+selected container:18
+selected fingerprint:19942
+
+segment:0
+before:207252
+after:15192
+m_before:813
+m_after:14
+selected container:9
+selected fingerprint:9914
+
+segment:0
+before:196123
+after:11564
+m_before:1050
+m_after:11
+selected container:10
+selected fingerprint:10550
+
+segment:0
+before:103344
+after:14055
+m_before:700
+m_after:13
+selected container:13
+selected fingerprint:14054
+
+segment:0
+before:135799
+after:14224
+m_before:1129
+m_after:13
+selected container:11
+selected fingerprint:12198
+
+segment:0
+before:69909
+after:19553
+m_before:710
+m_after:17
+selected container:15
+selected fingerprint:17420
+
+segment:0
+before:101868
+after:11991
+m_before:659
+m_after:11
+selected container:10
+selected fingerprint:10952
+
+segment:0
+before:82495
+after:13449
+m_before:616
+m_after:13
+selected container:11
+selected fingerprint:11422
+
+segment:0
+before:111628
+after:25283
+m_before:260
+m_after:23
+selected container:16
+selected fingerprint:17826
+
+segment:0
+before:123875
+after:38794
+m_before:439
+m_after:35
+selected container:15
+selected fingerprint:16974
+
+segment:0
+before:125822
+after:32507
+m_before:400
+m_after:30
+selected container:17
+selected fingerprint:18607
+
+segment:0
+before:216983
+after:8853
+m_before:1012
+m_after:8
+selected container:5
+selected fingerprint:5553
+
+segment:0
+before:184864
+after:8325
+m_before:993
+m_after:8
+selected container:6
+selected fingerprint:6255
+
+segment:0
+before:147151
+after:10850
+m_before:756
+m_after:10
+selected container:10
+selected fingerprint:10850
+
+segment:0
+before:140458
+after:16367
+m_before:1192
+m_after:15
+selected container:12
+selected fingerprint:13294
+
+segment:0
+before:101581
+after:25701
+m_before:710
+m_after:23
+selected container:16
+selected fingerprint:18146
+
+segment:0
+before:78725
+after:23899
+m_before:527
+m_after:21
+selected container:17
+selected fingerprint:19529
+
+segment:0
+before:100523
+after:25267
+m_before:868
+m_after:23
+selected container:17
+selected fingerprint:18752
+
+segment:0
+before:144597
+after:34653
+m_before:557
+m_after:31
+selected container:15
+selected fingerprint:17004
+
+segment:0
+before:262622
+after:27399
+m_before:1029
+m_after:25
+selected container:13
+selected fingerprint:14722
+
+segment:0
+before:189620
+after:9749
+m_before:1400
+m_after:9
+selected container:7
+selected fingerprint:7642
+
+segment:0
+before:169451
+after:12919
+m_before:1378
+m_after:12
+selected container:9
+selected fingerprint:9814
+
+segment:0
+before:117354
+after:26098
+m_before:964
+m_after:24
+selected container:16
+selected fingerprint:17620
+
+segment:0
+before:87868
+after:32646
+m_before:405
+m_after:29
+selected container:17
+selected fingerprint:19667
+
+segment:0
+before:107222
+after:29397
+m_before:816
+m_after:26
+selected container:16
+selected fingerprint:18292
+
+segment:0
+before:111989
+after:24232
+m_before:807
+m_after:23
+selected container:16
+selected fingerprint:16885
+
+segment:0
+before:150371
+after:39631
+m_before:522
+m_after:36
+selected container:16
+selected fingerprint:17922
+
+segment:0
+before:237196
+after:35702
+m_before:870
+m_after:33
+selected container:15
+selected fingerprint:16282
+
+segment:0
+before:228088
+after:4258
+m_before:1423
+m_after:4
+selected container:4
+selected fingerprint:4258
+
+segment:0
+before:161192
+after:14176
+m_before:1208
+m_after:13
+selected container:12
+selected fingerprint:13093
+
+segment:0
+before:126060
+after:20872
+m_before:1249
+m_after:19
+selected container:15
+selected fingerprint:16547
+
+segment:0
+before:94688
+after:28608
+m_before:460
+m_after:26
+selected container:17
+selected fingerprint:19096
+
+segment:0
+before:105699
+after:29450
+m_before:698
+m_after:27
+selected container:17
+selected fingerprint:18801
+
+segment:0
+before:118682
+after:28050
+m_before:798
+m_after:26
+selected container:16
+selected fingerprint:17266
+
+segment:0
+before:206440
+after:45128
+m_before:755
+m_after:41
+selected container:17
+selected fingerprint:19233
+
+segment:0
+before:245331
+after:9636
+m_before:1758
+m_after:9
+selected container:7
+selected fingerprint:7498
+
+segment:0
+before:168929
+after:11924
+m_before:1438
+m_after:11
+selected container:10
+selected fingerprint:10902
+
+segment:0
+before:110733
+after:24855
+m_before:887
+m_after:23
+selected container:14
+selected fingerprint:15412
+
+segment:0
+before:99860
+after:35072
+m_before:547
+m_after:32
+selected container:16
+selected fingerprint:17772
+
+segment:0
+before:103952
+after:32340
+m_before:783
+m_after:29
+selected container:17
+selected fingerprint:19072
+
+segment:0
+before:109375
+after:26092
+m_before:827
+m_after:25
+selected container:17
+selected fingerprint:17576
+
+segment:0
+before:158750
+after:43770
+m_before:551
+m_after:40
+selected container:16
+selected fingerprint:17568
+
+segment:0
+before:257029
+after:24903
+m_before:891
+m_after:23
+selected container:13
+selected fingerprint:14228
+
+segment:0
+before:202053
+after:7361
+m_before:1400
+m_after:7
+selected container:7
+selected fingerprint:7361
+
+segment:0
+before:153829
+after:15880
+m_before:1433
+m_after:15
+selected container:13
+selected fingerprint:13850
+
+segment:0
+before:75609
+after:17007
+m_before:1087
+m_after:15
+selected container:14
+selected fingerprint:15911
+
+segment:0
+before:112527
+after:15060
+m_before:918
+m_after:14
+selected container:10
+selected fingerprint:10856
+
+segment:0
+before:90068
+after:17394
+m_before:456
+m_after:16
+selected container:8
+selected fingerprint:8875
+
+segment:0
+before:121012
+after:27451
+m_before:292
+m_after:25
+selected container:16
+selected fingerprint:17805
+
+segment:0
+before:161482
+after:47345
+m_before:554
+m_after:43
+selected container:17
+selected fingerprint:19290
+
+segment:0
+before:222635
+after:18724
+m_before:987
+m_after:17
+selected container:8
+selected fingerprint:9301
+
+segment:0
+before:218959
+after:4117
+m_before:1213
+m_after:4
+selected container:4
+selected fingerprint:4117
+
+segment:0
+before:174578
+after:12989
+m_before:1230
+m_after:12
+selected container:11
+selected fingerprint:11925
+
+segment:0
+before:121709
+after:16682
+m_before:1197
+m_after:15
+selected container:14
+selected fingerprint:15663
+
+segment:0
+before:89894
+after:21977
+m_before:438
+m_after:19
+selected container:16
+selected fingerprint:18537
+
+segment:0
+before:97871
+after:24294
+m_before:775
+m_after:22
+selected container:17
+selected fingerprint:19043
+
+segment:0
+before:128941
+after:25765
+m_before:908
+m_after:24
+selected container:16
+selected fingerprint:17406
+
+segment:0
+before:235710
+after:37860
+m_before:1004
+m_after:34
+selected container:16
+selected fingerprint:17955
+
+segment:0
+before:128935
+after:13038
+m_before:1625
+m_after:12
+selected container:11
+selected fingerprint:12004
+
+segment:0
+before:158169
+after:16287
+m_before:1612
+m_after:15
+selected container:14
+selected fingerprint:15118
+
+segment:0
+before:115392
+after:27195
+m_before:708
+m_after:25
+selected container:16
+selected fingerprint:17552
+
+segment:0
+before:81925
+after:31024
+m_before:529
+m_after:28
+selected container:18
+selected fingerprint:20038
+
+segment:0
+before:96198
+after:16832
+m_before:885
+m_after:15
+selected container:11
+selected fingerprint:12184
+
+segment:0
+before:139545
+after:24054
+m_before:471
+m_after:22
+selected container:14
+selected fingerprint:15506
+
+segment:0
+before:193816
+after:41208
+m_before:575
+m_after:38
+selected container:18
+selected fingerprint:19670
+
+segment:0
+before:288056
+after:6095
+m_before:1867
+m_after:6
+selected container:5
+selected fingerprint:5089
+
+segment:0
+before:160005
+after:15239
+m_before:1351
+m_after:14
+selected container:12
+selected fingerprint:13106
+
+segment:0
+before:124565
+after:18289
+m_before:1232
+m_after:16
+selected container:13
+selected fingerprint:14784
+
+segment:0
+before:96177
+after:14724
+m_before:1006
+m_after:13
+selected container:13
+selected fingerprint:14724
+
+segment:0
+before:191076
+after:44335
+m_before:802
+m_after:40
+selected container:15
+selected fingerprint:17159
+
+segment:0
+before:177760
+after:8358
+m_before:2073
+m_after:8
+selected container:8
+selected fingerprint:8358
+
+segment:0
+before:125037
+after:12089
+m_before:1411
+m_after:11
+selected container:11
+selected fingerprint:12079
+
+segment:0
+before:95368
+after:16908
+m_before:1151
+m_after:15
+selected container:15
+selected fingerprint:16895
+
+segment:0
+before:165206
+after:38620
+m_before:815
+m_after:35
+selected container:14
+selected fingerprint:15906
+
+segment:0
+before:144264
+after:6496
+m_before:2054
+m_after:6
+selected container:6
+selected fingerprint:6496
+
+segment:0
+before:107485
+after:10071
+m_before:1411
+m_after:9
+selected container:9
+selected fingerprint:9976
+
+segment:0
+before:89236
+after:17656
+m_before:694
+m_after:16
+selected container:12
+selected fingerprint:13472
+
+segment:0
+before:62977
+after:6512
+m_before:836
+m_after:6
+selected container:5
+selected fingerprint:5452
+
+segment:0
+before:151450
+after:36138
+m_before:542
+m_after:33
+selected container:17
+selected fingerprint:19262
+
+segment:0
+before:150985
+after:51308
+m_before:496
+m_after:47
+selected container:16
+selected fingerprint:17861
+
+segment:0
+before:160258
+after:37660
+m_before:424
+m_after:34
+selected container:17
+selected fingerprint:19235
+
+segment:0
+before:320575
+after:3013
+m_before:1488
+m_after:3
+selected container:3
+selected fingerprint:3013
+
+segment:0
+before:108999
+after:16075
+m_before:813
+m_after:15
+selected container:12
+selected fingerprint:12875
+
+segment:0
+before:206796
+after:12818
+m_before:1635
+m_after:12
+selected container:9
+selected fingerprint:9584
+
+segment:0
+before:78987
+after:17406
+m_before:1001
+m_after:16
+selected container:16
+selected fingerprint:17400
+
+segment:0
+before:197766
+after:36151
+m_before:992
+m_after:33
+selected container:12
+selected fingerprint:13486
+
+segment:0
+before:98274
+after:10920
+m_before:1552
+m_after:10
+selected container:9
+selected fingerprint:9855
+
+segment:0
+before:113413
+after:11177
+m_before:1398
+m_after:10
+selected container:10
+selected fingerprint:11175
+
+segment:0
+before:114409
+after:18545
+m_before:1369
+m_after:17
+selected container:11
+selected fingerprint:12234
+
+segment:0
+before:212445
+after:27805
+m_before:1328
+m_after:25
+selected container:12
+selected fingerprint:13475
+
+segment:0
+before:120962
+after:9990
+m_before:1775
+m_after:9
+selected container:8
+selected fingerprint:8865
+
+segment:0
+before:117726
+after:18546
+m_before:1224
+m_after:17
+selected container:14
+selected fingerprint:15276
+
+segment:0
+before:137945
+after:12172
+m_before:1657
+m_after:11
+selected container:9
+selected fingerprint:9906
+
+segment:0
+before:74768
+after:13860
+m_before:1503
+m_after:13
+selected container:8
+selected fingerprint:8663
+
+segment:0
+before:135083
+after:23106
+m_before:1519
+m_after:21
+selected container:15
+selected fingerprint:16335
+
+segment:0
+before:96179
+after:15305
+m_before:1427
+m_after:14
+selected container:12
+selected fingerprint:13179
+
+segment:0
+before:138820
+after:19609
+m_before:1264
+m_after:18
+selected container:13
+selected fingerprint:14343
+
+segment:0
+before:89633
+after:31962
+m_before:527
+m_after:29
+selected container:18
+selected fingerprint:20193
+
+segment:0
+before:123639
+after:29610
+m_before:900
+m_after:27
+selected container:16
+selected fingerprint:17619
+
+segment:0
+before:129372
+after:33526
+m_before:506
+m_after:31
+selected container:17
+selected fingerprint:18481
+
+segment:0
+before:271775
+after:33730
+m_before:1151
+m_after:31
+selected container:14
+selected fingerprint:15624
+
+segment:0
+before:204963
+after:17482
+m_before:1648
+m_after:16
+selected container:13
+selected fingerprint:14233
+
+segment:0
+before:174364
+after:14156
+m_before:1471
+m_after:13
+selected container:12
+selected fingerprint:13134
+
+segment:0
+before:93161
+after:20934
+m_before:887
+m_after:19
+selected container:15
+selected fingerprint:16744
+
+segment:0
+before:114928
+after:26855
+m_before:722
+m_after:24
+selected container:14
+selected fingerprint:15921
+
+segment:0
+before:84944
+after:25186
+m_before:728
+m_after:22
+selected container:17
+selected fingerprint:19580
+
+segment:0
+before:100029
+after:18295
+m_before:887
+m_after:17
+selected container:16
+selected fingerprint:17126
+
+segment:0
+before:143453
+after:31517
+m_before:533
+m_after:29
+selected container:16
+selected fingerprint:17695
+
+segment:0
+before:152341
+after:48377
+m_before:506
+m_after:44
+selected container:16
+selected fingerprint:17537
+
+segment:0
+before:174758
+after:32730
+m_before:577
+m_after:30
+selected container:14
+selected fingerprint:15794
+
+segment:0
+before:321411
+after:2046
+m_before:1501
+m_after:2
+selected container:2
+selected fingerprint:2046
+
+segment:0
+before:117541
+after:15274
+m_before:783
+m_after:14
+selected container:12
+selected fingerprint:13133
+
+segment:0
+before:213078
+after:10721
+m_before:1662
+m_after:10
+selected container:8
+selected fingerprint:8630
+
+segment:0
+before:125575
+after:22777
+m_before:1097
+m_after:21
+selected container:15
+selected fingerprint:16413
+
+segment:0
+before:87918
+after:35652
+m_before:412
+m_after:32
+selected container:16
+selected fingerprint:18049
+
+segment:0
+before:126335
+after:26832
+m_before:1090
+m_after:24
+selected container:16
+selected fingerprint:17889
+
+segment:0
+before:118845
+after:23664
+m_before:415
+m_after:22
+selected container:17
+selected fingerprint:18325
+
+segment:0
+before:182797
+after:47864
+m_before:632
+m_after:44
+selected container:16
+selected fingerprint:17795
+
+segment:0
+before:331948
+after:7521
+m_before:1783
+m_after:7
+selected container:6
+selected fingerprint:6492
+
+segment:0
+before:124470
+after:14184
+m_before:1264
+m_after:13
+selected container:12
+selected fingerprint:13093
+
+segment:0
+before:179596
+after:15542
+m_before:1609
+m_after:14
+selected container:12
+selected fingerprint:13433
+
+segment:0
+before:95433
+after:23115
+m_before:479
+m_after:20
+selected container:16
+selected fingerprint:18472
+
+segment:0
+before:103299
+after:25144
+m_before:848
+m_after:23
+selected container:18
+selected fingerprint:19799
+
+segment:0
+before:134753
+after:28647
+m_before:960
+m_after:27
+selected container:17
+selected fingerprint:18158
+
+segment:0
+before:254757
+after:40167
+m_before:1085
+m_after:36
+selected container:16
+selected fingerprint:17996
+
+segment:0
+before:144786
+after:13835
+m_before:1774
+m_after:13
+selected container:12
+selected fingerprint:12774
+
+segment:0
+before:96228
+after:7593
+m_before:1185
+m_after:7
+selected container:7
+selected fingerprint:7593

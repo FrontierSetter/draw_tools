@@ -1,0 +1,3800 @@
+REWRITE_SMR
+rewrite_smr_level: 5
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198422
+total size(B): 39794111305
+stored data size(B): 29444437071
+deduplication ratio: 0.2601, 1.3515
+total time(s): 690.022
+throughput(MB/s): 55.00
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8952987
+size of rewritten chunks: 24566949036
+rewritten rate in size: 0.617
+read_time : 41.015s, 925.28MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.300s, 1295.25MB/s
+rewrite_time : 422.448s, 89.84MB/s
+filter_time : 91.750s, 413.63MB/s
+write_time : 1.166s, 32543.35MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 335.006
+throughput(MB/s): 113.28
+read_container_num: 13038
+speed factor: 2.91
+read_recipe_time : 22.492s, 1687.26MB/s
+read_chunk_time : 6.055s, 6268.14MB/s
+write_chunk_time : 307.503s, 123.42MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 6
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198421
+total size(B): 39794111305
+stored data size(B): 27774922914
+deduplication ratio: 0.3020, 1.4327
+total time(s): 680.017
+throughput(MB/s): 55.81
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 8219713
+size of rewritten chunks: 22897427730
+rewritten rate in size: 0.575
+read_time : 28.233s, 1344.17MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.348s, 1338.73MB/s
+rewrite_time : 433.149s, 87.62MB/s
+filter_time : 86.196s, 440.28MB/s
+write_time : 1.912s, 19847.12MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 13089
+speed factor: 2.90
+read_recipe_time : 15.267s, 2485.76MB/s
+read_chunk_time : 4.784s, 7932.55MB/s
+write_chunk_time : 45.058s, 842.26MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 7
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198406
+total size(B): 39794111305
+stored data size(B): 26159015950
+deduplication ratio: 0.3426, 1.5212
+total time(s): 660.017
+throughput(MB/s): 57.50
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 7505161
+size of rewritten chunks: 21281665489
+rewritten rate in size: 0.535
+read_time : 17.268s, 2197.71MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.914s, 1359.57MB/s
+rewrite_time : 432.085s, 87.83MB/s
+filter_time : 81.388s, 466.29MB/s
+write_time : 2.376s, 15969.18MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 13145
+speed factor: 2.89
+read_recipe_time : 15.305s, 2479.60MB/s
+read_chunk_time : 4.901s, 7743.35MB/s
+write_chunk_time : 45.124s, 841.03MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 8
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198405
+total size(B): 39794111305
+stored data size(B): 24429249701
+deduplication ratio: 0.3861, 1.6290
+total time(s): 650.017
+throughput(MB/s): 58.38
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 6804555
+size of rewritten chunks: 19551744793
+rewritten rate in size: 0.491
+read_time : 17.060s, 2224.59MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.040s, 1353.44MB/s
+rewrite_time : 431.567s, 87.94MB/s
+filter_time : 76.181s, 498.17MB/s
+write_time : 1.564s, 24259.89MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 13210
+speed factor: 2.87
+read_recipe_time : 15.163s, 2502.80MB/s
+read_chunk_time : 4.775s, 7947.81MB/s
+write_chunk_time : 44.503s, 852.76MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 9
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198391
+total size(B): 39794111305
+stored data size(B): 22791756611
+deduplication ratio: 0.4273, 1.7460
+total time(s): 625.019
+throughput(MB/s): 60.72
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 6118571
+size of rewritten chunks: 17914304980
+rewritten rate in size: 0.450
+read_time : 17.035s, 2227.77MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.979s, 1356.40MB/s
+rewrite_time : 414.441s, 91.57MB/s
+filter_time : 71.807s, 528.51MB/s
+write_time : 2.282s, 16627.48MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 13291
+speed factor: 2.86
+read_recipe_time : 15.353s, 2471.90MB/s
+read_chunk_time : 4.815s, 7881.08MB/s
+write_chunk_time : 45.262s, 838.47MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 10
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198385
+total size(B): 39794111305
+stored data size(B): 21098065160
+deduplication ratio: 0.4698, 1.8861
+total time(s): 605.442
+throughput(MB/s): 62.68
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 5465669
+size of rewritten chunks: 16220701446
+rewritten rate in size: 0.408
+read_time : 16.888s, 2247.25MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.874s, 1361.53MB/s
+rewrite_time : 397.976s, 95.36MB/s
+filter_time : 67.110s, 565.50MB/s
+write_time : 1.140s, 33281.00MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 80.001
+throughput(MB/s): 474.37
+read_container_num: 13391
+speed factor: 2.83
+read_recipe_time : 21.567s, 1759.69MB/s
+read_chunk_time : 5.043s, 7525.46MB/s
+write_chunk_time : 47.180s, 804.39MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 11
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198369
+total size(B): 39794111305
+stored data size(B): 19478751617
+deduplication ratio: 0.5105, 2.0429
+total time(s): 580.014
+throughput(MB/s): 65.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 4839115
+size of rewritten chunks: 14601451585
+rewritten rate in size: 0.367
+read_time : 17.232s, 2202.37MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.268s, 1342.54MB/s
+rewrite_time : 382.005s, 99.35MB/s
+filter_time : 62.357s, 608.60MB/s
+write_time : 1.130s, 33590.51MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.003
+throughput(MB/s): 505.99
+read_container_num: 13522
+speed factor: 2.81
+read_recipe_time : 22.379s, 1695.79MB/s
+read_chunk_time : 5.230s, 7256.03MB/s
+write_chunk_time : 46.029s, 824.49MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 12
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198372
+total size(B): 39794111305
+stored data size(B): 17814264960
+deduplication ratio: 0.5523, 2.2338
+total time(s): 560.012
+throughput(MB/s): 67.77
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 4249647
+size of rewritten chunks: 12936971414
+rewritten rate in size: 0.325
+read_time : 17.404s, 2180.52MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.695s, 1370.32MB/s
+rewrite_time : 367.456s, 103.28MB/s
+filter_time : 59.011s, 643.11MB/s
+write_time : 1.468s, 25845.90MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 13665
+speed factor: 2.78
+read_recipe_time : 21.724s, 1746.95MB/s
+read_chunk_time : 5.164s, 7348.94MB/s
+write_chunk_time : 45.280s, 838.13MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 13
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198362
+total size(B): 39794111305
+stored data size(B): 16313052138
+deduplication ratio: 0.5901, 2.4394
+total time(s): 530.016
+throughput(MB/s): 71.60
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3692238
+size of rewritten chunks: 11435799768
+rewritten rate in size: 0.287
+read_time : 17.084s, 2221.35MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.915s, 1359.48MB/s
+rewrite_time : 341.411s, 111.16MB/s
+filter_time : 55.190s, 687.63MB/s
+write_time : 1.442s, 26311.75MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 80.001
+throughput(MB/s): 474.37
+read_container_num: 13841
+speed factor: 2.74
+read_recipe_time : 22.139s, 1714.20MB/s
+read_chunk_time : 5.292s, 7171.79MB/s
+write_chunk_time : 47.256s, 803.08MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 14
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198353
+total size(B): 39794111305
+stored data size(B): 14822259965
+deduplication ratio: 0.6275, 2.6848
+total time(s): 500.011
+throughput(MB/s): 75.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 3171744
+size of rewritten chunks: 9945072490
+rewritten rate in size: 0.250
+read_time : 16.992s, 2233.38MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.931s, 1358.74MB/s
+rewrite_time : 317.626s, 119.48MB/s
+filter_time : 52.806s, 718.68MB/s
+write_time : 0.922s, 41167.18MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 14040
+speed factor: 2.70
+read_recipe_time : 19.532s, 1943.01MB/s
+read_chunk_time : 5.155s, 7362.14MB/s
+write_chunk_time : 44.925s, 844.75MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 15
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198363
+total size(B): 39794111305
+stored data size(B): 13392691974
+deduplication ratio: 0.6635, 2.9713
+total time(s): 470.010
+throughput(MB/s): 80.74
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 2734699
+size of rewritten chunks: 8515406793
+rewritten rate in size: 0.214
+read_time : 16.873s, 2249.17MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.812s, 1364.55MB/s
+rewrite_time : 292.650s, 129.68MB/s
+filter_time : 49.110s, 772.76MB/s
+write_time : 0.640s, 59306.09MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 14308
+speed factor: 2.65
+read_recipe_time : 19.784s, 1918.23MB/s
+read_chunk_time : 5.342s, 7104.61MB/s
+write_chunk_time : 45.724s, 830.00MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 16
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198354
+total size(B): 39794111305
+stored data size(B): 12091165922
+deduplication ratio: 0.6962, 3.2912
+total time(s): 445.010
+throughput(MB/s): 85.28
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 2300025
+size of rewritten chunks: 7213971605
+rewritten rate in size: 0.181
+read_time : 17.103s, 2218.97MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.208s, 1345.38MB/s
+rewrite_time : 265.923s, 142.71MB/s
+filter_time : 50.720s, 748.24MB/s
+write_time : 2.696s, 14077.72MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 85.002
+throughput(MB/s): 446.47
+read_container_num: 14583
+speed factor: 2.60
+read_recipe_time : 28.368s, 1337.79MB/s
+read_chunk_time : 5.815s, 6526.21MB/s
+write_chunk_time : 48.153s, 788.13MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 17
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198349
+total size(B): 39794111305
+stored data size(B): 10935565922
+deduplication ratio: 0.7252, 3.6390
+total time(s): 415.008
+throughput(MB/s): 91.45
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1936018
+size of rewritten chunks: 6058361225
+rewritten rate in size: 0.152
+read_time : 20.638s, 1838.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.082s, 1351.41MB/s
+rewrite_time : 242.789s, 156.31MB/s
+filter_time : 44.030s, 861.93MB/s
+write_time : 0.608s, 62450.42MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 80.002
+throughput(MB/s): 474.37
+read_container_num: 14925
+speed factor: 2.54
+read_recipe_time : 24.058s, 1577.48MB/s
+read_chunk_time : 5.581s, 6800.27MB/s
+write_chunk_time : 47.195s, 804.12MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 18
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198342
+total size(B): 39794111305
+stored data size(B): 10088715414
+deduplication ratio: 0.7465, 3.9444
+total time(s): 400.023
+throughput(MB/s): 94.87
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1664093
+size of rewritten chunks: 5211584824
+rewritten rate in size: 0.131
+read_time : 18.650s, 2034.91MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.034s, 1307.10MB/s
+rewrite_time : 224.155s, 169.31MB/s
+filter_time : 47.267s, 802.89MB/s
+write_time : 2.409s, 15752.24MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 85.002
+throughput(MB/s): 446.47
+read_container_num: 15299
+speed factor: 2.48
+read_recipe_time : 25.697s, 1476.87MB/s
+read_chunk_time : 6.307s, 6017.38MB/s
+write_chunk_time : 48.296s, 785.79MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 19
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198361
+total size(B): 39794111305
+stored data size(B): 9369023045
+deduplication ratio: 0.7646, 4.2474
+total time(s): 375.008
+throughput(MB/s): 101.20
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1439730
+size of rewritten chunks: 4491790094
+rewritten rate in size: 0.113
+read_time : 17.482s, 2170.84MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.656s, 1324.35MB/s
+rewrite_time : 208.825s, 181.73MB/s
+filter_time : 42.502s, 892.92MB/s
+write_time : 0.564s, 67253.04MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 15716
+speed factor: 2.41
+read_recipe_time : 20.441s, 1856.60MB/s
+read_chunk_time : 5.841s, 6497.82MB/s
+write_chunk_time : 47.420s, 800.31MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 20
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198339
+total size(B): 39794111305
+stored data size(B): 8738769448
+deduplication ratio: 0.7804, 4.5537
+total time(s): 365.008
+throughput(MB/s): 103.97
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1244714
+size of rewritten chunks: 3861610000
+rewritten rate in size: 0.097
+read_time : 17.341s, 2188.53MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.071s, 1305.43MB/s
+rewrite_time : 196.399s, 193.23MB/s
+filter_time : 40.080s, 946.87MB/s
+write_time : 0.291s, 130329.86MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 16124
+speed factor: 2.35
+read_recipe_time : 18.728s, 2026.45MB/s
+read_chunk_time : 5.754s, 6595.59MB/s
+write_chunk_time : 45.556s, 833.06MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 21
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198341
+total size(B): 39794111305
+stored data size(B): 8238438241
+deduplication ratio: 0.7930, 4.8303
+total time(s): 345.008
+throughput(MB/s): 110.00
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 1078116
+size of rewritten chunks: 3361238912
+rewritten rate in size: 0.084
+read_time : 17.144s, 2213.60MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.412s, 1384.44MB/s
+rewrite_time : 180.318s, 210.46MB/s
+filter_time : 40.907s, 927.72MB/s
+write_time : 0.453s, 83791.00MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 16538
+speed factor: 2.29
+read_recipe_time : 16.763s, 2263.90MB/s
+read_chunk_time : 5.833s, 6506.56MB/s
+write_chunk_time : 44.885s, 845.52MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 22
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198326
+total size(B): 39794111305
+stored data size(B): 7901787886
+deduplication ratio: 0.8014, 5.0361
+total time(s): 335.007
+throughput(MB/s): 113.28
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 967159
+size of rewritten chunks: 3024692488
+rewritten rate in size: 0.076
+read_time : 16.843s, 2253.15MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.262s, 1296.93MB/s
+rewrite_time : 175.094s, 216.74MB/s
+filter_time : 38.925s, 974.97MB/s
+write_time : 2.732s, 13890.74MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 16995
+speed factor: 2.23
+read_recipe_time : 17.855s, 2125.48MB/s
+read_chunk_time : 5.946s, 6382.55MB/s
+write_chunk_time : 45.552s, 833.12MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 23
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198337
+total size(B): 39794111305
+stored data size(B): 7551567853
+deduplication ratio: 0.8102, 5.2696
+total time(s): 325.007
+throughput(MB/s): 116.77
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 845509
+size of rewritten chunks: 2674448462
+rewritten rate in size: 0.067
+read_time : 17.026s, 2229.00MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.413s, 1384.42MB/s
+rewrite_time : 163.872s, 231.59MB/s
+filter_time : 39.707s, 955.76MB/s
+write_time : 0.404s, 93875.84MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 17454
+speed factor: 2.17
+read_recipe_time : 19.812s, 1915.54MB/s
+read_chunk_time : 6.287s, 6036.71MB/s
+write_chunk_time : 47.550s, 798.12MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 24
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198335
+total size(B): 39794111305
+stored data size(B): 7222452840
+deduplication ratio: 0.8185, 5.5098
+total time(s): 315.006
+throughput(MB/s): 120.48
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 744135
+size of rewritten chunks: 2345287892
+rewritten rate in size: 0.059
+read_time : 16.989s, 2233.88MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.225s, 1393.96MB/s
+rewrite_time : 157.020s, 241.69MB/s
+filter_time : 37.382s, 1015.20MB/s
+write_time : 0.424s, 89489.09MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 17914
+speed factor: 2.12
+read_recipe_time : 17.295s, 2194.36MB/s
+read_chunk_time : 6.307s, 6016.91MB/s
+write_chunk_time : 45.958s, 825.77MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 25
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198335
+total size(B): 39794111305
+stored data size(B): 7035170994
+deduplication ratio: 0.8232, 5.6565
+total time(s): 310.006
+throughput(MB/s): 122.42
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 675612
+size of rewritten chunks: 2157983007
+rewritten rate in size: 0.054
+read_time : 16.922s, 2242.68MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.073s, 1305.34MB/s
+rewrite_time : 150.834s, 251.61MB/s
+filter_time : 37.917s, 1000.88MB/s
+write_time : 0.632s, 60073.17MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 18412
+speed factor: 2.06
+read_recipe_time : 21.849s, 1736.98MB/s
+read_chunk_time : 6.437s, 5896.06MB/s
+write_chunk_time : 46.108s, 823.08MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 26
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198342
+total size(B): 39794111305
+stored data size(B): 6793186294
+deduplication ratio: 0.8293, 5.8579
+total time(s): 305.007
+throughput(MB/s): 124.43
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 602965
+size of rewritten chunks: 1916054201
+rewritten rate in size: 0.048
+read_time : 17.046s, 2226.37MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.345s, 1387.85MB/s
+rewrite_time : 143.591s, 264.30MB/s
+filter_time : 38.498s, 985.79MB/s
+write_time : 0.398s, 95245.15MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 18882
+speed factor: 2.01
+read_recipe_time : 17.277s, 2196.64MB/s
+read_chunk_time : 6.427s, 5904.72MB/s
+write_chunk_time : 45.683s, 830.73MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 27
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198338
+total size(B): 39794111305
+stored data size(B): 6617841685
+deduplication ratio: 0.8337, 6.0132
+total time(s): 295.006
+throughput(MB/s): 128.64
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 543368
+size of rewritten chunks: 1740655111
+rewritten rate in size: 0.044
+read_time : 16.990s, 2233.72MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.318s, 1340.17MB/s
+rewrite_time : 139.145s, 272.74MB/s
+filter_time : 36.161s, 1049.49MB/s
+write_time : 0.179s, 211872.61MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 19329
+speed factor: 1.96
+read_recipe_time : 18.247s, 2079.78MB/s
+read_chunk_time : 6.474s, 5861.60MB/s
+write_chunk_time : 45.355s, 836.74MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 28
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198336
+total size(B): 39794111305
+stored data size(B): 6431612714
+deduplication ratio: 0.8384, 6.1873
+total time(s): 295.006
+throughput(MB/s): 128.64
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 483995
+size of rewritten chunks: 1554444046
+rewritten rate in size: 0.039
+read_time : 16.793s, 2259.93MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.047s, 1353.11MB/s
+rewrite_time : 134.874s, 281.38MB/s
+filter_time : 38.282s, 991.34MB/s
+write_time : 0.614s, 61772.11MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 19785
+speed factor: 1.92
+read_recipe_time : 17.605s, 2155.72MB/s
+read_chunk_time : 6.696s, 5667.56MB/s
+write_chunk_time : 47.081s, 806.07MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 29
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198325
+total size(B): 39794111305
+stored data size(B): 6282342671
+deduplication ratio: 0.8421, 6.3343
+total time(s): 285.006
+throughput(MB/s): 133.16
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 429347
+size of rewritten chunks: 1405232197
+rewritten rate in size: 0.035
+read_time : 16.967s, 2236.78MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.450s, 1382.52MB/s
+rewrite_time : 130.984s, 289.73MB/s
+filter_time : 35.932s, 1056.17MB/s
+write_time : 0.286s, 132521.65MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 20291
+speed factor: 1.87
+read_recipe_time : 18.344s, 2068.87MB/s
+read_chunk_time : 6.625s, 5728.52MB/s
+write_chunk_time : 45.394s, 836.02MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 30
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198333
+total size(B): 39794111305
+stored data size(B): 6163007661
+deduplication ratio: 0.8451, 6.4569
+total time(s): 280.006
+throughput(MB/s): 135.53
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 394319
+size of rewritten chunks: 1285891237
+rewritten rate in size: 0.032
+read_time : 16.693s, 2273.43MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.807s, 1364.81MB/s
+rewrite_time : 125.805s, 301.66MB/s
+filter_time : 37.448s, 1013.43MB/s
+write_time : 1.360s, 27913.20MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 20768
+speed factor: 1.83
+read_recipe_time : 19.797s, 1916.95MB/s
+read_chunk_time : 7.088s, 5354.25MB/s
+write_chunk_time : 47.404s, 800.58MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 31
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198324
+total size(B): 39794111305
+stored data size(B): 6044416930
+deduplication ratio: 0.8481, 6.5836
+total time(s): 275.006
+throughput(MB/s): 138.00
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 357926
+size of rewritten chunks: 1167326656
+rewritten rate in size: 0.029
+read_time : 17.086s, 2221.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 26.924s, 1409.53MB/s
+rewrite_time : 123.443s, 307.44MB/s
+filter_time : 34.752s, 1092.04MB/s
+write_time : 0.261s, 145300.02MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 21267
+speed factor: 1.78
+read_recipe_time : 17.210s, 2205.19MB/s
+read_chunk_time : 6.998s, 5423.32MB/s
+write_chunk_time : 45.365s, 836.57MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 32
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198327
+total size(B): 39794111305
+stored data size(B): 5952562488
+deduplication ratio: 0.8504, 6.6852
+total time(s): 275.006
+throughput(MB/s): 138.00
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 329969
+size of rewritten chunks: 1075481594
+rewritten rate in size: 0.027
+read_time : 17.135s, 2214.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.069s, 1352.03MB/s
+rewrite_time : 119.728s, 316.97MB/s
+filter_time : 35.827s, 1059.26MB/s
+write_time : 0.241s, 157479.30MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 21689
+speed factor: 1.75
+read_recipe_time : 19.361s, 1960.17MB/s
+read_chunk_time : 7.134s, 5319.92MB/s
+write_chunk_time : 47.077s, 806.13MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 33
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198327
+total size(B): 39794111305
+stored data size(B): 5880263074
+deduplication ratio: 0.8522, 6.7674
+total time(s): 265.006
+throughput(MB/s): 143.21
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 302768
+size of rewritten chunks: 1003160601
+rewritten rate in size: 0.025
+read_time : 16.607s, 2285.27MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.546s, 1377.71MB/s
+rewrite_time : 117.448s, 323.13MB/s
+filter_time : 33.130s, 1145.51MB/s
+write_time : 0.264s, 143605.49MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 22212
+speed factor: 1.71
+read_recipe_time : 16.428s, 2310.10MB/s
+read_chunk_time : 7.199s, 5271.30MB/s
+write_chunk_time : 46.126s, 822.75MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 34
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198335
+total size(B): 39794111305
+stored data size(B): 5804481291
+deduplication ratio: 0.8541, 6.8558
+total time(s): 270.005
+throughput(MB/s): 140.56
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 279002
+size of rewritten chunks: 927363865
+rewritten rate in size: 0.023
+read_time : 16.742s, 2266.74MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.533s, 1378.39MB/s
+rewrite_time : 116.454s, 325.88MB/s
+filter_time : 34.403s, 1103.12MB/s
+write_time : 0.260s, 146196.72MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 22712
+speed factor: 1.67
+read_recipe_time : 21.273s, 1783.99MB/s
+read_chunk_time : 7.152s, 5306.30MB/s
+write_chunk_time : 45.696s, 830.50MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 35
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198329
+total size(B): 39794111305
+stored data size(B): 5720751325
+deduplication ratio: 0.8562, 6.9561
+total time(s): 265.005
+throughput(MB/s): 143.21
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 254363
+size of rewritten chunks: 843665123
+rewritten rate in size: 0.021
+read_time : 17.089s, 2220.71MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.875s, 1361.45MB/s
+rewrite_time : 112.549s, 337.19MB/s
+filter_time : 35.529s, 1068.16MB/s
+write_time : 0.526s, 72132.88MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 23225
+speed factor: 1.63
+read_recipe_time : 17.471s, 2172.22MB/s
+read_chunk_time : 7.725s, 4912.40MB/s
+write_chunk_time : 47.248s, 803.23MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 36
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198341
+total size(B): 39794111305
+stored data size(B): 5666018658
+deduplication ratio: 0.8576, 7.0233
+total time(s): 265.006
+throughput(MB/s): 143.21
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 238320
+size of rewritten chunks: 788852697
+rewritten rate in size: 0.020
+read_time : 16.804s, 2258.46MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.948s, 1357.91MB/s
+rewrite_time : 113.169s, 335.34MB/s
+filter_time : 35.614s, 1065.62MB/s
+write_time : 1.104s, 34372.11MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 23720
+speed factor: 1.60
+read_recipe_time : 15.804s, 2401.37MB/s
+read_chunk_time : 7.154s, 5305.13MB/s
+write_chunk_time : 44.695s, 849.10MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 37
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198330
+total size(B): 39794111305
+stored data size(B): 5609364454
+deduplication ratio: 0.8590, 7.0942
+total time(s): 265.006
+throughput(MB/s): 143.21
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 219066
+size of rewritten chunks: 732300245
+rewritten rate in size: 0.018
+read_time : 16.639s, 2280.80MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.660s, 1324.16MB/s
+rewrite_time : 111.265s, 341.08MB/s
+filter_time : 35.560s, 1067.22MB/s
+write_time : 0.481s, 78822.24MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 24192
+speed factor: 1.57
+read_recipe_time : 19.680s, 1928.36MB/s
+read_chunk_time : 7.613s, 4984.74MB/s
+write_chunk_time : 47.933s, 791.75MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 38
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198325
+total size(B): 39794111305
+stored data size(B): 5558216127
+deduplication ratio: 0.8603, 7.1595
+total time(s): 260.006
+throughput(MB/s): 145.96
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 205315
+size of rewritten chunks: 681133338
+rewritten rate in size: 0.017
+read_time : 16.887s, 2247.38MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.432s, 1383.46MB/s
+rewrite_time : 109.612s, 346.23MB/s
+filter_time : 33.244s, 1141.57MB/s
+write_time : 0.184s, 206040.62MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 24596
+speed factor: 1.54
+read_recipe_time : 18.799s, 2018.74MB/s
+read_chunk_time : 7.802s, 4864.23MB/s
+write_chunk_time : 45.544s, 833.27MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 39
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198330
+total size(B): 39794111305
+stored data size(B): 5506437726
+deduplication ratio: 0.8616, 7.2268
+total time(s): 260.006
+throughput(MB/s): 145.96
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 189573
+size of rewritten chunks: 629325068
+rewritten rate in size: 0.016
+read_time : 16.831s, 2254.79MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.824s, 1363.93MB/s
+rewrite_time : 106.513s, 356.30MB/s
+filter_time : 33.114s, 1146.07MB/s
+write_time : 0.246s, 154133.60MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 25071
+speed factor: 1.51
+read_recipe_time : 18.475s, 2054.21MB/s
+read_chunk_time : 7.704s, 4926.20MB/s
+write_chunk_time : 47.027s, 807.00MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 40
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198325
+total size(B): 39794111305
+stored data size(B): 5453794984
+deduplication ratio: 0.8629, 7.2966
+total time(s): 265.005
+throughput(MB/s): 143.21
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 176917
+size of rewritten chunks: 576707764
+rewritten rate in size: 0.014
+read_time : 16.935s, 2240.96MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.931s, 1358.70MB/s
+rewrite_time : 105.408s, 360.04MB/s
+filter_time : 39.889s, 951.41MB/s
+write_time : 1.416s, 26794.47MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 25512
+speed factor: 1.49
+read_recipe_time : 16.567s, 2290.75MB/s
+read_chunk_time : 7.431s, 5107.33MB/s
+write_chunk_time : 44.262s, 857.42MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 41
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198325
+total size(B): 39794111305
+stored data size(B): 5430533888
+deduplication ratio: 0.8635, 7.3278
+total time(s): 255.005
+throughput(MB/s): 148.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 166162
+size of rewritten chunks: 553456075
+rewritten rate in size: 0.014
+read_time : 16.521s, 2297.05MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 26.975s, 1406.90MB/s
+rewrite_time : 103.168s, 367.85MB/s
+filter_time : 32.968s, 1151.15MB/s
+write_time : 0.154s, 245951.89MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 26052
+speed factor: 1.46
+read_recipe_time : 20.315s, 1868.08MB/s
+read_chunk_time : 7.789s, 4872.46MB/s
+write_chunk_time : 44.676s, 849.46MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 42
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198332
+total size(B): 39794111305
+stored data size(B): 5383750688
+deduplication ratio: 0.8647, 7.3915
+total time(s): 255.006
+throughput(MB/s): 148.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 154149
+size of rewritten chunks: 506668183
+rewritten rate in size: 0.013
+read_time : 16.660s, 2277.95MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.176s, 1300.73MB/s
+rewrite_time : 101.412s, 374.22MB/s
+filter_time : 34.144s, 1111.48MB/s
+write_time : 0.154s, 245980.58MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 26452
+speed factor: 1.43
+read_recipe_time : 17.217s, 2204.23MB/s
+read_chunk_time : 7.755s, 4893.44MB/s
+write_chunk_time : 46.672s, 813.14MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 43
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198332
+total size(B): 39794111305
+stored data size(B): 5348115684
+deduplication ratio: 0.8656, 7.4408
+total time(s): 250.006
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 143169
+size of rewritten chunks: 471052945
+rewritten rate in size: 0.012
+read_time : 16.311s, 2326.74MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.094s, 1400.69MB/s
+rewrite_time : 101.204s, 374.99MB/s
+filter_time : 33.073s, 1147.49MB/s
+write_time : 0.476s, 79809.35MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 26975
+speed factor: 1.41
+read_recipe_time : 17.161s, 2211.40MB/s
+read_chunk_time : 8.130s, 4668.22MB/s
+write_chunk_time : 45.270s, 838.31MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 44
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198329
+total size(B): 39794111305
+stored data size(B): 5318928768
+deduplication ratio: 0.8663, 7.4816
+total time(s): 250.006
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 133006
+size of rewritten chunks: 441850678
+rewritten rate in size: 0.011
+read_time : 16.547s, 2293.54MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.661s, 1371.99MB/s
+rewrite_time : 100.754s, 376.67MB/s
+filter_time : 33.397s, 1136.33MB/s
+write_time : 0.203s, 187188.63MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 27442
+speed factor: 1.38
+read_recipe_time : 16.321s, 2325.20MB/s
+read_chunk_time : 8.050s, 4714.32MB/s
+write_chunk_time : 45.978s, 825.40MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 45
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198339
+total size(B): 39794111305
+stored data size(B): 5288408462
+deduplication ratio: 0.8671, 7.5248
+total time(s): 255.005
+throughput(MB/s): 148.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 124012
+size of rewritten chunks: 411319449
+rewritten rate in size: 0.010
+read_time : 16.761s, 2264.21MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.752s, 1367.48MB/s
+rewrite_time : 100.974s, 375.84MB/s
+filter_time : 34.588s, 1097.23MB/s
+write_time : 0.281s, 135179.23MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 27981
+speed factor: 1.36
+read_recipe_time : 17.605s, 2155.68MB/s
+read_chunk_time : 8.145s, 4659.19MB/s
+write_chunk_time : 46.339s, 818.98MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 46
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198336
+total size(B): 39794111305
+stored data size(B): 5254240131
+deduplication ratio: 0.8680, 7.5737
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 114810
+size of rewritten chunks: 377132457
+rewritten rate in size: 0.009
+read_time : 16.541s, 2294.31MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.766s, 1366.80MB/s
+rewrite_time : 97.552s, 389.03MB/s
+filter_time : 32.553s, 1165.82MB/s
+write_time : 0.687s, 55264.25MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 28446
+speed factor: 1.33
+read_recipe_time : 17.757s, 2137.19MB/s
+read_chunk_time : 8.424s, 4505.19MB/s
+write_chunk_time : 45.237s, 838.92MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 47
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198326
+total size(B): 39794111305
+stored data size(B): 5235136091
+deduplication ratio: 0.8684, 7.6014
+total time(s): 250.005
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 108481
+size of rewritten chunks: 358083068
+rewritten rate in size: 0.009
+read_time : 16.733s, 2268.03MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.256s, 1297.17MB/s
+rewrite_time : 97.135s, 390.70MB/s
+filter_time : 34.033s, 1115.13MB/s
+write_time : 0.333s, 114077.85MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 28868
+speed factor: 1.31
+read_recipe_time : 17.411s, 2179.69MB/s
+read_chunk_time : 8.471s, 4480.06MB/s
+write_chunk_time : 46.583s, 814.69MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 48
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198330
+total size(B): 39794111305
+stored data size(B): 5210394874
+deduplication ratio: 0.8691, 7.6374
+total time(s): 255.005
+throughput(MB/s): 148.82
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 101669
+size of rewritten chunks: 333315590
+rewritten rate in size: 0.008
+read_time : 16.906s, 2244.84MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.436s, 1289.28MB/s
+rewrite_time : 97.284s, 390.10MB/s
+filter_time : 37.678s, 1007.24MB/s
+write_time : 1.238s, 30658.84MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 29332
+speed factor: 1.29
+read_recipe_time : 17.707s, 2143.25MB/s
+read_chunk_time : 8.286s, 4580.17MB/s
+write_chunk_time : 45.664s, 831.09MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 49
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198330
+total size(B): 39794111305
+stored data size(B): 5194209420
+deduplication ratio: 0.8695, 7.6612
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 96061
+size of rewritten chunks: 317097740
+rewritten rate in size: 0.008
+read_time : 17.013s, 2230.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.024s, 1354.22MB/s
+rewrite_time : 94.910s, 399.86MB/s
+filter_time : 33.130s, 1145.52MB/s
+write_time : 0.210s, 180662.19MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 29750
+speed factor: 1.28
+read_recipe_time : 17.910s, 2119.01MB/s
+read_chunk_time : 8.465s, 4483.21MB/s
+write_chunk_time : 45.455s, 834.90MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 50
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198327
+total size(B): 39794111305
+stored data size(B): 5173839929
+deduplication ratio: 0.8700, 7.6914
+total time(s): 250.005
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 89671
+size of rewritten chunks: 296732843
+rewritten rate in size: 0.007
+read_time : 17.119s, 2216.86MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.183s, 1346.57MB/s
+rewrite_time : 95.274s, 398.33MB/s
+filter_time : 35.062s, 1082.38MB/s
+write_time : 0.279s, 136254.73MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 80.001
+throughput(MB/s): 474.37
+read_container_num: 30251
+speed factor: 1.25
+read_recipe_time : 19.838s, 1913.04MB/s
+read_chunk_time : 8.816s, 4304.58MB/s
+write_chunk_time : 48.013s, 790.43MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 51
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198328
+total size(B): 39794111305
+stored data size(B): 5153169152
+deduplication ratio: 0.8705, 7.7223
+total time(s): 250.005
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 84468
+size of rewritten chunks: 276042285
+rewritten rate in size: 0.007
+read_time : 16.715s, 2270.42MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.635s, 1280.62MB/s
+rewrite_time : 94.440s, 401.85MB/s
+filter_time : 35.728s, 1062.20MB/s
+write_time : 1.907s, 19899.53MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 30681
+speed factor: 1.24
+read_recipe_time : 15.817s, 2399.31MB/s
+read_chunk_time : 8.588s, 4418.92MB/s
+write_chunk_time : 44.874s, 845.71MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 52
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198324
+total size(B): 39794111305
+stored data size(B): 5136113136
+deduplication ratio: 0.8709, 7.7479
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 79382
+size of rewritten chunks: 259031014
+rewritten rate in size: 0.007
+read_time : 16.664s, 2277.47MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.624s, 1325.82MB/s
+rewrite_time : 95.110s, 399.02MB/s
+filter_time : 33.079s, 1147.29MB/s
+write_time : 0.644s, 58953.25MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 31026
+speed factor: 1.22
+read_recipe_time : 17.294s, 2194.47MB/s
+read_chunk_time : 8.866s, 4280.36MB/s
+write_chunk_time : 45.353s, 836.79MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 53
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198329
+total size(B): 39794111305
+stored data size(B): 5120264511
+deduplication ratio: 0.8713, 7.7719
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 74477
+size of rewritten chunks: 243159050
+rewritten rate in size: 0.006
+read_time : 17.073s, 2222.89MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.022s, 1354.31MB/s
+rewrite_time : 92.519s, 410.19MB/s
+filter_time : 33.371s, 1137.25MB/s
+write_time : 0.166s, 228024.79MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 31461
+speed factor: 1.21
+read_recipe_time : 18.262s, 2078.07MB/s
+read_chunk_time : 9.040s, 4197.86MB/s
+write_chunk_time : 47.954s, 791.40MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 54
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198324
+total size(B): 39794111305
+stored data size(B): 5101143653
+deduplication ratio: 0.8718, 7.8010
+total time(s): 250.005
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 68736
+size of rewritten chunks: 224042584
+rewritten rate in size: 0.006
+read_time : 17.036s, 2227.72MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.716s, 1321.58MB/s
+rewrite_time : 92.460s, 410.45MB/s
+filter_time : 38.024s, 998.07MB/s
+write_time : 0.321s, 118114.01MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 31867
+speed factor: 1.19
+read_recipe_time : 17.067s, 2223.57MB/s
+read_chunk_time : 9.082s, 4178.81MB/s
+write_chunk_time : 45.180s, 839.99MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 55
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198328
+total size(B): 39794111305
+stored data size(B): 5092111487
+deduplication ratio: 0.8720, 7.8149
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 66240
+size of rewritten chunks: 214990629
+rewritten rate in size: 0.005
+read_time : 16.913s, 2243.88MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.267s, 1296.69MB/s
+rewrite_time : 92.026s, 412.39MB/s
+filter_time : 32.172s, 1179.60MB/s
+write_time : 1.090s, 34816.13MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 32286
+speed factor: 1.18
+read_recipe_time : 18.897s, 2008.28MB/s
+read_chunk_time : 8.981s, 4225.53MB/s
+write_chunk_time : 45.450s, 835.00MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 56
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198322
+total size(B): 39794111305
+stored data size(B): 5081241056
+deduplication ratio: 0.8723, 7.8316
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 62137
+size of rewritten chunks: 204159090
+rewritten rate in size: 0.005
+read_time : 16.689s, 2274.03MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.230s, 1344.32MB/s
+rewrite_time : 90.584s, 418.95MB/s
+filter_time : 33.817s, 1122.22MB/s
+write_time : 0.528s, 71854.13MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 32718
+speed factor: 1.16
+read_recipe_time : 17.578s, 2158.93MB/s
+read_chunk_time : 9.258s, 4099.11MB/s
+write_chunk_time : 47.592s, 797.42MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 57
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198318
+total size(B): 39794111305
+stored data size(B): 5067242783
+deduplication ratio: 0.8727, 7.8532
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 58516
+size of rewritten chunks: 190191078
+rewritten rate in size: 0.005
+read_time : 17.155s, 2212.27MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.553s, 1329.14MB/s
+rewrite_time : 86.196s, 440.28MB/s
+filter_time : 35.498s, 1069.10MB/s
+write_time : 0.145s, 261856.65MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 33135
+speed factor: 1.15
+read_recipe_time : 19.312s, 1965.09MB/s
+read_chunk_time : 9.285s, 4087.50MB/s
+write_chunk_time : 44.996s, 843.43MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 58
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198319
+total size(B): 39794111305
+stored data size(B): 5060015486
+deduplication ratio: 0.8728, 7.8644
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 56716
+size of rewritten chunks: 182963840
+rewritten rate in size: 0.005
+read_time : 17.607s, 2155.43MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 26.865s, 1412.63MB/s
+rewrite_time : 84.688s, 448.12MB/s
+filter_time : 32.039s, 1184.51MB/s
+write_time : 0.153s, 248814.12MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 33619
+speed factor: 1.13
+read_recipe_time : 17.339s, 2188.77MB/s
+read_chunk_time : 8.581s, 4422.48MB/s
+write_chunk_time : 43.994s, 862.64MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 59
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198319
+total size(B): 39794111305
+stored data size(B): 5048426251
+deduplication ratio: 0.8731, 7.8825
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 53064
+size of rewritten chunks: 171374895
+rewritten rate in size: 0.004
+read_time : 17.183s, 2208.67MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.755s, 1367.34MB/s
+rewrite_time : 84.117s, 451.16MB/s
+filter_time : 33.358s, 1137.68MB/s
+write_time : 0.216s, 175796.62MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 33894
+speed factor: 1.12
+read_recipe_time : 16.926s, 2242.21MB/s
+read_chunk_time : 8.981s, 4225.77MB/s
+write_chunk_time : 44.854s, 846.10MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 60
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198325
+total size(B): 39794111305
+stored data size(B): 5038822920
+deduplication ratio: 0.8734, 7.8975
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 49758
+size of rewritten chunks: 161748707
+rewritten rate in size: 0.004
+read_time : 18.178s, 2087.68MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.319s, 1294.40MB/s
+rewrite_time : 83.005s, 457.21MB/s
+filter_time : 34.311s, 1106.06MB/s
+write_time : 1.268s, 29919.06MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 34361
+speed factor: 1.10
+read_recipe_time : 18.200s, 2085.21MB/s
+read_chunk_time : 8.821s, 4302.35MB/s
+write_chunk_time : 44.185s, 858.90MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 61
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198327
+total size(B): 39794111305
+stored data size(B): 5032180358
+deduplication ratio: 0.8735, 7.9079
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 47764
+size of rewritten chunks: 155097670
+rewritten rate in size: 0.004
+read_time : 17.786s, 2133.76MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.464s, 1333.27MB/s
+rewrite_time : 83.905s, 452.30MB/s
+filter_time : 34.302s, 1106.38MB/s
+write_time : 0.140s, 270207.35MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 34672
+speed factor: 1.09
+read_recipe_time : 17.696s, 2144.63MB/s
+read_chunk_time : 8.951s, 4239.99MB/s
+write_chunk_time : 44.231s, 858.00MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 62
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198320
+total size(B): 39794111305
+stored data size(B): 5024469290
+deduplication ratio: 0.8737, 7.9201
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 45208
+size of rewritten chunks: 147414913
+rewritten rate in size: 0.004
+read_time : 17.527s, 2165.25MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.372s, 1292.09MB/s
+rewrite_time : 84.115s, 451.18MB/s
+filter_time : 34.683s, 1094.23MB/s
+write_time : 0.136s, 279636.75MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 35082
+speed factor: 1.08
+read_recipe_time : 16.561s, 2291.58MB/s
+read_chunk_time : 9.202s, 4124.25MB/s
+write_chunk_time : 44.452s, 853.74MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 63
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198322
+total size(B): 39794111305
+stored data size(B): 5017065788
+deduplication ratio: 0.8739, 7.9317
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 42896
+size of rewritten chunks: 140009058
+rewritten rate in size: 0.004
+read_time : 17.796s, 2132.54MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.833s, 1316.24MB/s
+rewrite_time : 85.870s, 441.95MB/s
+filter_time : 33.565s, 1130.68MB/s
+write_time : 0.144s, 263140.31MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 35475
+speed factor: 1.07
+read_recipe_time : 19.849s, 1911.98MB/s
+read_chunk_time : 9.111s, 4165.46MB/s
+write_chunk_time : 44.670s, 849.59MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 64
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198321
+total size(B): 39794111305
+stored data size(B): 5012205000
+deduplication ratio: 0.8740, 7.9394
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 41644
+size of rewritten chunks: 135109563
+rewritten rate in size: 0.003
+read_time : 17.257s, 2199.20MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.281s, 1341.93MB/s
+rewrite_time : 84.398s, 449.66MB/s
+filter_time : 32.788s, 1157.46MB/s
+write_time : 0.288s, 131683.83MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.002
+throughput(MB/s): 506.00
+read_container_num: 35768
+speed factor: 1.06
+read_recipe_time : 19.128s, 1984.01MB/s
+read_chunk_time : 9.305s, 4078.47MB/s
+write_chunk_time : 44.074s, 861.07MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 65
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198317
+total size(B): 39794111305
+stored data size(B): 5006597603
+deduplication ratio: 0.8742, 7.9483
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 39939
+size of rewritten chunks: 129540703
+rewritten rate in size: 0.003
+read_time : 17.234s, 2202.03MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.972s, 1356.75MB/s
+rewrite_time : 82.811s, 458.28MB/s
+filter_time : 33.763s, 1124.02MB/s
+write_time : 0.405s, 93743.20MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 36110
+speed factor: 1.05
+read_recipe_time : 17.017s, 2230.13MB/s
+read_chunk_time : 9.259s, 4098.99MB/s
+write_chunk_time : 44.273s, 857.19MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 66
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198316
+total size(B): 39794111305
+stored data size(B): 5004063936
+deduplication ratio: 0.8743, 7.9524
+total time(s): 235.006
+throughput(MB/s): 161.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 38659
+size of rewritten chunks: 127002574
+rewritten rate in size: 0.003
+read_time : 16.807s, 2258.08MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.926s, 1358.95MB/s
+rewrite_time : 81.654s, 464.78MB/s
+filter_time : 33.253s, 1141.28MB/s
+write_time : 0.241s, 157159.10MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 36416
+speed factor: 1.04
+read_recipe_time : 16.954s, 2238.50MB/s
+read_chunk_time : 9.124s, 4159.44MB/s
+write_chunk_time : 43.946s, 863.57MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 67
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198316
+total size(B): 39794111305
+stored data size(B): 5000381216
+deduplication ratio: 0.8743, 7.9582
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 37489
+size of rewritten chunks: 123333198
+rewritten rate in size: 0.003
+read_time : 18.226s, 2082.25MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.547s, 1329.40MB/s
+rewrite_time : 81.522s, 465.53MB/s
+filter_time : 34.208s, 1109.40MB/s
+write_time : 0.286s, 132900.34MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 36811
+speed factor: 1.03
+read_recipe_time : 18.556s, 2045.18MB/s
+read_chunk_time : 9.399s, 4037.78MB/s
+write_chunk_time : 44.312s, 856.44MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 68
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198324
+total size(B): 39794111305
+stored data size(B): 4991646986
+deduplication ratio: 0.8746, 7.9721
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 35084
+size of rewritten chunks: 114545803
+rewritten rate in size: 0.003
+read_time : 18.196s, 2085.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.037s, 1306.98MB/s
+rewrite_time : 84.040s, 451.58MB/s
+filter_time : 34.762s, 1091.74MB/s
+write_time : 0.135s, 282032.85MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 37141
+speed factor: 1.02
+read_recipe_time : 18.225s, 2082.32MB/s
+read_chunk_time : 10.018s, 3788.33MB/s
+write_chunk_time : 45.767s, 829.22MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 69
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198316
+total size(B): 39794111305
+stored data size(B): 4988619105
+deduplication ratio: 0.8746, 7.9770
+total time(s): 250.005
+throughput(MB/s): 151.80
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 34028
+size of rewritten chunks: 111563461
+rewritten rate in size: 0.003
+read_time : 18.556s, 2045.22MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.146s, 1302.07MB/s
+rewrite_time : 87.869s, 431.90MB/s
+filter_time : 35.304s, 1074.96MB/s
+write_time : 0.210s, 180370.25MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 37494
+speed factor: 1.01
+read_recipe_time : 15.440s, 2457.92MB/s
+read_chunk_time : 9.718s, 3905.15MB/s
+write_chunk_time : 44.877s, 845.65MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 70
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198315
+total size(B): 39794111305
+stored data size(B): 4985889363
+deduplication ratio: 0.8747, 7.9813
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 32654
+size of rewritten chunks: 108828903
+rewritten rate in size: 0.003
+read_time : 17.702s, 2143.89MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.880s, 1270.12MB/s
+rewrite_time : 85.949s, 441.55MB/s
+filter_time : 33.379s, 1136.97MB/s
+write_time : 0.384s, 98798.10MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 37919
+speed factor: 1.00
+read_recipe_time : 14.821s, 2560.58MB/s
+read_chunk_time : 9.671s, 3924.04MB/s
+write_chunk_time : 45.639s, 831.54MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 71
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198320
+total size(B): 39794111305
+stored data size(B): 4983053189
+deduplication ratio: 0.8748, 7.9859
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 31735
+size of rewritten chunks: 105943580
+rewritten rate in size: 0.003
+read_time : 17.582s, 2158.52MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.977s, 1309.66MB/s
+rewrite_time : 85.357s, 444.61MB/s
+filter_time : 33.022s, 1149.27MB/s
+write_time : 0.205s, 185528.62MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 38168
+speed factor: 0.99
+read_recipe_time : 17.324s, 2190.65MB/s
+read_chunk_time : 9.591s, 3957.04MB/s
+write_chunk_time : 45.285s, 838.03MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 72
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198315
+total size(B): 39794111305
+stored data size(B): 4977537523
+deduplication ratio: 0.8749, 7.9947
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 30300
+size of rewritten chunks: 100452392
+rewritten rate in size: 0.003
+read_time : 18.148s, 2091.14MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.878s, 1314.18MB/s
+rewrite_time : 82.089s, 462.31MB/s
+filter_time : 34.344s, 1105.00MB/s
+write_time : 0.133s, 284989.46MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 38536
+speed factor: 0.98
+read_recipe_time : 16.649s, 2279.46MB/s
+read_chunk_time : 9.396s, 4038.85MB/s
+write_chunk_time : 44.935s, 844.57MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 73
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198311
+total size(B): 39794111305
+stored data size(B): 4975524925
+deduplication ratio: 0.8750, 7.9980
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 29398
+size of rewritten chunks: 98483789
+rewritten rate in size: 0.002
+read_time : 17.831s, 2128.34MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.838s, 1316.00MB/s
+rewrite_time : 81.278s, 466.92MB/s
+filter_time : 33.202s, 1143.03MB/s
+write_time : 0.138s, 274279.06MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 38781
+speed factor: 0.98
+read_recipe_time : 17.682s, 2146.23MB/s
+read_chunk_time : 10.031s, 3783.22MB/s
+write_chunk_time : 44.971s, 843.89MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 74
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4972579698
+deduplication ratio: 0.8750, 8.0027
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 28441
+size of rewritten chunks: 95530701
+rewritten rate in size: 0.002
+read_time : 17.886s, 2121.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.878s, 1270.17MB/s
+rewrite_time : 81.607s, 465.04MB/s
+filter_time : 33.128s, 1145.56MB/s
+write_time : 0.153s, 248330.56MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 39214
+speed factor: 0.97
+read_recipe_time : 17.257s, 2199.08MB/s
+read_chunk_time : 9.825s, 3862.73MB/s
+write_chunk_time : 44.940s, 844.47MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 75
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198315
+total size(B): 39794111305
+stored data size(B): 4970334075
+deduplication ratio: 0.8751, 8.0063
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 27760
+size of rewritten chunks: 93276214
+rewritten rate in size: 0.002
+read_time : 18.008s, 2107.40MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.347s, 1293.17MB/s
+rewrite_time : 81.274s, 466.95MB/s
+filter_time : 34.934s, 1086.36MB/s
+write_time : 0.148s, 256471.64MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 39473
+speed factor: 0.96
+read_recipe_time : 16.165s, 2347.72MB/s
+read_chunk_time : 10.040s, 3779.98MB/s
+write_chunk_time : 44.475s, 853.31MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 76
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198315
+total size(B): 39794111305
+stored data size(B): 4967030526
+deduplication ratio: 0.8752, 8.0117
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 26705
+size of rewritten chunks: 89983961
+rewritten rate in size: 0.002
+read_time : 18.211s, 2083.95MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.190s, 1300.13MB/s
+rewrite_time : 79.660s, 476.41MB/s
+filter_time : 32.747s, 1158.89MB/s
+write_time : 0.136s, 278126.37MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 39794
+speed factor: 0.95
+read_recipe_time : 15.729s, 2412.81MB/s
+read_chunk_time : 9.824s, 3862.91MB/s
+write_chunk_time : 44.533s, 852.19MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 77
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198312
+total size(B): 39794111305
+stored data size(B): 4964536246
+deduplication ratio: 0.8752, 8.0157
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 26070
+size of rewritten chunks: 87495058
+rewritten rate in size: 0.002
+read_time : 17.964s, 2112.65MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.164s, 1301.30MB/s
+rewrite_time : 78.859s, 481.25MB/s
+filter_time : 33.957s, 1117.59MB/s
+write_time : 0.243s, 155945.65MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 39992
+speed factor: 0.95
+read_recipe_time : 15.743s, 2410.66MB/s
+read_chunk_time : 9.931s, 3821.45MB/s
+write_chunk_time : 44.865s, 845.89MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 78
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198311
+total size(B): 39794111305
+stored data size(B): 4962952947
+deduplication ratio: 0.8753, 8.0182
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 25251
+size of rewritten chunks: 85919104
+rewritten rate in size: 0.002
+read_time : 18.114s, 2095.09MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.023s, 1307.63MB/s
+rewrite_time : 79.792s, 475.62MB/s
+filter_time : 33.814s, 1122.32MB/s
+write_time : 0.127s, 299038.07MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 40390
+speed factor: 0.94
+read_recipe_time : 16.152s, 2349.55MB/s
+read_chunk_time : 10.145s, 3740.68MB/s
+write_chunk_time : 44.115s, 860.26MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 79
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198317
+total size(B): 39794111305
+stored data size(B): 4959615423
+deduplication ratio: 0.8754, 8.0236
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 24214
+size of rewritten chunks: 82533665
+rewritten rate in size: 0.002
+read_time : 18.014s, 2106.69MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.741s, 1320.44MB/s
+rewrite_time : 80.055s, 474.06MB/s
+filter_time : 33.612s, 1129.09MB/s
+write_time : 0.128s, 295920.51MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 75.001
+throughput(MB/s): 506.00
+read_container_num: 40613
+speed factor: 0.93
+read_recipe_time : 17.766s, 2136.13MB/s
+read_chunk_time : 9.904s, 3831.88MB/s
+write_chunk_time : 44.635s, 850.24MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 80
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198311
+total size(B): 39794111305
+stored data size(B): 4959053332
+deduplication ratio: 0.8754, 8.0245
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23796
+size of rewritten chunks: 82017814
+rewritten rate in size: 0.002
+read_time : 17.668s, 2148.04MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.983s, 1356.21MB/s
+rewrite_time : 79.740s, 475.93MB/s
+filter_time : 33.835s, 1121.65MB/s
+write_time : 0.152s, 250490.89MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 40944
+speed factor: 0.93
+read_recipe_time : 16.094s, 2358.03MB/s
+read_chunk_time : 10.297s, 3685.48MB/s
+write_chunk_time : 45.109s, 841.31MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 81
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198309
+total size(B): 39794111305
+stored data size(B): 4958976251
+deduplication ratio: 0.8754, 8.0247
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23709
+size of rewritten chunks: 81938460
+rewritten rate in size: 0.002
+read_time : 18.206s, 2084.54MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.248s, 1297.53MB/s
+rewrite_time : 79.781s, 475.68MB/s
+filter_time : 33.079s, 1147.27MB/s
+write_time : 0.244s, 155703.16MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 41214
+speed factor: 0.92
+read_recipe_time : 16.764s, 2263.86MB/s
+read_chunk_time : 10.051s, 3775.66MB/s
+write_chunk_time : 45.019s, 842.98MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 82
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198309
+total size(B): 39794111305
+stored data size(B): 4958378886
+deduplication ratio: 0.8754, 8.0256
+total time(s): 235.005
+throughput(MB/s): 161.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 23287
+size of rewritten chunks: 81345361
+rewritten rate in size: 0.002
+read_time : 18.234s, 2081.26MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 27.803s, 1364.98MB/s
+rewrite_time : 79.921s, 474.85MB/s
+filter_time : 32.501s, 1167.69MB/s
+write_time : 0.155s, 244706.95MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 41494
+speed factor: 0.91
+read_recipe_time : 16.751s, 2265.62MB/s
+read_chunk_time : 10.578s, 3587.55MB/s
+write_chunk_time : 44.532s, 852.20MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 83
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198312
+total size(B): 39794111305
+stored data size(B): 4954373660
+deduplication ratio: 0.8755, 8.0321
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 22379
+size of rewritten chunks: 77324418
+rewritten rate in size: 0.002
+read_time : 19.120s, 1984.82MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.713s, 1321.72MB/s
+rewrite_time : 77.566s, 489.27MB/s
+filter_time : 31.315s, 1211.91MB/s
+write_time : 0.170s, 223823.53MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 41655
+speed factor: 0.91
+read_recipe_time : 14.830s, 2559.08MB/s
+read_chunk_time : 9.525s, 3984.22MB/s
+write_chunk_time : 44.446s, 853.86MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 84
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198309
+total size(B): 39794111305
+stored data size(B): 4953859197
+deduplication ratio: 0.8755, 8.0330
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 22075
+size of rewritten chunks: 76824057
+rewritten rate in size: 0.002
+read_time : 18.001s, 2108.25MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.969s, 1266.31MB/s
+rewrite_time : 75.746s, 501.02MB/s
+filter_time : 34.985s, 1084.78MB/s
+write_time : 0.185s, 204949.06MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 41905
+speed factor: 0.91
+read_recipe_time : 14.763s, 2570.63MB/s
+read_chunk_time : 9.516s, 3987.88MB/s
+write_chunk_time : 43.790s, 866.66MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 85
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198309
+total size(B): 39794111305
+stored data size(B): 4952872221
+deduplication ratio: 0.8755, 8.0346
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 21397
+size of rewritten chunks: 75833052
+rewritten rate in size: 0.002
+read_time : 18.180s, 2087.46MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.330s, 1293.90MB/s
+rewrite_time : 78.107s, 485.88MB/s
+filter_time : 32.355s, 1172.95MB/s
+write_time : 0.149s, 255446.21MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 42096
+speed factor: 0.90
+read_recipe_time : 14.469s, 2622.81MB/s
+read_chunk_time : 9.633s, 3939.48MB/s
+write_chunk_time : 43.894s, 864.59MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 86
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4951250649
+deduplication ratio: 0.8756, 8.0372
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 20847
+size of rewritten chunks: 74195374
+rewritten rate in size: 0.002
+read_time : 18.873s, 2010.89MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.249s, 1297.52MB/s
+rewrite_time : 76.956s, 493.15MB/s
+filter_time : 35.387s, 1072.43MB/s
+write_time : 0.153s, 248083.82MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 42292
+speed factor: 0.90
+read_recipe_time : 14.524s, 2613.03MB/s
+read_chunk_time : 9.691s, 3916.24MB/s
+write_chunk_time : 44.747s, 848.11MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 87
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198312
+total size(B): 39794111305
+stored data size(B): 4948817032
+deduplication ratio: 0.8756, 8.0411
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 20286
+size of rewritten chunks: 71771510
+rewritten rate in size: 0.002
+read_time : 18.440s, 2058.06MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.883s, 1269.95MB/s
+rewrite_time : 77.047s, 492.56MB/s
+filter_time : 34.972s, 1085.17MB/s
+write_time : 0.135s, 280479.96MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 42585
+speed factor: 0.89
+read_recipe_time : 14.937s, 2540.71MB/s
+read_chunk_time : 9.619s, 3945.30MB/s
+write_chunk_time : 44.418s, 854.40MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 88
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198310
+total size(B): 39794111305
+stored data size(B): 4948169529
+deduplication ratio: 0.8757, 8.0422
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 19982
+size of rewritten chunks: 71127578
+rewritten rate in size: 0.002
+read_time : 19.344s, 1961.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.312s, 1294.69MB/s
+rewrite_time : 78.120s, 485.80MB/s
+filter_time : 32.510s, 1167.37MB/s
+write_time : 0.156s, 242548.68MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 42845
+speed factor: 0.89
+read_recipe_time : 14.411s, 2633.36MB/s
+read_chunk_time : 9.647s, 3934.06MB/s
+write_chunk_time : 44.640s, 850.16MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 89
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198313
+total size(B): 39794111305
+stored data size(B): 4947181329
+deduplication ratio: 0.8757, 8.0438
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 19572
+size of rewritten chunks: 70128241
+rewritten rate in size: 0.002
+read_time : 19.319s, 1964.39MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.268s, 1296.64MB/s
+rewrite_time : 77.145s, 491.94MB/s
+filter_time : 33.972s, 1117.10MB/s
+write_time : 0.127s, 297906.62MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 43058
+speed factor: 0.88
+read_recipe_time : 14.775s, 2568.56MB/s
+read_chunk_time : 9.865s, 3846.91MB/s
+write_chunk_time : 44.770s, 847.67MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 90
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198316
+total size(B): 39794111305
+stored data size(B): 4945191505
+deduplication ratio: 0.8757, 8.0470
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 19039
+size of rewritten chunks: 68087569
+rewritten rate in size: 0.002
+read_time : 19.553s, 1940.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.791s, 1318.16MB/s
+rewrite_time : 76.362s, 496.99MB/s
+filter_time : 33.769s, 1123.81MB/s
+write_time : 0.150s, 253075.01MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 43199
+speed factor: 0.88
+read_recipe_time : 14.745s, 2573.80MB/s
+read_chunk_time : 9.867s, 3846.27MB/s
+write_chunk_time : 44.490s, 853.02MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 91
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198315
+total size(B): 39794111305
+stored data size(B): 4944620076
+deduplication ratio: 0.8757, 8.0480
+total time(s): 235.004
+throughput(MB/s): 161.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18822
+size of rewritten chunks: 67552090
+rewritten rate in size: 0.002
+read_time : 18.807s, 2017.85MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.703s, 1277.66MB/s
+rewrite_time : 74.389s, 510.16MB/s
+filter_time : 31.738s, 1195.76MB/s
+write_time : 0.178s, 213762.97MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 43344
+speed factor: 0.88
+read_recipe_time : 14.782s, 2567.29MB/s
+read_chunk_time : 9.920s, 3825.63MB/s
+write_chunk_time : 44.252s, 857.60MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 92
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198319
+total size(B): 39794111305
+stored data size(B): 4944111757
+deduplication ratio: 0.8758, 8.0488
+total time(s): 235.006
+throughput(MB/s): 161.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18567
+size of rewritten chunks: 67025517
+rewritten rate in size: 0.002
+read_time : 18.795s, 2019.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.746s, 1320.20MB/s
+rewrite_time : 74.937s, 506.43MB/s
+filter_time : 32.502s, 1167.65MB/s
+write_time : 0.272s, 139383.94MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 65.001
+throughput(MB/s): 583.84
+read_container_num: 43525
+speed factor: 0.87
+read_recipe_time : 13.886s, 2733.03MB/s
+read_chunk_time : 9.440s, 4020.07MB/s
+write_chunk_time : 43.208s, 878.32MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 93
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4943276891
+deduplication ratio: 0.8758, 8.0501
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18305
+size of rewritten chunks: 66238896
+rewritten rate in size: 0.002
+read_time : 19.463s, 1949.92MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.530s, 1330.21MB/s
+rewrite_time : 75.705s, 501.30MB/s
+filter_time : 34.403s, 1103.13MB/s
+write_time : 0.133s, 286201.63MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 65.001
+throughput(MB/s): 583.84
+read_container_num: 43715
+speed factor: 0.87
+read_recipe_time : 13.778s, 2754.34MB/s
+read_chunk_time : 9.508s, 3991.61MB/s
+write_chunk_time : 43.182s, 878.86MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 94
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4943149026
+deduplication ratio: 0.8758, 8.0504
+total time(s): 240.005
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 18121
+size of rewritten chunks: 66111031
+rewritten rate in size: 0.002
+read_time : 19.160s, 1980.73MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.966s, 1310.19MB/s
+rewrite_time : 75.026s, 505.84MB/s
+filter_time : 33.442s, 1134.84MB/s
+write_time : 0.132s, 287389.32MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 65.001
+throughput(MB/s): 583.84
+read_container_num: 43892
+speed factor: 0.86
+read_recipe_time : 13.955s, 2719.42MB/s
+read_chunk_time : 9.492s, 3998.13MB/s
+write_chunk_time : 43.108s, 880.37MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 95
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198313
+total size(B): 39794111305
+stored data size(B): 4941497883
+deduplication ratio: 0.8758, 8.0530
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 17771
+size of rewritten chunks: 64459898
+rewritten rate in size: 0.002
+read_time : 18.879s, 2010.18MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.349s, 1293.10MB/s
+rewrite_time : 74.606s, 508.68MB/s
+filter_time : 34.423s, 1102.49MB/s
+write_time : 0.142s, 268005.30MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 65.002
+throughput(MB/s): 583.84
+read_container_num: 44126
+speed factor: 0.86
+read_recipe_time : 14.012s, 2708.40MB/s
+read_chunk_time : 9.458s, 4012.51MB/s
+write_chunk_time : 42.774s, 887.23MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 96
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4940750699
+deduplication ratio: 0.8758, 8.0543
+total time(s): 240.006
+throughput(MB/s): 158.12
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 17514
+size of rewritten chunks: 63710816
+rewritten rate in size: 0.002
+read_time : 18.730s, 2026.19MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 28.729s, 1321.00MB/s
+rewrite_time : 76.458s, 496.36MB/s
+filter_time : 31.415s, 1208.05MB/s
+write_time : 0.174s, 217870.37MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.002
+throughput(MB/s): 542.14
+read_container_num: 44340
+speed factor: 0.86
+read_recipe_time : 14.442s, 2627.84MB/s
+read_chunk_time : 10.076s, 3766.27MB/s
+write_chunk_time : 44.569s, 851.51MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 97
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4940508964
+deduplication ratio: 0.8758, 8.0547
+total time(s): 245.005
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 17351
+size of rewritten chunks: 63461415
+rewritten rate in size: 0.002
+read_time : 19.183s, 1978.36MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.805s, 1273.30MB/s
+rewrite_time : 75.810s, 500.60MB/s
+filter_time : 34.692s, 1093.91MB/s
+write_time : 0.132s, 287624.55MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 44508
+speed factor: 0.85
+read_recipe_time : 14.492s, 2618.80MB/s
+read_chunk_time : 9.676s, 3922.21MB/s
+write_chunk_time : 44.211s, 858.39MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 98
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4940159656
+deduplication ratio: 0.8759, 8.0552
+total time(s): 245.006
+throughput(MB/s): 154.90
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 17190
+size of rewritten chunks: 63112107
+rewritten rate in size: 0.002
+read_time : 18.951s, 2002.53MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.568s, 1283.51MB/s
+rewrite_time : 76.446s, 496.44MB/s
+filter_time : 33.396s, 1136.38MB/s
+write_time : 0.133s, 284807.67MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 44727
+speed factor: 0.85
+read_recipe_time : 14.674s, 2586.28MB/s
+read_chunk_time : 10.042s, 3779.20MB/s
+write_chunk_time : 44.655s, 849.86MB/s
+
+
+REWRITE_SMR
+rewrite_smr_level: 99
+job id: 0
+backup path: gcc_trace/gcc_src_rabin.trace
+number of files: 6287734
+number of chunks: 14419954 (2759 bytes on average)
+number of unique chunks: 1198314
+total size(B): 39794111305
+stored data size(B): 4939786089
+deduplication ratio: 0.8759, 8.0558
+total time(s): 235.006
+throughput(MB/s): 161.49
+number of zero chunks: 0
+size of zero chunks: 0
+number of rewritten chunks: 17053
+size of rewritten chunks: 62738540
+rewritten rate in size: 0.002
+read_time : 18.682s, 2031.43MB/s
+chunk_time : 0.000s, infMB/s
+hash_time : 0.000s, infMB/s
+dedup_time : 29.488s, 1287.01MB/s
+rewrite_time : 74.509s, 509.34MB/s
+filter_time : 32.065s, 1183.56MB/s
+write_time : 0.140s, 271722.18MB/s
+
+
+job id: 0
+restore path: gcc_restore/
+number of files: 6287734
+number of chunks: 14419954
+total size(B): 39794111305
+total time(s): 70.001
+throughput(MB/s): 542.14
+read_container_num: 44913
+speed factor: 0.84
+read_recipe_time : 14.423s, 2631.27MB/s
+read_chunk_time : 9.886s, 3838.68MB/s
+write_chunk_time : 44.070s, 861.14MB/s
+
+
