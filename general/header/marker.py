@@ -1,3 +1,7 @@
+# import sys
+# sys.path.append("..\\..\\general\\header")
+# from marker import *
+
 def getMarkerArr(targetLen, targetNum):
     gap = int(targetLen / targetNum)
     if gap < 1:

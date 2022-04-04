@@ -13,11 +13,11 @@ fileNameArr = [
 ]
 
 labelArr = [
-    'loop-0',
-    'loop-800',
-    'loop-1600',
-    'loop-2400',
-    'loop-3200',
+    '0-P/E cycle',
+    '800-P/E cycles',
+    '1600-P/E cycles',
+    '2400-P/E cycles',
+    '3200-P/E cycles',
 ]
 
 xTicks = []
@@ -61,7 +61,7 @@ for i in range(len(fileNameArr)):
     plt.xlim(0, 255)
 
     if i == len(fileNameArr)-1:
-        plt.xlabel('the Number of Error Bit per Data Frame', fontsize=24)
+        plt.xlabel('the Number of Error Bits per Data Frame', fontsize=24)
         plt.xticks(range(0,256,15), range(0,256,15), fontsize=18, rotation=-35)
     
     if i == 2:
