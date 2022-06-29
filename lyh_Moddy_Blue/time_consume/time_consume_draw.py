@@ -1,4 +1,5 @@
 import sys
+from typing_extensions import runtime
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -67,7 +68,7 @@ def drawBarStack(plt, cacheN, stageN, valueA, title):
     plt.ylabel('Time (us)')
 
     plt.xticks(range(len(cacheN)), cacheN, rotation=-90)
-    plt.title(title)
+    plt.title('%s_b%s_e%s_g%s_r%s' % (title, sToStr(begTime), sToStr(endTime), sToStr(gapTime), sToStr(runningTime-runningBaseTime)))
 
     plt.legend()
 
@@ -92,7 +93,7 @@ def drawBarGroup(plt, cacheN, stageN, valueA, errorA, title):
     plt.ylabel('Time (us)')
 
     plt.xticks(range(len(cacheN)), cacheN, rotation=-90)
-    plt.title(title)
+    plt.title('%s_b%s_e%s_g%s_r%s' % (title, sToStr(begTime), sToStr(endTime), sToStr(gapTime), sToStr(runningTime-runningBaseTime)))
 
     plt.legend()
 
@@ -199,9 +200,12 @@ inFile = open(targetFile, mode='r', encoding='UTF-8')
 
 baseTime = 0
 shouldStart = False
+touchedRight = False
 begTime = strToS(args.begin)
 gapTime = strToS(args.gap)
 endTime = strToS(args.end)
+runningBaseTime = 0
+runningTime = 0
 if gapTime != 0:
     endTime = begTime + gapTime;
 else:
@@ -212,14 +216,16 @@ while True:
     if curLine == '':
         break
 
-    if 'memory_consumption' in curLine:
-        curTime = int(curLine.strip('\n').split(' ')[2])
+    if 'obtain_end' in curLine:
+        curTime = int(curLine.split('_')[-2])
         if baseTime == 0:
             baseTime = curTime
-        elif curTime > begTime:
-            shouldStart = True
-        elif curTime > endTime:
+        
+        if curTime > endTime+baseTime:
+            touchedRight = True
             break
+        elif curTime > begTime+baseTime:
+            shouldStart = True
         
     if (not shouldStart) or ('consume_end' not in curLine):
         continue
@@ -227,6 +233,9 @@ while True:
     curArr = curLine.strip('\n').split(' ')
 
     # print(curArr)
+    runningTime = int(curArr[-1].split(',')[-1])
+    if runningBaseTime == 0:
+        runningBaseTime = runningTime
 
     curCache = curArr[1]
     curRead = [float(x) for x in curArr[4].split(',')]
@@ -295,5 +304,9 @@ drawObjAverageTimeGroup(plt, dataDict)
 
 plt.subplots_adjust(top=0.98,bottom=0.075,left=0.04,right=0.99,hspace=0.405,wspace=0.095)
 
-plt.savefig("%s_%s_%s_%s.pdf" % (filename, sToStr(begTime), sToStr(endTime), sToStr(gapTime)))
-plt.show()
+if touchedRight:
+    plt.savefig("%s_b%s_e%s_g%s_r%s.pdf" % (filename, sToStr(begTime), sToStr(endTime), sToStr(gapTime), sToStr(runningTime-runningBaseTime)))
+else:
+    plt.savefig("%s_not_b%s_e%s_g%s_r%s.pdf" % (filename, sToStr(begTime), sToStr(endTime), sToStr(gapTime), sToStr(runningTime-runningBaseTime)))
+    
+# plt.show()

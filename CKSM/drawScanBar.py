@@ -20,7 +20,7 @@ bars = plt.bar(x,y2,bar_width,label='scan',edgecolor='#F79646', color='white', l
 #     h = b.get_height()
 #     plt.text(b.get_x()+b.get_width()/2, h, '%.2f$\\times$' % (h), ha='center', va='bottom', fontsize=22)
 
-plt.ylabel('Scan Amplification Factor', fontsize=28)
+plt.ylabel('Pages Scanned', fontsize=28)
 
 plt.yticks(fontsize=20)
 # plt.legend(fontsize=18)#显示图例，即label

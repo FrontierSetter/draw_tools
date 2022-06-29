@@ -17,7 +17,7 @@ plt.figure(figsize=(9,6))
 #绘制并列柱状图
 plt.bar(x,y2,bar_width,label='scan')
 
-plt.ylabel('Scan Amplification Factor', fontsize=20)
+plt.ylabel('Pages Scanned', fontsize=20)
 
 plt.yticks(fontsize=18)
 # plt.legend(fontsize=18)#显示图例，即label

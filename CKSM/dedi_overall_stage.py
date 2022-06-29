@@ -2,6 +2,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 stageName = ['maintain', 'scan', 'search', 'merge']
+stageLabel = {
+    'maintain': 'maintain candidate pool', 
+    'scan': 'scan for anonymous page', 
+    'search': 'search for duplication', 
+    'merge': 'merge duplicate pages'
+}
 
 hatchDict={'scan': '\\\\\\\\', 'search': '////', 'merge': 'xxx', 'maintain': '+++'}
 # colorDict={'scan': '#f9c74f', 'search': '#e05780', 'merge': '#43aa8b', 'maintain': '#577590'}
@@ -9,7 +15,7 @@ hatchDict={'scan': '\\\\\\\\', 'search': '////', 'merge': 'xxx', 'maintain': '++
 colorDict={'scan': '#F79646', 'search': '#1f497d', 'merge': '#C00000', 'maintain': '#00B050'}
 # colorDict={'scan': '#577590', 'search': '#f9c74f', 'merge': '#43aa8b', 'maintain': '#e05780'}
 
-nameArr = ['KSM+', 'UKSM', 'CKSM']
+nameArr = ['KSM', 'UKSM', 'CKSM']
 
 stageDict = {
     'CKSM':{
@@ -24,7 +30,7 @@ stageDict = {
         'merge':6.449164804,
         'maintain':6.955521686,
     },
-    'KSM+':{
+    'KSM':{
         'scan':5.113913990,
         'search': 79.476011237,
         'merge':4.502308565,
@@ -58,12 +64,12 @@ for curStage in stageName:
     curP = plt.bar(ind, curArr, width, bottom=baseArr, edgecolor=colorDict[curStage], hatch=hatchDict[curStage], color='white', linewidth=3)
 
     legendArr.insert(0,curP)
-    legendEntryArr.insert(0,curStage)
+    legendEntryArr.insert(0,stageLabel[curStage])
 
     for i in range(len(curArr)):
         baseArr[i] += curArr[i]
 
-plt.legend(legendArr, legendEntryArr, fontsize=28)
+plt.legend(legendArr, legendEntryArr, fontsize=26, loc='upper right')
 
 plt.savefig('overall_stage.pdf')
 plt.show()

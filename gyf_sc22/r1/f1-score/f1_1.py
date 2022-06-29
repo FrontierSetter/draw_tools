@@ -1,8 +1,9 @@
+import xlrd
+import argparse
 import numpy as np
 import matplotlib.pyplot as plt
-import random
 
-idCol = 3
+idCol = 1
 
 colorDict = {
     'APSNet': '#324665', 
@@ -25,7 +26,6 @@ markerDict = {
     'NN': '>', 
     'LSTM': 'X', 
 }
-
 
 inFile = open('f1_score.csv', 'r')
 

@@ -74,7 +74,7 @@ ax.plot_surface(x5, y5,z5,cmap=plt.get_cmap('rainbow')) #生成表面，alpha用
 # ax.legend(loc='best')
 
 
-ax.set_zlabel('single chunk repair cross-rack λ', fontdict={'size': 15, 'color': 'black'})
+ax.set_zlabel('λ', fontdict={'size': 15, 'color': 'black'})
 ax.set_xlabel('$m_l / (m_l + m_g + 1)$', fontdict={'size': 15, 'color': 'black'})
 ax.set_ylabel('k', fontdict={'size': 15, 'color': 'black'})
 

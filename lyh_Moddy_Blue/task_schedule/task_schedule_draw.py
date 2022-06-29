@@ -5,6 +5,7 @@ from plotly.subplots import make_subplots
 import time
 import os
 import functools
+import argparse
 
 
 def stampToTime(ts):
@@ -30,7 +31,13 @@ stateNameArr = ['Load', 'Consume', 'Save']
 memDataDict = []
 
 # 主逻辑
-targetFile = sys.argv[1]
+parser = argparse.ArgumentParser(description='画性能图')
+parser.add_argument('-f','--file', help='输入的log文件')
+
+args = parser.parse_args()
+print(args)
+
+targetFile = args.file
 inFile = open(targetFile, mode='r', encoding='UTF-8')
 (filepath, tempfilename) = os.path.split(targetFile)
 (filename, extension) = os.path.splitext(tempfilename)
@@ -142,8 +149,6 @@ gantPlot = px.timeline(gantDataArr, x_start='Start', x_end='Finish', y='Task',
                   color_discrete_map=colors, color='Resource', category_orders=ordersDic,
                   hover_data=hoverData)
 
-linePlot = px.line(memDataDict, x = 'time', y = ['anon', 'cache', 'swap', 'dram', 'total']) 
-
 # for trace in range(len(gantPlot["data"])):
 #     fig.append_trace(gantPlot["data"][trace], row=1, col=1)
 
@@ -151,6 +156,5 @@ linePlot = px.line(memDataDict, x = 'time', y = ['anon', 'cache', 'swap', 'dram'
 #     fig.append_trace(linePlot["data"][trace], row=2, col=1)
 
 plotly.offline.plot(gantPlot, filename='gantt_%s.html' % (filename))
-plotly.offline.plot(linePlot, filename='mem_%s.html' % (filename))
 # gantPlot.show()
 # linePlot.show()

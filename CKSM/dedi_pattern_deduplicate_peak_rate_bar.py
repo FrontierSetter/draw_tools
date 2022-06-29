@@ -29,12 +29,20 @@ oriData = [
     #     'uksm': (571654144, 530747392)
     # },
     {
+        'name': 'ElasticSearch$_{\\times16}$',
+        'base': (100,),
+        'cksm': (56.66,),
+        'uksm': (100-26.58,),
+        'CKSM-Full': (100,),
+        'KSM': (92.3,),
+    },
+    {
         'name': 'MongoDB$_{\\times64}$',
         'base': (4822536192, 4822253568),
         'cksm': (991703040, 871923712),
         'uksm': (1354911744, 1014169600),
         'CKSM-Full': (2129125376, 0),
-        'KSM+': (2901811200, 0),
+        'KSM': (2901811200, 0),
     },
     {
         'name': 'MySQL$_{\\times64}$',
@@ -42,7 +50,7 @@ oriData = [
         'cksm': (3730710528, 2782498816),
         'uksm': (5361999872, 2849886208),
         'CKSM-Full': (6624202752, 0),
-        'KSM+': (6818529280, 0),
+        'KSM': (6818529280, 0),
     },
     {
         'name': 'Couchbase$_{\\times64}$',
@@ -50,7 +58,7 @@ oriData = [
         'cksm': (9445933056, 9390149632),
         'uksm': (12370128896, 11549716480),
         'CKSM-Full': (13690822656, 0),
-        'KSM+': (13973622784, 0),
+        'KSM': (13973622784, 0),
     },
 ]
 
@@ -68,7 +76,7 @@ for dataDict in oriData:
     curUKSM = dataDict['uksm'][dataIdx]
     curBase = dataDict['base'][dataIdx]
     curFull = dataDict['CKSM-Full'][dataIdx]
-    curKSM = dataDict['KSM+'][dataIdx]
+    curKSM = dataDict['KSM'][dataIdx]
     cksmArr.append(float(curBase-curCKSM)/curBase*100)
     uksmArr.append(float(curBase-curUKSM)/curBase*100)
     fullArr.append(float(curBase-curFull)/curBase*100)
@@ -81,17 +89,17 @@ gap = 0.08*width
 
 plt.figure(figsize=(9,6))
 
-plt.bar(x-width*1-1.5*gap, ksmArr, width, edgecolor='#C00000', label='KSM+', color='white', hatch='xxxx', linewidth=2)
+plt.bar(x-width*1-1.5*gap, ksmArr, width, edgecolor='#C00000', label='KSM', color='white', hatch='xxxx', linewidth=2)
 plt.bar(x, uksmArr, width, edgecolor='#F79646', label='UKSM', color='white', hatch='\\\\\\\\', linewidth=2)
 plt.bar(x+width*1+1.5*gap, cksmArr, width, edgecolor='#1f497d', label='CKSM', color='white', hatch='////', linewidth=2)
 
-# plt.bar(x-width*1-1.5*gap, ksmArr, width, label='KSM+', edgecolor='black', hatch='x')
+# plt.bar(x-width*1-1.5*gap, ksmArr, width, label='KSM', edgecolor='black', hatch='x')
 # plt.bar(x, uksmArr, width, label='UKSM', edgecolor='black', hatch='\\')
 # plt.bar(x+width*1+1.5*gap, cksmArr, width, label='CKSM', edgecolor='black', hatch='/')
 # plt.bar(x+width*2+1.5*gap, cksmArr, width, label='CKSM', edgecolor='black', hatch='/')
 # plt.bar(x+width*3+1.5*gap, cksmArr, width, label='CKSM', edgecolor='black', hatch='/')
 
-# plt.bar(x-width*1.5-1.5*gap, ksmArr, width, color='tab:olive', label='KSM+', edgecolor='black', hatch='x')
+# plt.bar(x-width*1.5-1.5*gap, ksmArr, width, color='tab:olive', label='KSM', edgecolor='black', hatch='x')
 # plt.bar(x-width*0.5-0.5*gap, fullArr, width, color='tab:pink', label='CKSM-Full', edgecolor='black', hatch='-')
 # plt.bar(x+width*0.5+0.5*gap, uksmArr, width, color='tab:orange', label='UKSM', edgecolor='black', hatch='\\')
 # plt.bar(x+width*1.5+1.5*gap, cksmArr, width, color='tab:green', label='CKSM', edgecolor='black', hatch='/')
@@ -102,10 +110,10 @@ plt.yticks(fontsize=20)
 # xfmt = PercentFormatter(xmax=1, decimals=1)
 # plt.gca().yaxis.set_major_formatter(xfmt)
 
-plt.xticks(x,tickArr, fontsize=22)
-plt.legend(fontsize=22, ncol=2)
+plt.xticks(x,tickArr, fontsize=22, rotation=-5)
+plt.legend(fontsize=22, ncol=2, columnspacing=1)
 
-plt.subplots_adjust(left=0.095, right=0.98, top=0.99, bottom=0.09)
+plt.subplots_adjust(left=0.095, right=0.98, top=0.99, bottom=0.12)
 
 plt.savefig('Peak_dedup_rate.pdf')
 plt.show()

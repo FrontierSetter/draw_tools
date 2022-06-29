@@ -7,6 +7,8 @@ def strToS(tStr):
         return tNum*60;
     elif tUnit == 'h':
         return tNum*60*60;
+    elif tUnit == 'd':
+        return tNum*24*60*60;
 
 def sToStr(tNum):
     tUnitArr = ['s', 'm', 'h']
@@ -15,4 +17,7 @@ def sToStr(tNum):
         tNum /= 60
         tNum = int(tNum)
         tUnitIdx += 1
-    return str(tNum)+tUnitArr[tUnitIdx]
+    if tUnitIdx == len(tUnitArr)-1 and tNum % 24 == 0:
+        return str(int(tNum/24))+'d'
+    else:
+        return str(tNum)+tUnitArr[tUnitIdx]
